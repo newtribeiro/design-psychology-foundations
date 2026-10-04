@@ -1,0 +1,34 @@
+## Decision Fatigue
+_Many decisions degrade decision quality_ · cycle: ⏰ Time · cluster: C2 · evidence: Contested
+- Definition: The claimed deterioration in decision quality after a long series of decisions, leading to defaulting, avoidance or impulsive choices.
+- Mechanism (why it happens): Originally explained by ego depletion (limited self-control resource); alternative accounts cite shifting motivation, attention and opportunity costs rather than a depleting resource.
+- Origin & key evidence:
+  - Danziger, Levav & Avnaim-Pesso (2011), PNAS: favourable parole rulings dropped across sessions and reset after breaks — https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355
+  - Weinshall-Margel & Shapard (2011) reply argued case ordering (unrepresented prisoners late) confounds the result — https://cris.iucc.ac.il/en/publications/reply-to-weinshall-margel-and-shapard-extraneous-factors-in-judic/
+  - Hagger et al. (2016) 23-lab preregistered replication found ego-depletion effect near zero — https://pmc.ncbi.nlm.nih.gov/articles/PMC4971805
+- Evidence grade: Contested — real-world intuition is strong but the core mechanism failed large replications and the flagship field study is confounded.
+- Design applications:
+  - Smart defaults for low-stakes settings — % users keeping defaults, setup completion time.
+  - Put critical decisions early in flows — error rates by step position.
+  - Batch approvals with recommended actions — throughput and override rate.
+  - Reduce option counts per screen — choice abandonment.
+- Real product examples: Netflix autoplay removing the next-choice decision; Gmail Smart Reply (no source URL verified).
+- Enterprise/B2B note: Operators reviewing many alerts/approvals benefit from triage and recommendations regardless of whether "fatigue" is a depletion effect.
+- Ethics/watch-out: Placing consent or upsell decisions late to exploit low vigilance is a dark pattern.
+- Contexts: onboarding, settings, checkout, forms, dashboards, notifications
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355 ; https://cris.iucc.ac.il/en/publications/reply-to-weinshall-margel-and-shapard-extraneous-factors-in-judic/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4971805 ; https://www.annieduke.com/?p=3122
+- Typed edges: tension → Attentional Bias; supports → Default Bias; supports → Hick's Law; supports → Cognitive Load; supports → Nudge; tension → Reactance
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports)
+- Linked sources (12):
+  - [article] 33 Activity Ideas for Remote UX Workshops — timeboxing, breaks and few voting options keep group decisions sharp. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [article] How these designers are learning today — infinite generative variability makes "when to stop" a taste skill. <https://www.uxtools.co/blog/how-these-designers-are-learning-today> (sources/uxtools-articles.md)
+  - [article] Stochastic vs. Deterministic Design — 20–30 overnight variants shift the burden to curation; designers need filters. <https://www.uxtools.co/blog/stochastic-vs-deterministic-design> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — explicitly cited; many decisions degrade rational choice. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [article] The Year Design Communities Go Small (and Real) — Foli.ooo removes trivial portfolio decisions so designers focus on content. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+  - [article] The year of the connected canvas — many daily "cognitive cycles" and curation decisions drain judgment. <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
+  - [survey] This is the State of Prototyping in 2026 — "too many tools to evaluate" is a top blocker. <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Survey (Test) — long surveys degrade answer quality toward the end. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [survey] State of Prototyping: Spring 2026 — "too many tools to evaluate" (53%) is a top blocker, and designers face choice overload themselves. <https://uxtools.co/survey/2026/state-of-prototyping> (sources/uxtools-survey.md)
+  - [case-study] How Hopper Perfectly Nails Permission Requests UX — one recommended action reduces deliberation. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
+  - [case-study] Signal: How To Ethically Boost Your Revenues — fewer inputs. <https://growth.design/case-studies/signal-revenue> (sources/growth-design-case-studies.md)
+  - [case-study] YouTube's Attempt To Solve The Paradox of Choice — endless browsing. <https://growth.design/case-studies/youtube-user-retention> (sources/growth-design-case-studies.md)

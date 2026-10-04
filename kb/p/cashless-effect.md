@@ -1,0 +1,26 @@
+## Cashless Effect
+_Invisible money is spent more freely_ · cycle: ⏰ Time · cluster: C4 · evidence: Moderate
+- Definition: People tend to spend more, and more readily, when payment is less tangible (card, mobile wallet, stored credit, one-click, BNPL) than when they hand over cash.
+- Mechanism (why it happens): The "pain of paying" is reduced when payment is decoupled from consumption and less salient; transparency of the outflow is the key variable, plus credit/liquidity effects. Newer work adds an implicit "pleasure of paying": mobile-pay users attend more to product benefits.
+- Origin & key evidence:
+  - Classic: Hirschman (1979) card users bought more; Prelec & Simester (2001) WTP for tickets far higher by card; Soman (2003) less transparent payment raised consumption. https://thedecisionlab.com/biases/cashless-effect
+  - Schomburgk, Belli & Hoffmann (2024), Journal of Retailing meta-analysis (392 effect sizes, 71 papers): small but significant effect; stronger for conspicuous purchases and in economic upturns, weaker for pro-social spending; has weakened over time; payment-method features did not moderate it. https://ideas.repec.org/a/eee/jouret/v100y2024i3p382-403.html
+  - Broekhoff & van der Cruijsen (2022, DNB working paper): Dutch survey — contactless and online payments hurt less than cash; consumers rate contactless least helpful against overspending. https://ideas.repec.org/p/dnb/dnbwpp/760.html
+  - Ma et al. (2024), PsyCh Journal (N=160 + 59, eye-tracking): mobile pay raised purchase intent vs cash; reduced pain only at high prices. https://pmc.ncbi.nlm.nih.gov/articles/PMC11444724/
+  - Di Maggio, Williams & Katz (2022, NBER w30508): BNPL access raised total and retail spending ("liquidity flypaper"). https://www.nber.org/papers/w30508
+  - Counter-evidence: Liu & Dewitte (2019, EMAC) — three studies (N≈507) failed to replicate the card effect; none for mobile pay. https://proceedings.emac-online.org/pdfs/A2019-4940.pdf
+- Evidence grade: Moderate (was Contested) — the 2024 meta-analysis confirms a reliable but small effect, backed by independent survey, lab and field (BNPL) studies; it is shrinking as cashless becomes the norm and single replications can fail.
+- Design applications:
+  - Saved payment / one-tap checkout — measure conversion and average order value (expect modest, context-dependent lifts).
+  - Ethically: running totals, spend summaries, instant notifications restore transparency — measure refunds/chargebacks and trust.
+  - BNPL / instalment display — show total cost and schedule; track repayment issues and complaints.
+  - Prepaid credits/tokens — measure spend per user and complaints; show real-money equivalents.
+  - Spend limits and budget tools — measure retention of budget-conscious users.
+- Real product examples: Amazon 1-Click; Klarna/Afterpay checkout instalments; in-game currencies (V-Bucks, gems) obscuring price; Monzo/Revolut instant spend notifications that counteract it.
+- Enterprise/B2B note: Consumption billing (API calls, compute hours, cloud credits) and corporate cards behave like stored credit — usage dashboards, budgets and alerts prevent bill shock and churn; expect effects largest on discretionary, visible spend.
+- Ethics/watch-out: Obscuring real-money prices (especially for children/gamers) and hiding BNPL cost are recognised dark patterns and regulatory targets.
+- Contexts: checkout, pricing, gamification, retention, notifications
+- Sources: https://thedecisionlab.com/biases/cashless-effect ; https://ideas.repec.org/a/eee/jouret/v100y2024i3p382-403.html ; https://ideas.repec.org/p/dnb/dnbwpp/760.html ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11444724/ ; https://www.nber.org/papers/w30508 ; https://proceedings.emac-online.org/pdfs/A2019-4940.pdf ; https://www.atticusli.com/blog/posts/cashless-effect-pain-of-payment-prelec-simester/
+- Typed edges: tension → Loss Aversion; supports → Hyperbolic Discounting; tension → Feedback Loop; special-case-of → Framing; supports → Default Bias
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Prospect Theory (mechanism-of)
+- Last reviewed: 2026-10-04

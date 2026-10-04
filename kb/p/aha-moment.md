@@ -1,0 +1,25 @@
+## Aha! Moment
+_When users first get the value_ · cycle: 🔮 Meaning · cluster: C7 · evidence: Practitioner
+- Definition: The point in early use when a new user first experiences the product's core value and decides — consciously or not — to keep using it; operationally, an early behaviour that best predicts retention.
+- Mechanism (why it happens): Value has to be felt, not described: experiencing a concrete payoff converts uncertain expectation into a reward memory, reduces perceived switching risk and gives a reason to return; it links onboarding effort to an immediate outcome.
+- Origin & key evidence:
+  - Amplitude Compass documentation — defines the aha moment as the point a new user decides to become active, and identifies it by correlating early behaviours with week-2+ retention; cites Facebook's "7 friends in 10 days" pattern. https://amplitude.com/docs/en/analytics/charts/compass/compass-aha-moment
+  - Practitioner synthesis of activation research methods (2026 guide). https://www.koji.so/docs/aha-moment-research
+- Evidence grade: Practitioner — a product-analytics construct with no controlled academic literature; the famous numbers (Facebook 7 friends, Slack 2,000 messages) are correlational and second-hand. Forcing the proxy behaviour does not guarantee retention.
+- Enterprise/B2B note: In B2B the "aha" is often organisational (first report a manager accepts, first successful project plan, first data import that matches reality) and may occur weeks after signup — measure time-to-first-value per account, not per seat.
+- Ethics/watch-out: Don't game the proxy (spamming invites to hit "7 friends"); validate causation with experiments before optimising for it.
+- Contexts: onboarding, empty-states, retention, research
+- Sources: https://amplitude.com/docs/en/analytics/charts/compass/compass-aha-moment ; https://www.koji.so/docs/aha-moment-research
+- Design applications: Identify the action correlated with retention; Shorten time-to-value in onboarding; Make the end of onboarding land on value
+- Watch-out (growth.design): A strong start with a weak end loses the moment.
+- Product examples: HEY email onboarding — rocket start, unsure end
+- Typed edges: supports → Goal Gradient Effect; supports → Peak-End Rule; measured-by → retention cohort analysis; mechanism-of → Investment Loops; supports → Progressive Disclosure
+- Related: Peak-End Rule, Goal Gradient Effect, Reciprocity
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Kano model (organises); ⚙ Self-Determination Theory (organises)
+- Linked sources (6):
+  - [challenge] Challenge: Onboarding (Implement) — design toward the first successful payment. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [case-study] 5 Deadly Onboarding Mistakes You Should Avoid (Sleepzy) — the right timing for asks is after the Aha! moment. <https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid> (sources/growth-design-case-studies.md)
+  - [case-study] Adobe: The growing issue with "Free" trials UX — value-first trials get users to the Aha! moment before any commitment. <https://growth.design/case-studies/adobe-trial-ux> (sources/growth-design-case-studies.md)
+  - [case-study] User Onboarding: Is HEY Email Worth It? — the library cites HEY for moving value up front. <https://growth.design/case-studies/hey-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Letterboxd: How to nail product market fit with clear Jobs-To-Be-Done — show value contextually. <https://growth.design/case-studies/letterboxd-jobs-to-be-done> (sources/growth-design-case-studies.md)
+  - [case-study] 3 UX Tips To Make "Aha Moments" Click (Too Good To Go) — optimise to reach it early. <https://growth.design/case-studies/too-good-to-go-onboarding> (sources/growth-design-case-studies.md)

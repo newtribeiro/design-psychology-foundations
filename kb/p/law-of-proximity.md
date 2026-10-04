@@ -1,0 +1,24 @@
+## Law of Proximity
+_Near things seem related_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: Elements that are near each other are perceived as belonging together, more strongly than elements separated by space.
+- Mechanism (why it happens): Gestalt perceptual grouping organises the visual field automatically and pre-attentively; spatial distance is one of the strongest grouping cues and can override similarity.
+- Origin & key evidence:
+  - Wertheimer (1923), "Laws of organization in perceptual forms" — https://psychclassics.yorku.ca/Wertheimer/Forms/forms
+  - Wagemans et al. (2012), Psychological Bulletin century review — grouping by proximity among the best-quantified Gestalt effects — https://pubmed.ncbi.nlm.nih.gov/22845751/
+  - Laws of UX summary — https://lawsofux.com/law-of-proximity/
+- Evidence grade: Strong — century of replicated psychophysics with quantitative models.
+- Design applications:
+  - Put labels closer to their field than to the previous field — form error rate, label-field mismatch in tests.
+  - Group related filters/settings with spacing instead of boxes — scan time, card-sort agreement.
+  - Spacing tokens with explicit "within-group < between-group" ratios in the design system — lint/visual-regression check.
+  - Place helper text adjacent to the control it explains — help-text usage and field completion.
+- Real product examples: Google Material form spacing guidance; Apple Settings grouped insets (no source URL verified).
+- Enterprise/B2B note: In dense tables/spec sheets (product catalogues), consistent spacing tokens communicate grouping without heavy rules or borders.
+- Ethics/watch-out: Placing a paid add-on close to included items implies it is part of the bundle.
+- Contexts: forms, settings, dashboards, navigation, data-viz
+- Sources: https://psychclassics.yorku.ca/Wertheimer/Forms/forms ; https://pubmed.ncbi.nlm.nih.gov/22845751/ ; https://lawsofux.com/law-of-proximity/
+- Typed edges: special-case-of → Law of Prägnanz; supports → Law of Similarity; supports → Chunking; supports → Visual Hierarchy; counteracts → Cognitive Load
+- Explained by frameworks: ⚙ Gestalt principles of perception (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (2):
+  - [article] UX Design for Navigation Menus — mega menus' grouping clusters related links. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Form (Implement) — a label close to its field and grouped fields reduce mismatches. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)

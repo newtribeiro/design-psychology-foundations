@@ -1,0 +1,25 @@
+## Hindsight Bias
+_'I knew it all along'_ · cycle: 🔮 Meaning · cluster: C10 · evidence: Strong
+- Definition: Once an outcome is known, people overestimate how predictable it was ("I knew it all along"), and their memory of what they predicted earlier shifts toward the outcome.
+- Mechanism (why it happens): Outcome knowledge is automatically folded into how people understand events (creeping determinism). Memory is reconstructed, and a coherent causal story makes the outcome feel inevitable (Roese & Vohs, 2012).
+- Origin & key evidence:
+  - Fischhoff (1975), JEP: Human Perception and Performance, "Hindsight ≠ foresight": participants told an outcome rated it as more likely and believed they would have predicted it. https://en.wikipedia.org/wiki/Hindsight_bias (citation only)
+  - Fischhoff & Beyth (1975): people misremembered their own earlier forecasts about Nixon's 1972 trips as closer to what actually happened.
+  - Guilbault et al. (2004), meta-analysis: a reliable but modest effect. Roese & Vohs (2012), Perspectives on Psychological Science: a review of its levels (memory distortion, inevitability, foreseeability). (Citations from secondary sources, not fetched.)
+- Evidence grade: Strong. One of the most replicated judgment biases, though effect sizes are small-to-moderate and some debiasing ("consider the alternative") helps.
+- Design applications:
+  - Record predictions before a test (pre-registered hypotheses for A/B tests and usability studies). Signal: share of experiments with a written prediction.
+  - Run blameless postmortems with a timeline showing what was known at each point. Signal: count of action items about systems vs. blaming people.
+  - Show history in dashboards as it looked at the time, not only after revisions. Signal: forecast-calibration score.
+  - Write research readouts that list the alternatives that looked plausible. Signal: stakeholder surprise rating gathered before the reveal.
+- Real product examples: Google SRE's blameless postmortem practice. https://sre.google/sre-book/postmortem-culture/ Experimentation platforms such as Optimizely/Statsig that ask for a hypothesis before launch. Prediction-market UIs that keep each user's prior forecast history.
+- Enterprise/B2B note: incident reviews (e.g. an equipment anomaly) easily turn into "the operator should have seen it". Show the telemetry exactly as the operator saw it at the time.
+- Ethics/watch-out: hindsight bias drives unfair blame of users and staff, so design reviews should judge decisions by the information available when they were made.
+- Contexts: research, stakeholder-communication, errors, dashboards, data-viz
+- Sources: https://en.wikipedia.org/wiki/Hindsight_bias ; https://www.scientificamerican.com/blog/literally-psyched/the-perils-of-hindsight-judgment/ ; https://sre.google/sre-book/postmortem-culture/ ; https://sre.google/workbook/postmortem-culture/
+- Typed edges: supports → Confirmation Bias; supports → Self-Serving Bias; supports → Survivorship Bias; tension → Planning Fallacy; mechanism-of → Curse of Knowledge; measured-by → pre-registered prediction logs; tension → Self-Serving Bias
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (3):
+  - [article] Quicker UX Research Synthesis — capturing in-the-moment notes prevents retrofitting a story at the end. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)
+  - [article] What is AI doing to design career ladders? — after the fact, past transitions (writing, print) look obviously beneficial. <https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — participants rationalise their past workflow after the fact. Probe for concrete artifacts. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)

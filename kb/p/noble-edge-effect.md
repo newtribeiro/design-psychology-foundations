@@ -1,0 +1,29 @@
+## Noble Edge Effect
+_Users favour caring, responsible brands_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
+- Definition: Products from companies seen as socially responsible are judged to perform better — not just to be "nicer" — a benevolent halo that spills from ethics onto perceived quality.
+- Mechanism (why it happens): A halo/affect heuristic: positive moral feelings toward the firm colour unrelated quality judgments, especially when quality is hard to verify; it weakens when the good deed looks self-serving.
+- Origin & key evidence:
+  - Chernev & Blair (2015), Journal of Consumer Research — across wine, running shoes, tooth whiteners and hair-loss products, charitable giving raised rated product performance; effect shrank when CSR was advertised by the firm. https://www.sciencedaily.com/releases/2015/03/150331175902.htm
+  - Working paper version "Doing Well by Doing Good". https://joycerain.com/uploads/2/3/2/0/23207256/doingwellbydoinggood_2015.pdf
+  - Practitioner synthesis and naming as "noble edge". https://thedecisionlab.com/biases/noble-edge-effect
+- Evidence grade: Moderate — multiple experiments in one main paper plus a wider CSR-halo literature; no large independent replication located in this session.
+- Enterprise/B2B note: B2B buyers weigh ESG in procurement, but evaluators verify specs; a sustainability or public-safety story helps shortlisting, not spec sign-off.
+- Ethics/watch-out: Greenwashing and cause-washing invert the effect once exposed; claims must be verifiable.
+- Contexts: branding, content/copy, pricing, checkout
+- Sources: https://www.sciencedaily.com/releases/2015/03/150331175902.htm ; https://joycerain.com/uploads/2/3/2/0/23207256/doingwellbydoinggood_2015.pdf ; https://thedecisionlab.com/biases/noble-edge-effect ; https://coglode.com/gem/noble-edge-effect
+- Design applications: Offer humane options in hard moments (pause instead of cancel); Make ethical defaults visible
+- Watch-out (growth.design): Must be genuine — performative CSR backfires.
+- Product examples: Adobe — could have offered COVID pause option
+- Typed edges: special-case-of → Halo Effect; supports → Affect Heuristic; tension → Reactance; supports → Authority Bias; supports → Storytelling Effect; tension → Loss Aversion
+- Related: Reciprocity, Halo Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Prospect Theory (tension)
+- Linked sources (9):
+  - [article] Fast and Cheap Ways to Find UX Research Participants — invitations framed as helping shape the product appeal to customers' desire to contribute. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
+  - [article] I was wrong about taste — care and values-driven choices make makers/brands more admired. <https://www.uxtools.co/blog/i-was-wrong-about-taste> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — a mission-driven brand earns preference. <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Competitive Analysis (Understand) — differentiating through visible ethical stances, such as transparent fees, can be an advantage. <https://www.uxtools.co/challenges/competitive-analysis> (sources/uxtools-challenges-tools.md)
+  - [other] About Growth.Design — the brand positions itself on ethical, caring design as a competitive advantage. <https://growth.design/about> (sources/growth-design-case-studies.md)
+  - [course] Product Psychology Masterclass (course) — the ethics module frames humane design as a long-term advantage. <https://growth.design/courses/product-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Adobe: The Psychology of User Offboarding — genuine social responsibility earns loyalty. <https://growth.design/case-studies/adobe-cancel-subscription> (sources/growth-design-case-studies.md)
+  - [case-study] Signal: How To Ethically Boost Your Revenues — mission-driven giving. <https://growth.design/case-studies/signal-revenue> (sources/growth-design-case-studies.md)
+  - [case-study] Uber Eats: How To Ethically Use Scarcity To Increase Sales — belief-based brand loyalty. <https://growth.design/case-studies/uber-eats-scarcity> (sources/growth-design-case-studies.md)

@@ -1,0 +1,26 @@
+## Hyperbolic Discounting
+_Now beats later_ · cycle: ⏰ Time · cluster: C4 · evidence: Strong
+- Definition: People discount future rewards steeply over short delays and gently over long ones. So they prefer smaller-sooner rewards when those are immediate, but switch to larger-later rewards when both are far away. This produces preference reversals and "present bias".
+- Mechanism (why it happens): Immediate rewards engage fast affective valuation (System 1). Delayed outcomes are evaluated more abstractly. The discount curve is hyperbolic, not exponential, so the same delay feels much bigger when it starts now.
+- Origin & key evidence:
+  - Ainslie (1975, *Psychological Bulletin*), "Specious reward": a hyperbolic account of impulsiveness and self-control. https://picoeconomics.org/biblio.htm
+  - Laibson (1997, *Quarterly Journal of Economics*), "Golden Eggs and Hyperbolic Discounting": present-biased (quasi-hyperbolic) consumers under-save, and illiquid commitment devices help. https://scholar.harvard.edu/sites/scholar.harvard.edu/files/laibson/files/golden_eggs_and_hyperbolic_discounting.pdf
+- Evidence grade: Strong. Present bias and preference reversals replicate widely. The exact functional form (hyperbolic vs quasi-hyperbolic) is still debated.
+- Design applications:
+  - Bring benefits forward: give instant value in the first session. Signal: day-1 activation.
+  - Make costs "later" for desired behaviour (trials) and "now" for undesired behaviour. Signal: trial-to-paid conversion.
+  - Commitment devices: let users pre-commit while their future selves are distant (scheduled savings, auto-renew controls). Signal: adherence rate.
+  - Break long goals into near-term milestones. Signal: retention between milestones.
+- Real product examples: Duolingo streaks give an immediate daily reward for long-term learning (https://blog.duolingo.com/how-duolingo-streak-builds-habit). Save More Tomorrow-style auto-escalating retirement plans, which follow from Laibson's commitment logic (no URL verified).
+- Enterprise/B2B note: Buyers favour fast time-to-value. Pilots and quick wins beat long ROI cases even when total value is the same.
+- Ethics/watch-out: "Buy now, pay later" and instant-gratification upsells exploit present bias. Use it to help users' long-term goals.
+- Contexts: pricing, onboarding, retention, gamification, checkout, notifications
+- Sources: https://scholar.harvard.edu/sites/scholar.harvard.edu/files/laibson/files/golden_eggs_and_hyperbolic_discounting.pdf ; https://dash.harvard.edu/bitstream/1/4481499/2/Laibson_GoldenEggs.pdf ; https://picoeconomics.org/biblio.htm ; https://blog.duolingo.com/how-duolingo-streak-builds-habit
+- Typed edges: tension → Empathy Gap; tension → Planning Fallacy; supports → Goal Gradient Effect; supports → Variable Reward; counteracts → Sunk Cost Effect; tension → Peak-End Rule
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Kano model (tension); ⚙ Prospect Theory (supports)
+- Linked sources (5):
+  - [article] The next gap in design work — choosing immediate one-shot output over durable, crafted work. <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Journey Map (Understand) — the gap between a deal now and a better deal later explains hesitation and abandonment. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [survey] Portfolio Builders — Shapes of Work — secure corporate designers defer portfolio work until they need it. <https://uxtools.co/survey/portfolio-builders/shapes-of-work> (sources/uxtools-survey.md)
+  - [survey] Conclusion — Tomorrow's Toolkit — designers favour tools with immediate payoff over long-term systems work. <https://uxtools.co/survey/conclusion/tomorrows-toolkit> (sources/uxtools-survey.md)
+  - [case-study] The psychology of Temu's casino-like shopping UX — immediate "wins" outweigh the later cost. <https://growth.design/case-studies/temu-onboarding-psychology> (sources/growth-design-case-studies.md)

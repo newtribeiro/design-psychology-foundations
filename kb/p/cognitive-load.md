@@ -1,0 +1,33 @@
+## Cognitive Load
+_Mental effort needed to complete a task_ · cycle: 🙈 Information · cluster: C2 · evidence: Strong
+- Definition: The amount of working-memory resources a task or interface demands; in UX, the mental effort needed to operate the system.
+- Mechanism (why it happens): Working memory is small and short-lived; information must pass through it before reaching long-term memory. Cognitive Load Theory splits demand into intrinsic (task complexity), extraneous (presentation) and germane (schema building); designers can only cut the extraneous part, freeing capacity for the task.
+- Origin & key evidence:
+  - Sweller (1988), "Cognitive load during problem solving: Effects on learning", Cognitive Science 12(2), 257–285 — means-ends problem solving consumes capacity needed to build schemas; worked examples help novices — https://notes.andymatuschak.org/z9oJyCh2UgEHU1LrkqNGDxm
+  - Chandler & Sweller (1991) on intrinsic load; DeLeeuw & Mayer (2008) show different load measures respond to different load types — https://en.wikipedia.org/wiki/Cognitive_load
+  - NN/g: extraneous load from clutter; reduce by removing noise, using existing mental models, offloading via defaults/pre-fill — https://www.nngroup.com/articles/minimize-cognitive-load/
+- Evidence grade: Strong (core) / Contested (theory details) — working-memory limits are robust; load-type additivity, the germane-load construct and measurement validity are debated (Orru 2019, cited on Wikipedia).
+- Enterprise/B2B note: Dashboards and operations software carry high intrinsic load; aim to strip extraneous load (chrome, duplicate labels) and not to hide domain data experts need.
+- Ethics/watch-out: Deliberately overloading users (dense terms, confusing opt-outs) is a dark pattern; low load should serve users, not compliance-by-confusion.
+- Contexts: forms, dashboards, data-viz, onboarding, errors, content/copy, settings
+- Sources: https://notes.andymatuschak.org/z9oJyCh2UgEHU1LrkqNGDxm ; https://en.wikipedia.org/wiki/Cognitive_load ; https://www.nngroup.com/articles/minimize-cognitive-load/
+- Design applications: Remove non-essential information per step; Split long tasks into steps; Use recognition over recall and familiar patterns; Audit dense results/list screens
+- Watch-out (growth.design): Dense UIs can be intentional (games) — know why before stripping.
+- Product examples: Tinder profile onboarding — load reduced well; Hopper results page — too much to parse; Mario Kart Tour home — dense on purpose
+- Typed edges: mechanism-of → Hick's Law; supports → Progressive Disclosure; supports → Chunking; mechanism-of → Decision Fatigue; measured-by → task time / NASA-TLX (framework); tension → Fitts's Law; tension → Curiosity Gap; tension → Skeuomorphism; tension → Sensory Appeal; tension → Spacing Effect; tension → Tesler's Law; tension → Zeigarnik Effect
+- Related: Miller's Law, Chunking, Hick's Law, Tesler's Law
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports); ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (32):
+  - [article] 7 Practical Tips for Better Microcopy — plain language and active voice are faster to parse. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] Build Interfaces to Understand Systems — abstraction reduces what users must hold in mind, enabling mass adoption. <https://www.uxtools.co/blog/build-interfaces-to-understand-systems> (sources/uxtools-articles.md)
+  - [article] Designing The Next Flow State — a curated spec externalizes memory vs. scanning a long chat transcript. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)
+  - [article] Pages are becoming teammates — offloading routing/"human index" work frees attention for higher-value work. <https://www.uxtools.co/blog/pages-are-becoming-teammates> (sources/uxtools-articles.md)
+  - [article] The 30-second test designers fail — offloading repeatable work and memory to files reduces mental overhead. <https://www.uxtools.co/blog/the-30-second-test-designers-fail> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — reducing steps and distractions lowers effort per task. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - [article] This design tool blew up our inbox — scattered channels raise the effort of tracking feedback. <https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — consistency across services makes the UI learnable. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Design System (Implement) — a constrained palette and type scale reduce visual noise. <https://www.uxtools.co/challenges/design-system> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Accessibility (Implement) — dense booking pages with timers hurt cognitively impaired users. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Form (Implement) — fewer fields, smart defaults and chunked steps. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
+  - [other] Bundle Terms of Sale — short numbered clauses make legal text scannable. <https://www.uxtools.co/bundle/terms> (sources/uxtools-challenges-tools.md)
+  - …20 more in sources/*.md (search the principle name)

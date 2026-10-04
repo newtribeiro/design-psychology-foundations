@@ -1,0 +1,21 @@
+## Method of Loci
+_Location aids memory_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: A mnemonic in which items to remember are placed at imagined spots along a familiar spatial route (a "memory palace") and recalled by mentally walking the route again.
+- Mechanism (why it happens): It uses strong spatial and episodic memory (hippocampal place coding). Each item gets a vivid image and a fixed location, which provides retrieval cues and preserves order.
+- Origin & key evidence:
+  - Classical rhetoric: attributed to Simonides of Ceos in Cicero's account (a standard attribution; I did not check the primary text).
+  - Dresler et al. (2017, *Neuron*), "Mnemonic training reshapes brain networks to support superior memory": novices given about 40 × 30 min of loci training over six weeks greatly improved word-list recall, remained better than controls after four months, and their connectivity became more like that of memory athletes. https://pmc.ncbi.nlm.nih.gov/articles/PMC5439266/
+  - Stanford coverage: https://med.stanford.edu/news/all-news/2017/03/memorization-tool-bulks-up-brains-internal-connections.html
+- Evidence grade: Strong for the mnemonic itself, in lab and expert studies. The jump to "spatial UI layouts improve memory" is an analogy and has not been tested directly.
+- Design applications:
+  - Keep spatial positions stable: don't reorder menus, dashboards or home screens automatically. Signal: time-to-target and mis-taps after updates.
+  - Let users arrange their own spaces (pinned tools, custom dashboards). Signal: retrieval time against the default layout.
+  - Use consistent spatial metaphors (rooms, maps, boards) for large information sets. Signal: recall of item location in tests.
+  - Use landmarks (colour zones, section icons) in long scrolling pages and catalogues. Signal: navigation errors.
+- Real product examples: Adaptive menus that reorder items (e.g. the personalised menus in Office 2000), widely criticised because they break spatial memory (no URL verified). iOS home screens, where users rely on icon positions (no URL verified).
+- Enterprise/B2B note: Operators build muscle memory for control layouts. Any redesign of control-room or catalogue layouts carries a relearning cost.
+- Ethics/watch-out: Moving buttons on purpose (e.g. swapping "cancel" and "confirm") exploits spatial memory.
+- Contexts: navigation, dashboards, onboarding, settings, search
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC5439266/ ; https://med.stanford.edu/news/all-news/2017/03/memorization-tool-bulks-up-brains-internal-connections.html ; https://www.livescience.com/58177-ordinary-people-can-improve-memory-abilities.html
+- Typed edges: supports → Mental Model; supports → Picture Superiority Effect; tension → Familiarity Bias; supports → Chunking
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of)

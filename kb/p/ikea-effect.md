@@ -1,0 +1,35 @@
+## IKEA Effect
+_Self-made things feel more valuable_ · cycle: ⏰ Time · cluster: C7 · evidence: Moderate
+- Definition: People place disproportionately high value on things they helped build or customise, even when the result is objectively no better.
+- Mechanism (why it happens): Effort justification (dissonance reduction), plus the feeling of competence and control that comes from completing something. The labour becomes part of how people see themselves. The effect depends on finishing: abandoned or destroyed creations lose the extra value.
+- Origin & key evidence:
+  - Norton, Mochon & Ariely (2012), Journal of Consumer Psychology 22(3), "The IKEA effect: When labor leads to love": participants would pay more for IKEA boxes, origami and Lego they had assembled themselves, and the premium disappeared if they did not finish. https://dash.harvard.edu/handle/1/12136084
+  - Related: Mochon, Norton & Ariely (2012) on self-affirmation and the value of self-made products. Also the commonly told Betty Crocker "add an egg" cake-mix story, which is anecdotal and historically doubtful.
+  - Zhang et al. (2025, JMR): small required effort (entering a code) raised discount redemption, consistent with an effort-value link. https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness
+- Evidence grade: Moderate. The original multi-study paper is clear, but direct replications are limited, effect sizes are modest, and one co-author's broader body of work faces credibility questions (not this paper specifically).
+- Design applications:
+  - Let users customise dashboards, workspaces and templates early. Signal: 30-day retention of customisers vs. non-customisers (control for selection).
+  - Use profile or setup completion with visible, finished artefacts. Signal: completion rate and later churn.
+  - Use co-creation in research workshops so stakeholders build the solution with you. Signal: adoption of the recommendations.
+  - Keep effort small and guarantee success (templates, guardrails). Signal: abandonment during setup.
+- Real product examples: Notion and Airtable workspaces that users build and then rarely leave. LinkedIn's profile-strength meter. Build-A-Bear Workshop.
+- Enterprise/B2B note: configured workflows and custom reports raise switching costs and perceived value. Pair them with export so the value does not become lock-in.
+- Ethics/watch-out: do not inflate setup effort to manufacture lock-in, and watch for designers overvaluing their own designs (an internal IKEA effect in critiques).
+- Contexts: onboarding, settings, retention, dashboards, research, stakeholder-communication
+- Sources: https://dash.harvard.edu/handle/1/12136084 ; https://en.wikipedia.org/wiki/IKEA_effect ; https://andrewclark.super.site/papers-for-product-managers/the-ikea-effect-when-labor-leads-to-love ; https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness
+- Typed edges: tension → Spark Effect; supports → Investment Loops; supports → Endowment Effect; supports → Sunk Cost Effect; mechanism-of → Cognitive Dissonance; measured-by → willingness-to-pay / retention by customisation
+- Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Prospect Theory (supports); ⚙ Self-Determination Theory (organises)
+- Linked sources (18):
+  - [survey] Designers who vibe code are happier at work — designers who build working things themselves may value (and enjoy) their work more. <https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work> (sources/uxtools-articles.md)
+  - [article] Discovery code and new bottlenecks — risk: designers may overvalue prototypes they built themselves. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)
+  - [article] Fixing User Personas — co-creating personas gives the team ownership and buy-in. <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [article] How these designers are learning today — self-built disposable tools are highly valued by their makers. <https://www.uxtools.co/blog/how-these-designers-are-learning-today> (sources/uxtools-articles.md)
+  - [article] Running an Effective Design Kickoff Meeting — involving stakeholders early makes them value and defend the project they helped shape. <https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting> (sources/uxtools-articles.md)
+  - [article] The next gap in design work — designers value crafting interfaces themselves; tools that preserve craft win loyalty. <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [survey] This is the State of Prototyping in 2026 — designers building their own tools likely value them more (and report higher satisfaction). <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
+  - [article] What Developers Need from UX Research — engineers involved in understanding problems feel ownership and invest more. <https://www.uxtools.co/blog/what-developers-need-from-ux-research> (sources/uxtools-articles.md)
+  - [article] Your team isn't AI-installed — "hands in the clay": authorship in the last 20% sustains taste and ownership. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
+  - [challenge] UX Challenges (index) — learners value skills and portfolio pieces they built themselves more. <https://www.uxtools.co/challenges> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Trends — users invested in mastering a niche tool value it more. <https://uxtools.co/survey/interface-design/trends> (sources/uxtools-survey.md)
+  - [survey] Design Systems — Overview — designers rate their own system (4.19) higher than developers who consume it (3.42). <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
+  - …6 more in sources/*.md (search the principle name)

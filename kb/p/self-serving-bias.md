@@ -1,0 +1,26 @@
+## Self-Serving Bias
+_Credit for wins, blame for losses_ · cycle: ⏰ Time · cluster: C9 · evidence: Strong
+- Definition: The tendency to attribute successes to one's own ability and effort, and failures to external factors (the system, others, luck).
+- Mechanism (why it happens): Protects and enhances self-esteem; motivated reasoning selectively weights explanations that preserve a positive self-image.
+- Origin & key evidence:
+  - Mezulis, Abramson, Hyde & Hankin (2004), Psychological Bulletin: large meta-analysis (hundreds of studies) found a robust self-serving attributional bias, varying by age, culture and psychopathology — summary via https://thedecisionlab.com/biases/self-serving-bias
+  - Shepperd, Malone & Sweeny (2008) review of explanations — https://people.clas.ufl.edu/shepperd/files/SSB2008.pdf
+- Evidence grade: Strong — large meta-analytic base; magnitude smaller in some East Asian samples.
+- Design applications:
+  - Write error messages that blame the system, not the user — retry rate, support tickets after errors.
+  - Celebrate user achievements as their own ("You completed…") — retention after milestone.
+  - In research, discount users' self-reports of failure causes; triangulate with logs — mismatch rate.
+  - Team retros/design critiques: structured blameless templates — action items closed.
+- Real product examples: Mailchimp / Slack blameless, friendly error copy; Strava personal-record celebrations (no source URL verified).
+- Enterprise/B2B note: In incident review (e.g., a field job failure), operators will attribute to the software and vendors to the operator; telemetry logs and blameless post-mortems are essential.
+- Ethics/watch-out: Flattering users into believing outcomes are their skill (trading apps) can encourage risky behaviour.
+- Contexts: errors, research, stakeholder-communication, gamification, content/copy
+- Sources: https://thedecisionlab.com/biases/self-serving-bias ; https://people.clas.ufl.edu/shepperd/files/SSB2008.pdf
+- Typed edges: supports → Dunning-Kruger Effect; tension → Hindsight Bias; supports → Confirmation Bias; measured-by → Survey Bias; supports → IKEA Effect
+- Linked sources (6):
+  - [article] Designers and "phantom competency" — crediting AI-assisted results to one's own ability. <https://www.uxtools.co/blog/designers-and-phantom-competency> (sources/uxtools-articles.md)
+  - [article] Ideas from Developers on Handling UX Feedback — designers attributing pushback to contrarianism rather than legitimate constraints. <https://www.uxtools.co/blog/ideas-from-developers-on-handling-ux-feedback> (sources/uxtools-articles.md)
+  - [article] Usability Testing in 4 Simplified Steps — participants blame themselves; telling them it's the software's fault elicits honest behaviour. <https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Usability Test (Test) — participants blame themselves for failures, so reassure them and look past self-blame. <https://www.uxtools.co/challenges/usability-test> (sources/uxtools-challenges-tools.md)
+  - [survey] Portfolio Builders — Trends — designers curate portfolios to frame their own success. <https://uxtools.co/survey/portfolio-builders/trends> (sources/uxtools-survey.md)
+  - [survey] State of Prototyping: Spring 2026 — heavy adopters may rate their workflow satisfaction higher partly to justify their investment, a confound the report acknowledges. <https://uxtools.co/survey/2026/state-of-prototyping> (sources/uxtools-survey.md)

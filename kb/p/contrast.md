@@ -1,0 +1,26 @@
+## Contrast
+_Heavier visual weight draws attention_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: Elements that differ clearly from their surroundings (in luminance, colour, size, weight or motion) draw attention first and are easier to perceive and read.
+- Mechanism (why it happens): Simple feature differences are detected preattentively, in parallel, so they "pop out" with almost no search cost. Luminance contrast also determines legibility, especially under low vision or glare.
+- Origin & key evidence:
+  - Treisman & Gelade (1980), Feature Integration Theory: single-feature targets pop out, while conjunction targets need serial search. https://en.wikipedia.org/wiki/Feature_integration_theory ; https://users.cs.utah.edu/~miriah/uncertainty/FeatureIntegrationTheoryOfAttention.pdf
+  - W3C WCAG SC 1.4.3 sets a minimum of 4.5:1 for normal text and 3:1 for large text. This is based on contrast-sensitivity research for low vision. https://w3c.github.io/wcag/understanding/contrast-minimum.html
+- Evidence grade: Strong. The perceptual basis is well replicated, and accessibility thresholds are codified in standards.
+- Design applications:
+  - One high-contrast primary action per view, with secondary actions in a lower-emphasis style. Signal: primary CTA click share and misclicks on secondary actions.
+  - Check that all text and meaningful icons meet WCAG ratios. Signal: automated contrast-audit pass rate.
+  - Encode alert severity with luminance and shape as well as hue, for colour-blind users and sunlight. Signal: correct-severity identification in a 5-second test.
+  - Use contrast sparingly in data viz: grey context, colour for the series that matters. Signal: time-to-answer on chart questions.
+- Real product examples: GOV.UK's green primary button on a mostly monochrome page (no URL verified). Gmail's single prominent "Compose" button (no URL verified).
+- Enterprise/B2B note: Field tablets used outdoors (ground control) need contrast well above WCAG minimums because of glare. Dark themes need their own checks.
+- Ethics/watch-out: Low-contrast "decline" or "cancel" links are a recognised dark pattern.
+- Contexts: branding, data-viz, dashboards, forms, checkout, errors
+- Sources: https://en.wikipedia.org/wiki/Feature_integration_theory ; https://users.cs.utah.edu/~miriah/uncertainty/FeatureIntegrationTheoryOfAttention.pdf ; https://w3c.github.io/wcag/understanding/contrast-minimum.html
+- Typed edges: supports → Visual Hierarchy; supports → Selective Attention; tension → Aesthetic-Usability Effect; measured-by → WCAG contrast ratio
+- Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
+- Linked sources (5):
+  - [article] Discovery code and new bottlenecks — pushing ideas to extremes makes comparison and judgment clearer. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)
+  - [article] Your UI needs more Walt Disney — exploring extremes makes the better, simpler option obvious by comparison. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Accessibility (Implement) — text and background contrast is the most common WCAG failure. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [case-study] Coronavirus Dashboard UX: How Design Impacts Your Perception — alarm-red creates emphasis that may not be warranted. <https://growth.design/case-studies/coronavirus-dashboard-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How to avoid (and repair) these 3 critical design blunders — directs attention to the key action. <https://growth.design/case-studies/design-blunders> (sources/growth-design-case-studies.md)

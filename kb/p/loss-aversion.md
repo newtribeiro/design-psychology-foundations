@@ -1,0 +1,33 @@
+## Loss Aversion
+_Losses hurt more than equal gains please_ · cycle: ⏰ Time · cluster: C4 · evidence: Strong
+- Definition: Losses loom larger than equivalent gains; people typically weigh a loss about twice as heavily as a same-size gain.
+- Mechanism (why it happens): In prospect theory, outcomes are coded relative to a reference point and the value function is steeper for losses; the emotional pain of losing exceeds the pleasure of gaining, steering System 1 choice toward avoiding losses.
+- Origin & key evidence:
+  - Kahneman & Tversky (1979), prospect theory (original citation not opened here) — background in https://healthcare-economist.com/2024/06/26/empirical-estimates-of-loss-aversion
+  - Brown, Imai, Vieider & Camerer (2024), "Meta-analysis of Empirical Estimates of Loss Aversion", JEL 62(2), 485–516 — 607 estimates from 150 studies; mean coefficient ≈1.96 (95% interval about 1.8–2.1) — https://www.aeaweb.org/doi/10.1257/jel.20221698
+  - Critiques that loss aversion is overstated (Gal & Rucker 2018) — overview at https://atticusli.com/replication-crisis/loss-aversion/ (details not verified)
+- Evidence grade: Strong (with caveats) — large meta-analysis supports λ≈2, but the size depends on the reference point and stakes; small, everyday stakes often show little or none.
+- Enterprise/B2B note: Framing downtime, data loss or compliance risk resonates with buyers; in-product, warn clearly before destructive actions.
+- Ethics/watch-out: "You'll lose everything" guilt copy and confirmshaming exploit it; reserve loss framing for real, accurate risks.
+- Contexts: pricing, offboarding, notifications, checkout, retention, errors
+- Sources: https://www.aeaweb.org/doi/10.1257/jel.20221698 ; https://healthcare-economist.com/2024/06/26/empirical-estimates-of-loss-aversion ; https://atticusli.com/replication-crisis/loss-aversion/
+- Design applications: Highlight what users would lose (data, progress, streak); Let users create value before asking for commitment (deferred signup)
+- Watch-out (growth.design): Fear-based pressure can feel coercive.
+- Product examples: Duolingo — gem wager streaks; Zapier — 30 days before data loss; Trello — deferred account creation
+- Typed edges: mechanism-of → Endowment Effect; mechanism-of → Scarcity; supports → Sunk Cost Effect; special-case-of → Framing; supports → Default Bias; supports → Negativity Bias; tension → Cashless Effect; tension → Noble Edge Effect
+- Related: Endowment Effect, Sunk Cost Effect, Framing
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (20):
+  - [article] Switching Careers to UX Design — "what do you stand to lose?" framing for asking internally. <https://www.uxtools.co/blog/switching-careers-to-ux-design> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — explicitly cited; losses weigh about twice gains. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [article] What is AI doing to design career ladders? — losing familiar paths to competence feels worse than equivalent gains. <https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Journey Map (Understand) — fear of missing a deal or of the price rising drives booking anxiety. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Onboarding (Implement) — transparent fees prevent the feeling of being cheated later. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Discovery Bundle (2025) — the deadline creates fear of missing out. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)
+  - [survey] Design Systems — Overview — fear of losing system work blocks tool migration. <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
+  - [survey] Portfolio Builders — Shapes of Work — volatile contexts (startups, freelancers) drive more portfolio upkeep as insurance. <https://uxtools.co/survey/portfolio-builders/shapes-of-work> (sources/uxtools-survey.md)
+  - [survey] AI Adoption — Shapes of Work — compliance fears slow corporate IC uptake. <https://uxtools.co/survey/ai-adoption/shapes-of-work> (sources/uxtools-survey.md)
+  - [survey] State of Prototyping: Spring 2026 — researchers and IC designers feel less secure, which frames AI as a threat more than a gain. <https://uxtools.co/survey/2026/state-of-prototyping> (sources/uxtools-survey.md)
+  - [case-study] One simple way Apple could improve your sleep habits — losing earned progress motivates more than gaining it. <https://growth.design/case-studies/apple-sleep-notification> (sources/growth-design-case-studies.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — fear of losing a streak. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - …8 more in sources/*.md (search the principle name)

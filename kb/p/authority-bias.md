@@ -1,0 +1,35 @@
+## Authority Bias
+_Experts' opinions weigh more_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Strong
+- Definition: Giving extra weight and trust to the views or instructions of a perceived authority (expert, institution, certification, uniform), often regardless of the content itself.
+- Mechanism (why it happens): Deferring to experts is usually a cheap, adaptive heuristic (System 1). Social norms of obedience and diffusion of responsibility strengthen it. Cues of authority (titles, logos, white coats) can stand in for checking credentials.
+- Origin & key evidence:
+  - Milgram (1963), J Abnormal and Social Psychology: about two-thirds of participants delivered the maximum "shock" when instructed by an experimenter. https://effectiviology.com/authority-bias-the-milgram-obedience-experiment/
+  - Cialdini (1984), *Influence*: names authority as one of six core principles of persuasion.
+  - Fogg et al., Stanford Web Credibility Project (c. 1999–2002): showing a real organisation, expert affiliations and credentials raised the credibility people assigned to websites. https://credibility.stanford.edu ; Stanford Guidelines for Web Credibility (2002).
+- Evidence grade: Strong. Milgram-type obedience has been partially replicated (e.g. Burger 2009, a variant stopped at 150 V). Credibility-cue effects are consistent, though Milgram's methods and interpretation are debated.
+- Design applications:
+  - Put expert endorsements, certifications (SOC 2, FAA/Transport Canada approvals) and named authors near decision points. Signal: conversion or trust-rating lift.
+  - Add bylines and credentials to help content. Signal: help-article helpfulness votes.
+  - Use authoritative defaults ("Recommended by our safety team") for complex settings. Signal: adoption of the recommended configuration.
+  - In research, avoid revealing your role or opinion before participants answer. Signal: lower acquiescence and fewer leading-question flags.
+- Real product examples: SaaS "trusted by" logo bars (Stripe, Figma). Headspace and Calm name clinical experts and scientific advisors. Google search shows "About this result" source panels.
+- Enterprise/B2B note: regulatory and certification marks (e.g. aviation authority approvals for aviation and robotics operations) often decide procurement. Show them prominently and accurately.
+- Ethics/watch-out: fake experts, borrowed logos and false certifications are deceptive and often illegal. Also guard against users blindly following "AI recommends".
+- Contexts: branding, checkout, pricing, content/copy, onboarding, research, settings
+- Sources: https://effectiviology.com/authority-bias-the-milgram-obedience-experiment/ ; https://credibility.stanford.edu ; https://credibility.stanford.edu/research
+- Typed edges: supports → Halo Effect; supports → Social Proof; tension → Reactance; counteracts → Decision Fatigue; mechanism-of → Observer-Expectancy Effect; measured-by → trust / credibility scales; tension → Backfire Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Kano model (organises)
+- Linked sources (18):
+  - [article] 3 ways MagicPath closes the design-to-code gap — "when Dann Petty is excited, I pay attention" reasoning. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
+  - [article] Play out the end of design work — earned trust in the designer's judgment determines how much latitude stakeholders grant. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)
+  - [article] Switching Careers to UX Design — degrees confer recognised credentials versus variable bootcamp instructors. <https://www.uxtools.co/blog/switching-careers-to-ux-design> (sources/uxtools-articles.md)
+  - [article] The artifact stopped proving seniority — portfolios were proxies for authority; that proxy is weakening. <https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority> (sources/uxtools-articles.md)
+  - [article] The Year Design Communities Go Small (and Real) — verification and real clients lend credibility versus synthetic work. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+  - [article] User Research: Is It Worth It? — data from users (a third party) is more persuasive than any individual's opinion. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Onboarding (Implement) — security badges and "friends already here" build trust for a money app. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [other] About UX Tools — large survey numbers and audience size establish credibility. <https://www.uxtools.co/about> (sources/uxtools-challenges-tools.md)
+  - [other] Newsletter — design leads with named titles vouch for it. <https://www.uxtools.co/newsletter> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Discovery Bundle (2025) — curator expertise and the "Rising Star award" justify each pick. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — About This Report — survey reports carry authority; check sample and sponsorship before citing them as fact. <https://uxtools.co/survey/introduction/about-this-report> (sources/uxtools-survey.md)
+  - [survey] Prototyping — Shapes of Work — polished, realistic prototypes carry more weight in decision meetings. <https://uxtools.co/survey/prototyping/shapes-of-work> (sources/uxtools-survey.md)
+  - …6 more in sources/*.md (search the principle name)

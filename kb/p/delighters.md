@@ -1,0 +1,33 @@
+## Delighters
+_Unexpected small pleasures are remembered_ · cycle: 💾 Memory · cluster: C7 · evidence: Practitioner
+- Definition: Unexpected features or touches that create outsized satisfaction when present but cause no dissatisfaction when absent — the "attractive quality" category of the Kano model.
+- Mechanism (why it happens): Satisfaction is asymmetric: basic needs only prevent dissatisfaction, while surprise above expectation creates positive affect and memorable peaks. Habituation then moves delighters toward performance and basic expectations.
+- Origin & key evidence:
+  - Kano, Seraku, Takahashi & Tsuji (1984), "Attractive quality and must-be quality", Journal of the Japanese Society for Quality Control 14(2), 39–48 — https://en.wikipedia.org/wiki/Kano_model
+  - Feature decay over time (battery life example: once delightful, now basic) — https://en.wikipedia.org/wiki/Kano_model
+  - growth.design (Been onboarding): small UI delighters credited with large UX impact — https://growth.design/case-studies/been-onboarding
+- Evidence grade: Practitioner — the Kano model is a widely used classification and survey method; empirical validation of the categories exists in quality-management literature but was not reviewed here.
+- Enterprise/B2B note: Delight in B2B comes from saved time (smart defaults, bulk actions, accurate auto-fill) more than whimsy; never ship delighters on top of unmet basics.
+- Ethics/watch-out: Delighters must not mask broken must-haves or turn into attention-grabbing gimmicks.
+- Contexts: onboarding, empty-states, loading/waits, branding, retention, gamification
+- Sources: https://en.wikipedia.org/wiki/Kano_model ; https://growth.design/case-studies/been-onboarding
+- Design applications: Nail basics before adding delight; Add micro-moments of surprise at key points; Refresh delighters as they become expected
+- Watch-out (growth.design): Delight on a broken experience falls flat.
+- Product examples: Superhuman — small feature that improves email life
+- Typed edges: tension → Familiarity Bias; supports → Peak-End Rule; supports → Aesthetic-Usability Effect; supports → Variable Reward; measured-by → Kano survey (framework); tension → Jakob's Law
+- Related: Peak-End Rule, Variable Reward, Sensory Appeal
+- Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (tension); ⚙ Self-Determination Theory (supports)
+- Linked sources (15):
+  - [article] 33 Activity Ideas for Remote UX Workshops — Kano "attractive" quadrant = delighters; must-haves are expected baseline. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [article] Monitor stands have more personality than software — playful, unexpected details produce memorable delight. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — Fryc's "animate moments that make people feel something" is targeted, unexpected delight. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — obsessive details become talking points that drive word-of-mouth. <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — micro-interactions signal craft through unexpected polish. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [article] What happens when "decent design" is the default — uncommon effort/taste produces the unexpected quality that delights. <https://www.uxtools.co/blog/what-happens-when-decent-design-is-the-default> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — unexpected emotional touches make utilities memorable. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - [tool-category] Tools: Advanced Prototyping — motion and micro-interactions can only be judged at this fidelity. <https://www.uxtools.co/tools/advanced-prototyping> (sources/uxtools-challenges-tools.md)
+  - [survey] Award — Satisfaction Leader (ProtoPie) — high satisfaction comes from exceeding expectations on sophisticated interactions. <https://uxtools.co/survey/design-tools-awards/satisfaction-leader> (sources/uxtools-survey.md)
+  - [case-study] The Psychology of Advertising: Why this ad made me stop scrolling (Balance app) — novelty decays (Kano), so tactics need refreshing. <https://growth.design/case-studies/balance-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — small unexpected touches lift the experience. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Spotify Wrapped: 6 psychology principles that make it go viral every year — a yearly novelty. <https://growth.design/case-studies/spotify-wrapped-psychology> (sources/growth-design-case-studies.md)
+  - …3 more in sources/*.md (search the principle name)

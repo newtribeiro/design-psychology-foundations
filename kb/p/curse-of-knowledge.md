@@ -1,0 +1,33 @@
+## Curse of Knowledge
+_Experts forget what novices don't know_ · cycle: 🔮 Meaning · cluster: C10 · evidence: Moderate
+- Definition: Once we know something, we find it hard to imagine not knowing it. As a result, experts underestimate how confusing their language, steps or interfaces are for novices.
+- Mechanism (why it happens): Our own knowledge can't easily be "subtracted" when we simulate someone else's mind. Familiar information feels obvious because it is processed fluently, so we mistake that fluency for clarity.
+- Origin & key evidence:
+  - Camerer, Loewenstein & Weber (1989, *Journal of Political Economy*): better-informed agents failed to ignore their extra information when predicting what less-informed people would judge. https://en.wikipedia.org/wiki/Curse_of_knowledge
+  - Elizabeth Newton (1990, Stanford dissertation, unpublished): "tappers" tapped familiar songs and expected listeners to name about half of them. Listeners named very few (about 2.5% as popularly reported; I did not verify the primary figure).
+  - Birch & Bloom (2007): a false-belief variant. Ryskin & Brown-Schmidt (2014) ran large replications and found the effect was less than half the original size (via Wikipedia above).
+- Evidence grade: Moderate. The direction of the effect is consistent, but its size is smaller than classic demos suggest, and the famous tapping study was never peer-reviewed.
+- Design applications:
+  - Run jargon audits with novices: highlight any term they can't define. Signal: share of copy terms understood.
+  - Test first-time-user tasks with people outside the team. Signal: first-attempt success rate.
+  - Write empty states and onboarding for zero prior knowledge. Signal: onboarding completion and "what is this?" support tickets.
+  - Have someone who didn't write the steps review the documentation. Signal: errors when following the docs.
+- Real product examples: Developer tools that show internal error codes, an anti-pattern (no URL verified). Mailchimp's plain-language content style guide (no URL verified).
+- Enterprise/B2B note: Engineering-driven industrial UIs (e.g. equipment telemetry, part codes in catalogues) are especially prone to this. Product names and acronyms leak into the UI.
+- Ethics/watch-out: Don't blame users ("user error") for gaps the team created.
+- Contexts: onboarding, content/copy, empty-states, errors, stakeholder-communication, research
+- Sources: https://en.wikipedia.org/wiki/Curse_of_knowledge ; https://www.thedecisionlab.com/reference-guide/management/curse-of-knowledge ; https://nesslabs.com/curse-of-knowledge
+- Typed edges: tension → Mental Model; counteracts → Mental Model; tension → Familiarity Bias; supports → False Consensus Effect; measured-by → usability testing; tension → Dunning-Kruger Effect; tension → Barnum-Forer Effect
+- Explained by frameworks: ⚙ Norman's design principles (supports)
+- Linked sources (11):
+  - [article] 12 Ways to Utilize Other Departments in User Research — new hires and trainers reveal jargon insiders no longer notice. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [article] 7 Practical Tips for Better Microcopy — jargon and technical error codes come from insiders forgetting users' perspective. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — work that only makes sense with the designer present is illegible to outsiders. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [article] The year of the connected canvas — conversely, outsourcing to AI leaves users with less knowledge than they believe (17% lower scores). <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
+  - [article] User Research: Is It Worth It? — designers know too much about the product to see it as novices do. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Empathy Map (Understand) — insiders can't imagine a novice's confusion. The map forces their perspective. <https://www.uxtools.co/challenges/empathy-map> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Usability Test (Test) — the reason to test with first-time users: designers can't see their own jargon. <https://www.uxtools.co/challenges/usability-test> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Card Sorting (Test) — company-centric taxonomy is a classic symptom. <https://www.uxtools.co/challenges/card-sorting> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Accessibility (Implement) — unlabeled icons and jargon assume knowledge users lack. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [survey] User Research — Shapes of Work — education under-teaches research, so juniors start with gaps. <https://uxtools.co/survey/user-research/shapes-of-work> (sources/uxtools-survey.md)
+  - [case-study] 7 Product Team Pitfalls You Should Avoid — experts misjudge what outsiders know (implied in feedback gaps). <https://growth.design/case-studies/product-team-pitfalls> (sources/growth-design-case-studies.md)

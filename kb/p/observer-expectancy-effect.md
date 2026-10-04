@@ -1,0 +1,29 @@
+## Observer-Expectancy Effect
+_Researcher bias leaks into participants_ · cycle: ⏰ Time · cluster: C10 · evidence: Moderate
+- Definition: A researcher's expectations unintentionally influence participants' behaviour or the researcher's own observations, which skews results toward the hypothesis.
+- Mechanism (why it happens): Subtle cues (wording, tone, nodding, hesitation, how tasks are framed) tell participants which answer is "right". Participants comply because they want to help. Observers also interpret ambiguous behaviour in the direction they expect, which is confirmation bias.
+- Origin & key evidence:
+  - Pfungst (1907) on "Clever Hans": the horse responded to cues from the questioner, not to arithmetic. https://rdrr.io/rforge/Sleuth3/man/ex1419.html
+  - Rosenthal & Fode (1963): students told their rats were "maze-bright" recorded better maze performance than students told their rats were "maze-dull", although the rats were the same. Rosenthal (1963, *American Scientist*) gives an overview: https://pages.ucsd.edu/~cmckenzie/Rosenthal1963AmScientist.pdf
+  - Observer bias in research generally: https://en.wikipedia.org/wiki/Observer_bias
+  - Usability practice, leading questions: https://nngroup.com/articles/leading-questions/
+- Evidence grade: Moderate. Experimenter effects are well established, and that is why blinding exists. The size of effects in classic studies, especially the classroom "Pygmalion" studies, has been debated.
+- Design applications:
+  - Script neutral prompts ("What would you do here?" not "Was that easy?"). Signal: inter-moderator agreement on findings.
+  - Have someone who didn't design the screen facilitate tests. Signal: compare severity ratings between designer-run and neutral-run sessions.
+  - Blind A/B analysis: pre-register metrics and hide variant labels. Signal: changes to metrics after the result is seen.
+  - Use behavioural measures (task success, logs) alongside self-report. Signal: gap between the two.
+- Real product examples: NN/g's guidance on leading follow-up questions (https://nngroup.com/articles/leading-questions/). The UK GDS user-research blog on facilitator neutrality (https://userresearch.blog.gov.uk/2014/07/11/what-makes-a-good-user-research-facilitator/).
+- Enterprise/B2B note: Internal stakeholder interviews (e.g. colleagues assessing a tool they asked for) are especially at risk. Use a neutral facilitator and triangulate with usage data.
+- Ethics/watch-out: Presenting biased research as evidence misleads decision-makers.
+- Contexts: research, stakeholder-communication
+- Sources: https://pages.ucsd.edu/~cmckenzie/Rosenthal1963AmScientist.pdf ; https://rdrr.io/rforge/Sleuth3/man/ex1419.html ; https://en.wikipedia.org/wiki/Observer_bias ; https://nngroup.com/articles/leading-questions/ ; https://userresearch.blog.gov.uk/2014/07/11/what-makes-a-good-user-research-facilitator/
+- Typed edges: tension → Priming; supports → Survey Bias; supports → Hawthorne Effect; counteracts → research validity; measured-by → blinded analysis
+- Linked sources (7):
+  - [article] The Best UX Research Methods in a Pinch — moderated sessions risk steering participants; unmoderated tests reduce this. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
+  - [article] Usability Testing in 4 Simplified Steps — neutral, silent moderation and scripts avoid steering participants. <https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — the interviewer's cues and leading questions bias the answers, so stay neutral. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Usability Test (Test) — the moderator's hints and nods steer participants. <https://www.uxtools.co/challenges/usability-test> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: User Testing — removing the moderator removes leading cues, but also the chance to probe. <https://www.uxtools.co/tools/user-testing> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — Methodology — the publisher (a tools newsletter) has an incentive to find "tool trends". <https://uxtools.co/survey/introduction/methodology> (sources/uxtools-survey.md)
+  - [survey] User Research — User Testing Overview — the moderator's framing can bias results. <https://uxtools.co/survey/user-research/user-testing-overview> (sources/uxtools-survey.md)

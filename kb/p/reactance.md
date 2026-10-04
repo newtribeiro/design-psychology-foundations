@@ -1,0 +1,33 @@
+## Reactance
+_Forcing creates resistance_ · cycle: ⏰ Time · cluster: C7 · evidence: Strong
+- Definition: An aversive motivational state triggered when people feel their freedom to choose is threatened, pushing them to resist the pressure and reassert that freedom.
+- Mechanism (why it happens): Perceived threats to behavioural freedom (commands, forced choices, removed options) cause anger and counter-arguing; the restricted option gains appeal and the persuader loses credibility. Forceful, controlling language intensifies it.
+- Origin & key evidence:
+  - Brehm (1966), psychological reactance theory (original book not opened) — summarised in https://facultyprofiles.dominican.edu/en/publications/a-50-year-review-of-psychological-reactance-theory-do-not-read-th/
+  - Rosenberg & Siegel (2018), "A 50-year review of psychological reactance theory: Do not read this article", Motivation Science 4(4), 281–300 — traces five waves of research across social, clinical and communication psychology — https://facultyprofiles.dominican.edu/en/publications/a-50-year-review-of-psychological-reactance-theory-do-not-read-th/
+  - Communication-research perspective on reactance in persuasive messages (Frontiers in Communication 2019; authors not verified) — https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2019.00056/pdf
+- Evidence grade: Strong (phenomenon) / Moderate (measurement) — reliably shown across health messaging and persuasion; measuring it as a state is still debated.
+- Enterprise/B2B note: Forced migrations, mandatory updates and locked settings in field tools trigger pushback; explain why, give timelines and an opt-out window.
+- Ethics/watch-out: Don't weaponise "you can't have this" to drive desire; respect real choice instead.
+- Contexts: notifications, onboarding, offboarding, settings, content/copy, pricing
+- Sources: https://facultyprofiles.dominican.edu/en/publications/a-50-year-review-of-psychological-reactance-theory-do-not-read-th/ ; https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2019.00056/pdf
+- Design applications: Use nudges carefully — they can provoke the opposite; Always provide a visible exit; Remember a person, not a data point, is behind each screen
+- Watch-out (growth.design): Hidden exits, notification spam and stacked dark patterns all trigger it.
+- Product examples: Blinkist — concealed paywall exit; YouTube — ad load to push Premium; Clubhouse — notification overload; 5 onboarding mistakes case
+- Typed edges: tension → Nudge; tension → Framing; tension → Social Proof; tension → Scarcity; tension → Reciprocity; tension → Noble Edge Effect; tension → Authority Bias; tension → Pseudo-Set Framing; tension → Default Bias; tension → Commitment & Consistency; supports → Backfire Effect; supports → Streisand Effect; tension → Decision Fatigue; tension → Endowment Effect
+- Related: Scarcity, Nudge, Provide Exit Points
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (tension); ⚙ Cognitive Bias Codex (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Fogg Behavior Model + Tiny Habits (tension); ⚙ Prospect Theory (tension); ⚙ Self-Determination Theory (organises)
+- Linked sources (13):
+  - [article] 7 Practical Tips for Better Microcopy — unexplained data/permission requests trigger resistance; transparency reduces it. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] Running an Effective Design Kickoff Meeting — handling resistance privately avoids triggering defensiveness in a group setting. <https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — Patagonia's "don't buy" message used reverse psychology to increase desire. <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [other] UX Tools Discovery Bundle (2025) — the clear "this is NOT a subscription" disclosure defuses the fear of being trapped. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)
+  - [other] Bundle Terms of Sale — explicit consumer-protective clauses (no subscription) lower resistance. <https://www.uxtools.co/bundle/terms> (sources/uxtools-challenges-tools.md)
+  - [survey] AI Adoption — Shapes of Work — ICs may resist AI mandates that come without enablement. <https://uxtools.co/survey/ai-adoption/shapes-of-work> (sources/uxtools-survey.md)
+  - [case-study] 5 Deadly Onboarding Mistakes You Should Avoid (Sleepzy) — users rebel when they feel their choices are taken away. <https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid> (sources/growth-design-case-studies.md)
+  - [case-study] One simple way Apple could improve your sleep habits — a fake or pushy loss frame is rejected. <https://growth.design/case-studies/apple-sleep-notification> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology of Clubhouse's User Retention (...and churn) — unwanted notifications feel like a loss of control. <https://growth.design/case-studies/clubhouse-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] GoDaddy: How to improve checkout flows ethically — perceived manipulation leads to resistance and lost trust. <https://growth.design/case-studies/godaddy-checkout-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How Blinkist Increased Trial Conversions by 23% (Ethically) — forced behaviour causes resistance. <https://growth.design/case-studies/trial-paywall-challenge> (sources/growth-design-case-studies.md)
+  - [case-study] Typeform: How to offboard users the right way — forced surveys. <https://growth.design/case-studies/typeform-offboarding> (sources/growth-design-case-studies.md)
+  - …1 more in sources/*.md (search the principle name)

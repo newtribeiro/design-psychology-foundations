@@ -1,0 +1,377 @@
+<title>Product Psychology Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: animated radial semantic network — 10 principle clusters, theory frameworks and design contexts on one ring, relations bundled through the centre; dossier panel beside it; tabs for evidence, tensions and index */
+:root{
+  --bg:#f4f6f9; --panel:#ffffff; --ink:#18202d; --muted:#5a6476; --line:#d8dde6; --soft:#eceff4; --focus:#2b59c3;
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --c-C1:hsl(212 62% 42%); --c-C2:hsl(190 70% 30%); --c-C3:hsl(166 60% 28%); --c-C4:hsl(36 82% 36%); --c-C5:hsl(330 58% 44%);
+  --c-C6:hsl(278 46% 48%); --c-C7:hsl(96 44% 32%); --c-C8:hsl(14 72% 44%); --c-C9:hsl(250 40% 50%); --c-C10:hsl(0 0% 38%);
+  --c-fw:hsl(48 85% 32%); --c-ctx:hsl(200 26% 40%);
+  --r-supports:hsl(150 55% 34%); --r-tension:hsl(356 68% 46%); --r-mechanism:hsl(268 52% 50%); --r-related:hsl(210 14% 50%);
+  --r-framework:hsl(44 90% 38%); --r-context:hsl(200 45% 42%);
+  --g-Strong:hsl(150 50% 32%); --g-Moderate:hsl(200 60% 38%); --g-Practitioner:hsl(36 85% 38%); --g-Contested:hsl(356 64% 44%);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
+  --c-C1:hsl(212 80% 72%); --c-C2:hsl(190 65% 60%); --c-C3:hsl(166 55% 58%); --c-C4:hsl(38 85% 64%); --c-C5:hsl(330 70% 74%);
+  --c-C6:hsl(278 65% 78%); --c-C7:hsl(96 45% 62%); --c-C8:hsl(14 80% 68%); --c-C9:hsl(250 65% 78%); --c-C10:hsl(0 0% 70%);
+  --c-fw:hsl(48 85% 62%); --c-ctx:hsl(200 35% 68%);
+  --r-supports:hsl(150 50% 60%); --r-tension:hsl(356 78% 70%); --r-mechanism:hsl(268 70% 78%); --r-related:hsl(210 14% 66%);
+  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%);
+  --g-Strong:hsl(150 45% 60%); --g-Moderate:hsl(200 60% 66%); --g-Practitioner:hsl(38 85% 62%); --g-Contested:hsl(356 75% 70%); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
+  --c-C1:hsl(212 80% 72%); --c-C2:hsl(190 65% 60%); --c-C3:hsl(166 55% 58%); --c-C4:hsl(38 85% 64%); --c-C5:hsl(330 70% 74%);
+  --c-C6:hsl(278 65% 78%); --c-C7:hsl(96 45% 62%); --c-C8:hsl(14 80% 68%); --c-C9:hsl(250 65% 78%); --c-C10:hsl(0 0% 70%);
+  --c-fw:hsl(48 85% 62%); --c-ctx:hsl(200 35% 68%);
+  --r-supports:hsl(150 50% 60%); --r-tension:hsl(356 78% 70%); --r-mechanism:hsl(268 70% 78%); --r-related:hsl(210 14% 66%);
+  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%);
+  --g-Strong:hsl(150 45% 60%); --g-Moderate:hsl(200 60% 66%); --g-Practitioner:hsl(38 85% 62%); --g-Contested:hsl(356 75% 70%); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;margin:0;padding-inline:16px;padding-block:20px 40px}
+.wrap{max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(26px,3.4vw,38px);letter-spacing:-.01em;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:2px 0 0;max-width:72ch}
+.stats{display:flex;gap:18px;flex-wrap:wrap;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.stats b{display:block;font-size:20px;color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;border-block:1px solid var(--line);padding-block:10px}
+.tabs{display:flex;gap:2px;background:var(--soft);padding:3px;border-radius:8px}
+.tabs button{all:unset;cursor:pointer;padding:6px 12px;border-radius:6px;font-weight:600;font-size:14px;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--panel);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+button:focus-visible,.chip:focus-visible,input:focus-visible,.rel a:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+input[type=search]{flex:1 1 220px;min-width:0;font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:var(--panel);color:var(--ink)}
+.play{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-weight:600;font-size:14px;padding:6px 12px;border-radius:7px;border:1px solid var(--line);background:var(--panel)}
+.play svg{width:12px;height:12px;fill:currentColor}
+.rows{display:flex;flex-direction:column;gap:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chips .lbl{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:12.5px;padding:3px 9px;border:1px solid var(--line);border-radius:999px;color:var(--ink);background:var(--panel);transition:opacity .2s}
+.chip i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chip.rel i{width:14px;height:3px;border-radius:2px}
+.chip[aria-pressed="false"]{opacity:.42;text-decoration:line-through}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:14px;align-items:start}
+@media (max-width:980px){.main{grid-template-columns:1fr}}
+.mapbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;position:relative;overflow:hidden;aspect-ratio:1/1;max-height:88vh;width:100%}
+.mapbox svg{width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+.zoom{position:absolute;right:10px;bottom:10px;display:flex;gap:4px}
+.zoom button{font:600 14px var(--f-mono);width:30px;height:30px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer}
+.caption{position:absolute;left:12px;top:12px;right:12px;pointer-events:none;display:flex;flex-direction:column;gap:2px;max-width:60%}
+.caption b{font-family:var(--f-display);font-size:18px}
+.caption span{font-size:13px;color:var(--muted)}
+.caption[hidden]{display:none}
+.legendhint{position:absolute;left:12px;bottom:10px;font-size:12px;color:var(--muted);max-width:60%}
+@media (max-width:600px){.legendhint{display:none}.caption{max-width:100%}}
+svg text{font-family:var(--f-body);fill:var(--ink)}
+.leaf text{font-size:10.5px;transition:opacity .25s}
+.leaf circle{transition:r .25s}
+.leaf.dim text{opacity:.16}.leaf.hit text{font-weight:600}
+.leaf.sel text{font-weight:700}
+.leaf.sel circle{r:5}
+.link{fill:none;stroke-opacity:.11;stroke-width:1;transition:stroke-opacity .25s}
+.link.dim{stroke-opacity:.02}
+.link.off{display:none}
+.link.hot{stroke-opacity:.9;stroke-width:1.7;stroke:var(--rc);stroke-dasharray:5 4;animation:flow 1.1s linear infinite}
+.link.hot.in{animation-direction:reverse}
+@keyframes flow{to{stroke-dashoffset:-18}}
+.ripple{fill:none;stroke-width:1.5;animation:ripple 1.8s ease-out infinite}
+@keyframes ripple{from{r:4;stroke-opacity:.9}to{r:26;stroke-opacity:0}}
+.catlabel{font-family:var(--f-display);font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+aside{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px;max-height:88vh;overflow:auto;min-width:0}
+aside h2{font-family:var(--f-display);font-size:23px;margin:0;line-height:1.12;text-wrap:balance}
+aside .lead{color:var(--muted);font-size:16px;margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.tag i{width:9px;height:9px;border-radius:2px;background:var(--c)}
+.pill{font-size:11.5px;padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.md h3,.rel h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:10px 0 3px;font-weight:600}
+.md p{margin:0;font-size:14px}
+.md ul,.items{margin:0;padding-left:18px;font-size:13.5px}
+.md li,.items li{margin:2px 0}
+aside a{color:var(--focus);word-break:break-word}
+.rel ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:5px}
+.rel a{cursor:pointer;font-size:13px;padding:2px 8px;border-radius:5px;border:1px solid var(--line);color:var(--ink);text-decoration:none;display:inline-flex;gap:5px;align-items:center}
+.rel a i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.rel h3 em{display:inline-block;width:14px;height:3px;border-radius:2px;background:var(--rc);margin-right:6px;vertical-align:middle;font-style:normal}
+.mono{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.view{display:flex;flex-direction:column;gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.card h2{font-family:var(--f-display);font-size:20px;margin:0 0 8px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+td.n{text-align:right;font-family:var(--f-mono)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.tension{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.tension .x{color:var(--r-tension);font-weight:700}
+.tension p{grid-column:1/-1;margin:0;font-size:13.5px;color:var(--muted)}
+.idxcat{columns:3 240px;column-gap:24px;font-size:13.5px}
+.idxcat div{break-inside:avoid;margin:0 0 3px}
+.idxcat a{cursor:pointer;color:var(--ink)}
+.idxcat a:hover{color:var(--focus)}
+.bars{display:flex;height:10px;border-radius:5px;overflow:hidden;min-width:120px}
+.bars span{display:block;height:100%}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}.link.hot{stroke-dasharray:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Product Psychology Map</h1>
+      <p class="sub">The semantic network behind the <span class="mono">design-psychology-foundations</span> skill: 106 principles in 10 clusters, the theory frameworks that explain them and the design contexts they apply to. Every line is a typed relation. Press Play for a guided tour, or select any node to follow its links.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="bar">
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" data-v="map">Map</button>
+      <button role="tab" aria-selected="false" data-v="ev">Evidence</button>
+      <button role="tab" aria-selected="false" data-v="ten">Tensions</button>
+      <button role="tab" aria-selected="false" data-v="idx">Index</button>
+    </div>
+    <button class="play" id="play" aria-pressed="false"><svg viewBox="0 0 12 12"><path id="playicon" d="M2 1l9 5-9 5z"/></svg><span>Play tour</span></button>
+    <input type="search" id="q" placeholder="Find a node — e.g. pricing, Fitts, onboarding" aria-label="Find a node">
+  </div>
+  <div class="rows" id="filters">
+    <div class="chips" id="chips"><span class="lbl">Nodes</span></div>
+    <div class="chips" id="relchips"><span class="lbl">Relations</span></div>
+  </div>
+
+  <section class="view" id="v-map">
+    <div class="main">
+      <div class="mapbox" id="mapbox">
+        <svg id="svg" role="img" aria-label="Animated radial semantic map of product psychology principles"></svg>
+        <div class="caption" id="caption" hidden><b id="capt"></b><span id="caps"></span></div>
+        <div class="legendhint">Hover to highlight, click to open. Animated lines flow from the selected node; reversed flow marks incoming relations. Drag to pan, scroll or +/− to zoom.</div>
+        <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zre" aria-label="Reset view">⟲</button></div>
+      </div>
+      <aside id="panel" aria-live="polite"></aside>
+    </div>
+  </section>
+  <section class="view" id="v-ev" hidden></section>
+  <section class="view" id="v-ten" hidden></section>
+  <section class="view" id="v-idx" hidden></section>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const CATS=D.cats, CATN=Object.fromEntries(CATS);
+const N=new Map(D.nodes.map(n=>[n.id,n]));
+const REL={supports:'supports',tension:'tension','mechanism-of':'mechanism','special-case-of':'mechanism',counteracts:'tension',related:'related',organises:'framework','applies-in':'context'};
+const RELNAME={supports:'Supports',tension:'Tension / counteracts',mechanism:'Mechanism / special case',related:'Related',framework:'Framework organises',context:'Applies in context'};
+const relGroup=r=>REL[r]||'related';
+const adj=new Map(D.nodes.map(n=>[n.id,[]]));
+D.edges.forEach(e=>{if(!adj.has(e.s)||!adj.has(e.t))return;adj.get(e.s).push({rel:e.rel,o:e.t,dir:'out',note:e.note});adj.get(e.t).push({rel:e.rel,o:e.s,dir:'in',note:e.note});});
+const col=c=>`var(--c-${c})`, rcol=r=>`var(--r-${relGroup(r)})`;
+const on=new Set(CATS.map(c=>c[0])), relOn=new Set(Object.keys(RELNAME));
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let sel=null, firstDraw=true;
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const principles=D.nodes.filter(n=>n.cat.startsWith('C'));
+
+// stats
+const st=[['Principles',principles.length],['Frameworks',D.nodes.filter(n=>n.cat==='fw').length],['Relations',D.edges.length],['Linked sources',D.meta.sources]];
+document.getElementById('stats').innerHTML=st.map(([k,v])=>`<div><b>${v}</b>${k}</div>`).join('');
+
+// chips
+const chips=document.getElementById('chips');
+CATS.forEach(([c,name])=>{const b=document.createElement('button');b.className='chip';b.style.setProperty('--c',col(c));b.setAttribute('aria-pressed','true');
+  const cnt=D.nodes.filter(n=>n.cat===c).length;b.innerHTML=`<i></i>${c.startsWith('C')?c+' ':''}${esc(name)} <span class="mono">${cnt}</span>`;b.title=name;
+  b.onclick=()=>{stopTour();on.has(c)?on.delete(c):on.add(c);b.setAttribute('aria-pressed',on.has(c));draw();};chips.appendChild(b);});
+const relchips=document.getElementById('relchips');
+Object.entries(RELNAME).forEach(([k,name])=>{const b=document.createElement('button');b.className='chip rel';b.style.setProperty('--c',`var(--r-${k})`);b.setAttribute('aria-pressed','true');
+  const cnt=D.edges.filter(e=>relGroup(e.rel)===k).length;b.innerHTML=`<i></i>${name} <span class="mono">${cnt}</span>`;
+  b.onclick=()=>{relOn.has(k)?relOn.delete(k):relOn.add(k);b.setAttribute('aria-pressed',relOn.has(k));applyRel();};relchips.appendChild(b);});
+
+// map
+const svg=d3.select('#svg'), R=440, W=1320;
+svg.attr('viewBox',[-W/2,-W/2,W,W]);
+const g=svg.append('g');
+const zoom=d3.zoom().scaleExtent([.5,6]).on('zoom',e=>g.attr('transform',e.transform));
+svg.call(zoom);
+document.getElementById('zin').onclick=()=>svg.transition().duration(400).call(zoom.scaleBy,1.4);
+document.getElementById('zout').onclick=()=>svg.transition().duration(400).call(zoom.scaleBy,1/1.4);
+document.getElementById('zre').onclick=()=>svg.transition().duration(500).call(zoom.transform,d3.zoomIdentity);
+let leaves=[], byId=new Map(), linkSel, leafSel;
+const GRADE_ORDER={Strong:0,Moderate:1,Practitioner:2,Contested:3};
+function draw(){
+  g.selectAll('*').remove();
+  const children=CATS.filter(([c])=>on.has(c)).map(([c,name])=>({id:'cat_'+c,name,cat:c,children:D.nodes.filter(n=>n.cat===c)
+     .sort((a,b)=>c.startsWith('C')?((GRADE_ORDER[a.grade]-GRADE_ORDER[b.grade])||a.label.localeCompare(b.label)):a.label.localeCompare(b.label))
+     .map(n=>({id:n.id,name:n.label,cat:c}))}));
+  if(!children.length){panel(null);return;}
+  const root=d3.hierarchy({id:'root',children});
+  d3.cluster().size([360,R]).separation((a,b)=>a.parent===b.parent?1:2.6)(root);
+  leaves=root.leaves(); byId=new Map(leaves.map(l=>[l.data.id,l]));
+  const line=d3.lineRadial().curve(d3.curveBundle.beta(.84)).radius(d=>d.y).angle(d=>d.x/180*Math.PI);
+  const links=D.edges.filter(e=>byId.has(e.s)&&byId.has(e.t)).map(e=>({e,path:byId.get(e.s).path(byId.get(e.t))}));
+  linkSel=g.append('g').selectAll('path').data(links).join('path').attr('class','link').attr('d',d=>line(d.path))
+    .style('stroke',d=>col(N.get(d.e.s).cat)).style('--rc',d=>rcol(d.e.rel));
+  // cluster arcs + labels
+  const arc=d3.arc().innerRadius(R-7).outerRadius(R-2);
+  const arcs=g.append('g');
+  root.children.forEach((c,i)=>{const ls=c.leaves();const a0=(ls[0].x-.8)/180*Math.PI,a1=(ls[ls.length-1].x+.8)/180*Math.PI;
+    const p=arcs.append('path').style('fill',col(c.data.cat)).attr('d',arc({startAngle:a0,endAngle:a1}));
+    if(firstDraw&&!reduce){p.attr('d',arc({startAngle:a0,endAngle:a0})).transition().delay(200+i*90).duration(700).ease(d3.easeCubicOut)
+      .attrTween('d',()=>{const ip=d3.interpolate(a0,a1);return t=>arc({startAngle:a0,endAngle:ip(t)});});}
+    const mid=(ls[0].x+ls[ls.length-1].x)/2, r=R-22;
+    arcs.append('text').attr('class','catlabel').attr('text-anchor','middle').style('fill',col(c.data.cat))
+      .attr('transform',`rotate(${mid-90}) translate(${r},0) rotate(${mid<180?90:-90})`).text(ls.length>4?(c.data.cat.startsWith('C')?c.data.cat:c.data.name):'')
+      .append('title').text(c.data.name);});
+  leafSel=g.append('g').selectAll('g').data(leaves).join('g').attr('class','leaf')
+    .attr('transform',d=>`rotate(${d.x-90}) translate(${d.y+4},0)`);
+  leafSel.append('circle').attr('r',d=>N.get(d.data.id).grade==='Strong'?3.2:2.6)
+    .style('fill',d=>{const n=N.get(d.data.id);return n.grade&&n.grade!=='Strong'&&n.grade!=='Moderate'?'var(--panel)':col(d.data.cat)})
+    .style('stroke',d=>col(d.data.cat)).style('stroke-width',1.3);
+  leafSel.append('text').attr('dy','0.32em').attr('x',d=>d.x<180?8:-8).attr('text-anchor',d=>d.x<180?'start':'end')
+    .attr('transform',d=>d.x>=180?'rotate(180)':null).text(d=>d.data.name.length>32?d.data.name.slice(0,31)+'…':d.data.name).style('cursor','pointer');
+  leafSel.attr('tabindex',0).attr('role','button').attr('aria-label',d=>d.data.name)
+    .on('mouseenter',(ev,d)=>{if(!touring)hl(d.data.id)}).on('mouseleave',()=>{if(!touring)hl(sel)})
+    .on('click',(ev,d)=>{stopTour();select(d.data.id)}).on('keydown',(ev,d)=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();stopTour();select(d.data.id)}});
+  leafSel.append('title').text(d=>{const n=N.get(d.data.id);return n.tag?`${n.label} — ${n.tag}`:n.label});
+  g.append('circle').attr('class','ripple').attr('id','ripple').attr('r',0).style('display','none');
+  if(firstDraw&&!reduce){
+    leafSel.style('opacity',0).transition().delay(d=>d.x*3).duration(420).style('opacity',1);
+    linkSel.each(function(){const L=this.getTotalLength();d3.select(this).attr('stroke-dasharray',`${L} ${L}`).attr('stroke-dashoffset',L);})
+      .transition().delay((d,i)=>700+(i%240)*6).duration(1100).ease(d3.easeCubicInOut).attr('stroke-dashoffset',0)
+      .on('end',function(){d3.select(this).attr('stroke-dasharray',null).attr('stroke-dashoffset',null);});
+  }
+  firstDraw=false;
+  applyRel(); hl(sel); search();
+}
+function applyRel(){ if(linkSel) linkSel.classed('off',d=>!relOn.has(relGroup(d.e.rel))); if(sel) hl(sel); }
+function hl(id, set){
+  const nb=new Set(id?[id,...adj.get(id).filter(r=>relOn.has(relGroup(r.rel))).map(r=>r.o)]:(set||[]));
+  const active=id||set;
+  linkSel.classed('hot',d=>id&&(d.e.s===id||d.e.t===id)&&relOn.has(relGroup(d.e.rel)))
+    .classed('in',d=>id&&d.e.t===id)
+    .classed('dim',d=>active&&!(id?(d.e.s===id||d.e.t===id):(nb.has(d.e.s)&&nb.has(d.e.t))));
+  if(set&&!id) linkSel.classed('hot',d=>nb.has(d.e.s)&&nb.has(d.e.t)&&relOn.has(relGroup(d.e.rel))).classed('in',false);
+  leafSel.classed('dim',d=>active&&!nb.has(d.data.id)).classed('sel',d=>d.data.id===sel);
+  const rp=d3.select('#ripple'), L=byId.get(sel);
+  if(L&&!reduce){const a=(L.x-90)/180*Math.PI;rp.style('display',null).attr('cx',Math.cos(a)*(L.y+4)).attr('cy',Math.sin(a)*(L.y+4)).style('stroke',col(L.data.cat));}
+  else rp.style('display','none');
+}
+function select(id){sel=id;if(id&&!on.has(N.get(id).cat)){on.add(N.get(id).cat);syncChips();draw();}hl(id);panel(id);}
+function syncChips(){[...chips.querySelectorAll('.chip')].forEach((b,i)=>b.setAttribute('aria-pressed',on.has(CATS[i][0])));}
+
+// markdown-lite for principle files
+const SKIP=/^- (Typed edges|Related|Explained by frameworks|Linked sources|Last reviewed)/;
+const linkify=s=>esc(s).replace(/&lt;(https?:\/\/[^\s&]+)&gt;|(https?:\/\/[^\s;,)]+)/g,(m,a,b)=>{const u=a||b;return `<a href="${u}" target="_blank" rel="noopener">${u.replace(/^https?:\/\/(www\.)?/,'').slice(0,54)}</a>`;});
+function renderMd(md){const out=[];let list=false,skip=false;
+  md.split('\n').slice(2).forEach(line=>{
+    if(/^- /.test(line)){skip=SKIP.test(line)||/^- (Contexts|Sources):/.test(line);if(list){out.push('</ul>');list=false;}if(skip)return;
+      const m=line.match(/^- ([^:]{2,40}):\s*(.*)$/);
+      if(m){out.push(`<h3>${esc(m[1])}</h3>`);if(m[2])out.push(`<p>${linkify(m[2])}</p>`);} else out.push(`<p>${linkify(line.slice(2))}</p>`);}
+    else if(/^\s+- /.test(line)){if(skip)return;if(!list){out.push('<ul>');list=true;}out.push(`<li>${linkify(line.trim().slice(2))}</li>`);}});
+  if(list)out.push('</ul>');return `<div class="md">${out.join('')}</div>`;}
+
+function relBlocks(id){
+  const groups={};
+  adj.get(id).forEach(r=>{const k=(r.dir==='out'?'':'← ')+r.rel;(groups[k]=groups[k]||{rel:r.rel,s:new Set()}).s.add(r.o);});
+  const order=['supports','mechanism-of','special-case-of','tension','counteracts','related','organises','applies-in'];
+  return Object.entries(groups).sort((a,b)=>order.indexOf(a[1].rel)-order.indexOf(b[1].rel)||a[0].localeCompare(b[0]))
+    .map(([k,v])=>`<h3><em style="--rc:${rcol(v.rel)}"></em>${esc(k)} (${v.s.size})</h3><ul>${[...v.s].map(o=>{const n=N.get(o);return `<li><a data-id="${esc(o)}" style="--c:${col(n.cat)}" tabindex="0"><i></i>${esc(n.label)}</a></li>`}).join('')}</ul>`).join('');
+}
+function panel(id){
+  const p=document.getElementById('panel');
+  if(!id){p.innerHTML=`<span class="tag">How to read this</span><h2>Pick a node</h2>
+   <p>The ring places ${principles.length} principles in 10 evidence-sorted clusters (strongest first), beside ${D.nodes.filter(n=>n.cat==='fw').length} theory frameworks and ${D.nodes.filter(n=>n.cat==='ctx').length} design contexts. Filled dots have strong or moderate evidence; hollow dots are practitioner heuristics or contested findings.</p>
+   <p>Every line is a typed relation: <b style="color:var(--r-supports)">supports</b>, <b style="color:var(--r-tension)">tension</b>, <b style="color:var(--r-mechanism)">mechanism</b>, <b style="color:var(--r-framework)">framework</b>, <b style="color:var(--r-context)">context</b>. Use the relation chips to isolate one kind.</p>
+   <p class="mono">${D.meta.last_run?'Knowledge base updated '+esc(D.meta.last_run):''}</p>`;bind(p);return;}
+  const n=N.get(id); let html=`<div class="tags"><span class="tag" style="--c:${col(n.cat)}"><i></i>${esc(CATN[n.cat])}</span></div><h2>${esc(n.label)}</h2>`;
+  if(n.cat.startsWith('C')){
+    html+=`<p class="lead">${esc(n.tag)}</p><div class="tags"><span class="pill" style="color:var(--g-${n.grade})">Evidence: ${esc(n.grade)}</span>${n.cycle?`<span class="pill" style="color:var(--muted)">${esc(n.cycle)}</span>`:''}</div>`+renderMd(n.md);
+    html+=`<div class="rel">${relBlocks(id)}</div>`;
+    if(n.res&&n.res.length) html+=`<div class="md"><h3>Linked sources (${n.nres})</h3><ul>${n.res.map(r=>`<li><span class="mono">[${esc(r[2]||'item')}]</span> ${r[1]?`<a href="${esc(r[1])}" target="_blank" rel="noopener">${esc(r[0])}</a>`:esc(r[0])} — ${esc(r[3])}</li>`).join('')}</ul></div>`;
+  } else if(n.cat==='fw'){
+    html+=`<p class="lead">${esc(n.title)}</p><div class="md"><p>${esc(n.desc)}</p>${n.fgrade?`<h3>Evidence</h3><p>${esc(n.fgrade)}</p>`:''}</div><div class="rel">${relBlocks(id)}</div>`;
+  } else {
+    const ps=adj.get(id).map(r=>N.get(r.o)).sort((a,b)=>GRADE_ORDER[a.grade]-GRADE_ORDER[b.grade]);
+    html+=`<p class="lead">${ps.length} principles apply in ${esc(n.label)}, strongest evidence first.</p><div class="rel"><ul>${ps.map(o=>`<li><a data-id="${esc(o.id)}" style="--c:${col(o.cat)}" tabindex="0"><i></i>${esc(o.label)}</a></li>`).join('')}</ul></div>`;
+  }
+  html+=`<p class="mono">Degree ${adj.get(id).length}</p>`;
+  p.innerHTML=html; bind(p); p.scrollTop=0;
+}
+function bind(root){root.querySelectorAll('a[data-id]').forEach(a=>{a.onclick=()=>{stopTour();goto(a.dataset.id)};a.onkeydown=e=>{if(e.key==='Enter'){stopTour();goto(a.dataset.id)}};});}
+
+// search
+const q=document.getElementById('q');
+const matches=(id,s)=>{const n=N.get(id);return (n.label+' '+(n.tag||'')+' '+(n.ctx||[]).join(' ')+' '+(n.md||'')).toLowerCase().includes(s);};
+function search(){const s=q.value.trim().toLowerCase();if(!leafSel)return;
+  leafSel.classed('hit',d=>s&&matches(d.data.id,s));
+  if(s&&!sel) leafSel.classed('dim',d=>!matches(d.data.id,s));
+  if(!s&&!sel) hl(null);}
+q.addEventListener('input',()=>{stopTour();search()});
+q.addEventListener('keydown',e=>{if(e.key==='Enter'){const s=q.value.trim().toLowerCase();const m=D.nodes.find(n=>n.label.toLowerCase().includes(s))||D.nodes.find(n=>matches(n.id,s));if(m)goto(m.id);}});
+
+// guided tour: walks the clusters, then frameworks, then contexts
+let touring=false, tourTimer=null, tourStep=0;
+const cap=document.getElementById('caption'), playBtn=document.getElementById('play');
+const tourStops=CATS.map(([c,name])=>({c,name}));
+function tourShow(i){
+  const stop=tourStops[i], ids=D.nodes.filter(n=>n.cat===stop.c).map(n=>n.id);
+  sel=null; hl(null,ids);
+  const members=D.nodes.filter(n=>n.cat===stop.c);
+  const strong=members.filter(n=>n.grade==='Strong').length, cont=members.filter(n=>n.grade==='Contested').length;
+  document.getElementById('capt').textContent=(stop.c.startsWith('C')?stop.c+' · ':'')+stop.name;
+  document.getElementById('caps').textContent=stop.c.startsWith('C')?`${members.length} principles · ${strong} strong · ${cont} contested`:`${members.length} nodes`;
+  cap.hidden=false;
+  const p=document.getElementById('panel');
+  p.innerHTML=`<span class="tag" style="--c:${col(stop.c)}"><i></i>Tour ${i+1} of ${tourStops.length}</span><h2>${esc(stop.name)}</h2><div class="rel"><ul>${members.map(o=>`<li><a data-id="${esc(o.id)}" style="--c:${col(o.cat)}" tabindex="0"><i></i>${esc(o.label)}</a></li>`).join('')}</ul></div>`;
+  bind(p);
+}
+function startTour(){touring=true;playBtn.setAttribute('aria-pressed','true');playBtn.querySelector('span').textContent='Pause tour';document.getElementById('playicon').setAttribute('d','M2 1h3v10H2zM7 1h3v10H7z');
+  if(on.size!==CATS.length){CATS.forEach(c=>on.add(c[0]));syncChips();draw();}
+  tourShow(tourStep);tourTimer=setInterval(()=>{tourStep=(tourStep+1)%tourStops.length;tourShow(tourStep);},reduce?6000:3600);}
+function stopTour(){if(!touring)return;touring=false;clearInterval(tourTimer);cap.hidden=true;playBtn.setAttribute('aria-pressed','false');playBtn.querySelector('span').textContent='Play tour';document.getElementById('playicon').setAttribute('d','M2 1l9 5-9 5z');hl(sel);panel(sel);}
+playBtn.onclick=()=>touring?stopTour():startTour();
+
+// tabs
+function show(v){document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.v===v));
+  ['map','ev','ten','idx'].forEach(k=>document.getElementById('v-'+k).hidden=k!==v);
+  document.getElementById('filters').hidden=v!=='map'; if(v!=='map')stopTour();}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.v));
+function goto(id){show('map');select(id);}
+
+// evidence view
+(function(){const grades=['Strong','Moderate','Practitioner','Contested'];
+ const rows=CATS.filter(([c])=>c.startsWith('C')).map(([c,name])=>{const ms=D.nodes.filter(n=>n.cat===c);const cnt=grades.map(gr=>ms.filter(n=>n.grade===gr).length);
+  return `<tr><td><span class="tag" style="--c:${col(c)}"><i></i>${c}</span> ${esc(name)}</td>${cnt.map(v=>`<td class="n">${v}</td>`).join('')}<td><div class="bars">${cnt.map((v,i)=>`<span style="flex:${v};background:var(--g-${grades[i]})" title="${grades[i]}: ${v}"></span>`).join('')}</div></td></tr>`}).join('');
+ const tot=grades.map(gr=>principles.filter(n=>n.grade===gr).length);
+ const contested=principles.filter(n=>n.grade==='Contested');
+ document.getElementById('v-ev').innerHTML=`<div class="card"><h2>Evidence by cluster</h2><p class="sub">Strong: replicated lab/field research or meta-analyses. Moderate: smaller or fewer studies. Practitioner: useful heuristics without controlled tests. Contested: failed or mixed replications — never present these as settled.</p>
+  <div class="scroll"><table><thead><tr><th>Cluster</th>${grades.map(gr=>`<th style="color:var(--g-${gr})">${gr}</th>`).join('')}<th>Mix</th></tr></thead><tbody>${rows}
+  <tr><td><b>All principles</b></td>${tot.map(v=>`<td class="n"><b>${v}</b></td>`).join('')}<td></td></tr></tbody></table></div></div>
+  <div class="card"><h2>Contested (${contested.length})</h2><p class="sub">Use with caveats; check the principle file for what does replicate.</p><div class="rel"><ul>${contested.map(n=>`<li><a data-id="${esc(n.id)}" style="--c:${col(n.cat)}" tabindex="0"><i></i>${esc(n.label)}</a></li>`).join('')}</ul></div></div>`;
+ bind(document.getElementById('v-ev'));})();
+
+// tensions view
+(function(){const seen=new Set(), list=[];
+ D.edges.filter(e=>e.rel==='tension'&&e.note).forEach(e=>{const k=[e.s,e.t].sort().join('|');if(seen.has(e.note+k))return;seen.add(e.note+k);
+  if(list.find(x=>x.note===e.note&&x.s===e.t&&x.t===e.s))return;list.push(e);});
+ const byNote={};list.forEach(e=>{(byNote[e.note]=byNote[e.note]||[]).push(e);});
+ document.getElementById('v-ten').innerHTML=`<div class="card"><h2>Key tensions</h2><p class="sub">Principles that pull against each other. Resolve them explicitly in a design rationale.</p>${Object.entries(byNote).map(([note,es])=>{
+   const a=[...new Set(es.map(e=>e.s))], b=[...new Set(es.map(e=>e.t))];
+   const lnk=ids=>ids.map(id=>`<a data-id="${esc(id)}" style="--c:${col(N.get(id).cat)}" tabindex="0"><i></i>${esc(N.get(id).label)}</a>`).join(' ');
+   return `<div class="tension rel"><div>${lnk(a)}</div><span class="x">⟂</span><div>${lnk(b)}</div><p>${esc(note)}</p></div>`}).join('')}</div>`;
+ bind(document.getElementById('v-ten'));})();
+
+// index view
+(function(){document.getElementById('v-idx').innerHTML=CATS.map(([c,name])=>{const ns=D.nodes.filter(n=>n.cat===c).sort((a,b)=>a.label.localeCompare(b.label));
+ return `<div class="card"><h2 style="color:${col(c)}">${c.startsWith('C')?c+' · ':''}${esc(name)} <span class="mono">${ns.length}</span></h2><div class="idxcat">${ns.map(n=>`<div><a data-id="${esc(n.id)}" tabindex="0">${esc(n.label)}</a> <span class="mono">${n.grade?n.grade[0]+' · ':''}${adj.get(n.id).length}</span></div>`).join('')}</div></div>`}).join('');
+ bind(document.getElementById('v-idx'));})();
+
+draw();
+const h=decodeURIComponent((location.hash||'').slice(1));
+const start=D.nodes.find(n=>n.id.toLowerCase().replace(/[^a-z0-9]+/g,'-')===h);
+if(start) select(start.id); else panel(null);
+</script>

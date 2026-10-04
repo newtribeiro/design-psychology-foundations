@@ -1,0 +1,31 @@
+## Sunk Cost Effect
+_Prior investment keeps people going_ · cycle: ⏰ Time · cluster: C4 · evidence: Strong
+- Definition: The tendency to continue an endeavour because of money, time or effort already invested, even when future costs and benefits alone argue for stopping.
+- Mechanism (why it happens): Abandoning an investment makes the loss feel realised (loss aversion), threatens self-image as a good decision-maker (commitment/self-justification) and triggers a "don't waste" heuristic; past cost wrongly enters a forward-looking System 2 calculation.
+- Origin & key evidence:
+  - Arkes & Blumer (1985), Organizational Behavior and Human Decision Processes — field study at Ohio University theatre: randomly assigned full-price season-ticket buyers attended more plays in the first half-season (4.11 vs ~3.3) than discounted buyers; effect faded by the second half. https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf
+  - Roth, Robbert & Straus (2015), Business Research — meta-analysis finding a reliable sunk cost effect across studies, moderated by context (details not verified beyond article page). https://link.springer.com/article/10.1007/s40685-014-0014-8
+  - Meta-analysis comparing IT vs non-IT project escalation (IGI Global). https://www.igi-global.com/article/meta-analysis-comparing-sunk-cost/1317
+- Evidence grade: Strong — robust lab and field evidence and meta-analytic support; effect size varies and decays over time (as Arkes & Blumer showed).
+- Enterprise/B2B note: Major driver of escalation of commitment in software projects and tooling choices (keeping a legacy fleet platform because of migration effort already spent); surface forward-looking costs in decision reviews.
+- Ethics/watch-out: Using sunk cost to block cancellation ("you'll lose all your progress!") is a retention dark pattern; offer export and pause.
+- Contexts: offboarding, retention, pricing, stakeholder-communication, gamification
+- Sources: https://cognition.aau.at/bg/BA/Arkes%20%26%20Blumer%201985.pdf ; https://link.springer.com/article/10.1007/s40685-014-0014-8 ; https://www.igi-global.com/article/meta-analysis-comparing-sunk-cost/1317
+- Design applications: Recognise it in your own roadmap decisions; Use ethically for habit maintenance
+- Watch-out (growth.design): Exploiting it to retain unhappy users is a dark pattern.
+- Product examples: Duolingo — gem bets; Finishing a boring movie; MMO subscriptions
+- Typed edges: mechanism-of → Loss Aversion; supports → Commitment & Consistency; special-case-of → Escalation of commitment; tension → Provide Exit Points; supports → Investment Loops
+- Related: Loss Aversion, Investment Loops, Endowment Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (mechanism-of); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Kano model (organises); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (11):
+  - [article] 3 ways MagicPath closes the design-to-code gap — years of Figma work make import-first tools far more attractive than restart-from-scratch tools. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
+  - [article] Design's hardest role has a two-year clock — staying after the job you were hired for no longer exists. <https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock> (sources/uxtools-articles.md)
+  - [article] Discovery code and new bottlenecks — cheap discovery code lowers attachment to any one idea, easing discarding. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)
+  - [article] I was wrong about taste — consciously reframed: investing in work you're proud of regardless of returns. <https://www.uxtools.co/blog/i-was-wrong-about-taste> (sources/uxtools-articles.md)
+  - [article] Switching Careers to UX Design — expensive bootcamps can trap people; ranking by risk helps avoid over-investment. <https://www.uxtools.co/blog/switching-careers-to-ux-design> (sources/uxtools-articles.md)
+  - [article] When to Skip UX Research — both sides must be willing to discard the early proof-of-concept. <https://www.uxtools.co/blog/when-to-skip-ux-research> (sources/uxtools-articles.md)
+  - [survey] Design Systems — Overview — accumulated libraries make migration feel wasteful even when a better tool exists. <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — the gem wager increases commitment. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money — investment in characters and items. <https://growth.design/case-studies/mario-kart-revenue-model> (sources/growth-design-case-studies.md)
+  - [episode] A Most Talented Designer's Tool Stack — Lee Black ("He Makes Figma Do Things It Wasn't Des — kept investing in the app company chasing a receding million before winding it down. <https://www.uxtools.co/episodes/a-most-talented-designer-s-tool-stack> (sources/uxtools-episodes.md)
+  - [episode] AI Made Junior Designers Look Like Most Seniors — Hannah Ahn — staying on Figma partly because all assets already live there. <https://www.uxtools.co/episodes/ai-made-junior-designers-look-like-most-seniors-hannah-ahn> (sources/uxtools-episodes.md)

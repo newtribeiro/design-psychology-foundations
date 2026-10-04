@@ -1,0 +1,28 @@
+## Affect Heuristic
+_Current emotion steers judgment_ · cycle: ⏰ Time · cluster: C9 · evidence: Strong
+- Definition: People use their immediate positive or negative feeling toward something as a shortcut for judging its risks, benefits and value.
+- Mechanism (why it happens): Fast affective tagging (System 1) substitutes for effortful analysis; a single good/bad feeling drives both perceived benefit and perceived risk, producing an inverse risk–benefit relationship even where none exists.
+- Origin & key evidence:
+  - Finucane, Alhakami, Slovic & Johnson (2000), J. Behavioral Decision Making: time pressure strengthened inverse risk–benefit judgements; information about benefits lowered perceived risk — https://stafforini.com/works/finucane-2000-affect-heuristic-judgments/
+  - Slovic et al., "Risk perception and affect" review — https://courses.washington.edu/pbafhall/514/514%20Readings/riskperceptionandaffect.pdf
+  - Efendić et al. (2021) replication of "risky therefore not beneficial" — https://cris.maastrichtuniversity.nl/files/78532275/Efendic_2021_Risky_therefore_not_beneficial_replication.pdf (largely supportive; details not fully verified).
+- Evidence grade: Strong — replicated across domains and incorporated into dual-process models, though effect sizes vary with context.
+- Design applications:
+  - Invest in first-impression aesthetics and tone on landing/onboarding — 5-second test sentiment, bounce rate.
+  - Pair risk disclosures with clear benefits and plain language — comprehension quiz scores, opt-in rates.
+  - Calm error states (neutral colour, recovery path) — retry/recovery rate after error.
+  - Affective micro-copy in empty states — activation from empty state.
+- Real product examples: Mailchimp's friendly brand voice; Headspace illustration style easing a mental-effort product (no source URL verified).
+- Enterprise/B2B note: Buyers of safety-critical tech (public-safety equipment) judge risk partly by brand affect; credible, calm visual language reduces perceived risk.
+- Ethics/watch-out: Using positive affect to downplay genuine risks (fees, data use, safety) is manipulative.
+- Contexts: onboarding, branding, pricing, errors, content/copy
+- Sources: https://stafforini.com/works/finucane-2000-affect-heuristic-judgments/ ; https://courses.washington.edu/pbafhall/514/514%20Readings/riskperceptionandaffect.pdf ; https://cris.maastrichtuniversity.nl/files/78532275/Efendic_2021_Risky_therefore_not_beneficial_replication.pdf ; https://thedecisionlab.com/bias/affect-heuristic/
+- Typed edges: mechanism-of → Aesthetic-Usability Effect; supports → Halo Effect; supports → Framing; tension → Negativity Bias; supports → Picture Superiority Effect
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (6):
+  - [article] Brand as product's secret weapon — designing for an "emotional benefit" drives quick, feeling-based judgments of the product. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] How Linear hires designers — intuition-led product decisions at Linear. <https://www.uxtools.co/blog/how-linear-hires-designers> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — emotional resonance drives preference and memory more than utility. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Empathy Map (Understand) — the Feels quadrant captures emotions such as camera anxiety that drive decisions. <https://www.uxtools.co/challenges/empathy-map> (sources/uxtools-challenges-tools.md)
+  - [case-study] Apple vs Meta Threads: The Illusion of Privacy — a reassuring privacy UI creates a feeling of safety that substitutes for actual analysis. <https://growth.design/case-studies/apple-privacy-policy> (sources/growth-design-case-studies.md)
+  - [case-study] Typeform: How to offboard users the right way — guilt-based emotion manipulation. <https://growth.design/case-studies/typeform-offboarding> (sources/growth-design-case-studies.md)

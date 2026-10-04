@@ -1,0 +1,32 @@
+## Anchoring Bias
+_The first number/info seen sets the reference_ · cycle: 🙈 Information · cluster: C4 · evidence: Strong
+- Definition: Numeric (or other) estimates are pulled toward an initial reference value — the anchor — even when that value is arbitrary, because adjustment away from it stops too early.
+- Mechanism (why it happens): Two accounts coexist: insufficient effortful adjustment from a starting point (System 2 stops once a plausible value is reached), and selective accessibility, where considering the anchor primes anchor-consistent knowledge in memory.
+- Origin & key evidence:
+  - Tversky & Kahneman (1974), Science — "anchoring and adjustment" heuristic, incl. the wheel-of-fortune UN-countries estimate (described in replication reviews below).
+  - Klein et al. (2014), Many Labs 1: anchoring on informative estimation questions replicated robustly across ~36 sites, often with larger standardised effects than originals. https://www.lesswrong.com/posts/eXwpbnSeRHTahvJAx/is-anchoring-a-reliable-cognitive-bias
+  - Incidental/irrelevant anchors (e.g. social-security digits, dice) give mixed results — some replications succeed, others (e.g. Fudenberg et al. 2012) find nothing. Same source as above.
+  - Mussweiler & Strack's selective-accessibility account and its replication status: https://www.atticusli.com/replication-crisis/mussweiler-strack-numeric-anchoring/
+- Evidence grade: Strong for plausible, task-relevant anchors (prices, list values); Contested for truly arbitrary/incidental anchors.
+- Enterprise/B2B note: Strong in quote builders, tier pricing and estimate fields; pre-filled thresholds in asset-fleet or analytics alert settings anchor what operators consider "normal".
+- Ethics/watch-out: Inflated "was" prices and fake reference values are anchoring-based dark patterns and may breach consumer-protection rules.
+- Contexts: pricing, checkout, forms, settings, dashboards, research
+- Sources: https://www.lesswrong.com/posts/eXwpbnSeRHTahvJAx/is-anchoring-a-reliable-cognitive-bias ; https://www.atticusli.com/replication-crisis/mussweiler-strack-numeric-anchoring/ ; https://arxiv.org/pdf/1710.06031
+- Design applications: Show the premium/most expensive plan first on pricing; Present a reference price or 'before' state; Be deliberate about first values in forms and sliders
+- Watch-out (growth.design): Fake reference prices are deceptive.
+- Product examples: Tinder pricing table — most expensive plan first; Retail — expensive items at shop front
+- Typed edges: supports → Decoy Effect; supports → Default Bias; mechanism-of → Priming; tension → Weber's Law; supports → Framing; measured-by → Survey Bias
+- Related: Decoy Effect, Framing, Centre-Stage Effect
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (11):
+  - [article] 33 Activity Ideas for Remote UX Workshops — the first idea shared anchors a group; Crazy 8's/4-Up generate many before discussion. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [article] Running an Effective Design Kickoff Meeting — a proposed plan anchors the group's timeline discussion around design-friendly constraints. <https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Survey (Test) — early questions and scale endpoints anchor later answers. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Discovery Bundle (2025) — months of Pro plans valued at public list prices set against $129. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Summer Bundle 2026 — the price appears before the contents are known. <https://www.uxtools.co/summer-bundle-2026> (sources/uxtools-challenges-tools.md)
+  - [case-study] Adobe: The Psychology of User Offboarding — discount anchors at cancellation buy short-term saves but damage how the brand is perceived. <https://growth.design/case-studies/adobe-cancel-subscription> (sources/growth-design-case-studies.md)
+  - [case-study] One Simple Psychology Framework To Improve Your Onboarding (Blinkist) — reference prices shape how value is perceived. <https://growth.design/case-studies/blinkist-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind Loom's Explosive Growth — a 4-minute reference. <https://growth.design/case-studies/loom-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Quiz: Find 4 psychology principles used in Shortform's offboarding — per-hour price reframing. <https://growth.design/case-studies/shortform-offboarding-quiz> (sources/growth-design-case-studies.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — the library cites Tinder's price anchoring. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)
+  - [episode] AI Creative Direction Is Here — Jamey Gannon — clients anchored on "Stripe and Apple"; swipe mood-boarding re-anchors them with a broader set of options. <https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon> (sources/uxtools-episodes.md)

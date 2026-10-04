@@ -1,0 +1,30 @@
+## Halo Effect
+_One trait colours the whole judgment_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Strong
+- Definition: A positive impression on one salient trait (attractiveness, brand, visual polish) carries over into favourable judgments of unrelated traits (competence, usability, trustworthiness).
+- Mechanism (why it happens): People form one global affective impression and use it as a shortcut when judging specific attributes (affect heuristic, attribute substitution). It happens in System 1, and people are largely unaware of it: they misattribute the source of their judgment.
+- Origin & key evidence:
+  - Thorndike (1920), "A Constant Error in Psychological Ratings", J Applied Psychology: officers' ratings of soldiers on separate traits were implausibly highly correlated. https://www.gwern.net/doc/psychology/personality/1920-thorndike.pdf
+  - Nisbett & Wilson (1977), JPSP: a lecturer's warm or cold manner changed how students rated his looks, accent and mannerisms, and students denied the influence. https://deepblue.lib.umich.edu/items/da93fb79-74ef-4ff0-a1fe-da088de2dc42
+  - Tractinsky, Katz & Ikar (2000), Interacting with Computers 13(2): perceived aesthetics of an ATM interface correlated with perceived usability, before and after use. https://academic.oup.com/iwc/article/13/2/127/898608
+- Evidence grade: Strong. Replicated over a century in performance appraisal, education and HCI, though effect sizes vary by context.
+- Design applications:
+  - Invest in first-impression polish (landing page, first screen). Signal: SUS or perceived-quality ratings compared with task success.
+  - Separate aesthetic and usability metrics in tests so polish does not hide problems. Signal: gap between SEQ ratings and observed errors.
+  - Borrow halo with recognised partners or certifications near uncertain claims. Signal: trust and conversion lift.
+  - Calibrate raters in research and design reviews (rate one attribute at a time). Signal: inter-item correlation.
+- Real product examples: Apple's product polish lends credibility to new categories. Stripe's documentation quality raises how reliable the API seems. MeasuringU discusses whether beautiful sites are judged more usable: https://measuringu.com/?p=169
+- Enterprise/B2B note: a polished demo dashboard can carry a sales evaluation while hiding workflow gaps. Insist on task-based pilots.
+- Ethics/watch-out: do not use aesthetic halo to cover weak security, safety or reliability.
+- Contexts: branding, onboarding, research, stakeholder-communication, pricing
+- Sources: https://www.gwern.net/doc/psychology/personality/1920-thorndike.pdf ; https://deepblue.lib.umich.edu/items/da93fb79-74ef-4ff0-a1fe-da088de2dc42 ; https://academic.oup.com/iwc/article/13/2/127/898608 ; https://measuringu.com/?p=169 ; https://www.behavioraleconomics.com/mini-encyclopedia-of-be/halo-effect/
+- Typed edges: supports → Aesthetic-Usability Effect; mechanism-of → Affect Heuristic; supports → Authority Bias; tension → Negativity Bias; measured-by → SUS vs task-success comparison
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (8):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — a strong first screen colors judgment of the rest of the portfolio. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] Brand as product's secret weapon — a compelling brand lifts perception of the whole product. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] The artifact stopped proving seniority — polished artifacts create an impression of competence that may not reflect judgment. <https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — a delightful first interaction colours judgement of the whole candidate. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [tool-category] Tools: Portfolio Builders — a polished portfolio site colours how reviewers judge the work inside it. <https://www.uxtools.co/tools/portfolio-builders> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — About This Report — sponsor brands sit next to independent data, which can lend them credibility. <https://uxtools.co/survey/introduction/about-this-report> (sources/uxtools-survey.md)
+  - [survey] Digital Whiteboarding — Overview — Figma's reputation transferred to FigJam. <https://uxtools.co/survey/digital-whiteboarding/overview> (sources/uxtools-survey.md)
+  - [survey] Design Tools Awards — Overview — an "award-winning" label raises perceived quality. <https://uxtools.co/survey/design-tools-awards/overview> (sources/uxtools-survey.md)

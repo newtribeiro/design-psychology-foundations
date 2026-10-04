@@ -1,0 +1,22 @@
+## Pseudo-Set Framing
+_Grouped tasks beg completion_ · cycle: 🔮 Meaning · cluster: C4 · evidence: Moderate
+- Definition: Presenting otherwise independent items as members of a set (with visible boundaries such as "1 of 5" or a grid of slots) makes people more motivated to finish the set, even when the grouping is arbitrary.
+- Mechanism (why it happens): A visible set creates a salient incomplete goal; unfilled slots act like open loops (related to Zeigarnik tension and goal-gradient motivation), and completion becomes a goal in its own right, independent of the items' value.
+- Origin & key evidence:
+  - Barasz, John, Keenan & Norton (2017), "Pseudo-set framing", Journal of Experimental Psychology: General — across lab and field studies, grouping items into an arbitrary set increased the drive to complete it (volume/pages not verified). http://psycnet.apa.org/record/2017-43117-002 ; https://chibe.upenn.edu/publications/pseudo-set-framing/
+  - Quartz coverage of the paper summarising the "irrational need to complete sets". https://qz.com/1037628/people-have-an-irrational-need-to-complete-sets-of-things
+- Evidence grade: Moderate — a single multi-study paper from one group, peer-reviewed in a top journal; no independent large-scale replications located.
+- Design applications:
+  - Onboarding checklist framed as "3 of 5 complete" with visible empty slots — measure checklist completion and activation.
+  - Profile-completeness meters with discrete segments — measure share of profiles reaching 100%.
+  - Collections/badge grids with empty placeholders — measure items collected per user.
+  - Set training modules as a numbered series — measure course completion.
+- Real product examples: LinkedIn's profile-strength meter; Asana/Notion onboarding checklists; Duolingo achievements grid.
+- Enterprise/B2B note: Effective for admin setup (e.g. "Fleet setup: 4 of 6 — add users, register devices"), as long as each step is genuinely needed.
+- Ethics/watch-out: Don't pad sets with low-value tasks (e.g. "invite 5 friends") purely to exploit the completion urge.
+- Contexts: onboarding, gamification, retention, settings, empty-states
+- Sources: https://chibe.upenn.edu/publications/pseudo-set-framing/ ; https://dash.harvard.edu/entities/publication/73120379-11c6-6bd4-e053-0100007fdf3b ; https://qz.com/1037628/people-have-an-irrational-need-to-complete-sets-of-things
+- Typed edges: supports → Goal Gradient Effect; mechanism-of → Zeigarnik Effect; supports → Endowment Effect; tension → Reactance; special-case-of → Framing
+- Explained by frameworks: ⚙ Prospect Theory (mechanism-of)
+- Linked sources (1):
+  - [other] UX Tools Discovery Bundle (2025) — "10 tools" framed as a complete set to collect. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)

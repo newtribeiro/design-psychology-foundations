@@ -1,0 +1,27 @@
+## Cognitive Dissonance
+_Holding conflicting ideas is uncomfortable_ · cycle: 🔮 Meaning · cluster: C9 · evidence: Contested
+- Definition: The discomfort of holding conflicting cognitions (beliefs, attitudes, behaviours) and the resulting drive to reduce it, often by changing attitudes or rationalising.
+- Mechanism (why it happens): Inconsistency threatens self-concept; people reduce aversive arousal by adjusting the least resistant cognition (e.g., deciding a chosen option was better).
+- Origin & key evidence:
+  - Festinger (1957) theory; Festinger & Carlsmith (1959) induced-compliance "$1 vs $20" study (classic citation, not opened this session).
+  - Vaidis, Sleegers et al. (2024), Advances in Methods and Practices in Psychological Science (DOI 10.1177/25152459231213375): 39 labs, 19 countries, ~4,900 participants replicating Croyle & Cooper (1983). Writing a counter-attitudinal essay shifted attitudes vs a neutral essay, but having a choice added nothing, so the core induced-compliance prediction failed. https://www.psychologicalscience.org/observer/multilab-replication-cognitive-dissonance
+  - Chen & Risen (2010) showed the classic free-choice paradigm can produce apparent "spreading of alternatives" from measurement artefact alone (details not verified; summarised via Izuma & Murayama). Izuma & Murayama (2013), Frontiers in Psychology: simulations confirm the artefact; they urge re-testing older findings with corrected designs. https://authors.library.caltech.edu/records/p4dfp-4zf83
+  - Enisman, Shpitzer & Kleiman (2021), J Personality and Social Psychology, meta-analysis of 43 artefact-free free-choice studies (N=2,191): choice still changes preferences, d=0.40 [0.32, 0.49], no sign of publication bias. https://en.social.huji.ac.il/node/3092987
+- Evidence grade: Contested (unchanged). A meta-analysis supports post-choice preference change once the Chen & Risen artefact is controlled, but the multi-lab test of induced compliance failed on its key manipulation. Rationalising choices looks real; the classic "choice drives attitude change" mechanism is in doubt.
+- Design applications:
+  - Post-purchase reassurance ("great choice, here's what you get"). Post-choice preference change is the best-supported part. Signal: refund/cancel rate in first 14 days.
+  - Show consistency with users' stated goals in onboarding. Signal: activation rate.
+  - Avoid surfacing contradictions abruptly (e.g., "you said X, but..."). Signal: drop-off after the prompt.
+  - In research, separate stated from observed behaviour, and ask before the choice as well as after; post-choice ratings are inflated.
+- Real product examples: Amazon order-confirmation emails reinforcing the decision; Apple's post-purchase onboarding (no source URL verified). Audible post-purchase flow soothing buyer's remorse (see linked case study).
+- Enterprise/B2B note: After expensive procurement (fleet software), champions rationalise the purchase; adoption telemetry is more honest than their feedback. Collect evaluation criteria before selection so post-choice ratings can be compared.
+- Ethics/watch-out: Engineering small commitments to force attitude shifts edges toward manipulation.
+- Contexts: checkout, onboarding, retention, offboarding, research
+- Sources: https://www.psychologicalscience.org/observer/multilab-replication-cognitive-dissonance ; https://authors.library.caltech.edu/records/p4dfp-4zf83 ; https://en.social.huji.ac.il/node/3092987
+- Typed edges: supports → Commitment & Consistency; supports → Sunk Cost Effect; mechanism-of → Backfire Effect; supports → Confirmation Bias; supports → IKEA Effect
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (tension)
+- Linked sources (3):
+  - [challenge] Challenge: Empathy Map (Understand) — gaps between what users say and what they do expose dissonance worth designing for. <https://www.uxtools.co/challenges/empathy-map> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Trends — users who chose an unusual tool may rate it higher to justify that choice. <https://uxtools.co/survey/interface-design/trends> (sources/uxtools-survey.md)
+  - [case-study] Audible: Build seamless purchase experiences — post-purchase doubt (buyer's remorse) has to be soothed. <https://growth.design/case-studies/audible-purchase-ux> (sources/growth-design-case-studies.md)
+- Last reviewed: 2026-10-04

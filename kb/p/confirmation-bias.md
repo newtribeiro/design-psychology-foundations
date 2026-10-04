@@ -1,0 +1,34 @@
+## Confirmation Bias
+_People seek evidence for what they already believe_ · cycle: 🙈 Information · cluster: C9 · evidence: Strong
+- Definition: The systematic tendency to search for, interpret, weight and recall information in ways that favour a belief already held, while discounting or not seeking disconfirming evidence.
+- Mechanism (why it happens): Partly cognitive (a "positive test strategy" is cheaper for System 1 than seeking falsification) and partly motivational (protecting identity and reducing dissonance); memory retrieval is also cued by the hypothesis itself, so supporting cases come to mind first.
+- Origin & key evidence:
+  - Wason (1960) 2-4-6 rule-discovery task: most people test only cases that fit their guess rather than cases that could refute it. (summarised in Nickerson below)
+  - Lord, Ross & Lepper (1979): partisans rated identical methodology as stronger when the conclusion matched their view, and mixed evidence polarised them further. https://www.atticusli.com/replication-crisis/confirmation-bias/
+  - Klayman & Ha (1987): showed positive-test strategies are sometimes rational, refining (not refuting) the bias. https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf
+  - Nickerson (1998), Review of General Psychology 2(2):175–220, DOI 10.1037/1089-2680.2.2.175 — the standard integrative review. https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf
+- Evidence grade: Strong — reproduced across many paradigms for 60+ years; caveat that "confirmation bias" is an umbrella for several distinct effects, and some positive testing is normatively reasonable (Klayman & Ha).
+- Enterprise/B2B note: Biggest risk sits on the team side — stakeholders reading usability data or dashboard KPIs as proof of a roadmap already chosen; pre-registered research questions help.
+- Ethics/watch-out: Personalisation and recommender feeds that only echo prior views exploit the bias and narrow users' information diet.
+- Contexts: research, stakeholder-communication, data-viz, dashboards, search, content/copy
+- Sources: https://pages.ucsd.edu/~cmckenzie/nickersonConfirmationBias.pdf ; https://pages.ucsd.edu/~mckenzie/KlaymanHaPsychReview1987.pdf ; https://www.atticusli.com/replication-crisis/confirmation-bias/ ; https://www.citedrive.com/en/discovery/confirmation-bias-a-ubiquitous-phenomenon-in-many-guises
+- Design applications: In research, actively look for disconfirming evidence; Present balanced data where trust matters; Write hypotheses that can be falsified before testing
+- Watch-out (growth.design): Feeds that optimise for agreement create filter bubbles.
+- Product examples: Coronavirus dashboards — design shapes perception; Facebook feed filter bubbles
+- Typed edges: mechanism-of → Backfire Effect; supports → Cognitive Dissonance; supports → Survey Bias; supports → Observer-Expectancy Effect; special-case-of → Selective Attention; supports → Hindsight Bias
+- Related: Backfire Effect, Observer-Expectancy Effect, Survey Bias
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (17):
+  - [tool-category] 17 Tools That Will Streamline Your UX Research — A/B and multivariate tests guard against designers' favored concepts. <https://www.uxtools.co/blog/17-tools-that-will-streamline-your-ux-research> (sources/uxtools-articles.md)
+  - [article] Fast and Cheap Ways to Find UX Research Participants — internal feedback like "have you considered XYZ" helps check designer bias. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
+  - [article] Fixing User Personas — research-backed personas counter teams' guesses and assumptions. <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [article] How to Maximize the User Research You're Already Doing — group synthesis surfaces interpretations a solo researcher would miss. <https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing> (sources/uxtools-articles.md)
+  - [article] Quicker UX Research Synthesis — a buddy and pre-set hypotheses guard against reading your own beliefs into data. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)
+  - [article] The fog between layoffs and prototyping — commentators "pick a lane" and cite the dataset that fits. <https://www.uxtools.co/blog/the-fog-between-layoffs-and-prototyping> (sources/uxtools-articles.md)
+  - [article] Translating User Research Into Design — critique with outsiders checks whether ideas come from research or personal preference. <https://www.uxtools.co/blog/translating-user-research-into-design> (sources/uxtools-articles.md)
+  - [article] Usability Testing in 4 Simplified Steps — avoiding internal staff/friends prevents biased validation. <https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps> (sources/uxtools-articles.md)
+  - [article] When to Skip UX Research — believing your solution is perfect skips disconfirming evidence. <https://www.uxtools.co/blog/when-to-skip-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — designers hear what supports their feature idea, so log disconfirming quotes too. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: User Persona (Understand) — assumption-based personas just encode existing beliefs. <https://www.uxtools.co/challenges/user-persona> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Heuristic Evaluation (Test) — expert reviewers find what they expect, which is why multiple independent evaluators are used. <https://www.uxtools.co/challenges/heuristic-evaluation> (sources/uxtools-challenges-tools.md)
+  - …5 more in sources/*.md (search the principle name)

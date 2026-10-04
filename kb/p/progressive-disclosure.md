@@ -1,0 +1,32 @@
+## Progressive Disclosure
+_Reveal complexity gradually_ · cycle: 🙈 Information · cluster: C2 · evidence: Moderate
+- Definition: An interaction strategy that shows the few most-needed options first and defers advanced or rarely used features to a secondary, on-request layer.
+- Mechanism (why it happens): Limiting the initial set reduces extraneous load and choice time, letting novices form an accurate mental model of the core before meeting edge features; experts save scanning time. Staged disclosure (wizards) is the sequential variant.
+- Origin & key evidence:
+  - Carroll & colleagues, "training wheels" interface studies (1980s; exact years not verified) — restricted-feature users were 21–26% faster, learned more, and later stayed ahead on advanced tasks — https://www.nngroup.com/articles/training-wheels-user-interface/
+  - Nielsen (NN/g): improves learnability, efficiency and error rate; keep to two levels; base the split on task analysis and usage data — https://www.nngroup.com/articles/progressive-disclosure/
+- Evidence grade: Moderate — consistent usability findings and the Carroll experiments, but a small, dated experimental base; benefits depend on getting the primary/secondary split right.
+- Enterprise/B2B note: Power users in complex tools resent buried features; offer persistent "advanced" toggles, remembered expansion state and keyboard paths rather than hiding by default forever.
+- Ethics/watch-out: Don't use disclosure to bury fees, data-sharing settings or cancellation behind "More".
+- Contexts: onboarding, settings, forms, dashboards, navigation, empty-states
+- Sources: https://www.nngroup.com/articles/training-wheels-user-interface/ ; https://www.nngroup.com/articles/progressive-disclosure/
+- Design applications: Onboard with only the core features; Hide advanced settings behind 'more' / secondary layers; Reveal power features contextually as users grow
+- Watch-out (growth.design): Don't bury frequently-needed controls (hurts discoverability).
+- Product examples: Tinder onboarding — strong progressive disclosure; Hopper — bare-minimum flight search start
+- Typed edges: counteracts → Cognitive Load; supports → Hick's Law; tension → Discoverability; supports → Mental Model; special-case-of → Shaping; supports → Chunking; tension → Recognition Over Recall
+- Related: Hick's Law, Cognitive Load, Discoverability
+- Explained by frameworks: ⚙ Cognitive Bias Codex (supports); ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (supports); ⚙ Norman's design principles (supports); ⚙ Self-Determination Theory (supports)
+- Linked sources (14):
+  - [article] Build Interfaces to Understand Systems — layered abstraction exposes only what each population needs. <https://www.uxtools.co/blog/build-interfaces-to-understand-systems> (sources/uxtools-articles.md)
+  - [article] Interfaces that rearrange for each user — show only relevant parts for the current context. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Wireframe (Ideate) — place details expand from a bottom sheet instead of separate pages. <https://www.uxtools.co/challenges/wireframe> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Information Architecture (Implement) — mega-menus and nested pages reveal depth only when needed. <https://www.uxtools.co/challenges/information-architecture> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Onboarding (Implement) — introduce features as they become relevant, not all at once. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [case-study] One Simple Psychology Framework To Improve Your Onboarding (Blinkist) — reveal complexity later. <https://growth.design/case-studies/blinkist-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — advanced features later. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] User Onboarding: Is HEY Email Worth It? — contextual, just-in-time guidance. <https://growth.design/case-studies/hey-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How Hopper Perfectly Nails Permission Requests UX — from simple to complex. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind Loom's Explosive Growth — core features first. <https://growth.design/case-studies/loom-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — features later. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)
+  - [episode] Amelia Wattenberger: Designing The Next Flow State (YouTube: "Your Design File Is Now an A — "hood closed by default", recursive zoom from overview to detail. <https://www.uxtools.co/episodes/amelia-wattenberger-designing-the-next-flow-state> (sources/uxtools-episodes.md)
+  - …2 more in sources/*.md (search the principle name)

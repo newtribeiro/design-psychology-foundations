@@ -1,0 +1,26 @@
+## Visual Hierarchy
+_Order in which things are perceived_ · cycle: 🙈 Information · cluster: C1 · evidence: Practitioner
+- Definition: The arrangement of elements by size, contrast, colour, weight, position and spacing so that their visual prominence matches their importance and the intended reading order.
+- Mechanism (why it happens): Pre-attentive features (size, luminance contrast, colour) are processed in parallel before conscious reading, so they set the order in which items are fixated; hierarchy offloads ordering work from System 2.
+- Origin & key evidence:
+  - Rooted in Gestalt and pre-attentive processing research; codified by practitioners (NN/g's "squint test" as a hierarchy check) — https://www.nngroup.com/videos/squint-test/
+  - UXmatters (2024) synthesis of hierarchy tools: scale, contrast, spacing, alignment — https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
+- Evidence grade: Practitioner — underlying perceptual science is strong, but "visual hierarchy" as a design principle is a synthesis, not a single tested effect.
+- Design applications:
+  - One primary CTA per view, visibly dominant — measure primary-action click share and misclicks on secondary actions.
+  - Typographic scale with ≤3–4 distinct heading levels — first-click test on "where would you find X".
+  - Squint/blur test in design review; eye-tracking time-to-first-fixation on key KPI.
+  - Demote metadata (grey, smaller) in tables — time-on-task for scanning tasks.
+- Real product examples: Stripe Checkout's single dominant pay button; Google Search results' title-URL-snippet hierarchy (no source URL verified).
+- Enterprise/B2B note: Dense catalogues and fleet dashboards often flatten everything to equal weight; explicit tiers (status > identity > metadata) cut scan time.
+- Ethics/watch-out: Hierarchy can bury opt-outs or fees ("confirmshaming", low-contrast decline links).
+- Contexts: navigation, dashboards, checkout, forms, content/copy, data-viz
+- Sources: https://www.nngroup.com/videos/squint-test/ ; https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
+- Typed edges: supports → Law of Proximity; supports → Contrast; supports → Von Restorff Effect; counteracts → Cognitive Load; supports → Serial Position Effect
+- Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
+- Linked sources (5):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — headings/highlights make a 90-second scan productive. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — size, contrast, whitespace signal priority for scanners. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Wireframe (Ideate) — the next turn and the ETA should dominate the directions screen. <https://www.uxtools.co/challenges/wireframe> (sources/uxtools-challenges-tools.md)
+  - [case-study] How to avoid (and repair) these 3 critical design blunders — structures what is seen first. <https://growth.design/case-studies/design-blunders> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology behind highly effective landing pages — the squint test checks it. <https://growth.design/case-studies/landing-page-ux-psychology> (sources/growth-design-case-studies.md)

@@ -1,0 +1,33 @@
+## Mental Model
+_Users bring beliefs about how things work_ · cycle: 🔮 Meaning · cluster: C3 · evidence: Moderate
+- Definition: The user's internal, simplified belief about how a system works — what it contains, what actions do and what will happen next — which they use to predict and explain its behaviour.
+- Mechanism (why it happens): People cannot see a system's internals, so they build working models from prior experience, analogies and the interface's visible cues; these models are incomplete and resistant to change, and errors arise where the model and the real system diverge.
+- Origin & key evidence:
+  - Johnson-Laird (1983), *Mental Models* — reasoning operates on internal models of situations rather than formal logic (book; catalogue record). https://wellcomecollection.org/works/fg5nsgr8
+  - Norman (1983 / *The Design of Everyday Things*) — distinction between the designer's model, the system image and the user's model; summarised in IxDF's HCI glossary. https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/mental-models
+  - Nielsen Norman Group (Nielsen 2010, updated by Chan 2024) — mental models are beliefs not facts, shaped by other products (Jakob's Law); designer–user mismatch drives errors. https://www.nngroup.com/articles/mental-models/
+- Evidence grade: Moderate — a well-established theoretical construct in cognitive science and HCI; it is a framework rather than a single measurable effect.
+- Enterprise/B2B note: Industrial users often hold domain models (work orders, jobs, equipment) that differ from the data model engineers expose — map terminology and object structure to the operator's model, not the database schema.
+- Ethics/watch-out: Exploiting a known wrong model (e.g. "close" button that actually subscribes) is deceptive; correct dangerous misconceptions explicitly.
+- Contexts: navigation, onboarding, settings, research, errors, data-viz
+- Sources: https://www.nngroup.com/articles/mental-models/ ; https://ixdf.org/literature/book/the-glossary-of-human-computer-interaction/mental-models ; https://wellcomecollection.org/works/fg5nsgr8
+- Design applications: Research existing mental models before designing; Match them, or migrate users gradually to a new model; Use metaphors users already know
+- Watch-out (growth.design): Fighting a strong mental model without onboarding causes confusion.
+- Product examples: Trello — migrates 'todo list' model to boards/lists/cards
+- Typed edges: mechanism-of → Familiarity Bias; supports → Skeuomorphism; mechanism-of → Expectations Bias; supports → Signifiers; tension → Curse of Knowledge; measured-by → card sorting / tree testing; tension → Law of the Instrument
+- Related: Familiarity Bias, Skeuomorphism, Curse of Knowledge
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Linked sources (30):
+  - [other] Blog index & topic taxonomy (combined) — personas, user flows and navigation articles are about matching users' expectations. <https://www.uxtools.co/blog> (sources/uxtools-articles.md)
+  - [article] 12 Ways to Utilize Other Departments in User Research — using customers' own words in copy aligns UI language with how users think. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [tool-category] 17 Tools That Will Streamline Your UX Research — card sorting/tree testing directly measure users' mental models of content structure. <https://www.uxtools.co/blog/17-tools-that-will-streamline-your-ux-research> (sources/uxtools-articles.md)
+  - [article] "Agent-permeable" is the new mobile-responsive — designers must model a non-human user's expectations. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)
+  - [article] Build Interfaces to Understand Systems — embedded-AI users form models of a feature, not of "AI". <https://www.uxtools.co/blog/build-interfaces-to-understand-systems> (sources/uxtools-articles.md)
+  - [article] Fixing User Personas — UX personas should capture users' mental models (psychographics). <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [article] Generative media workflows in UI design — node graphs mirror how designers already think in flows/systems. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)
+  - [article] Interfaces that rearrange for each user — risk: layouts that shift per visit can break users' learned spatial model; keep predictability. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [article] Pages are becoming teammates — users must understand triggers, scope and permissions of background agents to trust them. <https://www.uxtools.co/blog/pages-are-becoming-teammates> (sources/uxtools-articles.md)
+  - [article] Stochastic vs. Deterministic Design — stochastic, per-user UIs risk breaking users' learned expectations of a stable layout. <https://www.uxtools.co/blog/stochastic-vs-deterministic-design> (sources/uxtools-articles.md)
+  - [article] The Best UX Research Methods in a Pinch — interviews are the best way to uncover users' mental models. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — flows are checked against what users expect to happen next. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - …18 more in sources/*.md (search the principle name)

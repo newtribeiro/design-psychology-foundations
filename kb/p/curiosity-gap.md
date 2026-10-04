@@ -1,0 +1,33 @@
+## Curiosity Gap
+_Missing information creates a pull to fill it_ · cycle: 🔮 Meaning · cluster: C6 · evidence: Moderate
+- Definition: When people notice a specific gap between what they know and what they want to know, they feel a drive to close it; partial information that exposes such a gap motivates clicks, reading or continued use.
+- Mechanism (why it happens): Loewenstein frames curiosity as a cognitively induced deprivation, akin to an appetite; it peaks when the gap is perceived as small and closable, and drops when knowledge is either near-zero (no reference point) or complete.
+- Origin & key evidence:
+  - Loewenstein (1994), "The Psychology of Curiosity: A Review and Reinterpretation", Psychological Bulletin 116(1):75–98 — the information-gap theory. https://stafforini.com/works/loewenstein-1994-psychology-curiosity-review/
+  - Later work popularised for practitioners shows curiosity depends on prior knowledge (an inverted-U with confidence). https://nautil.us/curiosity-depends-on-what-you-already-know-235803
+  - Applied summaries of the "curiosity zone" for teaching and design. https://www.pbs.org/wgbh/nova/article/how-to-stimulate-curiosity/
+- Evidence grade: Moderate — the theory is well cited and supported by lab and neuroimaging studies, but UI-level claims (headline teasers, locked content) rest mainly on A/B anecdotes rather than controlled trials.
+- Enterprise/B2B note: Useful for feature discovery ("3 anomalies detected in last run — view") in dashboards, but professional users punish vagueness; the gap must be closed with real, actionable data.
+- Ethics/watch-out: Clickbait that never pays off the gap erodes trust; teasers hiding prices or key terms behind sign-up walls cross into dark pattern.
+- Contexts: onboarding, notifications, content/copy, empty-states, retention, gamification
+- Sources: https://stafforini.com/works/loewenstein-1994-psychology-curiosity-review/ ; https://nautil.us/curiosity-depends-on-what-you-already-know-235803 ; https://www.pbs.org/wgbh/nova/article/how-to-stimulate-curiosity/
+- Design applications: Open loops in copy (resolve them later); Tease value behind an action (blurred previews); Use quizzes/teasers at the end of content
+- Watch-out (growth.design): Clickbait that never pays off erodes trust.
+- Product examples: Morning Brew — open loops & quiz; Tinder — blurred pictures of likes
+- Typed edges: supports → Zeigarnik Effect; supports → Variable Reward; tension → Cognitive Load; mechanism-of → Aha! Moment; supports → Progressive Disclosure; tension → Streisand Effect
+- Related: Zeigarnik Effect, Variable Reward
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Cognitive Load Theory and working memory limits (tension)
+- Linked sources (15):
+  - [article] Monitor stands have more personality than software — "kid in the cockpit" design invites exploration of unexplained controls. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — interactive playgrounds invite exploration, extending 55-second visits to 10 minutes. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [article] What happens when "decent design" is the default — "I wonder if" curiosity is framed as the core of AI fluency. <https://www.uxtools.co/blog/what-happens-when-decent-design-is-the-default> (sources/uxtools-articles.md)
+  - [other] Newsletter — "insider leaks" and "early access" tease information. <https://www.uxtools.co/newsletter> (sources/uxtools-challenges-tools.md)
+  - [other] Community — "coming soon" builds anticipation. <https://www.uxtools.co/community> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Summer Bundle 2026 — "PENDING" slots tease what is coming. <https://www.uxtools.co/summer-bundle-2026> (sources/uxtools-challenges-tools.md)
+  - [survey] Award — Rising Star (Framer) — the highest "want to try" rate shows buzz-driven intent. <https://uxtools.co/survey/design-tools-awards/rising-star> (sources/uxtools-survey.md)
+  - [survey] Award — Future of Design (Framer) — anticipation-driven interest. <https://uxtools.co/survey/design-tools-awards/future-of-design> (sources/uxtools-survey.md)
+  - [other] UX in 60 Seconds — a challenge format that holds back the answer keeps people engaged. <https://growth.design/ux-in-60-seconds> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind Loom's Explosive Growth — hidden reaction context. <https://growth.design/case-studies/loom-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Spotify Wrapped: 6 psychology principles that make it go viral every year — hidden song reveal. <https://growth.design/case-studies/spotify-wrapped-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind TikTok's Addictive Feed — unexpected openings. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
+  - …3 more in sources/*.md (search the principle name)

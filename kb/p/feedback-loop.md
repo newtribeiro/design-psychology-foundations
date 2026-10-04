@@ -1,0 +1,35 @@
+## Feedback Loop
+_Actions need visible results_ · cycle: 🙈 Information · cluster: C3 · evidence: Moderate
+- Definition: A system shows users the result of their action (or their current state relative to a goal) quickly enough that they can adjust their next action, closing a perceive–act–evaluate cycle.
+- Mechanism (why it happens): Norman's gulf of evaluation — without feedback, people cannot tell whether the system did what they intended; feedback that includes a goal and a gap engages self-regulation (motivation), but feedback aimed at the self rather than the task can distract and lower performance.
+- Origin & key evidence:
+  - Nielsen (1994) heuristic #1 "Visibility of system status" — users should always know what is going on through timely feedback. https://www.nngroup.com/articles/ten-usability-heuristics/
+  - Kluger & DeNisi (1996), Psychological Bulletin — meta-analysis: feedback interventions raised performance on average, but in roughly a third of cases they lowered it, especially when feedback shifted attention to the self. https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/
+  - Goetz (2011), Wired "Harnessing the power of feedback loops" — evidence, relevance, consequence, action stages (radar speed signs) (details not verified).
+- Evidence grade: Moderate — "give feedback" is uncontroversial usability practice; behaviour-change feedback has strong but mixed evidence (Kluger & DeNisi show it can backfire).
+- Design applications:
+  - Acknowledge every action within ~100 ms (pressed state, optimistic update) — measure repeat-click / rage-click rate.
+  - Show progress toward a goal with the gap made explicit — measure completion rate.
+  - Inline validation on blur, not on submit — measure form error rate and completion time.
+  - Make feedback task-focused ("3 waypoints missing altitude") rather than judgemental — measure fix rate after errors.
+- Real product examples: Duolingo's immediate correct/incorrect sound and banner; Fitbit/Apple Watch activity rings show the gap to daily goal; anti-pattern — upload buttons with no progress indicator.
+- Enterprise/B2B note: For fleet / remote-asset control, feedback that a command was received vs. executed vs. confirmed by the device must be distinct states — conflating them is a safety risk.
+- Ethics/watch-out: Engagement feedback (streak counts, likes) can create compulsive loops; tie feedback to user goals, not time-on-app.
+- Contexts: forms, errors, loading/waits, dashboards, gamification, retention, notifications
+- Sources: https://www.nngroup.com/articles/ten-usability-heuristics/ ; https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/ ; https://explore.psychsafety.com/n/kluger-denisi-1996/
+- Typed edges: supports → Goal Gradient Effect; supports → Feedforward; mechanism-of → Investment Loops; counteracts → Planning Fallacy; tension → Variable Reward; measured-by → Peak-End Rule; tension → Cashless Effect; tension → Planning Fallacy
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Linked sources (24):
+  - [article] "Any Input = Any Output" - What Config Was Really About — collapsing design and code shortens the loop between idea and working product. <https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about> (sources/uxtools-articles.md)
+  - [article] Designing The Next Flow State — intent → agent work → write-back → correction loop. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)
+  - [article] Discovery code and new bottlenecks — the bottleneck moved from building to the human feedback loop. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — real-time warnings and inline validation correct errors as they happen. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] How research teams are keeping up with build teams — weekly sessions close the loop between shipping and learning. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — motion tied to tap/error/success states is the visible response that closes the action-feedback loop. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [article] Pages are becoming teammates — run logs and status make invisible automation legible. <https://www.uxtools.co/blog/pages-are-becoming-teammates> (sources/uxtools-articles.md)
+  - [article] The 30-second test designers fail — agents defined as loops; human approval keeps the loop corrective. <https://www.uxtools.co/blog/the-30-second-test-designers-fail> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — a clear completion signal confirms the task is done. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - [article] The next gap in design work — review loops after generation are central to compound engineering. <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [article] The only AI workflow I use in production — closing the design→code→design loop speeds iteration. <https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production> (sources/uxtools-articles.md)
+  - [article] The Year Design Communities Go Small (and Real) — tight, trusted critique loops accelerate growth ("addictive"). <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+  - …12 more in sources/*.md (search the principle name)

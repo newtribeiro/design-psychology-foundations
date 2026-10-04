@@ -1,0 +1,24 @@
+## Centre-Stage Effect
+_People pick the middle option_ · cycle: 🙈 Information · cluster: C1 · evidence: Moderate
+- Definition: When options are laid out in a row (or column), people disproportionately pick the one in the middle, especially when they lack a strong preference.
+- Mechanism (why it happens): Two accounts compete — a learned heuristic that sellers put the best/most popular item in the middle (a social/metacognitive inference), and a visual-attention account in which gaze dwells longer on central items ("central gaze cascade"); Bar-Hillel (2015) proposed reachability, which Rodway et al. (2016) dispute.
+- Origin & key evidence:
+  - Christenfeld (1995), Psychological Science — people chose middle items among identical options (details not verified).
+  - Valenzuela & Raghubir (2009), Journal of Consumer Psychology — five experiments: consumers believe retailers place popular products centrally, and choose accordingly. https://www.coglode.com/research/centre-stage-effect
+  - Rodway et al. (2012), "Preferring the one in the middle" — middle preference for objects in horizontal arrays, also for identical real products; effect stronger when choosing for others. https://www.coglode.com/research/centre-stage-effect
+  - Rodway, Schepman & Thoma (2016), i-Perception — middle preference appears for liked items but not for negative ones, supporting a heuristic over a reachability account. https://journals.sagepub.com/doi/10.1177/2041669516639959
+- Evidence grade: Moderate — repeatedly observed, but effect sizes are modest, it is easily swamped by real preference or a decoy, and the mechanism is still debated.
+- Design applications:
+  - Put the recommended plan in the centre column of a 3-tier pricing table — measure plan mix vs. left/right placement in an A/B test.
+  - In configurators, centre the sensible default package — measure abandon rate and support tickets.
+  - Randomise or rotate option order in surveys/research to neutralise it — measure position effects in responses.
+  - Don't centre a filler option in carousels — measure click distribution by slot.
+- Real product examples: Three-tier SaaS pricing pages (e.g. Slack, Notion) typically centre the "most popular" tier; supermarket eye-level/centre shelf placement; anti-pattern — survey answer lists that never rotate order.
+- Enterprise/B2B note: Useful for quote builders and hardware bundle pickers (e.g. hardware kit tiers), but procurement buyers compare specs, so the effect only tips close calls.
+- Ethics/watch-out: Centre the option that truly fits most users, not the highest margin one disguised as "popular".
+- Contexts: pricing, checkout, onboarding, research
+- Sources: https://www.coglode.com/research/centre-stage-effect ; https://journals.sagepub.com/doi/10.1177/2041669516639959 ; https://learningloop.io/plays/psychology/centre-stage-effect
+- Typed edges: supports → Decoy Effect; supports → Default Bias; mechanism-of → Social Proof; tension → Serial Position Effect; measured-by → Survey Bias
+- Explained by frameworks: ⚙ Gestalt principles of perception (supports)
+- Linked sources (1):
+  - [other] Home page — one featured item placed centrally gets the attention. <https://www.uxtools.co/> (sources/uxtools-challenges-tools.md)

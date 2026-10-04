@@ -1,0 +1,24 @@
+## Fresh Start Effect
+_New beginnings spark action_ · cycle: 🔮 Meaning · cluster: C6 · evidence: Moderate
+- Definition: People are more likely to start aspirational behaviours right after temporal landmarks (new year, new week, birthday, new job) that feel like the start of a new period.
+- Mechanism (why it happens): Landmarks create a "new mental accounting period", distancing the current self from past failures and prompting big-picture thinking about goals, which boosts motivation to act.
+- Origin & key evidence:
+  - Dai, Milkman & Riis (2014), Management Science 60(10) — gym visits, diet-related searches and goal commitments rise after landmarks such as Mondays, month starts, birthdays and holidays. https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf
+  - Beshears, Dai, Milkman & Benartzi (2021) — framing a future savings increase around a birthday or "first day of spring" raised take-up by over 25% vs. a neutral delay; New Year's did not perform as expected. https://crr.bc.edu/?p=24935
+- Evidence grade: Moderate — large field datasets and a follow-up field experiment, but much of the original evidence is correlational and landmark effects vary (New Year's underperformed).
+- Design applications:
+  - Time re-engagement or goal prompts for Mondays/month start/user anniversaries — A/B vs. random timing on activation rate.
+  - Offer "start fresh" resets (clear streak, new plan) after lapses — measure return rate of lapsed users.
+  - Let users schedule a change to begin on a meaningful date — measure opt-in rate.
+  - Frame annual reviews/onboarding as a new chapter — measure goal-setting completion.
+- Real product examples: Strava/Apple Fitness monthly challenges starting on the 1st; Duolingo streak repair and New Year campaigns; YNAB "fresh start" budget reset.
+- Enterprise/B2B note: Quarter/fiscal-year starts and new contract terms are natural moments to prompt admins to adopt new features or clean up configurations.
+- Ethics/watch-out: Don't use landmark-timed pushes to upsell into commitments users later regret (annual plans on 1 January).
+- Contexts: retention, notifications, onboarding, gamification, offboarding
+- Sources: https://faculty.wharton.upenn.edu/wp-content/uploads/2014/06/Dai_Fresh_Start_2014_Mgmt_Sci.pdf ; https://crr.bc.edu/?p=24935 ; https://knowledge.wharton.upenn.edu/article/need-fresh-start-heres-begin/
+- Typed edges: supports → Goal Gradient Effect; counteracts → Sunk Cost Effect; supports → Commitment & Consistency; tension → Zeigarnik Effect; supports → Hyperbolic Discounting
+- Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (supports)
+- Linked sources (3):
+  - [article] Brand as product's secret weapon — seasonal brand cycles create periodic sense of renewal without a redesign. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] Design's hardest role has a two-year clock — recognizing a natural end point and moving on. <https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock> (sources/uxtools-articles.md)
+  - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — the psychology library cites Brave for switching moments. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)

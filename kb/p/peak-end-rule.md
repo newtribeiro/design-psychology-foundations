@@ -1,0 +1,33 @@
+## Peak-End Rule
+_Experiences are judged by peaks and the ending_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: People judge a past experience mainly by its most intense moment (peak) and how it ended, largely ignoring its duration and the average of all moments.
+- Mechanism (why it happens): The "remembering self" stores a few representative moments rather than an integral over time; retrospective evaluation samples salient and recent points, producing duration neglect.
+- Origin & key evidence:
+  - Kahneman, Fredrickson, Schreiber & Redelmeier (1993) — participants preferred to repeat a longer cold-water trial that ended slightly less painfully. https://en.wikipedia.org/wiki/Duration_neglect
+  - Redelmeier, Katz & Kahneman (2003) — colonoscopy patients given a gentler extended ending remembered the procedure as less unpleasant (summarised in the same article).
+  - Alaybek et al. (2022), Organizational Behavior and Human Decision Processes 170 — meta-analysis of 174 effect sizes: peak-end r ≈ 0.58 on retrospective evaluation, stronger than duration, beginnings or trends. https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html
+- Evidence grade: Strong — meta-analytic support; caveat that the average experience predicts about as well, so peak-end is not a full replacement, and effects are weaker for very goal-directed or brief tasks.
+- Enterprise/B2B note: Long workflows (scheduling, report export, onboarding a fleet) are remembered by their worst error and their completion screen — invest in clear success states and graceful failure recovery.
+- Ethics/watch-out: A nice ending can mask a bad overall experience; don't use end-moments to hide fees or friction.
+- Contexts: checkout, onboarding, offboarding, loading/waits, errors, retention, research
+- Sources: https://ideas.repec.org/a/eee/jobhdp/v170y2022ics0749597822000334.html ; https://en.wikipedia.org/wiki/Duration_neglect ; https://psychology.gmu.edu/defenses/1259
+- Design applications: Design a positive peak (delighter) in key journeys; Make endings clear and positive — including cancellation/offboarding; Celebrate completion (post-payment, post-donation)
+- Watch-out (growth.design): Celebrations shouldn't distract from material facts (e.g. what was paid).
+- Product examples: Zapier — confetti after upgrade; Duolingo — no clear end; Adobe — confusing cancellation end; Signal — no thanks after donation; Tesla — charging recap
+- Typed edges: tension → Expectations Bias; special-case-of → Serial Position Effect; supports → Delighters; supports → Negativity Bias; tension → Chronoception; supports → Labor Illusion; measured-by → Survey Bias; tension → Negativity Bias; tension → Hyperbolic Discounting
+- Related: Delighters, Provide Exit Points, Serial Position Effect
+- Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (20):
+  - [article] 7 changes in brand world-building — how long an emotion "holds" in motion design shapes the remembered moments. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Journey Map (Understand) — users judge the trip-booking experience by its worst or best moment and its ending, so the map should flag both. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Digital Prototype (Ideate) — end each lesson or course with a satisfying completion moment. <https://www.uxtools.co/challenges/digital-prototype> (sources/uxtools-challenges-tools.md)
+  - [other] Detach 2026 Partner Perks — a gift at the end of the event shapes the memory of it. <https://www.uxtools.co/detach-2026> (sources/uxtools-challenges-tools.md)
+  - [survey] Portfolio Builders — Trends — reviewers remember the strongest case study and the closing impression. <https://uxtools.co/survey/portfolio-builders/trends> (sources/uxtools-survey.md)
+  - [survey] Conclusion — Help Us Improve — ending on an invitation shapes the final impression. <https://uxtools.co/survey/conclusion/help-us-improve> (sources/uxtools-survey.md)
+  - [other] Growth.Design Case Studies (index) — each story ends on a "secret slide" or bonus, which gives a deliberate high point at the end. <https://growth.design/case-studies> (sources/growth-design-case-studies.md)
+  - [course] Product Psychology Masterclass (course) — Module 3's journey-improvement method rests on peaks and endings. <https://growth.design/courses/product-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Adobe: The Psychology of User Offboarding — offboarding is the "end" that shapes long-term memory and word of mouth. <https://growth.design/case-studies/adobe-cancel-subscription> (sources/growth-design-case-studies.md)
+  - [case-study] Audible: Build seamless purchase experiences — purchase confirmation is a key end or transition moment. <https://growth.design/case-studies/audible-purchase-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — last impressions last. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — the library cites Duolingo for lesson-end celebrations. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - …8 more in sources/*.md (search the principle name)

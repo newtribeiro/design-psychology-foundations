@@ -1,0 +1,23 @@
+## Internal Trigger
+_Memory/emotion prompts action_ · cycle: 💾 Memory · cluster: C6 · evidence: Practitioner
+- Definition: A cue to use a product that comes from within the user — an emotion, routine or situation (boredom, uncertainty, "I need to check status") — rather than from an external prompt like a notification.
+- Mechanism (why it happens): Through repetition, a context or feeling becomes associated with a behaviour that relieved it; the association is stored in procedural memory, so the cue triggers the behaviour with little deliberation.
+- Origin & key evidence:
+  - Eyal (2014), Hooked — external triggers start the loop; repeated cycles attach the product to internal triggers, mostly negative emotions. https://www.nirandfar.com/how-to-manufacture-desire/
+  - Wood & Neal (2007), Psychological Review — habits form by slow, incremental context-response learning; context cues then activate behaviour automatically. https://en.wikipedia.org/wiki/Habit
+  - Lally et al. (2009/2010), European Journal of Social Psychology — automaticity plateaued after about 66 days on average (range 18–254) in real-world habit formation. (same source)
+- Evidence grade: Practitioner (for the "internal trigger" framing) built on Strong habit-learning research; product-level causal evidence is largely anecdotal.
+- Enterprise/B2B note: In operations tools the healthiest internal trigger is a job-to-be-done ("before every shift, check site conditions") — design for that routine, not for emotional pull.
+- Ethics/watch-out: Deliberately pairing a product with anxiety, loneliness or FOMO can foster compulsive use; Eyal's own later work (Indistractable) urges restraint.
+- Contexts: retention, notifications, gamification, onboarding
+- Sources: https://www.nirandfar.com/how-to-manufacture-desire/ ; https://en.wikipedia.org/wiki/Habit ; https://fourweekmba.com/indistractable/
+- Design applications: Identify the emotion/situation your product resolves; Time external triggers to those moments; Ethical check: is the habit you're building positive for the user?
+- Watch-out (growth.design): Habit formation without user benefit is manipulation.
+- Product examples: Instagram — opening the app without thinking; Duolingo — travel/airport moments
+- Typed edges: tension → External Trigger; supports → Variable Reward; supports → Investment Loops; special-case-of → Self-Initiated Triggers; supports → Spacing Effect; supports → Zeigarnik Effect
+- Related: External Trigger, Investment Loops, Variable Reward, Self-Initiated Triggers
+- Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (organises)
+- Linked sources (3):
+  - [challenge] Challenge: Diary Study (Test) — the study reveals the feelings (boredom, unwinding) that prompt opening the app. <https://www.uxtools.co/challenges/diary-study> (sources/uxtools-challenges-tools.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — travel motivation paired with an email. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] The Scary Future Of Instagram — emotions such as boredom drive use. <https://growth.design/case-studies/instagram-monetization> (sources/growth-design-case-studies.md)

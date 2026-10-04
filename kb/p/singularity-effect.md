@@ -1,0 +1,27 @@
+## Singularity Effect
+_One person moves us more than a crowd_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
+- Definition: People respond more strongly (e.g. donate or help more) to a single, identified individual than to a group or a statistic of equal or greater need.
+- Mechanism (why it happens): A single person evokes vivid, concrete affect; as numbers grow, feeling fades ("psychic numbing"/compassion fade). Meta-analytic evidence points to lower anticipated good feeling and a sense that one's help makes less of a dent, more than empathy alone; Kogut & Ritov linked giving to personal distress.
+- Origin & key evidence:
+  - Kogut & Ritov (2005), Journal of Behavioral Decision Making — identified single victims drew more contributions than unidentified ones; the advantage disappeared for identified groups — https://pluto.huji.ac.il/~msiritov/KogutRitovIdentified.pdf
+  - Västfjäll, Slovic, Mayorga & Peters (2014), PLoS ONE, "Compassion Fade" — self-reported and physiological affect, and giving, peaked for one child and began dropping with the second; presenting several lives as a unit reversed the decline — https://scholarsbank.uoregon.edu/xmlui/handle/1794/19448
+  - Lee & Feeley (2016), Social Influence 11(3) — meta-analysis of 41 studies: identifiable-victim effect significant but small (r = .05); most reliable for a single victim, a photographed child, poverty, low victim blame, and money requests — https://pure.skku.edu/en/publications/the-identifiable-victim-effect-a-meta-analytic-review/
+  - Butts, Lunt, Freling & Gabriel (2019), OBHDP — meta-analysis (95 samples, ~13k people): larger victim groups reduce helping intent and behaviour, via lower anticipated good feeling and perceived impact rather than empathy alone — https://experts.arizona.edu/en/publications/helping-one-or-helping-many-a-theoretical-integration-and-meta-an/
+  - Majumder, Tai, Ziano & Feldman (2024), Judgment and Decision Making — registered replication of Kogut & Ritov Study 2 (N≈1,835) found no single-identified vs single-unidentified difference and no singularity × identifiability interaction — https://www.cambridge.org/core/product/3DA967642DBCD4E6117CCA104F3D6854/core-reader
+- Evidence grade: Moderate for the broad pattern (was Contested; re-graded 2026-10-04 after evidence review) — meta-analyses support compassion fading as numbers grow (Butts et al. 2019) and a small identifiable-victim effect (Lee & Feeley 2016, r≈.05). The narrow Kogut & Ritov 'single identified victim beats a group' interaction remains Contested after a failed 2024 replication.
+- Enterprise/B2B note: One concrete customer story moves stakeholders more than aggregate metrics, but the lift is small and fragile — pair it with the numbers, and frame many affected users as one coherent group ("this team of 40") rather than a raw count.
+- Ethics/watch-out: Emotional single-case framing can distort priorities (one anecdote over the base rate) and exploit distress.
+- Contexts: stakeholder-communication, content/copy, notifications, research, branding
+- Sources: https://pluto.huji.ac.il/~msiritov/KogutRitovIdentified.pdf ; https://scholarsbank.uoregon.edu/xmlui/handle/1794/19448 ; https://pure.skku.edu/en/publications/the-identifiable-victim-effect-a-meta-analytic-review/ ; https://experts.arizona.edu/en/publications/helping-one-or-helping-many-a-theoretical-integration-and-meta-an/ ; https://www.cambridge.org/core/product/3DA967642DBCD4E6117CCA104F3D6854/core-reader
+- Design applications: Lead research readouts with one persona/story, then the statistic — A/B test readout engagement; Give the brand an identifiable human face; Present many affected people as one unit (a named team or family) rather than a bare count; Don't rely on a single face alone — effect sizes are small, so test donation/opt-in lift
+- Watch-out (growth.design): Emotional appeals should still be truthful.
+- Product examples: Adobe offboarding — one user's frustration vs '16% of users'; Founders as brand faces (Apple/Jobs)
+- Typed edges: supports → Storytelling Effect; tension → Survivorship Bias; supports → Availability Heuristic; tension → data-driven decisions (framework); tension → Social Proof; tension → Bandwagon Effect
+- Related: Storytelling Effect, Empathy Gap
+- Linked sources (5):
+  - [article] Fixing User Personas — people empathize with one identifiable individual more than with "the users". <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [case-study] Amber Alert Redesign: 5 UX Improvements That Could Save Lives — one face moves people more than statistics. <https://growth.design/case-studies/amber-alert-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How Linkedin Increased Notification Opt-in Rates by 500% — one named person beats an abstract benefit. <https://growth.design/case-studies/linkedin-retention-triggers> (sources/growth-design-case-studies.md)
+  - [case-study] Spotify Wrapped: 6 psychology principles that make it go viral every year — one song rather than a playlist. <https://growth.design/case-studies/spotify-wrapped-psychology> (sources/growth-design-case-studies.md)
+  - [episode] Escha Vera: She Trained Her Own AI to Make Art — unique per-recipient Comet invites made each person feel singled out and attached to "their" card (Endowment is a moderate link). <https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art> (sources/uxtools-episodes.md)
+- Last reviewed: 2026-10-04

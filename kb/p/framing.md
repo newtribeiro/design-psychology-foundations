@@ -1,0 +1,33 @@
+## Framing
+_Presentation changes decisions more than facts do_ · cycle: 🙈 Information · cluster: C4 · evidence: Strong
+- Definition: Logically equivalent descriptions of the same option (e.g. gain vs. loss, "90% survive" vs. "10% die") lead to systematically different choices.
+- Mechanism (why it happens): Prospect theory's reference-dependent value function — the frame sets the reference point, and losses loom larger than gains, so gain frames favour certainty and loss frames favour risk; attribute frames also shift affective associations.
+- Origin & key evidence:
+  - Tversky & Kahneman (1981), Science 211:453–458 — the "Asian disease" problem: majority risk-averse under "saved", risk-seeking under "die". https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Tversky+Kahneman-framing-1981.pdf
+  - Kühberger (1998) meta-analysis, 136 papers, ~30k participants, pooled d ≈ 0.31; Steiger & Kühberger (2018) bias-corrected estimate rose to about d ≈ 0.52. https://www.atticusli.com/replication-crisis/framing-effect/
+  - Many Labs replication: significant in roughly 31 of 36 labs (same source).
+- Evidence grade: Strong — robust across meta-analyses and multi-site replication; effect size depends on frame type (risky-choice vs. attribute vs. goal framing) and is smaller when both frames are shown.
+- Enterprise/B2B note: Report "uptime 99.5%" vs "3.6 h downtime/month" changes procurement and incident decisions; dashboard copy for risk metrics should be framed consistently and, for critical calls, shown in both directions.
+- Ethics/watch-out: Selective loss framing on cancellation or consent screens ("You'll lose all your data") becomes manipulative when it obscures a fair choice.
+- Contexts: pricing, content/copy, checkout, offboarding, data-viz, stakeholder-communication
+- Sources: https://www.csc2.ncsu.edu/faculty/mpsingh/local/Social/f24/wrap/readings/Tversky+Kahneman-framing-1981.pdf ; https://www.atticusli.com/replication-crisis/framing-effect/ ; https://www.psicothema.com/pdf/3107.pdf
+- Design applications: Frame around the benefit the user cares about; Test gain vs loss framing; Keep costs transparent while framing value
+- Watch-out (growth.design): Framing that hides material facts is deceptive.
+- Product examples: Blinkist — frames status quo as time-consuming; Tesla charging UI — shows costs, not electric benefits
+- Typed edges: supports → Loss Aversion; supports → Anchoring Bias; special-case-of → Priming; supports → Pseudo-Set Framing; tension → Reactance; supports → Affect Heuristic; tension → Backfire Effect
+- Related: Loss Aversion, Anchoring Bias, Priming
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (19):
+  - [article] Design's hardest role has a two-year clock — "founding" is a framing device that makes a first-designer role more attractive. <https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock> (sources/uxtools-articles.md)
+  - [article] The artifact stopped proving seniority — health results UX: mis-framing data can lead users to misunderstand their bodies. <https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority> (sources/uxtools-articles.md)
+  - [article] This design tool blew up our inbox — structured prompts frame feedback toward direction and reasoning rather than nitpicks. <https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Survey (Test) — "How easy was…" versus "How difficult was…" yields different results. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [survey] Conclusion — Our Awards Reveal — the awards reframe "best" as context-dependent value rather than share. <https://uxtools.co/survey/conclusion/our-awards-reveal> (sources/uxtools-survey.md)
+  - [case-study] Apple vs Meta Threads: The Illusion of Privacy — how a benefit is presented can hide its real cost. <https://growth.design/case-studies/apple-privacy-policy> (sources/growth-design-case-studies.md)
+  - [case-study] Beehiiv subscription: 5 small UX mistakes that make a BIG difference — the same flow framed around the creator reads very differently. <https://growth.design/case-studies/beehiiv-newsletter-subscription-ux> (sources/growth-design-case-studies.md)
+  - [case-study] One Simple Psychology Framework To Improve Your Onboarding (Blinkist) — how the trial and price are presented changes decisions. <https://growth.design/case-studies/blinkist-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Coronavirus Dashboard UX: How Design Impacts Your Perception — chart choice frames the same data differently. <https://growth.design/case-studies/coronavirus-dashboard-ux> (sources/growth-design-case-studies.md)
+  - [case-study] GoDaddy: How to improve checkout flows ethically — fear framing is shown as an unethical use. <https://growth.design/case-studies/godaddy-checkout-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts (Grammarly) — "skip personalisation" changes the perceived cost of skipping. <https://growth.design/case-studies/grammarly-onboarding-survey> (sources/growth-design-case-studies.md)
+  - [case-study] How To Properly Apply Jobs-To-Be-Done To User Onboarding (Headspace) — the JTBD frame of reference. <https://growth.design/case-studies/headspace-user-onboarding> (sources/growth-design-case-studies.md)
+  - …7 more in sources/*.md (search the principle name)

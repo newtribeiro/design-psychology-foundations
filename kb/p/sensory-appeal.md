@@ -1,0 +1,28 @@
+## Sensory Appeal
+_Multi-sensory experiences engage more_ · cycle: 💾 Memory · cluster: C1 · evidence: Moderate
+- Definition: Experiences that engage several senses (sight, sound, touch/haptics, and in physical products smell and taste) are perceived as richer, more memorable and more valuable than single-channel ones.
+- Mechanism (why it happens): Multisensory, congruent cues are integrated pre-consciously, increasing perceptual fluency, emotional arousal and the number of memory retrieval paths; incongruent cues reduce fluency and liking.
+- Origin & key evidence:
+  - Krishna (2012), Journal of Consumer Psychology, "An integrative review of sensory marketing" — defines sensory marketing as engaging the senses to affect perception, judgment and behaviour; reviews touch, scent, sound, taste and vision effects. https://en.wikipedia.org/wiki/Aradhna_Krishna
+  - Krishna & Morrin (2008), "Does touch affect taste?" — container haptic cues transferred to taste judgments (details via the above page). https://en.wikipedia.org/wiki/Aradhna_Krishna
+  - Krishna, Lwin & Morrin (2010), "Product scent and memory" — scented products improved recall of product information (details not verified beyond the summary).
+- Evidence grade: Moderate — solid consumer-research base for physical products; transfer to screen UI (haptics, sound, motion) is plausible but less studied, and many claims are vendor-reported.
+- Enterprise/B2B note: In industrial and remote-control software, sound and haptic cues are safety channels (alerts, confirmations) — prioritise distinct, learnable, non-fatiguing signals over decorative richness; product catalogues benefit from rich imagery/video of hardware.
+- Ethics/watch-out: Sensory overload harms accessibility (vestibular, auditory sensitivity); respect reduced-motion and mute settings and never rely on one sense alone.
+- Contexts: branding, onboarding, notifications, loading/waits, errors, content/copy
+- Sources: https://en.wikipedia.org/wiki/Aradhna_Krishna
+- Design applications: Use rich imagery for appetite/desire-driven products; Add sounds/haptics as reward feedback; Consider motion as a sense channel
+- Watch-out (growth.design): Respect reduced-motion and sound preferences.
+- Product examples: Uber Eats — 'dry' text menu; Superhuman — sound as reward loop idea
+- Typed edges: supports → Aesthetic-Usability Effect; supports → Picture Superiority Effect; supports → Peak-End Rule; mechanism-of → Delighters; tension → Cognitive Load
+- Related: Picture Superiority Effect, Delighters, Aesthetic-Usability Effect
+- Linked sources (9):
+  - [article] 7 changes in brand world-building — sound and motion as brand carriers engage more senses and improve recall. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
+  - [article] Monitor stands have more personality than software — haptics, sound and tactile UI create richer experiences. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — sound, light and material texture create memorable multi-sensory experiences. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - [other] Home page — the looping footage adds motion appeal. <https://www.uxtools.co/> (sources/uxtools-challenges-tools.md)
+  - [case-study] The Psychology Behind McDonald's $2 Billion Self-Serve Kiosks — food imagery triggers appetite. <https://growth.design/case-studies/mcdonalds-self-serve-ux> (sources/growth-design-case-studies.md)
+  - [case-study] Uber Eats: How To Ethically Use Scarcity To Increase Sales — imagery engages the senses. <https://growth.design/case-studies/uber-eats-scarcity> (sources/growth-design-case-studies.md)
+  - [case-study] Superhuman's Secret 1-on-1 Onboarding Revealed — the library cites it. <https://growth.design/case-studies/superhuman-user-onboarding> (sources/growth-design-case-studies.md)
+  - [episode] Basement Studio: This Design Agency Is Becoming a VC — real wine and hand-painted textures give digital experiences tactile richness that makes them memorable. <https://www.uxtools.co/episodes/basement-studio-this-design-agency-is-becoming-a-vc> (sources/uxtools-episodes.md)
+  - [video] Creating a graffiti ink app with Figma Make ("Designer Reacts to Your INSANE Side Projects — grain, gradients, drips and tactile motion make the experiments compelling. <https://www.uxtools.co/episodes/creating-a-graffiti-ink-app-with-figma-make> (sources/uxtools-episodes.md)

@@ -1,0 +1,29 @@
+## Priming
+_Earlier stimuli shape later responses_ · cycle: 🙈 Information · cluster: C9 · evidence: Contested
+- Definition: Exposure to a stimulus changes how a later, related stimulus is perceived, interpreted or acted on, without the person being aware of the link.
+- Mechanism (why it happens): A prior cue pre-activates associated concepts in memory (spreading activation), so related interpretations become more accessible to fast System 1 processing; the effect is strongest for perception and word recognition and weakest for complex goal-directed behaviour.
+- Origin & key evidence:
+  - Mandel & Johnson (2002), Journal of Consumer Research — changing a web page's background images/colours shifted product choices; novices were moved via more information search, experts directly. https://business.columbia.edu/faculty/research/when-web-pages-influence-choice-effects-visual-primes-experts-and-novices
+  - Doyen et al. (2012) — failed to replicate Bargh et al.'s (1996) "elderly words make people walk slower" with infrared timing; the effect appeared only when experimenters expected it. https://www.nationalgeographic.com/science/article/failed-replication-bargh-psychology-study-doyen
+  - Ongoing re-analyses of elderly priming (Replication Index, 2026). https://replicationindex.com/2026/08/09/elderly-priming-did-it-ever-work/
+- Evidence grade: Contested — semantic/perceptual priming is robust; behavioural/social priming (the kind marketers cite) has failed key replications and should be treated as small and fragile.
+- Enterprise/B2B note: In dashboards and catalogues, priming mostly matters through framing context (labels, default colour coding, prior screen) — e.g. a red-tinted status screen can bias operators toward reading neutral readings as alarming.
+- Ethics/watch-out: Don't claim large unconscious behaviour change from primes in stakeholder decks; manipulative atmospherics that steer choice without informing are a dark-pattern risk.
+- Contexts: content/copy, branding, pricing, onboarding, research
+- Sources: https://business.columbia.edu/faculty/research/when-web-pages-influence-choice-effects-visual-primes-experts-and-novices ; https://www.nationalgeographic.com/science/article/failed-replication-bargh-psychology-study-doyen ; https://replicationindex.com/2026/08/09/elderly-priming-did-it-ever-work/
+- Design applications: Set the emotional/semantic context before an ask (permissions, pricing, signup); Preview what will happen next (e.g. upcoming onboarding emails); Use imagery that evokes the desired outcome
+- Watch-out (growth.design): Priming toward a competitor-unfriendly choice should stay respectful and honest.
+- Product examples: Hopper — friendly airport imagery before permission request; Superhuman — primes users for CEO onboarding emails; Tinder (anti-example) — missed onboarding priming; Brave — primes privacy, nudging DuckDuckGo over Google
+- Typed edges: mechanism-of → Framing; mechanism-of → Anchoring Bias; supports → Visual Anchors; measured-by → A/B testing; tension → Observer-Expectancy Effect
+- Related: Framing, Anchoring Bias, Nudge, Feedforward
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (supports); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (9):
+  - [article] This design tool blew up our inbox — guided questions prime reviewers to evaluate at the right altitude. <https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox> (sources/uxtools-articles.md)
+  - [case-study] Amber Alert Redesign: 5 UX Improvements That Could Save Lives — visual cues (a photo) prime faster recognition. <https://growth.design/case-studies/amber-alert-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — earlier framing shapes how later screens are read. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — privacy messaging steers the search-engine choice. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How to avoid (and repair) these 3 critical design blunders — visual reminders cue recall. <https://growth.design/case-studies/design-blunders> (sources/growth-design-case-studies.md)
+  - [case-study] GoDaddy: How to improve checkout flows ethically — aspirational framing raises motivation ethically. <https://growth.design/case-studies/godaddy-checkout-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How Hopper Perfectly Nails Permission Requests UX — imagery shapes how the next steps are judged. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — the library cites Tinder. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)
+  - [case-study] Superhuman's Secret 1-on-1 Onboarding Revealed — expectations set for the CEO emails. <https://growth.design/case-studies/superhuman-user-onboarding> (sources/growth-design-case-studies.md)

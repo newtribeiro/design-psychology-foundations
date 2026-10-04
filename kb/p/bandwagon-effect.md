@@ -1,0 +1,35 @@
+## Bandwagon Effect
+_Adoption grows with adoption_ · cycle: ⏰ Time · cluster: C5 · evidence: Moderate
+- Definition: The tendency to adopt beliefs, products or behaviours because many others have, with uptake accelerating as popularity grows.
+- Mechanism (why it happens): Informational social influence (others' choices as evidence of quality) plus normative pressure to conform; popularity signals reduce search costs under uncertainty.
+- Origin & key evidence:
+  - Salganik, Dodds & Watts (2006), Science "MusicLab": showing download counts increased inequality and unpredictability of song success across independent "worlds" — https://pdodds.w3.uvm.edu/research/papers/years/2006/salganik2006a.pdf
+  - Follow-up modelling of social influence in cultural markets — https://arxiv.org/pdf/1408.1542
+  - Asch conformity experiments (1950s) as classic precursor (not opened this session).
+- Evidence grade: Moderate — robust experimentally for social influence; magnitude in product UI depends heavily on context and signal credibility.
+- Design applications:
+  - Popularity indicators ("Most chosen plan", "Trending") — conversion uplift vs control.
+  - Usage counts on templates/features — adoption of featured items.
+  - Show peer adoption within an organisation ("12 teammates use this") — feature activation.
+  - Counter-balance with "new" or "staff picks" to avoid rich-get-richer — diversity of items consumed.
+- Real product examples: Booking.com "booked X times today" (no source URL verified); GitHub stars; app-store charts.
+- Enterprise/B2B note: "Used by X agencies" and peer-reference logos drive B2B buying more than consumer counters; inside tools, team-level adoption signals matter.
+- Ethics/watch-out: Fake or inflated counts are deceptive and regulated in some jurisdictions (fake reviews).
+- Contexts: pricing, onboarding, search, content/copy, retention
+- Sources: https://pdodds.w3.uvm.edu/research/papers/years/2006/salganik2006a.pdf ; https://arxiv.org/pdf/1408.1542
+- Typed edges: special-case-of → Social Proof; supports → Authority Bias; supports → False Consensus Effect; tension → Familiarity Bias; supports → Scarcity; tension → Singularity Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (mechanism-of); ⚙ Cialdini's 7 principles of influence (organises)
+- Linked sources (20):
+  - [article] 33 Activity Ideas for Remote UX Workshops — simultaneous (not sequential) dot voting and silent brainwriting prevent people copying early opinions. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [survey] 7 Takeaways from the 2020 Design Tools Survey — rapid Figma/Miro adoption reflects tool choice spreading through the community. <https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey> (sources/uxtools-articles.md)
+  - [article] A room full of prototypers — waves of designers adopting the same AI tools and visual trends (e.g. dithering). <https://www.uxtools.co/blog/a-room-full-of-prototypers> (sources/uxtools-articles.md)
+  - [survey] Designers who vibe code are happier at work — the undecided middle group is likely swayed by peer adoption. <https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — copying visible tactics yields sameness; outliers are one-of-one. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [survey] This is the State of Prototyping in 2026 — rapid AI tool adoption across peers drives further uptake. <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
+  - [tool-category] Tools: UI Design — adoption snowballs because everyone else uses the tool. <https://www.uxtools.co/tools/design> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Overview — once teams standardised on Figma, adoption cascaded. <https://uxtools.co/survey/interface-design/overview> (sources/uxtools-survey.md)
+  - [survey] Digital Whiteboarding — Trends — ecosystem consolidation compounds. <https://uxtools.co/survey/digital-whiteboarding/trends> (sources/uxtools-survey.md)
+  - [survey] User Research — Research Recruiting Overview — the most popular recruiting tool (UserTesting) is not the highest rated. <https://uxtools.co/survey/user-research/research-recruiting-overview> (sources/uxtools-survey.md)
+  - [survey] AI Adoption — Trends — AI interest is driven partly by hype. <https://uxtools.co/survey/ai-adoption/trends> (sources/uxtools-survey.md)
+  - [survey] Top Tool Stacks — Overview — one stack has converged across most shapes. <https://uxtools.co/survey/top-tool-stacks/overview> (sources/uxtools-survey.md)
+  - …8 more in sources/*.md (search the principle name)

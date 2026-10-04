@@ -1,0 +1,22 @@
+## Law of Prägnanz
+_Ambiguity is read in the simplest form_ · cycle: 🔮 Meaning · cluster: C1 · evidence: Strong
+- Definition: People perceive ambiguous or complex images in the simplest, most regular, stable form possible ("good figure").
+- Mechanism (why it happens): The visual system favours minimal-description interpretations, reducing processing load; the simplest organisation is selected pre-attentively.
+- Origin & key evidence:
+  - Wertheimer (1923) Gestalt laws — https://psychclassics.yorku.ca/Wertheimer/Forms/forms
+  - Wagemans et al. (2012), Psychological Bulletin part II reviews Prägnanz/simplicity principle and its formalisations (e.g., minimum description length) — https://cris.haifa.ac.il/en/publications/a-century-of-gestalt-psychology-in-visual-perception-ii-conceptua/
+- Evidence grade: Strong (as perceptual tendency) — though "simplicity" is hard to define formally and competes with likelihood-based accounts.
+- Design applications:
+  - Simplify icons to geometric primitives — icon recognition accuracy and speed.
+  - Reduce chart decoration so trend shape reads instantly — time-to-correct-answer on data questions.
+  - Logos/marks reduced to simple forms — recall test after brief exposure.
+  - Layout grids with aligned edges — perceived clutter rating.
+- Real product examples: Olympic rings and Apple logo read as simple forms; flat icon sets in iOS/Material (no source URL verified).
+- Enterprise/B2B note: Map and telemetry symbology (asset positions, no-fly zones) must be reducible to simple shapes at small sizes and in poor conditions.
+- Ethics/watch-out: Oversimplified visuals can hide important uncertainty (e.g., smoothed data).
+- Contexts: branding, data-viz, navigation, dashboards
+- Sources: https://psychclassics.yorku.ca/Wertheimer/Forms/forms ; https://cris.haifa.ac.il/en/publications/a-century-of-gestalt-psychology-in-visual-perception-ii-conceptua/ ; https://pubmed.ncbi.nlm.nih.gov/22845751/
+- Typed edges: supports → Law of Proximity; supports → Law of Similarity; supports → Occam's Razor; counteracts → Cognitive Load; supports → Aesthetic-Usability Effect
+- Explained by frameworks: ⚙ Gestalt principles of perception (organises)
+- Linked sources (1):
+  - [article] Your UI needs more Walt Disney — staggered, organic motion is perceived as a coherent, natural whole. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)

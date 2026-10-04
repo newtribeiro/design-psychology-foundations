@@ -1,0 +1,30 @@
+## Scarcity
+_Limited supply raises perceived value_ · cycle: 🔮 Meaning · cluster: C4 · evidence: Moderate
+- Definition: People value items more when they appear limited in quantity or time, especially when availability drops or is caused by demand.
+- Mechanism (why it happens): Commodity theory: unavailability signals value and quality (a heuristic, System 1 cue); threatened access also triggers reactance and loss aversion — losing the chance feels like a loss.
+- Origin & key evidence:
+  - Worchel, Lee & Adewole (1975), JPSP — cookies from a jar going from ten to two were rated more desirable than a constant two, more so when scarcity came from demand — https://uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/worchelleeeta_suppdemanobjval_jpsp1975.pdf
+  - Lynn (1991), quantitative review of scarcity's enhancement of value (year/journal not verified from the source page) — https://ecommons.cornell.edu/bitstream/handle/1813/71652/Lynn60_Scarcity_s_enhancement.pdf?sequence=1
+  - Highhouse et al. (1998) — scarcity in job ads raised employer attractiveness — https://en.wikipedia.org/wiki/Scarcity_(social_psychology)
+- Evidence grade: Moderate — repeated across products and job markets; effect sizes vary and depend on credibility; fake or habitual urgency loses force.
+- Enterprise/B2B note: Little room in rational procurement; legitimate uses are real capacity limits (pilot cohorts, hardware allocation, training seats).
+- Ethics/watch-out: Fake countdowns and false low-stock claims are deceptive dark patterns and may break consumer-protection law.
+- Contexts: pricing, checkout, notifications, onboarding (waitlists)
+- Sources: https://uni-muenster.de/imperia/md/content/psyifp/aeechterhoff/vorlesungkommunikation/worchelleeeta_suppdemanobjval_jpsp1975.pdf ; https://ecommons.cornell.edu/bitstream/handle/1813/71652/Lynn60_Scarcity_s_enhancement.pdf?sequence=1 ; https://en.wikipedia.org/wiki/Scarcity_(social_psychology)
+- Design applications: Use only real limits: time-limited, quantity-limited, access-limited; Frame scarcity to benefit the user (e.g. shared delivery window)
+- Watch-out (growth.design): Fake scarcity triggers reactance and is a dark pattern.
+- Product examples: Uber Eats — ethical shared-delivery scarcity; Mario Kart Tour — limited tours (dark); Sleepzy — unjustified scarcity (dark)
+- Typed edges: supports → Social Proof; tension → Reactance; supports → Hyperbolic Discounting; supports → Endowment Effect; tension → Streisand Effect
+- Related: Loss Aversion, Reactance, Hyperbolic Discounting
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (10):
+  - [challenge] Challenge: Journey Map (Understand) — "only 2 seats left" style cues are a key touch point to evaluate ethically. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Discovery Bundle (2025) — "first 1,000 only" plus a countdown timer. <https://www.uxtools.co/bundle> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Summer Bundle 2026 — the fixed count of 1,000. <https://www.uxtools.co/summer-bundle-2026> (sources/uxtools-challenges-tools.md)
+  - [other] Detach 2026 Partner Perks — redemption caps and the line "claim these before they disappear". <https://www.uxtools.co/detach-2026> (sources/uxtools-challenges-tools.md)
+  - [case-study] 5 Deadly Onboarding Mistakes You Should Avoid (Sleepzy) — shown as an unethical use when the limits are fake. <https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology of Clubhouse's User Retention (...and churn) — invite-only access raises perceived value. <https://growth.design/case-studies/clubhouse-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology of Temu's casino-like shopping UX — fake urgency timers. <https://growth.design/case-studies/temu-onboarding-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Uber Eats: How To Ethically Use Scarcity To Increase Sales — the ethical, real version. <https://growth.design/case-studies/uber-eats-scarcity> (sources/growth-design-case-studies.md)
+  - [case-study] Superhuman's Secret 1-on-1 Onboarding Revealed — invite-only. <https://growth.design/case-studies/superhuman-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money — limited-time Tours and items. <https://growth.design/case-studies/mario-kart-revenue-model> (sources/growth-design-case-studies.md)

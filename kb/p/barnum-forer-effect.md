@@ -1,0 +1,23 @@
+## Barnum-Forer Effect
+_Generic descriptions feel personal_ · cycle: ⏰ Time · cluster: C9 · evidence: Strong
+- Definition: People rate vague, general personality descriptions as highly accurate about themselves when they believe the descriptions were tailored to them.
+- Mechanism (why it happens): Statements like "at times you are sociable, at times reserved" fit almost anyone. Confirmation bias and selective recall fill in personal examples, and believing in personalisation adds authority and a sense of self-relevance.
+- Origin & key evidence:
+  - Forer (1948 experiment, published 1949 as "the fallacy of personal validation"): 39 students rated an identical sketch, compiled from horoscope text, at about 4.3 out of 5 for accuracy. https://en.wikipedia.org/wiki/Barnum_effect
+  - Meehl (1956) coined the term "Barnum effect" (same source).
+  - Moderators: the effect is stronger with perceived personalisation, a credible source, positive wording and vagueness (same source). Classroom demonstrations replicate it reliably: https://psych.fullerton.edu/mbirnbaum/psych101/barnum_demo.htm
+- Evidence grade: Strong. It has been replicated many times, and its moderators are well characterised.
+- Design applications:
+  - In "personalised" insights (Wrapped-style recaps, quiz results), ground each claim in specific user data. Signal: share rate compared with a generic-text control.
+  - Test whether "personalised" recommendations beat generic ones. Signal: randomised holdout.
+  - In research, don't take users' agreement with persona statements as validation. Signal: behavioural confirmation.
+  - In onboarding quizzes, explain why a result was chosen. Signal: perceived accuracy against later churn.
+- Real product examples: Astrology apps such as Co-Star, discussed in https://uxdesign.cc/the-barnum-effect-and-the-sweet-nothings-of-astrology-c363e1f3754d. Spotify's horoscope-themed playlists (https://www.marketing-interactive.com/spotify-gets-cosmic-with-horoscope-related-new-playlist).
+- Enterprise/B2B note: Vague "AI insights" in dashboards ("Your fleet could be more efficient") feel insightful but aren't actionable. Require specifics.
+- Ethics/watch-out: Fake personalisation used to build trust or sell is manipulative.
+- Contexts: onboarding, content/copy, retention, research, data-viz
+- Sources: https://en.wikipedia.org/wiki/Barnum_effect ; https://psych.fullerton.edu/mbirnbaum/psych101/barnum_demo.htm ; https://uxdesign.cc/the-barnum-effect-and-the-sweet-nothings-of-astrology-c363e1f3754d ; https://www.marketing-interactive.com/spotify-gets-cosmic-with-horoscope-related-new-playlist
+- Typed edges: mechanism-of → Confirmation Bias; supports → Halo Effect; tension → Curse of Knowledge; supports → Storytelling Effect
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (1):
+  - [challenge] Challenge: User Persona (Understand) — vague persona traits feel accurate to everyone and are useless, so be specific. <https://www.uxtools.co/challenges/user-persona> (sources/uxtools-challenges-tools.md)

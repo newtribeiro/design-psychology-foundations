@@ -1,0 +1,27 @@
+## Provide Exit Points
+_Let users leave at the right moment_ · cycle: 💾 Memory · cluster: C3 · evidence: Practitioner
+- Definition: Give users clear, low-cost ways to stop, leave, undo or finish a flow or session — and let leaving feel like a natural, complete end.
+- Mechanism (why it happens): Visible exits restore a sense of control (lowering reactance and anxiety) so people explore more; natural stopping points support a good ending (peak-end) and counter compulsive loops that lack stopping cues.
+- Origin & key evidence:
+  - Nielsen (1994), heuristic "User control and freedom": a clearly marked emergency exit plus undo/redo — https://www.gerrystahl.net/hci/he1.htm
+  - NN/g: back, cancel, close and undo; never trap the browser back button; label exits clearly — https://www.nngroup.com/articles/user-control-and-freedom/
+  - growth.design offboarding case studies: hidden billing and multi-step retention screens frustrate; end on a warm note — https://growth.design/case-studies/typeform-offboarding
+- Evidence grade: Practitioner — a widely used heuristic and design framing rather than a single lab effect; supported indirectly by reactance and peak-end research.
+- Enterprise/B2B note: Business-critical flows (scheduling, bulk edits) need safe abort, draft-saving and undo; exit should never mean losing work silently.
+- Ethics/watch-out: Roach-motel cancellation (easy in, hard out) is a dark pattern now targeted by regulators.
+- Contexts: offboarding, checkout, forms, settings, errors, retention, notifications
+- Sources: https://www.gerrystahl.net/hci/he1.htm ; https://www.nngroup.com/articles/user-control-and-freedom/ ; https://growth.design/case-studies/typeform-offboarding
+- Design applications: Design clear 'done for today' endpoints; Celebrate completion then release the user; Pair engagement loops with stopping cues
+- Watch-out (growth.design): Weak exit nudges next to strong variable rewards are ineffective.
+- Product examples: Duolingo — redesign with exit points; Mario Kart Tour — no graceful exit; TikTok — weak 'take a break' nudge
+- Typed edges: tension → Investment Loops; tension → Sunk Cost Effect; counteracts → Reactance; supports → Peak-End Rule; tension → Zeigarnik Effect; counteracts → Sunk Cost Effect; supports → Flow State; tension → Variable Reward
+- Related: Peak-End Rule, Reactance, Variable Reward
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Fogg Behavior Model + Tiny Habits (tension); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises); ⚙ Self-Determination Theory (supports)
+- Linked sources (7):
+  - [challenge] Challenge: User Flow (Ideate) — let users save the cart and leave without losing progress. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [case-study] Adobe: The Psychology of User Offboarding — let users leave with a sense of completion. <https://growth.design/case-studies/adobe-cancel-subscription> (sources/growth-design-case-studies.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — a sense of completion prevents burnout. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] Letterboxd: How to nail product market fit with clear Jobs-To-Be-Done — stopping cues. <https://growth.design/case-studies/letterboxd-jobs-to-be-done> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind TikTok's Addictive Feed — they are missing, which drives compulsive use. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Typeform: How to offboard users the right way — graceful offboarding. <https://growth.design/case-studies/typeform-offboarding> (sources/growth-design-case-studies.md)
+  - [case-study] 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money — missing graceful exits. <https://growth.design/case-studies/mario-kart-revenue-model> (sources/growth-design-case-studies.md)

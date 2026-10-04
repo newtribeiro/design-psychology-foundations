@@ -1,0 +1,28 @@
+## Spotlight Effect
+_We think others notice us more than they do_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
+- Definition: People overestimate how much others notice their appearance, behaviour and mistakes.
+- Mechanism (why it happens): Egocentric anchoring. People start from their own vivid experience of themselves and adjust too little for others' limited attention. Self-focused attention and social-evaluation anxiety amplify it.
+- Origin & key evidence:
+  - Gilovich, Medvec & Savitsky (2000), JPSP: students wearing an embarrassing Barry Manilow T-shirt predicted that about 46% of observers noticed; about 23% actually did. https://yukaichou.com/behavioral-analysis/spotlight-effect-gilovich-overestimating-attention/
+  - Savitsky, Epley & Gilovich (2001): people overestimate how harshly others judge their public mishaps.
+  - A replication-status review describes the effect as directionally consistent across follow-ups. That review is a secondary blog, so verify it before quoting. https://atticusli.com/replication-crisis/spotlight-effect/
+  - Product-adjacent: Bailenson (2021) proposed constant self-view ("mirror anxiety") as a cause of video-call fatigue, and later survey work supported it. https://vhil.stanford.edu/publications/videoconferencing/video-conferencing-usage-dynamics-and-nonverbal-mechanisms
+- Evidence grade: Moderate. The direction is robust across studies, but the original samples were small and effect sizes vary.
+- Design applications:
+  - Offer privacy-preserving defaults (hide self-view, hide like counts, anonymous posting). Signal: participation and post rate.
+  - Reassure people about visibility in social features ("Only you can see this draft"). Signal: draft-to-publish rate.
+  - Lower fear of mistakes with undo and soft deletes. Signal: feature exploration rate.
+  - In research sessions, tell participants that people get things wrong all the time. Signal: think-aloud verbosity.
+- Real product examples: Zoom's "Hide self view". Instagram and Facebook let users hide like counts from May 2021: https://www.bloomberg.com/news/articles/2021-05-26/instagram-will-let-users-hide-likes-follower-counts-are-staying . Slack's private drafts and "Only visible to you" messages.
+- Enterprise/B2B note: in collaborative tools, people avoid asking "dumb" questions in public channels. Private help, AI assistants and anonymous Q&A in all-hands increase usage.
+- Ethics/watch-out: do not exploit social self-consciousness (e.g. "Your friends will see you haven't…") to drive engagement.
+- Contexts: settings, onboarding, research, errors, content/copy
+- Sources: https://yukaichou.com/behavioral-analysis/spotlight-effect-gilovich-overestimating-attention/ ; https://atticusli.com/replication-crisis/spotlight-effect/ ; https://vhil.stanford.edu/publications/videoconferencing/video-conferencing-usage-dynamics-and-nonverbal-mechanisms ; https://www.bloomberg.com/news/articles/2021-05-26/instagram-will-let-users-hide-likes-follower-counts-are-staying
+- Typed edges: tension → Hawthorne Effect; mechanism-of → Reactance; supports → Social Proof; special-case-of → Curse of Knowledge; measured-by → participation rate
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (supports)
+- Linked sources (5):
+  - [article] This design tool blew up our inbox — fear of looking sloppy blocks sharing; designers overestimate how much others judge rough work. <https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Empathy Map (Understand) — on video calls, users overestimate how much others notice them, a real driver of feature needs like filters and self-view hiding. <https://www.uxtools.co/challenges/empathy-map> (sources/uxtools-challenges-tools.md)
+  - [survey] Portfolio Builders — Overview — portfolios are personal-brand displays where designers feel observed. <https://uxtools.co/survey/portfolio-builders/overview> (sources/uxtools-survey.md)
+  - [case-study] Amber Alert Redesign: 5 UX Improvements That Could Save Lives — placing "you" on the map makes it personally relevant. <https://growth.design/case-studies/amber-alert-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind McDonald's $2 Billion Self-Serve Kiosks — removing the cashier removes the feeling of being watched and judged. <https://growth.design/case-studies/mcdonalds-self-serve-ux> (sources/growth-design-case-studies.md)

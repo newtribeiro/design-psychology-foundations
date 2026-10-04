@@ -1,0 +1,23 @@
+## Weber's Law
+_Small changes go unnoticed_ · cycle: ⏰ Time · cluster: C1 · evidence: Strong
+- Definition: The smallest change people can detect (the just-noticeable difference) is a constant proportion of the original intensity. In UX it is used to argue that users adapt better to small, incremental changes than to large ones.
+- Mechanism (why it happens): Perception codes change relative to a reference, not in absolute amounts (ratio coding, adaptation). Fechner extended this to a logarithmic relation between stimulus and sensation. Applied to products, a change below the noticeable threshold does not set off comparison, loss aversion or reactance.
+- Origin & key evidence:
+  - Weber (1834): weight-discrimination studies, with the JND proportional to baseline weight. https://en.wikipedia.org/wiki/Just-noticeable_difference
+  - Fechner (1860), *Elemente der Psychophysik*: the Weber–Fechner law. https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law
+  - Marketing application: price-change and package-size changes kept below the JND ("shrinkflation"). See e.g. the Mannheim thesis review: https://www.bwl.uni-mannheim.de/media/Lehrstuehle/bwl/Stahl/bachelorstheses/WahabMoradi.pdf
+- Evidence grade: Strong for the psychophysical law within mid-range intensities, where it breaks down at the extremes. Practitioner for the UX extension (incremental redesigns): this is an analogy, not something tested psychophysics.
+- Design applications:
+  - Roll out redesigns gradually behind flags, with old and new versions side by side. Signal: support-ticket and complaint volume after release.
+  - Make visual differences between states (active/hover, data-viz steps) exceed the JND. Signal: discrimination accuracy in tests.
+  - Scale numeric steps proportionally (log scales, pricing tiers with consistent ratios). Signal: tier-selection distribution.
+  - Introduce new navigation with an opt-in preview period. Signal: opt-in retention compared with forced switch.
+- Real product examples: anti-pattern: Snapchat's 2018 redesign prompted a petition with over 1.2M signatures. https://www.bgr.com/tech/snapchat-redesign-petition-response/ Good: Facebook and Gmail commonly run staged UI rollouts with opt-in previews. Shrinkflation in consumer goods is the ethically dubious case.
+- Enterprise/B2B note: operators trained on an interface (control-room software, dashboards) need change in small steps with release notes. Big-bang redesigns create safety-relevant errors.
+- Ethics/watch-out: using sub-JND changes to hide price increases or reductions in service is deceptive.
+- Contexts: pricing, navigation, data-viz, settings, retention, branding
+- Sources: https://en.wikipedia.org/wiki/Just-noticeable_difference ; https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law ; https://www.bwl.uni-mannheim.de/media/Lehrstuehle/bwl/Stahl/bachelorstheses/WahabMoradi.pdf ; https://www.bgr.com/tech/snapchat-redesign-petition-response/ ; https://growth.design/psychology
+- Typed edges: tension → Anchoring Bias; supports → Familiarity Bias; supports → Mental Model; counteracts → Reactance; tension → Von Restorff Effect; mechanism-of → Contrast; measured-by → JND / discrimination tests
+- Explained by frameworks: ⚙ Prospect Theory (mechanism-of)
+- Linked sources (1):
+  - [article] What happens when "decent design" is the default — users notice differences relative to the baseline; as the baseline rises, larger quality gaps are needed to be perceived. <https://www.uxtools.co/blog/what-happens-when-decent-design-is-the-default> (sources/uxtools-articles.md)

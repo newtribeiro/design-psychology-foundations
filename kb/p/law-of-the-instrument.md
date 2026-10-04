@@ -1,0 +1,31 @@
+## Law of the Instrument
+_With a hammer, everything's a nail_ · cycle: ⏰ Time · cluster: C10 · evidence: Practitioner
+- Definition: Over-reliance on a familiar tool, method or skill — framing every problem in terms of what one already knows how to do ("if all you have is a hammer…").
+- Mechanism (why it happens): Availability and fluency: well-practised methods come to mind first and feel easy, while expertise shapes problem representation (déformation professionnelle); sunk investment in a tool adds motivated reasoning.
+- Origin & key evidence:
+  - Kaplan (1964), The Conduct of Inquiry — coined "the law of the instrument" (small boy with a hammer). https://en.wikipedia.org/wiki/Law_of_the_instrument
+  - Maslow (1966), The Psychology of Science — popular hammer/nail wording. https://quoteinvestigator.com/2014/05/08/hammer-nail/
+  - Software "golden hammer" anti-pattern (late-1990s literature) and behavioural-science write-ups. https://thedecisionlab.com/es-ES/biases/law-of-the-instrument
+- Evidence grade: Practitioner — an aphorism with conceptual support (functional fixedness, Einstellung effect research) but no direct experimental literature under this name.
+- Enterprise/B2B note: Teams default to the method or component they own — a table for every dataset, a modal for every flow, a survey for every research question; design reviews should ask "what else could solve this?".
+- Ethics/watch-out: Forcing users into the tool you sell rather than the one they need erodes trust and wastes their time.
+- Contexts: research, stakeholder-communication, dashboards, data-viz
+- Sources: https://en.wikipedia.org/wiki/Law_of_the_instrument ; https://quoteinvestigator.com/2014/05/08/hammer-nail/ ; https://thedecisionlab.com/es-ES/biases/law-of-the-instrument
+- Design applications: When something is hard that should be easy: am I using the right tool?; Is there a simpler path (Occam's Razor)?
+- Watch-out (growth.design): Applies to teams' favourite methods and frameworks too.
+- Typed edges: tension → Tesler's Law; special-case-of → Availability Heuristic; supports → Familiarity Bias; supports → Sunk Cost Effect; supports → Curse of Knowledge; tension → Mental Model; supports → Confirmation Bias
+- Related: Occam's Razor, Dunning-Kruger Effect
+- Linked sources (14):
+  - [article] A room full of prototypers — risk of tool obsession; the "pessimist" stance warns tools aren't the work. <https://www.uxtools.co/blog/a-room-full-of-prototypers> (sources/uxtools-articles.md)
+  - [article] "Any Input = Any Output" - What Config Was Really About — "tool wars don't matter, workflow mastery does". <https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about> (sources/uxtools-articles.md)
+  - [article] Play out the end of design work — over-reliance on AI generation turns every problem into "make more variants." <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)
+  - [article] The 4 Levels of AI Fluency — staying at L2 means reusing the same prompt-chain tool for everything. <https://www.uxtools.co/blog/the-4-levels-of-ai-fluency> (sources/uxtools-articles.md)
+  - [article] The next gap in design work — thousands of available skills without a purpose ("what do I do with them?"). <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [article] What No One Explains About the Design Process — rigidly applying one process to every project is "when all you have is a hammer". <https://www.uxtools.co/blog/what-no-one-explains-about-the-design-process> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Design System (Implement) — beware forcing every new need into an existing component. <https://www.uxtools.co/challenges/design-system> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Basic Prototyping — teams prototype everything in their main tool even when it limits fidelity. <https://www.uxtools.co/tools/basic-prototyping> (sources/uxtools-challenges-tools.md)
+  - [survey] Prototyping — Basic Prototyping — "everything is a Figma prototype" even when another tool fits better. <https://uxtools.co/survey/prototyping/basic-prototyping> (sources/uxtools-survey.md)
+  - [survey] Prototyping — Advanced Prototyping — the minority who break from Figma report higher satisfaction. <https://uxtools.co/survey/prototyping/advanced-prototyping> (sources/uxtools-survey.md)
+  - [survey] Prototyping — Trends — the two-tool pattern pushes back against one-tool thinking. <https://uxtools.co/survey/prototyping/trends> (sources/uxtools-survey.md)
+  - [case-study] 7 Product Team Pitfalls You Should Avoid — copying tactics without first principles. <https://growth.design/case-studies/product-team-pitfalls> (sources/growth-design-case-studies.md)
+  - …2 more in sources/*.md (search the principle name)

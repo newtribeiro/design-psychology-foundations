@@ -1,0 +1,21 @@
+## Temptation Bundling
+_Pair a 'should' with a 'want'_ · cycle: ⏰ Time · cluster: C4 · evidence: Moderate
+- Definition: Pairing an immediately pleasurable "want" activity with a beneficial but less appealing "should" activity, allowing the want only during the should, so the should becomes more attractive.
+- Mechanism (why it happens): It counters present bias (hyperbolic discounting) by attaching an immediate reward to a behaviour whose benefits are delayed; restricting the want also works as a soft commitment device.
+- Origin & key evidence:
+  - Milkman, Minson & Volpp (2014), Management Science, "Holding the Hunger Games Hostage at the Gym" — audiobooks only available at the gym raised visits by 51% (full treatment) and 29% (encouraged condition) versus control; effects declined over time, especially after Thanksgiving; 61% later paid for gym-only access. https://repository.upenn.edu/oid_papers/150 ; https://pubmed.ncbi.nlm.nih.gov/25843979/
+  - Follow-up large-scale field tests by Milkman's group (e.g. megastudy work at 24 Hour Fitness) found smaller effects (details not verified). https://authors.library.caltech.edu/records/mys88-cc756
+  - The Decision Lab summary of the concept. https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way
+- Evidence grade: Moderate — one well-designed field experiment plus follow-ups; effects are real but modest and decay without reinforcement.
+- Enterprise/B2B note: Bundle tedious tasks (data cleanup, compliance logging, activity-log review) with something valued — instant insight, a satisfying visual summary, unlocking an export — rather than with extrinsic gimmicks.
+- Ethics/watch-out: Don't gate essential functionality behind chores to manufacture engagement; keep the bundle voluntary.
+- Contexts: retention, gamification, forms, onboarding, settings
+- Sources: https://repository.upenn.edu/oid_papers/150 ; https://pubmed.ncbi.nlm.nih.gov/25843979/ ; https://thedecisionlab.com/insights/health/lead-me-not-into-temptation-for-i-know-the-way ; https://authors.library.caltech.edu/records/mys88-cc756
+- Design applications: Attach an enjoyable moment to tedious tasks (forms, permissions); Reward hard steps immediately
+- Product examples: Hopper — makes booking feel easy and fun
+- Typed edges: counteracts → Hyperbolic Discounting; supports → Variable Reward; supports → Shaping; special-case-of → commitment device; tension → Second-Order Effect
+- Related: Hyperbolic Discounting, Delighters
+- Linked sources (3):
+  - [article] The next gap in design work — "fast food" vibe coding is pleasurable now but costly later (present-bias). <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [case-study] How Hopper Perfectly Nails Permission Requests UX — hard tasks paired with enjoyable ones. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
+  - [case-study] 3 UX Tips To Make "Aha Moments" Click (Too Good To Go) — pair a dull ask with an appealing reward. <https://growth.design/case-studies/too-good-to-go-onboarding> (sources/growth-design-case-studies.md)

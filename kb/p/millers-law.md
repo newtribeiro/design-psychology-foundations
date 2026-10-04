@@ -1,0 +1,28 @@
+## Miller's Law
+_Working memory holds ~4 chunks, not 7_ · cycle: 🔮 Meaning · cluster: C2 · evidence: Contested
+- Definition: Short-term/working memory can hold only a small number of meaningful units at once — Miller's classic figure was about seven (±2), but current estimates are closer to three to five chunks.
+- Mechanism (why it happens): Working memory has a capacity-limited focus of attention; chunking (grouping items into meaningful units using long-term knowledge) is how people exceed the raw limit — the limit is in chunks, not digits or menu items.
+- Origin & key evidence:
+  - Miller (1956), "The Magical Number Seven, Plus or Minus Two", Psychological Review 63(2) — limits in absolute judgement and immediate memory; introduced chunking. https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two
+  - Cowan (2001), Behavioral and Brain Sciences 24(1) — reconsideration showing capacity is about 4 chunks when rehearsal and chunking are controlled. https://pubmed.ncbi.nlm.nih.gov/11515286/
+  - Cowan (2010), "The Magical Mystery Four", Current Directions in Psychological Science — with rehearsal blocked, adults hold ~3 units whether singletons or learned pairs; ~4 across visual/auditory arrays; capacity grows with age. https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/
+  - Oberauer et al. (2018), "Benchmarks for models of short-term and working memory", Psychological Bulletin 144(9) — consensus of many labs: accuracy falls with set size on every WM test (top-rated benchmark); young adults recall ~3–5 simple units, ~3–4 chunks under controlled chunking. https://www.cns.nyu.edu/malab/static/files/publications/2018%20Oberauer%20et%20al..pdf
+- Evidence grade: Contested (as commonly stated) — the capacity limit itself is Strong (multi-lab benchmark consensus, Oberauer 2018), but the "7±2" figure is outdated (~3–5 chunks), and treating it as a hard cap on menu items is a misreading: visible menus are recognition tasks, not recall.
+- Design applications:
+  - Chunk long codes/serials (e.g. 4-4-4) — measure transcription error rate.
+  - Break multi-step setup into steps of ~3–5 related fields — measure step completion.
+  - Keep comparison state visible instead of relying on memory across screens — measure back-navigation count.
+  - Don't cap navigation at 7 items by rule; NN/g advises neither extreme of flat vs deep — card-sort and tree-test findability instead.
+- Real product examples: Phone numbers and credit-card fields formatted in groups; Apple's 2FA codes shown as 3+3 digits; Amazon's broad category menu (90+ links) as a counter-example to the 7-item myth; anti-pattern — wizards that ask users to remember a value from step 1 to type in step 4.
+- Enterprise/B2B note: Operators juggling telemetry readings should never need to hold values in their head between panels — pin or compare them on screen; expert users chunk domain patterns, so capacity "in items" varies with expertise (Laws of UX).
+- Ethics/watch-out: Don't exploit memory limits by hiding fees across separate steps where users can't hold the total.
+- Contexts: forms, navigation, onboarding, content/copy, dashboards
+- Sources: https://pubmed.ncbi.nlm.nih.gov/11515286/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/ ; https://www.cns.nyu.edu/malab/static/files/publications/2018%20Oberauer%20et%20al..pdf ; https://lawsofux.com/millers-law/ ; https://uxmyths.com/post/931925744/myth-23-choices-should-always-be-limited-to-seven ; https://www.nngroup.com/articles/flat-vs-deep-hierarchy/
+- Typed edges: mechanism-of → Chunking; mechanism-of → Cognitive Load; supports → Recognition Over Recall; supports → Progressive Disclosure; tension → Hick's Law
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (4):
+  - [article] Fixing User Personas — keep 3–5 personas so they're memorable. <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [article] UX Design for Navigation Menus — keep top-level items to around 7 or fewer. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Card Sorting (Test) — keep top-level categories manageable. <https://www.uxtools.co/challenges/card-sorting> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Information Architecture (Implement) — group pages into digestible categories. <https://www.uxtools.co/challenges/information-architecture> (sources/uxtools-challenges-tools.md)
+- Last reviewed: 2026-10-04

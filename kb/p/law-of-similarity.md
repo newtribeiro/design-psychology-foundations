@@ -1,0 +1,31 @@
+## Law of Similarity
+_Similar-looking = related_ · cycle: 🔮 Meaning · cluster: C1 · evidence: Strong
+- Definition: Elements sharing visual properties (colour, shape, size, orientation, texture) are perceived as belonging together, even when they are not adjacent.
+- Mechanism (why it happens): Pre-attentive feature processing groups items with shared features into perceptual units, letting the visual system parse a scene cheaply; similarity also implies shared function, so it shapes expectations about behaviour.
+- Origin & key evidence:
+  - Wertheimer (1923) — similarity listed among the Gestalt grouping factors. https://www.yorku.ca/pclassic/Wertheimer/Forms/forms.htm
+  - Wagemans et al. (2012), Psychological Bulletin — modern review: similarity grouping is robust, and its strength trades off quantitatively against proximity. https://ruccs.sas.rutgers.edu/images/archive/personal-manish-singh/papers/Wagemans_etal_2012_I.pdf
+  - Nulab practitioner guide translating similarity into UI rules. https://nulab.com/learn/design-and-ux/how-to-use-gestalt-principles-law-of-similarity-in-design/
+- Evidence grade: Strong — foundational and repeatedly demonstrated in perception research.
+- Design applications:
+  - One consistent style for all links/interactive elements — measure misclick on non-interactive look-alikes.
+  - Same colour encoding for the same category across charts — measure misreads in comprehension tests.
+  - Differentiate primary vs. secondary buttons clearly — measure wrong-button rate.
+  - Audit components for accidental similarity (status chip vs. button) — usability-test confusion counts.
+- Real product examples: Gmail labels colour-coded consistently across list and sidebar; Jira issue-type icons; anti-pattern — static tags styled exactly like clickable chips.
+- Enterprise/B2B note: Consistent tokens for statuses (armed, flying, fault) across map, list and detail views are essential in a design system for fleet software.
+- Ethics/watch-out: Styling ads or sponsored items like organic results exploits similarity (disguised-ad dark pattern).
+- Contexts: navigation, data-viz, dashboards, branding, settings, forms
+- Sources: https://www.yorku.ca/pclassic/Wertheimer/Forms/forms.htm ; https://ruccs.sas.rutgers.edu/images/archive/personal-manish-singh/papers/Wagemans_etal_2012_I.pdf ; https://nulab.com/learn/design-and-ux/how-to-use-gestalt-principles-law-of-similarity-in-design/
+- Typed edges: supports → Law of Proximity; supports → Juxtaposition; supports → Mental Model; tension → Von Restorff Effect; supports → Signifiers
+- Explained by frameworks: ⚙ Gestalt principles of perception (organises)
+- Linked sources (9):
+  - [article] Gen image workflows in software design — style training keeps icon sets visually consistent so they read as one family. <https://www.uxtools.co/blog/gen-image-workflows-in-software-design> (sources/uxtools-articles.md)
+  - [article] Generative media workflows in UI design — palette/style nodes enforce consistent brand families. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)
+  - [article] Stochastic vs. Deterministic Design — scholastic rule files enforce visual consistency across generated screens. <https://www.uxtools.co/blog/stochastic-vs-deterministic-design> (sources/uxtools-articles.md)
+  - [article] The only AI workflow I use in production — a generated design-system doc keeps components visually consistent across features. <https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — a unified symbol set creates coherent visual language. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Card Sorting (Test) — users group items that feel alike, and labels should reflect that. <https://www.uxtools.co/challenges/card-sorting> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Design System (Implement) — consistent styling signals the same function across the product. <https://www.uxtools.co/challenges/design-system> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Design Systems — tooling exists to enforce visual consistency. <https://www.uxtools.co/tools/design-systems> (sources/uxtools-challenges-tools.md)
+  - [survey] Design Systems — Shapes of Work — consistency across product lines is what the system protects. <https://uxtools.co/survey/design-systems/shapes-of-work> (sources/uxtools-survey.md)

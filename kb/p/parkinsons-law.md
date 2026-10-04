@@ -1,0 +1,25 @@
+## Parkinson's Law
+_Work expands to fill the time_ · cycle: ⏰ Time · cluster: C8 · evidence: Practitioner
+- Definition: Work expands to fill the time available for it — given more time than needed, people spend it on the task rather than finishing early.
+- Mechanism (why it happens): Deadlines set the reference point for effort; with slack, people raise quality thresholds, dawdle, or add scope, and goal-setting research shows looser targets yield lower output per unit time.
+- Origin & key evidence:
+  - Parkinson (1955), satirical essay in The Economist about bureaucratic growth — origin of the phrase (not an empirical study).
+  - Brannon, Hershberger & Brock (1999), "Timeless demonstrations of Parkinson's first law", Psychonomic Bulletin & Review 6, 148–156 — participants told a later task was cancelled spent more time on the current one ("cancellation-dalliance effect"), replicated across four studies. https://doi.org/10.3758/BF03210823
+  - Goal-setting literature (Locke & Latham) — specific, challenging time goals raise performance (general support; not verified for a specific paper here).
+- Evidence grade: Practitioner — widely cited aphorism; direct experimental evidence is thin (a handful of lab studies), though consistent with goal-setting research.
+- Design applications:
+  - Short, visible time boxes for tasks (e.g. "~2 min survey") — measure completion time and drop-off.
+  - Session timers or default expiries for drafts/quotes — measure time-to-submit.
+  - Sprint/feature-scoping tools that surface remaining time vs. scope — measure scope creep per sprint.
+  - Limit free-trial length to the time needed to hit the aha moment — test 7 vs 14 vs 30 days on conversion.
+- Real product examples: Calendly/Google Calendar default 30-min meetings (many shrink to 25 with "speedy meetings"); Typeform shows estimated completion time; Basecamp's Shape Up method fixes the time "appetite" and flexes scope.
+- Enterprise/B2B note: Approval workflows without SLAs drift; showing due dates and ageing on review queues keeps catalogue/content pipelines moving.
+- Ethics/watch-out: Artificial countdowns that pressure decisions slide into false urgency (a dark pattern).
+- Contexts: onboarding, forms, research, stakeholder-communication, settings, pricing
+- Sources: https://doi.org/10.3758/BF03210823 ; https://link.springer.com/article/10.3758/BF03210823 ; https://calnewport.com/revisiting-parkinsons-law/
+- Typed edges: tension → Labor Illusion; tension → Planning Fallacy; supports → Goal Gradient Effect; supports → Scarcity; counteracts → Decision Fatigue; special-case-of → Framing; tension → Chronoception
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (3):
+  - [article] How these designers are learning today — tight loops can expand endlessly; need stop rules. <https://www.uxtools.co/blog/how-these-designers-are-learning-today> (sources/uxtools-articles.md)
+  - [article] The year of the connected canvas — expanded capacity gets filled with more expected work (Jevons-style intensification). <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
+  - [video] Creating a graffiti ink app with Figma Make ("Designer Reacts to Your INSANE Side Projects — when iteration is free, work expands; the episode's "when to stop iterating" question needs a deliberate stop rule. <https://www.uxtools.co/episodes/creating-a-graffiti-ink-app-with-figma-make> (sources/uxtools-episodes.md)

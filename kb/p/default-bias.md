@@ -1,0 +1,33 @@
+## Default Bias
+_People stick with the preset_ · cycle: ⏰ Time · cluster: C4 · evidence: Strong
+- Definition: People disproportionately stay with the pre-selected option, so whatever is set as default largely determines the outcome.
+- Mechanism (why it happens): Three channels: effort (switching costs time and attention), endorsement (the default reads as the designer's recommendation), and endowment (the default becomes the reference point, so leaving it feels like a loss).
+- Origin & key evidence:
+  - Johnson & Goldstein (2003), Science — opt-out countries showed far higher organ-donor consent than opt-in countries. https://thedecisionlab.com/insights/health/can-defaults-save-lives-the-power-of-default-options-on-life-saving-decisions
+  - Jachimowicz, Duncan, Weber & Johnson (2019), Behavioural Public Policy 3(2):159–186 — meta-analysis of 58 studies, ~73,675 participants, d ≈ 0.68; larger in consumer domains, smaller in environmental; stronger via endorsement and endowment. https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html
+  - "Defaults are not a panacea" — default effects on choices don't always carry through to outcomes. https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A9CDEBE021D23C750E14F58C03D2DD83/S2398063X22000240a.pdf/defaults-are-not-a-panacea-distinguishing-between-default-effects-on-choices-and-on-outcomes.pdf
+- Evidence grade: Strong — meta-analytic support; caveat of high heterogeneity, a few null/negative studies, and choice≠outcome effects.
+- Enterprise/B2B note: Admin-console defaults (retention periods, permission scopes, alert thresholds) become org policy at scale — choose safe, reversible defaults and document them.
+- Ethics/watch-out: Pre-ticked consent or add-ons are restricted under GDPR and consumer law; defaults should serve the user's likely interest.
+- Contexts: settings, forms, onboarding, pricing, checkout, notifications
+- Sources: https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html ; https://thedecisionlab.com/insights/health/can-defaults-save-lives-the-power-of-default-options-on-life-saving-decisions ; https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A9CDEBE021D23C750E14F58C03D2DD83/S2398063X22000240a.pdf/defaults-are-not-a-panacea-distinguishing-between-default-effects-on-choices-and-on-outcomes.pdf ; https://behavioralpolicy.org/wp-content/uploads/2020/01/Does-changing-defaults-save-lives_-Effectd-of-presumed-consent-organ-donation-policies.pdf
+- Design applications: Set defaults that serve the user; Make defaults' consequences clear (what happens if I toggle?); Use defaults for pro-social behaviour (opt-out of waste)
+- Watch-out (growth.design): Defaults that trap users ('zombie subscriptions') are dark patterns.
+- Product examples: Amazon — subscription default with discount; Uber Eats — no disposables by default; Airbnb — unclear OFF filters; Adobe — zombie customers
+- Typed edges: supports → Endowment Effect; supports → Nudge; supports → Anchoring Bias; counteracts → Decision Fatigue; tension → Reactance; supports → Tesler's Law
+- Related: Nudge, Endowment Effect, Loss Aversion
+- Explained by frameworks: ⚙ Cognitive Bias Codex (supports); ⚙ Cognitive Load Theory and working memory limits (supports); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (36):
+  - [article] Design debt at machine speed — agents (and people) follow whatever defaults the system encodes; good defaults enforce consistency. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
+  - [article] Fast and Cheap Ways to Find UX Research Participants — automated recruiting makes research the default step in every project. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — smart defaults steer users to correct, common values. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] Interfaces that rearrange for each user — the per-user "default" (sort, order) is the highest-leverage choice to personalize. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [article] The 30-second test designers fail — unreviewed AI output tends to be accepted as-is; explicit review gates counter it. <https://www.uxtools.co/blog/the-30-second-test-designers-fail> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — status quo bias: optimise and pre-fill defaults. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [article] This design tool blew up our inbox — tools default to comment pins, shaping shallow critique. <https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox> (sources/uxtools-articles.md)
+  - [article] Your team isn't AI-installed — Microsoft data: treating AI output as a starting point should be the default stance. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Flow (Ideate) — preselect the nearest store and the soonest slot. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Survey (Test) — a pre-selected answer biases the response. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Form (Implement) — pre-selected options strongly steer answers. Use them responsibly. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Whiteboarding — the whiteboard bundled with the main design tool wins. <https://www.uxtools.co/tools/whiteboarding> (sources/uxtools-challenges-tools.md)
+  - …24 more in sources/*.md (search the principle name)

@@ -1,0 +1,27 @@
+## Banner Blindness
+_Users ignore what looks like ads_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: Users consciously or unconsciously skip page elements that look like advertising — by format, position or styling — even when those elements contain content relevant to their task.
+- Mechanism (why it happens): Learned selective attention: repeated exposure teaches users that ad-like regions (top banners, right rails, boxed promos) are irrelevant, so goal-driven visual search excludes them; Norman frames it as schema violation — relevant links placed where the user's schema expects ads are not looked for.
+- Origin & key evidence:
+  - Benway & Lane (1998), ITG Newsletter — coined the term after users missed large, prominent banners holding the information they needed. Discussed in Norman's essay: https://jnd.org/banner-blindness-human-cognition-and-web-design/
+  - Nielsen Norman Group eyetracking — ad-signalling elements get minimal fixations on desktop and mobile ("Banner Blindness Revisited", 2018). https://www.nngroup.com/videos/banner-blindness/
+  - Pagendarm & Schaumburg (2001), Journal of Digital Information — banners were ignored more during directed search than during aimless browsing (details not verified beyond the article page). https://jodi-ojs-tdl.tdl.org/jodi/article/view/jodi-37/38
+- Evidence grade: Strong — consistently reproduced in eyetracking studies for 25+ years; magnitude depends on task focus (stronger in goal-directed search).
+- Enterprise/B2B note: Internal tools suffer it too — release-note banners, persistent yellow warning strips and "announcement" cards in asset-fleet or admin dashboards get tuned out, so critical alerts must not share the promo pattern.
+- Ethics/watch-out: Don't "fix" it by disguising ads as native content or system messages — that is deceptive (disguised ads dark pattern).
+- Contexts: notifications, dashboards, navigation, content/copy, errors, empty-states
+- Sources: https://jnd.org/banner-blindness-human-cognition-and-web-design/ ; https://www.nngroup.com/videos/banner-blindness/ ; https://jodi-ojs-tdl.tdl.org/jodi/article/view/jodi-37/38
+- Design applications: Check: is key content in a typical ad slot?; Is it next to ads?; Does it look like an ad (shape, imagery, colour)? If yes, redesign
+- Watch-out (growth.design): Mixing ads into real content erodes trust in all content.
+- Product examples: Signal — revenue CTA mistaken for an ad; Instagram — ads mixed with content
+- Typed edges: special-case-of → Selective Attention; tension → Von Restorff Effect; counteracts → External Trigger; mechanism-of → Attentional Bias; measured-by → eyetracking fixation share; tension → Visual Anchors; tension → External Trigger; tension → Discoverability; tension → Picture Superiority Effect
+- Related: Selective Attention, Visual Hierarchy, Von Restorff Effect
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (supports); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Gestalt principles of perception (mechanism-of); ⚙ Norman's design principles (tension)
+- Linked sources (7):
+  - [article] How Designers Can Prevent User Errors — over-used confirmations become ignored, like ads (habituation). <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [case-study] Amber Alert Redesign: 5 UX Improvements That Could Save Lives — repeated alerts get tuned out (habituation). <https://growth.design/case-studies/amber-alert-ux> (sources/growth-design-case-studies.md)
+  - [case-study] One simple way Apple could improve your sleep habits — identical notification formats get ignored. <https://growth.design/case-studies/apple-sleep-notification> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology of Advertising: Why this ad made me stop scrolling (Balance app) — typical ad formats get filtered out. <https://growth.design/case-studies/balance-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] The Scary Future Of Instagram — ads disguised as content get past filters. <https://growth.design/case-studies/instagram-monetization> (sources/growth-design-case-studies.md)
+  - [case-study] The Ugly Truth About Net Promoter Score Surveys — survey emails get filtered out. <https://growth.design/case-studies/nps-surveys> (sources/growth-design-case-studies.md)
+  - [case-study] Signal: How To Ethically Boost Your Revenues — ad-like or edge content gets ignored. <https://growth.design/case-studies/signal-revenue> (sources/growth-design-case-studies.md)

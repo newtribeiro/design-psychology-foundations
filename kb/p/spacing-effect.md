@@ -1,0 +1,26 @@
+## Spacing Effect
+_Spaced repetition beats cramming_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: Information is retained longer when study or exposure is spread out over time than when it is massed into one session.
+- Mechanism (why it happens): Spaced repetitions force partial forgetting and effortful retrieval, which strengthens memory traces (desirable difficulty); varied encoding contexts add retrieval cues; the optimal gap grows with the desired retention interval.
+- Origin & key evidence:
+  - Ebbinghaus (1885) — first documented that distributed repetitions improve retention (details not verified).
+  - Cepeda, Pashler, Vul, Wixted & Rohrer (2006), Psychological Bulletin — quantitative synthesis of hundreds of verbal-recall experiments: spacing reliably beats massing, and the best gap depends on the retention interval. https://pubmed.ncbi.nlm.nih.gov/16719566/
+  - Settles & Meeder (2016), ACL — Duolingo's half-life regression model schedules reviews to individual forgetting curves and improved engagement and prediction. https://aclanthology.org/P16-1174/
+- Evidence grade: Strong — one of the most replicated findings in learning science.
+- Design applications:
+  - Spread onboarding tips over days instead of a single tour — measure feature adoption at day 7/30.
+  - Schedule review prompts based on usage gaps — measure retention of skills (task success on return).
+  - Drip training for complex tools — measure certification pass rate.
+  - Space feature announcements rather than batch them — measure announcement click-through.
+- Real product examples: Duolingo practice scheduling (https://blog.duolingo.com/how-we-learn-how-you-learn); Anki spaced-repetition flashcards; Headspace/Calm short daily sessions.
+- Enterprise/B2B note: Operator training for operations software benefits from spaced refreshers before rare but critical procedures (emergency shutdown, safety override).
+- Ethics/watch-out: Use spacing for genuine learning, not just to manufacture daily-open habits.
+- Contexts: onboarding, notifications, retention, gamification, content/copy
+- Sources: https://pubmed.ncbi.nlm.nih.gov/16719566/ ; https://www.evullab.org/pdf/CepedaPashlerVulWixtedRohrer-PB-2006.pdf ; https://aclanthology.org/P16-1174/ ; https://blog.duolingo.com/how-we-learn-how-you-learn
+- Typed edges: supports → Shaping; tension → Cognitive Load; supports → Internal Trigger; supports → Recognition Over Recall
+- Linked sources (5):
+  - [article] How research teams are keeping up with build teams — frequent small sessions keep user insight fresh vs. infrequent big studies. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)
+  - [article] Quicker UX Research Synthesis — repeated short synthesis sessions improve retention of insights. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)
+  - [challenge] UX Challenges (index) — practising the method repeatedly across challenges beats one-off reading. <https://www.uxtools.co/challenges> (sources/uxtools-challenges-tools.md)
+  - [survey] Award — Research Excellence (Dovetail) — resurfacing insights over time keeps them alive in team memory. <https://uxtools.co/survey/design-tools-awards/research-excellence> (sources/uxtools-survey.md)
+  - [other] UX in 60 Seconds — weekly, bite-size repetition helps retention better than one-off study. <https://growth.design/ux-in-60-seconds> (sources/growth-design-case-studies.md)

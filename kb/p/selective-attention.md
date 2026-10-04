@@ -1,0 +1,27 @@
+## Selective Attention
+_Focus filters out the environment_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: We focus on the subset of stimuli that matter to our current goal and filter out the rest, often without noticing that we filtered it.
+- Mechanism (why it happens): Attention has limited capacity. Early filter and attenuation models (Broadbent, Treisman) and the cocktail-party effect (Cherry) describe goal-driven gating. Unattended items often never reach awareness, which produces inattentional blindness and change blindness.
+- Origin & key evidence:
+  - Cherry (1953), cocktail-party effect. Broadbent (1958), filter model. Treisman (1960s), attenuation model. These are summarised at https://lawsofux.com/selective-attention/
+  - Simons & Chabris (1999, *Perception*, DOI 10.1068/p281059): about half of observers who were counting basketball passes missed a person in a gorilla suit walking through the scene. https://www.citedrive.com/en/discovery/gorillas-in-our-midst-sustained-inattentional-blindness-for-dynamic-events/
+  - Banner blindness is the web version: users skip anything that looks like an ad. https://www.nngroup.com/videos/banner-blindness/
+- Evidence grade: Strong. Inattentional and change blindness have been replicated many times across paradigms.
+- Design applications:
+  - Put critical status in the user's current focus zone (near the cursor or the active task), not in a far-off banner. Signal: notice rate in eye-tracking or first-click tests.
+  - Avoid ad-like styling (boxed, coloured, top/right rail) for important content. Signal: CTR before and after restyling.
+  - Never make two visual changes at the same time when one of them matters. Signal: change-detection rate in usability tests.
+  - Change an element's modality (sound, haptic, motion) when it falls outside the task focus. Signal: response latency to the alert.
+- Real product examples: Banner-blindness eye-tracking from NN/g (https://www.nngroup.com/videos/banner-blindness/). Cockpit and automotive head-up displays, which put warnings into the driver's line of sight (no URL verified).
+- Enterprise/B2B note: In dense ops dashboards, operators "tunnel" on the main task. Out-of-focus alarms (battery, boundary) need multimodal escalation.
+- Ethics/watch-out: Hiding fees or terms where attention isn't is a dark pattern.
+- Contexts: dashboards, notifications, errors, navigation, content/copy, data-viz
+- Sources: https://lawsofux.com/selective-attention/ ; https://www.citedrive.com/en/discovery/gorillas-in-our-midst-sustained-inattentional-blindness-for-dynamic-events/ ; https://www.nngroup.com/videos/banner-blindness/ ; https://tutor2u.net/psychology/reference/simons-and-chabris-1999
+- Typed edges: supports → Visual Hierarchy; supports → Contrast; tension → Von Restorff Effect; special-case-of → Attentional Bias; measured-by → eye-tracking; tension → Flow State
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (5):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — skimming reviewers only notice what is emphasized. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] Interfaces that rearrange for each user — reshaping content around stated intent foregrounds what the user is looking for. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — a limited "motion budget" avoids diluting attention; movement captures the eye. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Wireframe (Ideate) — while driving, attention is scarce, so show only the next manoeuvre. <https://www.uxtools.co/challenges/wireframe> (sources/uxtools-challenges-tools.md)
+  - [case-study] How to increase signup confirmation rates with Sniper Links — removes distractors. <https://growth.design/case-studies/sniper-link> (sources/growth-design-case-studies.md)

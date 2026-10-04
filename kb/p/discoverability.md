@@ -1,0 +1,23 @@
+## Discoverability
+_Users can find features by looking_ · cycle: ⏰ Time · cluster: C3 · evidence: Strong
+- Definition: The degree to which users can encounter features or content they did not already know existed, and work out what actions are possible, without instruction (distinct from findability, which is locating something they expect).
+- Mechanism (why it happens): Users act on what is visible and perceived as actionable; hidden controls rely on recall and guessing, while visible signifiers, labels and placement exploit recognition and attention.
+- Origin & key evidence:
+  - Norman, The Design of Everyday Things (rev. 2013) — treats discoverability and understanding as core properties of good design (via signifiers, feedback, mapping). (book; not fetched this session)
+  - Cardello / NN/g (2014): defines findability vs discoverability; recommends tree tests, closed card sorts, click tests and usability tests to diagnose IA vs UI causes. https://www.nngroup.com/articles/navigation-ia-tests/
+  - Pernice & Budiu / NN/g (2016): 179 participants on 6 sites — hidden (hamburger) navigation was used less often and found later than visible navigation on desktop. https://www.nngroup.com/articles/find-navigation-desktop-not-hamburger/
+- Evidence grade: Strong (practitioner-empirical) — consistent usability evidence from large-sample tests; less academic replication.
+- Enterprise/B2B note: Power features in complex tools (bulk edit, keyboard shortcuts, saved filters) often go unused for years; contextual hints and command palettes raise discovery without cluttering.
+- Ethics/watch-out: Deliberately hiding cancellation, privacy or opt-out controls ("obstruction") is a dark pattern.
+- Contexts: navigation, onboarding, empty-states, settings, search
+- Sources: https://www.nngroup.com/articles/navigation-ia-tests/ ; https://www.nngroup.com/articles/find-navigation-desktop-not-hamburger/ ; https://www.nngroup.com/articles/hidden-navigation-methodology/
+- Design applications: Always provide a clear way back; Make critical states visible (e.g. mic on/off); Use signifiers and labels
+- Product examples: YouTube — navigating back; Clubhouse — unclear mic state
+- Typed edges: tension → Hick's Law; tension → Progressive Disclosure; supports → Signifiers; supports → Recognition Over Recall; tension → Banner Blindness; supports → Feedforward; supports → Visual Hierarchy
+- Related: Signifiers, Progressive Disclosure, Feedback Loop
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Linked sources (4):
+  - [article] "Agent-permeable" is the new mobile-responsive — agents bypass visual discovery entirely; capabilities must be explicitly exposed. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)
+  - [article] UX Design for Navigation Menus — hidden menus reduce discovery of key sections. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [case-study] The Psychology of Clubhouse's User Retention (...and churn) — the psychology library cites Clubhouse for hard-to-find content. <https://growth.design/case-studies/clubhouse-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] YouTube's Attempt To Solve The Paradox of Choice — users must be able to find their way. <https://growth.design/case-studies/youtube-user-retention> (sources/growth-design-case-studies.md)

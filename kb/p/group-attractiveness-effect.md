@@ -1,0 +1,28 @@
+## Group Attractiveness Effect
+_Items look better in a group_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
+- Definition: Individuals (or items) are judged more attractive when seen in a group than alone — the "cheerleader effect".
+- Mechanism (why it happens): Originally attributed to ensemble (average) coding — group members drift toward the smoother, more attractive average. Later work suggests a memory bias at the rating stage and non-face-specific processes also contribute.
+- Origin & key evidence:
+  - Walker & Vul (2014), Psychological Science: faces rated more attractive in group photos than alone. https://www.psychologicalscience.org/?p=91712
+  - Carragher et al. (2019), Scientific Reports (3 experiments): boosts of ~1.5–2%; smaller boosts even beside non-human images, so averaging is only part of the story. https://research.monash.edu/en/publications/limited-evidence-of-hierarchical-encoding-in-the-cheerleader-effe/
+  - Carragher et al. (2020), J. Cognitive Psychology: effect held at every presentation time (300–7000 ms). https://storre.stir.ac.uk/handle/1893/31328
+  - Hsieh et al. (2021), QJEP: effect larger for bodies than faces; appeared only when rated after the group left the screen — memory, not perception. https://researchers.mq.edu.au/en/publications/the-cheerleader-effect-in-facial-and-bodily-attractiveness-a-resu/
+  - Jones (2024), Visual Cognition (Swansea, independent lab): effect replicated and unaffected by face familiarity. https://cronfa.swan.ac.uk/Record/cronfa67774
+  - Zheng & Zhou (2023) abstract: less attractive targets gain most; observer in-group bias moderates. https://journal.psych.ac.cn/xlkxjz/EN/Y2023/V31/Isuppl./47
+  - Mixed: Ojiro et al. (2015) Japanese direct replications — similar pattern, non-significant. https://www.tqmp.org/ReplicationStudies/vol11-2/r008/index.html ; China (2020) confirmative study found it. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551192/
+- Evidence grade: Moderate (was Contested) — several independent labs now replicate the effect, but it is tiny (~2%), memory-dependent, and untested for product/UI imagery.
+- Design applications:
+  - Show products in curated sets/grids rather than isolated hero images — measure detail click-through and add-to-cart.
+  - Biggest expected lift for weaker items; recall-based judgements (e.g., after browsing a grid) matter more than in-view ones.
+  - Team pages / testimonials as group mosaics — trust score vs single photo.
+  - Test before assuming: A/B single vs grouped imagery; expect small effects.
+- Real product examples: Pinterest boards; e-commerce "Shop the look" bundles (no source URL verified).
+- Enterprise/B2B note: Product-line pages (e.g., a hardware product family shown together) may lift perceived quality of weaker models, but evidence is from faces/bodies only — validate with buyers.
+- Ethics/watch-out: Grouping weaker items with strong ones to disguise quality is misleading.
+- Contexts: branding, content/copy, onboarding, pricing
+- Sources: https://www.psychologicalscience.org/?p=91712 ; https://research.monash.edu/en/publications/limited-evidence-of-hierarchical-encoding-in-the-cheerleader-effe/ ; https://storre.stir.ac.uk/handle/1893/31328 ; https://researchers.mq.edu.au/en/publications/the-cheerleader-effect-in-facial-and-bodily-attractiveness-a-resu/ ; https://cronfa.swan.ac.uk/Record/cronfa67774 ; https://journal.psych.ac.cn/xlkxjz/EN/Y2023/V31/Isuppl./47 ; https://www.tqmp.org/ReplicationStudies/vol11-2/r008/index.html ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7551192/
+- Typed edges: supports → Halo Effect; supports → Law of Similarity; supports → Aesthetic-Usability Effect; supports → Juxtaposition; tension → Von Restorff Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises)
+- Linked sources (1):
+  - [article] The Year Design Communities Go Small (and Real) — small, tight-knit groups feel more engaging and trustworthy than masses. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+- Last reviewed: 2026-10-04

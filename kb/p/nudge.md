@@ -1,0 +1,28 @@
+## Nudge
+_Small cues steer choices without forcing_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
+- Definition: Any change to choice architecture that predictably alters behaviour without forbidding options or significantly changing economic incentives, and that is cheap to avoid (Thaler & Sunstein's definition).
+- Mechanism (why it happens): Nudges exploit predictable System 1 shortcuts — inertia toward defaults, attention to salient options, conformity to norms, effort aversion — so small changes in how options are presented shift the path of least resistance.
+- Origin & key evidence:
+  - Johnson & Goldstein (2003), Science — opt-out countries showed far higher organ-donor consent than opt-in ones. https://thedecisionlab.com/insights/health/can-defaults-save-lives-the-power-of-default-options-on-life-saving-decisions
+  - Jachimowicz et al. (2019), Behavioural Public Policy — meta-analysis of 58 default studies (n≈73.7k): d ≈ 0.68, stronger in consumer domains and when the default reads as an endorsement or the status quo; a few null/negative results. https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html
+  - Mertens et al. (2022), PNAS meta-analysis (d ≈ 0.43) vs Maier et al. (2022) PNAS letter — bias-corrected effect ≈ d 0.04; structural nudges undecided (d ≈ 0.12–0.23), information nudges near zero. https://pmc.ncbi.nlm.nih.gov/articles/PMC9351501 ; Szaszi et al. (2022) stress heterogeneity. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9351519/
+  - DellaVigna & Linos (2022), Econometrica — 126 RCTs, 23M+ people from two US nudge units: average lift 1.4 pp (≈8% over control) vs 8.7 pp in published academic trials; publication bias plus low power explains the whole gap. https://nber.org/papers/w27594
+  - Milkman et al. (2021), Nature megastudy — 54 gym-visit nudges, 61k people: 45% raised visits 9–27%, but only 8% kept an effect after the program; experts could not predict winners. https://authors.library.caltech.edu/records/mys88-cc756
+  - Beermann et al. (2024), ICIS — bias-adjusted meta-analysis of digital green nudges (67 studies): no significant average effect, strong publication bias, big heterogeneity. https://aisel.aisnet.org/icis2024/lit_review/lit_review/5
+  - Bruns et al. (2025), JBEE — meta-analysis: disclosing a nudge does not weaken it (behaviour g ≈ +0.12); evidence is 88% defaults. https://eprints.soton.ac.uk/499122/1/1-s2.0-S2214804325000175-main.pdf
+- Evidence grade: Moderate (was Contested; re-graded 2026-10-04 after evidence review) — two independent at-scale datasets (DellaVigna & Linos 2022: 126 nudge-unit RCTs, ~23M people, +1.4 pp; Milkman 2021 megastudies) show small, real, often short-lived effects; defaults are the most reliable type. Bias-corrected academic meta-analyses (Maier 2022) still warn the published literature is inflated — plan for low single-digit lifts and test.
+- Enterprise/B2B note: Defaults in configuration (safe presets, auto-save, recommended export settings) are the high-value nudges; tips and info banners rarely move behaviour. Budget for low-single-digit lifts in roadmaps.
+- Ethics/watch-out: Nudges must be transparent and easy to opt out of — transparency costs little or no effectiveness; nudges serving the business against the user become sludge/dark patterns.
+- Contexts: onboarding, settings, forms, checkout, pricing, notifications
+- Sources: https://thedecisionlab.com/insights/health/can-defaults-save-lives-the-power-of-default-options-on-life-saving-decisions ; https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9351501 ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9351519/ ; https://nber.org/papers/w27594 ; https://authors.library.caltech.edu/records/mys88-cc756 ; https://aisel.aisnet.org/icis2024/lit_review/lit_review/5 ; https://eprints.soton.ac.uk/499122/1/1-s2.0-S2214804325000175-main.pdf
+- Design applications: Prefer defaults/structure over messages; Suggest, don't require (prompt for dates/guests rather than force filters); Disclose the nudge — it rarely costs effect; Size A/B tests for ~1–2 pp lifts and check persistence after the prompt stops; Test several variants (megastudy logic) rather than trusting intuition
+- Watch-out (growth.design): Nudges that benefit the business at the user's expense become dark patterns ('sludge').
+- Product examples: Airbnb — nudges to add dates/guests; Amazon — status-quo nudges not always in user's favour; Pension/benefit auto-enrolment — the canonical durable default
+- Typed edges: special-case-of → Default Bias; supports → Social Proof; mechanism-of → Framing; tension → Reactance; measured-by → A/B testing; tension → Second-Order Effect
+- Related: Default Bias, Priming, Reactance
+- Explained by frameworks: ⚙ Cognitive Bias Codex (tension); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises); ⚙ Self-Determination Theory (tension)
+- Linked sources (3):
+  - [case-study] The Psychology Behind Amazon's Purchase Experience — an example where the nudge tips into a dark pattern. <https://growth.design/case-studies/amazon-purchase-ux> (sources/growth-design-case-studies.md)
+  - [case-study] Apple vs Meta Threads: The Illusion of Privacy — a front-and-centre privacy score is a positive nudge. <https://growth.design/case-studies/apple-privacy-policy> (sources/growth-design-case-studies.md)
+  - [case-study] Airbnb: How To Reduce Churn With Personalization — soft prompts for dates and guests. <https://growth.design/case-studies/airbnb-personalization> (sources/growth-design-case-studies.md)
+- Last reviewed: 2026-10-04

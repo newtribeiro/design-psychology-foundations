@@ -1,0 +1,36 @@
+## Aesthetic-Usability Effect
+_Beautiful feels easier_ · cycle: 🙈 Information · cluster: C1 · evidence: Contested
+- Definition: Users tend to rate visually attractive interfaces as more usable and are more forgiving of their minor flaws, at least on first impression.
+- Mechanism (why it happens): A halo-style affect heuristic. Fast positive affect (System 1) colours slower usability judgements, and positive mood may make people more tolerant of friction.
+- Origin & key evidence:
+  - Kurosu & Kashimura (1995, CHI short paper): rated beauty and rated "apparent usability" of ATM layouts were strongly correlated (r ≈ .59, 252 participants). The study was correlational only. https://chi1995.chistatic.hosting.acm.org/proceedings/shortppr/mk_bdy.htm
+  - Tractinsky, Katz & Ikar (2000, *Interacting with Computers*): the link between beauty and perceived usability held even after real use. https://academic.oup.com/iwc/article/13/2/127/898608
+  - Tuch et al. (2012): manipulated both variables. Poor usability lowered ratings of beauty, so the arrow can run the other way. Summarised in Grishin & Gillan (2019).
+  - Grishin & Gillan (2019, *Journal of Usability Studies*): in a 4-day longitudinal design, aesthetics did not shift SUS scores. Actual usability drove them. https://uxpajournal.org/wp-content/uploads/sites/7/pdf/JUS_Grishin_Feb2019.pdf
+- Evidence grade: Contested. The first-impression correlation is robust. Causal direction and persistence with repeated use are not established.
+- Design applications:
+  - Invest in visual polish for first-run and marketing touchpoints, where judgements form fast. Signal: 5-second-test trust or credibility ratings.
+  - Never treat polish as a substitute for fixing task failures. Track task success separately from satisfaction. Signal: gap between SUS and success rate over sessions.
+  - In usability tests, compare a low-fidelity and a high-fidelity version of the same flow to detect inflated ratings. Signal: difference in ratings with equal success rates.
+  - In longitudinal studies, measure on day 1 and day N. Signal: drift in SUS.
+- Real product examples: Early Tinder, which reviewers argued users forgave for usability flaws because of its polish: https://uxdesign.cc/how-tinder-makes-you-forgive-its-bad-design-3a0ecfe1246b. Grishin & Gillan's null result is a counter-example: polish didn't survive repeated use.
+- Enterprise/B2B note: Daily-use internal tools (catalogues, fleet consoles) fall into the repeated-use regime, where the effect fades. Efficiency matters more than gloss.
+- Ethics/watch-out: Polished prototypes can bias stakeholder and usability-test feedback and hide real problems.
+- Contexts: branding, onboarding, research, stakeholder-communication, empty-states
+- Sources: https://chi1995.chistatic.hosting.acm.org/proceedings/shortppr/mk_bdy.htm ; https://academic.oup.com/iwc/article/13/2/127/898608 ; https://uxpajournal.org/wp-content/uploads/sites/7/pdf/JUS_Grishin_Feb2019.pdf ; https://en.wikipedia.org/wiki/Aesthetic%E2%80%93usability_effect ; https://uxdesign.cc/how-tinder-makes-you-forgive-its-bad-design-3a0ecfe1246b
+- Typed edges: tension → Contrast; mechanism-of → Affect Heuristic; tension → Occam's Razor; supports → Sensory Appeal; measured-by → SUS; tension → Negativity Bias; tension → Signifiers
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (tension); ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (tension)
+- Linked sources (25):
+  - [article] 7 changes in brand world-building — crafted brand worlds raise perceived quality of the product. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
+  - [article] Brand as product's secret weapon — strong brand craft raises perceived usability/quality. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] Gen image workflows in software design — consistent polished assets raise perceived quality. <https://www.uxtools.co/blog/gen-image-workflows-in-software-design> (sources/uxtools-articles.md)
+  - [article] How Linear hires designers — high visual bar as a product value. <https://www.uxtools.co/blog/how-linear-hires-designers> (sources/uxtools-articles.md)
+  - [article] Monitor stands have more personality than software — polished AI output is accepted without scrutiny. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — polish via motion raises perceived usability/quality. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — the Liquid Glass case shows aesthetics can't fully compensate for poor readability. <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [article] The 4 Levels of AI Fluency — finished-looking AI output suppresses critical evaluation. <https://www.uxtools.co/blog/the-4-levels-of-ai-fluency> (sources/uxtools-articles.md)
+  - [article] The artifact stopped proving seniority — good-looking output is assumed to be good; dangerous in high-stakes UX. <https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — visual craft remains the top evaluation criterion. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [article] The year of the connected canvas — "looks finished" trap: polished AI output masks lower comprehension. <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — beautiful craft increases perceived quality and tolerance. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - …13 more in sources/*.md (search the principle name)

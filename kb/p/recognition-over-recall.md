@@ -1,0 +1,34 @@
+## Recognition Over Recall
+_Recognising beats remembering_ · cycle: 💾 Memory · cluster: C2 · evidence: Strong
+- Definition: It is easier to recognise something presented to you than to retrieve it from memory unaided, so interfaces should make options, actions and information visible rather than relying on users to remember them.
+- Mechanism (why it happens): Recognition supplies retrieval cues that activate memory traces directly, while recall must generate the cue internally, costing working memory and System 2 effort; more cues and more context make retrieval easier.
+- Origin & key evidence:
+  - Memory research consistently shows recognition outperforms free recall (e.g. Shepard 1967 on near-perfect picture recognition) (details not verified).
+  - Nielsen (1994) usability heuristic #6, "Recognition rather than recall". https://www.nngroup.com/articles/ten-usability-heuristics/
+  - NN/g, "Memory Recognition and Recall in User Interfaces" — explains retrieval cues and UI implications. https://www.nngroup.com/articles/recognition-and-recall/
+- Evidence grade: Strong — basic memory finding with long replication history; UI heuristic is foundational in HCI.
+- Design applications:
+  - Show recently used items / recent searches — measure time-to-task and search reformulation.
+  - Menus and command palettes with searchable labels instead of hidden shortcuts only — measure feature discovery.
+  - Autocomplete and pickers instead of free-text IDs — measure input errors.
+  - Keep context visible (e.g. selected item details while editing) — measure back-navigation.
+- Real product examples: Google search autocomplete and history; Figma/VS Code command palettes listing commands by name; Microsoft Office ribbon replacing hidden menus.
+- Enterprise/B2B note: Operators should pick equipment, configurations and SKUs from lists with thumbnails and serials, never type them from memory.
+- Ethics/watch-out: Pre-filled "recognised" choices can become defaults that steer users; show alternatives equally.
+- Contexts: navigation, search, forms, settings, onboarding, dashboards
+- Sources: https://www.nngroup.com/articles/recognition-and-recall/ ; https://www.nngroup.com/articles/ten-usability-heuristics/ ; https://uxdesign.cc/jakob-nielsens-sixth-usability-heuristic-for-user-interface-design-ac88e7d58ec
+- Typed edges: mechanism-of → Discoverability; supports → Picture Superiority Effect; counteracts → Cognitive Load; supports → Miller's Law; tension → Progressive Disclosure
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (mechanism-of)
+- Linked sources (12):
+  - [article] Designing The Next Flow State — the spec lets you recognize current state instead of recalling conversation history. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — suggestions/recent locations replace memory with recognition. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] UX Design for Navigation Menus — visible nav (vs hidden hamburger) lets users recognise options. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Flow (Ideate) — re-order from history instead of re-searching. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Heuristic Evaluation (Test) — a Nielsen heuristic in its own right. Shelves and recent books should be visible. <https://www.uxtools.co/challenges/heuristic-evaluation> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Information Architecture (Implement) — visible nav labels beat hidden menus. <https://www.uxtools.co/challenges/information-architecture> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Design Systems — documentation sites let teams find components instead of remembering them. <https://www.uxtools.co/tools/design-systems> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Research Repository — searchable, tagged insights replace memory. <https://www.uxtools.co/tools/research-repository> (sources/uxtools-challenges-tools.md)
+  - [survey] User Research — Research Repository Overview — tagged repositories let teams recognise past findings instead of recalling them. <https://uxtools.co/survey/user-research/research-repository-overview> (sources/uxtools-survey.md)
+  - [case-study] Amber Alert Redesign: 5 UX Improvements That Could Save Lives — a face is easier to recognise than a text description is to recall. <https://growth.design/case-studies/amber-alert-ux> (sources/growth-design-case-studies.md)
+  - [case-study] Beehiiv subscription: 5 small UX mistakes that make a BIG difference — show the creator's identity rather than relying on memory. <https://growth.design/case-studies/beehiiv-newsletter-subscription-ux> (sources/growth-design-case-studies.md)
+  - [episode] Escha Vera: She Trained Her Own AI to Make Art — dropdowns and sliders let users recognise options rather than recall prompt syntax. <https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art> (sources/uxtools-episodes.md)

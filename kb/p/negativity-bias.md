@@ -1,0 +1,29 @@
+## Negativity Bias
+_Bad sticks more than good_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: Negative events, information and emotions weigh more on attention, memory and judgement than positive ones of the same size ("bad is stronger than good").
+- Mechanism (why it happens): Threat detection evolved to take priority. Negative stimuli capture attention faster, are processed more thoroughly, and are more often remembered. Negative signals also contaminate otherwise positive wholes (negativity dominance).
+- Origin & key evidence:
+  - Baumeister, Bratslavsky, Finkenauer & Vohs (2001, *Review of General Psychology*), "Bad Is Stronger Than Good": a review across relationships, feedback, learning and memory. https://fbaum.unc.edu/teaching/articles/Baumeister_2001.pdf
+  - Rozin & Royzman (2001, *Personality and Social Psychology Review*, DOI 10.1207/S15327957PSPR0504_2): set out negative potency, steeper negative gradients, negativity dominance and contagion. https://journals.sagepub.com/doi/10.1207/S15327957PSPR0504_2
+- Evidence grade: Strong. It shows up across many domains. Its size varies with context, and some reviews describe exceptions (not verified here).
+- Design applications:
+  - Make error copy constructive and specific to reduce felt negativity. Signal: abandonment after an error.
+  - Fix the worst moments first. One bad crash outweighs many smooth sessions. Signal: NPS detractor comments by theme.
+  - Calibrate alerts: avoid crying wolf, but present real risks in clearly negative terms. Signal: alert acknowledgement rate.
+  - Balance reviews and ratings displays, e.g. show a breakdown, not only the latest negative review. Signal: conversion against rating exposure.
+- Real product examples: Amazon's rating histogram, which puts individual negative reviews in context (no URL verified). Slack's friendly error messages (no URL verified).
+- Enterprise/B2B note: A single failed job or data loss shapes how a whole team sees a platform. Invest in reliability and graceful recovery.
+- Ethics/watch-out: Fear-based copy ("Don't lose your data!") manipulates through negativity.
+- Contexts: errors, notifications, content/copy, retention, offboarding, research
+- Sources: https://fbaum.unc.edu/teaching/articles/Baumeister_2001.pdf ; https://journals.sagepub.com/doi/10.1207/S15327957PSPR0504_2 ; https://en.wikipedia.org/wiki/Negativity_bias ; https://pdodds.w3.uvm.edu/files/papers/others/2001/rozin2001a.pdf
+- Typed edges: tension → Halo Effect; tension → Affect Heuristic; supports → Peak-End Rule; supports → Attentional Bias; supports → Streisand Effect; tension → Aesthetic-Usability Effect; tension → Peak-End Rule
+- Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Prospect Theory (supports)
+- Linked sources (8):
+  - [article] 7 Practical Tips for Better Microcopy — threatening/negative error wording is disproportionately memorable and harmful. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] The fog between layoffs and prototyping — layoff headlines dominate perception over the more nuanced usage data. <https://www.uxtools.co/blog/the-fog-between-layoffs-and-prototyping> (sources/uxtools-articles.md)
+  - [article] What is AI doing to design career ladders? — panic narratives dominate tech transitions. <https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders> (sources/uxtools-articles.md)
+  - [article] Your UI needs more Walt Disney — one glitch outweighs many smooth interactions in perceived quality and trust. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Journey Map (Understand) — pain points such as price changes and hidden fees weigh more than positives. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [case-study] Coronavirus Dashboard UX: How Design Impacts Your Perception — negative information dominates perception. <https://growth.design/case-studies/coronavirus-dashboard-ux> (sources/growth-design-case-studies.md)
+  - [case-study] Labor Perception Bias: Why faster isn't always better — jittery, alarming visuals heighten anxiety. <https://growth.design/case-studies/labor-perception-bias> (sources/growth-design-case-studies.md)
+  - [episode] Escha Vera: She Trained Her Own AI to Make Art — the AI-label backlash shows how a single label triggers outsized negative reactions and pile-ons. <https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art> (sources/uxtools-episodes.md)

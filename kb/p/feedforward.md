@@ -1,0 +1,27 @@
+## Feedforward
+_Know the result before acting_ · cycle: 🔮 Meaning · cluster: C3 · evidence: Practitioner
+- Definition: Information shown before an action that tells the user what will happen if they take it. It differs from affordances (which say how to act) and from feedback (what happened).
+- Mechanism (why it happens): It bridges Norman's Gulf of Execution. Users can predict an outcome before committing, which reduces trial and error and the fear of irreversible actions.
+- Origin & key evidence:
+  - Djajadiningrat, Overbeeke & Wensveen (2002, DIS): "But how, Donald, tell us how?" introduced feedforward in interaction design. Cited in Vermeulen et al. below.
+  - Vermeulen, Luyten, van den Hoven & Coninx (2013, CHI): separated feedforward from feedback and perceived affordances, and gave examples such as slide-to-unlock, marking menus and OctoPocus gesture guides. https://documentserver.uhasselt.be/bitstream/1942/14759/1/VermeulenLuytenVandenHovenConinx_chi2013.pdf
+- Evidence grade: Practitioner. This is HCI design theory with case studies. Few controlled studies isolate feedforward's effect.
+- Design applications:
+  - Write descriptive button labels ("Delete 12 files", not "OK"). Signal: rate of undo or cancel after the action.
+  - Show previews (hover preview of a filter, a print preview, a dry run of a bulk change). Signal: rework rate.
+  - Show the outcome before submitting ("You'll be charged $X on DATE"). Signal: refund or support contact rate.
+  - Show gesture hints and drag ghosts. Signal: gesture discovery rate.
+- Real product examples: iPhone "slide to unlock", whose label plus track signalled the outcome (Vermeulen et al. 2013). Photoshop's live filter preview (no URL verified).
+- Enterprise/B2B note: For irreversible operations (firmware push, configuration push to a fleet), a simulated preview is the highest-value pattern.
+- Ethics/watch-out: Feedforward must match the real outcome. A misleading preview is deception.
+- Contexts: forms, checkout, settings, onboarding, navigation, errors
+- Sources: https://documentserver.uhasselt.be/bitstream/1942/14759/1/VermeulenLuytenVandenHovenConinx_chi2013.pdf ; https://www.springerprofessional.de/doi/10.1145/2470654.2466255
+- Typed edges: supports → Feedback Loop; counteracts → Loss Aversion; supports → Discoverability; special-case-of → Mental Model
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (supports); ⚙ Norman's design principles (organises)
+- Linked sources (6):
+  - [article] 7 Practical Tips for Better Microcopy — copy that tells users what will happen before they act (preventing concerns). <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — previews show the outcome before committing. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] Pages are becoming teammates — showing what an agent will do/access before it runs reduces uncertainty. <https://www.uxtools.co/blog/pages-are-becoming-teammates> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — visually showing what will happen before committing a customisation. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - [article] Your team isn't AI-installed — agent permissions and scopes must be legible before actions occur. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
+  - [other] Newsletter — the thank-you page tells users what will happen next (a welcome email, the cadence). <https://www.uxtools.co/newsletter> (sources/uxtools-challenges-tools.md)

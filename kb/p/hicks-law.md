@@ -1,0 +1,33 @@
+## Hick's Law
+_More choices → slower, harder decisions_ · cycle: 🙈 Information · cluster: C2 · evidence: Strong
+- Definition: Choice reaction time rises roughly logarithmically with the number of equally likely alternatives, T = a + b·log2(n+1).
+- Mechanism (why it happens): Each choice transmits information; people narrow options by something like hierarchical halving rather than inspecting each one, so time tracks bits of uncertainty, not raw count. It is a System 1 perceptual-motor limit, not a model of deliberate comparison.
+- Origin & key evidence:
+  - Hick (1952), choice reaction time grows with log of alternatives — https://en.wikipedia.org/wiki/Hick%27s_law
+  - Hyman (1953), reaction time is linear in stimulus information, including unequal probabilities — https://en.wikipedia.org/wiki/Hick%27s_law
+  - Laws of UX practitioner translation (reduce choices when speed matters; warns against simplifying to abstraction; dates both authors to 1952, which conflicts with Hyman's 1953 paper) — https://lawsofux.com/hicks-law/
+- Evidence grade: Strong (within scope) — robust for arbitrary stimulus–response mappings; weak or absent for familiar stimuli, verbal responses, or linear scanning of unordered lists, so it does not straightforwardly predict menu or pricing-page times.
+- Enterprise/B2B note: Expert operators (e.g. asset fleet consoles) learn mappings, flattening the curve; apply to novice/rare tasks and time-critical alerts, not to every toolbar.
+- Ethics/watch-out: "Fewer choices" can be used to hide legitimate options (e.g. downgrade or cancel); reduce noise, not user agency.
+- Contexts: navigation, onboarding, pricing, forms, settings, notifications
+- Sources: https://en.wikipedia.org/wiki/Hick%27s_law ; https://lawsofux.com/hicks-law/
+- Design applications: Find screens with many options or repeated items; Cut options or hide them behind progressive disclosure; If you can't cut, order them for skimming and use familiar labels
+- Watch-out (growth.design): Over-reduction can hide needed options (see Tesler's Law).
+- Product examples: Airbnb search — paradox of choice drives churn; Trello signup step 3 — 15-option dropdown; Duolingo lesson list feels overwhelming; Zapier upgrade flow — nav links distract from checkout
+- Typed edges: mechanism-of → Decision Fatigue; supports → Progressive Disclosure; supports → Cognitive Load; tension → Discoverability; special-case-of → Cognitive Load; tension → Decoy Effect; tension → Miller's Law; tension → Pareto Principle; tension → expert flexibility
+- Related: Progressive Disclosure, Cognitive Load, Decision Fatigue, Chunking
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (18):
+  - [article] Generative media workflows in UI design — massive generative volume requires interfaces that structure and filter options. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)
+  - [article] Interfaces that rearrange for each user — picking for the user removes choices they would otherwise have to scan. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [article] Stochastic vs. Deterministic Design — more generated options lengthen designer decision time. <https://www.uxtools.co/blog/stochastic-vs-deterministic-design> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — explicitly cited; fewer choices per page shorten decision time (DPP). <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [survey] This is the State of Prototyping in 2026 — tool proliferation slows adoption decisions. <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Flow (Ideate) — limit choices at each node (store, slot) to cut decision time. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Information Architecture (Implement) — too many top-level items slow choice. <https://www.uxtools.co/challenges/information-architecture> (sources/uxtools-challenges-tools.md)
+  - [survey] State of Prototyping: Spring 2026 — more AI tool options slow adoption decisions, so curate a shortlist. <https://uxtools.co/survey/2026/state-of-prototyping> (sources/uxtools-survey.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — competing colourful elements slow decisions. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology behind highly effective landing pages — delegating many choices slows decisions. <https://growth.design/case-studies/landing-page-ux-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Letterboxd: How to nail product market fit with clear Jobs-To-Be-Done — too many similar options. <https://growth.design/case-studies/letterboxd-jobs-to-be-done> (sources/growth-design-case-studies.md)
+  - [case-study] The Ugly Truth About Net Promoter Score Surveys — 11 options slow the response. <https://growth.design/case-studies/nps-surveys> (sources/growth-design-case-studies.md)
+  - …6 more in sources/*.md (search the principle name)

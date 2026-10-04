@@ -1,0 +1,32 @@
+## Goal Gradient Effect
+_Motivation rises near the finish_ · cycle: 🔮 Meaning · cluster: C6 · evidence: Strong
+- Definition: Effort and speed increase as people get closer to a goal; perceived (even illusory) progress accelerates completion.
+- Mechanism (why it happens): Motivation scales with the proportion of remaining distance; each step closes a larger share of the gap near the end. Pre-filled progress makes the remaining share look smaller, boosting effort.
+- Origin & key evidence:
+  - Hull (1932/1934), rats ran faster as they neared food (exact year varies by source) — https://business.columbia.edu/insights/chazen-global-insights/goal-gradient-hypothesis-resurrected-purchase-acceleration
+  - Kivetz, Urminsky & Zheng (2006), Journal of Marketing Research — coffee-card customers bought more often nearer the reward; a 12-stamp card with 2 bonus stamps was completed faster (median 10 vs 15 days) than a plain 10-stamp card — https://business.columbia.edu/sites/default/files-efs/pubfiles/1200/goalgradient.pdf
+- Evidence grade: Strong-to-Moderate — solid field data and an old animal base; post-reward slow-down and "stuck in the middle" effects show it is not uniform.
+- Enterprise/B2B note: Setup checklists and configuration wizards (e.g. fleet onboarding) benefit from visible progress and credit for steps already done.
+- Ethics/watch-out: Fake progress or moving finish lines erode trust; progress should represent real completion.
+- Contexts: onboarding, gamification, retention, forms, checkout, loading/waits
+- Sources: https://business.columbia.edu/insights/chazen-global-insights/goal-gradient-hypothesis-resurrected-purchase-acceleration ; https://business.columbia.edu/sites/default/files-efs/pubfiles/1200/goalgradient.pdf
+- Design applications: Show clear progress indicators; Give a head start (pre-filled progress); Show the journey has already begun (timelines)
+- Watch-out (growth.design): Fake progress that misrepresents remaining effort backfires.
+- Product examples: Loyalty card — 10 stamps with 2 pre-stamped beats 8 empty; Blinkist trial paywall timeline
+- Typed edges: supports → Zeigarnik Effect; supports → Endowment Effect; special-case-of → Feedback Loop; supports → Investment Loops; counteracts → Decision Fatigue
+- Related: Zeigarnik Effect, Pseudo-Set Framing, Endowment Effect
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (13):
+  - [article] Play out the end of design work — showing the end state first makes the destination visible and motivates convergence. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)
+  - [article] The 4 Levels of AI Fluency — a clear four-rung ladder makes progress visible and motivating. <https://www.uxtools.co/blog/the-4-levels-of-ai-fluency> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — clear progress and fewer steps keep users motivated toward completion. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - [challenge] UX Challenges (index) — the phased, finite set of challenges gives visible progress toward finishing. <https://www.uxtools.co/challenges> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: User Flow (Ideate) — visible checkout progress speeds completion. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Digital Prototype (Ideate) — course progress bars and "2 lessons left" accelerate completion. <https://www.uxtools.co/challenges/digital-prototype> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Onboarding (Implement) — a setup checklist or progress bar motivates finishing. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — motivation rises near the goal and drops if the goal seems distant. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] The "almost" perfect trial conversion (Mine) — a visible path increases momentum. <https://growth.design/case-studies/mine-trial-conversion> (sources/growth-design-case-studies.md)
+  - [case-study] How to increase signup confirmation rates with Sniper Links — a one-click path to finish signup. <https://growth.design/case-studies/sniper-link> (sources/growth-design-case-studies.md)
+  - [case-study] How Blinkist Increased Trial Conversions by 23% (Ethically) — endowed progress speeds completion. <https://growth.design/case-studies/trial-paywall-challenge> (sources/growth-design-case-studies.md)
+  - [case-study] Strava: 7 Strategies To Convert More Freemium Users — progress toward goals. <https://growth.design/case-studies/strava-freemium-conversion> (sources/growth-design-case-studies.md)
+  - …1 more in sources/*.md (search the principle name)

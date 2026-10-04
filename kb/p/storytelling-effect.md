@@ -1,0 +1,34 @@
+## Storytelling Effect
+_Stories beat facts for memory_ · cycle: 💾 Memory · cluster: C8 · evidence: Moderate
+- Definition: Information delivered as a narrative (characters, conflict, resolution) is more engaging, memorable and persuasive than the same facts presented as a list.
+- Mechanism (why it happens): Narrative transportation — immersion in a story reduces counter-arguing and increases emotional involvement and identification, while causal structure aids memory.
+- Origin & key evidence:
+  - Green & Brock (2000), JPSP: higher transportation led to more story-consistent beliefs — https://en.wikipedia.org/wiki/Transportation_theory_(psychology)
+  - Green & Appel (2024) review of narrative persuasion advances — https://mcm.uni-wuerzburg.de/fileadmin/06110300/2024/Pdfs/Green___Appel__2024__Advances_Preprint.pdf
+- Evidence grade: Moderate — meta-analyses support narrative persuasion with small-to-moderate effects; product-UI applications are mostly practitioner evidence.
+- Design applications:
+  - Onboarding as a user journey ("Here's how Alex set up their first project") — activation rate vs feature-list onboarding.
+  - Case-study-led landing pages — demo request conversion.
+  - Storyboards in design process to align teams — stakeholder alignment / decisions per review.
+  - Data stories: annotated charts with a headline insight — comprehension and recall.
+- Real product examples: Airbnb's "Snow White" storyboarding project to design the trip journey — https://www.fastcompany.com/3002813/how-snow-white-helped-airbnbs-mobile-mission ; Spotify Wrapped as a personal annual narrative (no source URL verified).
+- Enterprise/B2B note: B2B buying and internal research share-outs land better as customer stories (a project, an operator) than as feature or finding lists.
+- Ethics/watch-out: Vivid stories can override base rates and statistics (anecdote over data).
+- Contexts: onboarding, branding, stakeholder-communication, research, content/copy, data-viz
+- Sources: https://en.wikipedia.org/wiki/Transportation_theory_(psychology) ; https://mcm.uni-wuerzburg.de/fileadmin/06110300/2024/Pdfs/Green___Appel__2024__Advances_Preprint.pdf ; https://www.fastcompany.com/3002813/how-snow-white-helped-airbnbs-mobile-mission
+- Typed edges: supports → Picture Superiority Effect; supports → Peak-End Rule; tension → Availability Heuristic; supports → Affect Heuristic; supports → Mental Model
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (supports); ⚙ Kano model (organises)
+- Linked sources (19):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — narrative of problem → insight → decision is more persuasive than a process checklist. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] 7 changes in brand world-building — "world-building" frames brand as narrative universe rather than style rules. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
+  - [article] Brand as product's secret weapon — brand built from a story/why is more memorable and persuasive. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — explaining judgment as narrative makes work travel. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — "motion starts with narrative": storyboards sequence UI as a story. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [article] Switching Careers to UX Design — pitching past experience as a user-centred narrative persuades hiring managers. <https://www.uxtools.co/blog/switching-careers-to-ux-design> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — flows "tell a story" which aids team comprehension. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - [article] Translating User Research Into Design — storyboards and narratives make insights persuasive to stakeholders. <https://www.uxtools.co/blog/translating-user-research-into-design> (sources/uxtools-articles.md)
+  - [article] User Research: Is It Worth It? — the Maria narrative and real user videos motivate change more than abstract arguments. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [article] What Developers Need from UX Research — tying code back to something a specific user said creates emotional connection. <https://www.uxtools.co/blog/what-developers-need-from-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Journey Map (Understand) — a journey map persuades stakeholders because it is a narrative. <https://www.uxtools.co/challenges/journey-map> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: User Persona (Understand) — a narrative persona is remembered and used by the team. <https://www.uxtools.co/challenges/user-persona> (sources/uxtools-challenges-tools.md)
+  - …7 more in sources/*.md (search the principle name)

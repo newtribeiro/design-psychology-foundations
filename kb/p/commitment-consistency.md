@@ -1,0 +1,32 @@
+## Commitment & Consistency
+_Small yeses lead to bigger ones_ · cycle: ⏰ Time · cluster: C5 · evidence: Moderate
+- Definition: After making a small, voluntary (ideally public) commitment, people are more likely to agree to larger related requests so their actions stay consistent with their self-image.
+- Mechanism (why it happens): Self-perception (the first act changes how people see themselves) plus the discomfort of inconsistency (dissonance) and a social norm that consistent people are trustworthy.
+- Origin & key evidence:
+  - Freedman & Fraser (1966) — foot-in-the-door: agreeing to a small request sharply raised later compliance with a large one in the original field studies. https://www.atticusli.com/replication-crisis/foot-in-the-door/
+  - Beaman et al. (1983) and Burger (1999) meta-analyses: real but small average effect (about r ≈ 0.17), with many null studies; moderated by request similarity, delay and labelling. https://www.slideshare.net/slideshow/burger/2497673
+  - Cialdini popularised the principle in Influence; lab review of commitment-consistency mechanisms. https://psych.wisc.edu/Brauer/BrauerLab/wp-content/uploads/2014/04/Isenberg_Brauer_CommitmentConsistency.pdf
+- Evidence grade: Moderate — reliably positive but small; the dramatic original effect sizes have not held up meta-analytically.
+- Enterprise/B2B note: Pilot → seat expansion, "pin this dashboard", or a saved first configuration are small commitments that anchor team adoption; expect modest lifts.
+- Ethics/watch-out: Escalating asks ("you said yes before…") shade into manipulation; let users revise commitments easily.
+- Contexts: onboarding, forms, checkout, retention, pricing
+- Sources: https://www.atticusli.com/replication-crisis/foot-in-the-door/ ; https://www.slideshare.net/slideshow/burger/2497673 ; https://psych.wisc.edu/Brauer/BrauerLab/wp-content/uploads/2014/04/Isenberg_Brauer_CommitmentConsistency.pdf
+- Design applications: Split big forms into micro-commitments; Start with the easiest question; Reference previous commitments in reminders
+- Watch-out (growth.design): Escalating asks shouldn't become foot-in-the-door manipulation.
+- Product examples: Tinder — 6 single-question signup steps; Duolingo — 'still want to learn?' emails; Growth.Design newsletter — 2-step opt-in +11%
+- Typed edges: supports → Cognitive Dissonance; supports → Investment Loops; supports → Sunk Cost Effect; supports → IKEA Effect; tension → Reactance; supports → Goal Gradient Effect
+- Related: Spark Effect, Goal Gradient Effect, Cognitive Dissonance
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Self-Determination Theory (mechanism-of)
+- Linked sources (12):
+  - [article] 33 Activity Ideas for Remote UX Workshops — public wrap-up actions (Start/Stop/Continue, Playback) increase follow-through. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [article] Ideas from Developers on Handling UX Feedback — following through on "I'll get back to you" builds reliable trust. <https://www.uxtools.co/blog/ideas-from-developers-on-handling-ux-feedback> (sources/uxtools-articles.md)
+  - [article] Running an Effective Design Kickoff Meeting — publicly agreed roles, timelines and action items increase follow-through. <https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting> (sources/uxtools-articles.md)
+  - [article] The 30-second test designers fail — memory files make the agent behave consistently with past corrections. <https://www.uxtools.co/blog/the-30-second-test-designers-fail> (sources/uxtools-articles.md)
+  - [article] What Developers Need from UX Research — understanding the long game makes teams more committed to decisions. <https://www.uxtools.co/blog/what-developers-need-from-ux-research> (sources/uxtools-articles.md)
+  - [other] Community — an early signup is a small commitment that primes later joining. <https://www.uxtools.co/community> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Shapes of Work — client agreements lock agencies into legacy formats. <https://uxtools.co/survey/interface-design/shapes-of-work> (sources/uxtools-survey.md)
+  - [case-study] One simple way Apple could improve your sleep habits — the swipe acts as a commitment that the rest of the routine follows. <https://growth.design/case-studies/apple-sleep-notification> (sources/growth-design-case-studies.md)
+  - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — streaks and wagers create consistency pressure. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] How Linkedin Increased Notification Opt-in Rates by 500% — a small "yes" leads to the bigger "yes". <https://growth.design/case-studies/linkedin-retention-triggers> (sources/growth-design-case-studies.md)
+  - [case-study] The "almost" perfect trial conversion (Mine) — the yes ladder. <https://growth.design/case-studies/mine-trial-conversion> (sources/growth-design-case-studies.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — step-by-step profile building. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)

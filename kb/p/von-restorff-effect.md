@@ -1,0 +1,30 @@
+## Von Restorff Effect
+_The odd one out gets noticed_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: When one item in a set differs clearly from the others, it is noticed and remembered better than its neighbours (also called the isolation effect).
+- Mechanism (why it happens): Distinctiveness against a homogeneous background captures bottom-up (System 1) attention and makes the item's memory trace more discriminable at retrieval; Hunt argues the effect depends on difference relative to context, not on the item's raw salience.
+- Origin & key evidence:
+  - von Restorff (1933) — isolated item in a list of same-category items was recalled better (paper never translated into English). https://en.wikipedia.org/wiki/Hedwig_von_Restorff
+  - Hunt (1995), "The subtlety of distinctiveness: What von Restorff really did", Psychonomic Bulletin & Review 2(1), 105–112 — shows the effect holds even when isolation comes after the first items, ruling out a pure attention-capture account. https://www.utsa.edu/mind/rrhunt.htm
+  - Laws of UX summary of design implications and accessibility caveats. https://lawsofux.com/von-restorff-effect/
+- Evidence grade: Strong — robust, widely replicated memory effect; UI translation (one highlighted element wins attention) is well supported but degrades when several elements compete.
+- Design applications:
+  - One visually distinct primary CTA per view — measure CTA click-through and time-to-first-click.
+  - Highlight the single critical alert in a list (e.g. low battery) — measure detection time in task-based tests.
+  - Badge the recommended plan — measure share choosing it vs. control.
+  - Limit "new"/accent badges to ≤1 per region — measure misclicks on unbadged items and banner-blindness complaints.
+- Real product examples: Stripe and most SaaS pricing pages accent one plan card; iOS destructive actions shown in red in action sheets (Apple HIG); anti-pattern — dashboards where every tile is coloured, so nothing stands out.
+- Enterprise/B2B note: In asset-fleet or monitoring dashboards, reserve the distinct treatment for genuinely abnormal states so operators learn that "different = act now".
+- Ethics/watch-out: Don't make the business-preferred option distinct while visually burying the user-preferred one; never rely on colour alone (WCAG 1.4.1).
+- Contexts: navigation, pricing, dashboards, notifications, errors, content/copy, data-viz
+- Sources: https://en.wikipedia.org/wiki/Hedwig_von_Restorff ; https://www.utsa.edu/mind/rrhunt.htm ; https://lawsofux.com/von-restorff-effect/
+- Typed edges: tension → Banner Blindness; mechanism-of → Contrast; supports → Visual Hierarchy; supports → Selective Attention; special-case-of → Attentional Bias; tension → Selective Attention; tension → Group Attractiveness Effect; tension → Law of Similarity; tension → Weber's Law
+- Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of); ⚙ Gestalt principles of perception (tension); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (8):
+  - [article] Brand as product's secret weapon — distinctiveness in a sea of look-alike AI products makes the brand stand out and be remembered. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — distinctive "one-of-one" work stands out in saturated feeds. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [article] Monitor stands have more personality than software — expressive, unconventional apps stand out against uniform software. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] What happens when "decent design" is the default — when decent is everywhere, only distinctive work stands out. <https://www.uxtools.co/blog/what-happens-when-decent-design-is-the-default> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — strange, distinctive apps stand out amid sameness. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - [survey] Award — Hidden Gem (Origami Studio) — a niche standout is noticed for its difference. <https://uxtools.co/survey/design-tools-awards/hidden-gem> (sources/uxtools-survey.md)
+  - [case-study] The Psychology of Advertising: Why this ad made me stop scrolling (Balance app) — the item that differs gets noticed and remembered. <https://growth.design/case-studies/balance-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Quiz: Find 4 psychology principles used in Shortform's offboarding — a pattern break captures attention. <https://growth.design/case-studies/shortform-offboarding-quiz> (sources/growth-design-case-studies.md)

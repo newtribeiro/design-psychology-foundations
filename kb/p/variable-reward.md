@@ -1,0 +1,29 @@
+## Variable Reward
+_Unpredictable rewards drive repeat behaviour_ · cycle: 🔮 Meaning · cluster: C6 · evidence: Strong
+- Definition: Rewards that arrive on an unpredictable schedule (variable ratio or interval) sustain more persistent behaviour than rewards that arrive predictably.
+- Mechanism (why it happens): Dopamine neurons signal reward-prediction error — the difference between expected and received reward; uncertainty keeps that error signal alive, so anticipation (System 1 "wanting") stays high and behaviour resists extinction.
+- Origin & key evidence:
+  - Ferster & Skinner (1957), Schedules of Reinforcement — variable-ratio schedules produced high, steady response rates and slow extinction (classic operant work; summarised by practitioners, e.g. https://medium.com/design-bootcamp/variable-ratio-reinforcement-beyond-the-skinner-box-191d3e86d86f).
+  - Schultz, Dayan & Montague (1997), Science — dopamine encodes errors in reward prediction. https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.html
+  - Eyal (2014), Hooked — places variable reward ("tribe, hunt, self") as stage 3 of the Hook model. https://www.nirandfar.com/how-to-manufacture-desire/
+- Evidence grade: Strong for the underlying learning/neuroscience; Practitioner for specific product claims (feeds, loot boxes) — causal app-level data is mostly proprietary.
+- Enterprise/B2B note: Rarely appropriate for operational tools where predictability is a safety value; acceptable for low-stakes discovery (e.g. "tip of the day").
+- Ethics/watch-out: Core mechanic of slot machines and loot boxes; regulators increasingly treat randomised paid rewards as gambling-like — avoid with money or vulnerable users.
+- Contexts: gamification, retention, notifications, onboarding
+- Sources: https://www.gatsby.ucl.ac.uk/~dayan/papers/sdm97.html ; https://www.nirandfar.com/how-to-manufacture-desire/ ; https://medium.com/design-bootcamp/variable-ratio-reinforcement-beyond-the-skinner-box-191d3e86d86f ; https://www.cogneurosociety.org/series1predictionreward
+- Design applications: Add variety to rewards in feeds, achievements, content; Combine low effort with variable payoff for engagement loops
+- Watch-out (growth.design): Core mechanic of addictive design — pair with exit points and user wellbeing checks.
+- Product examples: TikTok — infinite variable feed
+- Typed edges: tension → Feedback Loop; supports → Investment Loops; supports → Internal Trigger; supports → Curiosity Gap; supports → Delighters; tension → Expectations Bias; supports → Feedback Loop; tension → Provide Exit Points; tension → Flow State; tension → SDT autonomy
+- Related: Investment Loops, Provide Exit Points, Delighters, Internal Trigger
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of); ⚙ Fogg Behavior Model + Tiny Habits (organises); ⚙ Self-Determination Theory (tension)
+- Linked sources (9):
+  - [article] Gen image workflows in software design — generative randomness can surface unexpected good directions. <https://www.uxtools.co/blog/gen-image-workflows-in-software-design> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Competitive Analysis (Understand) — trading apps' gamified confetti and frictionless buying are ethically loaded patterns to audit. <https://www.uxtools.co/challenges/competitive-analysis> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Diary Study (Test) — autoplay and recommendations explain why use persists. <https://www.uxtools.co/challenges/diary-study> (sources/uxtools-challenges-tools.md)
+  - [case-study] The Scary Future Of Instagram — an unpredictable feed. <https://growth.design/case-studies/instagram-monetization> (sources/growth-design-case-studies.md)
+  - [case-study] Spotify Wrapped: 6 psychology principles that make it go viral every year — unpredictable reveals. <https://growth.design/case-studies/spotify-wrapped-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology of Temu's casino-like shopping UX — a rigged wheel mimics gambling. <https://growth.design/case-studies/temu-onboarding-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind TikTok's Addictive Feed — unpredictable video quality. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] 6 Ways Mario Kart Tour Triggers You Into Gambling Your Money — random pipes. <https://growth.design/case-studies/mario-kart-revenue-model> (sources/growth-design-case-studies.md)
+  - [episode] Design Taste Comes From Participation — Tom Krcha (YouTube: "Design Tools Are Going Headle — "let it cook" drift and happy accidents provide unpredictable, motivating discoveries. <https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha> (sources/uxtools-episodes.md)

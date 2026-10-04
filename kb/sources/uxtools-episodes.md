@@ -1,0 +1,479 @@
+# uxtools.co / State of Play episodes — 11 transcript summaries + index of all 48
+
+# EP1 — UX Tools / Dive Club episodes (slice 0–11)
+
+## Batch overview
+- Dominant theme: AI is raising the "floor" of design output (decent design is now default), so differentiation moves to taste, care, judgment and the last 20% of polish.
+- Several guests (Puckett, Blumenrose, Ahn) warn about "phantom competency" — AI-made output that looks senior without the underlying judgment; strong links to Dunning-Kruger Effect and Aesthetic-Usability Effect.
+- Tool-builders (Flora, Pencil, Intent) argue for "low floor, high ceiling" tools (Progressive Disclosure, Tesler's Law) and for designers as orchestrators of agents, with specs/context as the new source of truth (Mental Model, Cognitive Load).
+- Flow State is an explicit topic (Wattenberger): AI tools disrupt the developer/designer flow loop; new tools must rebuild Feedback Loops and reduce context switching.
+- Trust in sensitive domains (Ahn on health data) hinges on the "1%" of details, framing of results and clinical rigor — Labor Illusion, Framing, Authority Bias; Puckett and Basement add Peak-End Rule (over-invest in key moments).
+- Craft/brand episodes (Lee Black, Basement, Escha Vera, Jamey Gannon) tie to Delighters, Sensory Appeal, Skeuomorphism, Storytelling Effect and Availability Heuristic ("if you are remembered, you will get chosen"); Escha Vera adds Default Bias/Recognition Over Recall (hide prompts behind controls).
+- Transcripts: 11 of 12 episodes summarised from full YouTube auto-captions; Dive Radio (live stream) had no captions. Several videos were not linked in show notes and were located on Tommy Geoco's YouTube channel.
+- Recurring frameworks: Jamey Gannon's 5-principle AI Creative Director framework; Weber Wong's low-floor/high-ceiling 'iceberg'; Amelia Wattenberger's living spec and plan→implement→review loop; Josh Puckett's uncommon effort/taste/care and 'high slope'; Tom Krcha's stochastic→deterministic (80/20 chisel) split.
+
+## A Most Talented Designer's Tool Stack — Lee Black ("He Makes Figma Do Things It Wasn't Designed For")
+- URL: https://www.uxtools.co/episodes/a-most-talented-designer-s-tool-stack
+- Type: episode
+- Date/author (if known): Jan 26, 2026 · host Tommy Geoco ("State of Play") · S1E6 · 54 min · YouTube https://www.youtube.com/watch?v=I2rhTUQYjhU
+- Transcript: YES (YouTube auto-captions, ~47k chars; video found via Tommy Geoco channel)
+- Guest(s): Lee Black — 25 years in design, ex-Framer, runs studio 1042; made the goldfish-in-glass Figma pills, the Dieter Rams-inspired "Drams" Framer component library, and Midlife Engineering (ambient-music focus/de-stress project)
+- Summary:
+  - Childhood of taking toys apart to understand them; obsessive drawing; painted a canvas a night for ~5 years until burnout. Music (Kraftwerk, vinyl DJing) came before design; both are about layers and evoking feeling.
+  - Speed vs quality: very fast designers can work in "tunnel vision"; time away from the computer is where story and meaning develop — then AI tools help you execute faster. "Anyone can be a Dribbble designer."
+  - Stack: Figma, Framer, Midjourney, ChatGPT (+ Notion for structure); essentially unchanged in spirit for 25 years (FreeHand → Illustrator → Sketch → Figma/Framer; self-taught ActionScript). Mastery of few tools beats having 100; people assume complexity when a background is "one layer with three effects".
+  - ChatGPT as "ideas buddy": Midlife Engineering's story and most copy emerged from back-to-back chats (learned ambient music may lower stress; became a humorous midlife-crisis narrative).
+  - Polish: cites Rick Rubin's The Creative Act — work is a diary entry you share when ready; he's his own harshest critic and sometimes deletes posts; perfectionism helps and hinders.
+  - The pills: sparked by watching The Matrix (red/blue pill) with his daughter; rode the chrome-pill trend, stripped colour to a glassscape, added a goldfish; exploited Figma blend modes, embedded video and looping animated components.
+  - Restraint: early work crammed everything in; now he removes noise and values white space; music tracks with 4–5 layers finish, 30–40-layer tracks never do — simplicity makes the end point findable.
+  - Dieter Rams "as jazz, not gospel": borrows the feel of Braun/Pioneer hi-fi knobs (inertia, tactile motion), e.g. a ball that rolls out a search button; values Rams' sustainability/timelessness ethos — design that lasts decades.
+  - Scaling taste: juniors can't close a 20-year gap quickly; fortnightly build-and-critique sessions helped but the studio now favours senior freelancers who run meetings and tell stories. Many employees "just want to get paid", which differs from his own early hunger.
+  - Workaholism and obsession with craft; context-switching to play projects (Drams, magic 8-ball, illustrations) is his form of rest; learning to say no.
+  - The 2014 app company (post-Flappy Bird "I can do that" moment): taught himself Objective-C, 23 iOS apps over 5 years, bootstrapped; recouped the investment but the million kept receding; money above family/health broke him; sold IP by 2019. Lesson: money never made him happy.
+  - Now seeking impact and "soulful" work: messages from people helped by Midlife Engineering feel like winning the jackpot. Advice: follow your heart, keep health/family/relationships on top, don't want everything too soon; Tommy adds "creative seasons" (sow vs reap).
+- Timestamps: 04:35 speed vs quality · 09:29 tool stack · 12:44 ChatGPT · 16:10 polish · 18:17 pills · 21:09 restraint · 23:27 Rams as jazz · 26:03 taste at scale · 31:05 app company · 48:16 advice
+- Actionable takeaways for a designer:
+  - Master a small stack deeply; complexity is often a few well-chosen effects.
+  - Schedule thinking time away from the screen to develop story before executing.
+  - Remove until the work is essential; fewer layers make "done" findable.
+  - Borrow physical-product feel (inertia, tactile controls) for delightful micro-interactions.
+  - Design for longevity, not overnight virality.
+- Psychology links:
+  - Delighters — the goldfish pill and rolling search ball are unexpected joyful details that made the work spread.
+  - Skeuomorphism — Drams translates Braun/Pioneer knobs and inertia into web UI, borrowing physical affordances.
+  - Aesthetic-Usability Effect — high polish makes simple components feel premium and trustworthy.
+  - Occam's Razor — his restraint principle: strip layers to the simplest version that still delivers.
+  - Sunk Cost Effect — kept investing in the app company chasing a receding million before winding it down.
+  - Law of the Instrument — counterpoint: deep mastery of a few tools rather than chasing every new one; the risk is when one tool shapes every solution (weak link).
+- New concepts: Learning by deconstruction · Creative seasons (sow vs reap) — Tommy's framing for alternating commercial and play work · Context switching as rest.
+- References & resources: Midlife Engineering (Lee's project) · Drams component library for Framer · Studio 1042 · The Creative Act by Rick Rubin · Dieter Rams' design principles · Kraftwerk · Spotify — https://open.spotify.com/episode/2OKO9XExpBtVHaXwZfOXsG · Apple Podcasts — https://podcasts.apple.com/us/podcast/he-makes-figma-do-things-it-wasnt-designed-for-lee-black-1042/id1859897039?i=1000755322057 · YouTube — https://www.youtube.com/watch?v=I2rhTUQYjhU
+
+## AI Creative Direction Is Here — Jamey Gannon
+- URL: https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon
+- Type: episode
+- Date/author (if known): Jun 2, 2026 · host Tommy Geoco ("State of Play" series) · ~57 min · YouTube https://www.youtube.com/watch?v=N-6LCrvxHIs
+- Transcript: YES (YouTube auto-captions, ~61k chars)
+- Guest(s): Jamey Gannon ("Tech Bimbo" on X) — brand designer/creative director, Maven "AI Creative Director" instructor
+- Summary:
+  - Tom frames a new class of "AI-powered creative directors" (Iverson studio, DesignJoy's Brett, Offen agency) who combine human authorship with AI production while online designers argue.
+  - Can AI have taste? Gannon refuses to say "never" — each model release (Nano Banana etc.) removes a previous "AI can't do X". Models can already absorb a vibe from references (Midjourney mood boards, a named strategist's style).
+  - Evaluating AI tools by "does it pass my bar in two prompts" is the wrong test; ask whether it meaningfully solves the blank-canvas problem so you can take it the rest of the way.
+  - Inputs most people miss: references (subject, style, lighting; also reference books/authors for copy), and model selection (e.g. realism in Midjourney is a skill issue — use a multimodal model).
+  - Brand sprints (learned from Ben Pieratt's Pre-Brand, ~2018; also Nick Pattison/Primary): early startups will change, so time-boxed, lean, founder-only sprints beat 6-week agency engagements; "agency bloat" is the problem.
+  - AI's value in her sprints: faster grunt research, taglines ("give me 10 more… why do I like that one?"), and things she couldn't otherwise do (product photography, UGC, illustration) — a $20k shoot replaced for early-stage brands.
+  - Demo: mood-boarding.com — a "Tinder for clients" mood-board tool (like/dislike/skip/comment, grid view, admin libraries, CSV/JSON export, AI analysis of preferences) built in ~2 hours via a voice-dictated PRD split into P1/P2 then Claude Code. Replaces her FigJam thumbs-up/down sticker exercise and gives clients a shared visual language (clients who ask to "look like Stripe and Apple").
+  - Handoffs increasingly include AI-ready assets: design.md files, organised Figma for MCP, Midjourney srefs.
+  - Stack: Figma #1, Claude #2; models first (Nano Banana Pro, GPT image 2, Midjourney); Flora for node-based work and for showing clients the process; Krea/linear tools earlier; ComfyUI-style nodes matter for mass UGC generation.
+  - Learning time: took an "AI sabbatical" (Nov–Dec, no client work); suggests AI Fridays, following trusted curators to cut through noise, one or two podcasts a week (Claire Vo's How I AI; Fast Hours by Drew Brecker & Rory Flynn), learning by copying tutorials then adapting.
+  - "One-click AI" myth is perpetuated by both haters and hype-sellers; AI is great at small edits, hard at compound changes; human-in-the-loop is the satisfying way to work. She works more now ("three jobs instead of one").
+  - Distribution: "invisibility is worse than incompetence"; "if you are remembered, you will get chosen" — clients pick whoever comes to mind first. X has a dense network for tech/design.
+  - Prediction: designers split into product people and brand people; brand people will also be expected to do content strategy and ad strategy.
+  - Pricing: good/fast/cheap still applies; branding is a luxury/status good in tech right now and caring visibly is back in fashion.
+  - AI Creative Director framework (5 principles): (1) Aim before you shoot — set starting conditions: model choice (diffusion = aesthetic but weak prompt adherence; multimodal = follows instructions), references (subject, style/sref), prompt; (2) An image is worth a thousand words — images carry latent mood/light/colour data that text is inefficient at; she's "anti-prompt"; (3) Nothing good arrives finished — no one-shot mentality, fix in Photoshop; (4) Work in steps — decompose edits (remove text, then crop label, then place) because models get confused like people do; (5) Right tool for the job.
+- Timestamps: 1:42 taste · 4:30 inputs · 7:58 brand sprints · 15:37 mood-board tool · 22:00 stack · 27:21 AI sabbatical · 38:39 distribution · 42:00 brand vs product split · 46:04 pricing · 49:08 framework
+- Actionable takeaways for a designer:
+  - Treat generative work as direction: define aim, pick the model type, supply subject + style references before writing prose prompts.
+  - Decompose complex edits into single-step operations; finish details (tiny logos) manually.
+  - Use swipe-style preference capture with clients to build a shared visual language and surface unexpected directions.
+  - Ship AI-ready brand handoffs (design.md, tidy Figma for MCP, srefs).
+  - Be visible: share work-in-progress regularly; memorability is part of your hiring funnel.
+- Psychology links:
+  - Picture Superiority Effect — her "image is worth a thousand words" principle: images encode far more retrievable information than verbal descriptions, for humans and models.
+  - Availability Heuristic — "if you are remembered, you will get chosen": clients pick the designer who comes to mind first.
+  - Chunking — "work in steps": breaking a compound edit into small steps avoids overload (for model and human).
+  - Anchoring Bias — clients anchored on "Stripe and Apple"; swipe mood-boarding re-anchors them with a broader set of options.
+  - Mental Model — the one-click-magic mental model of AI sets false expectations; she teaches a director model.
+  - Labor Illusion — pricing dilemma: AI makes a $200k-style shoot quick, so perceived effort no longer justifies price; value has to be framed differently.
+  - Social Proof / Authority Bias — following trusted curators to decide which tools matter.
+- New concepts: AI Creative Director — role that sets intent, inputs and quality bar for generative models · Brand sprint — time-boxed, founder-only brand engagement (Pre-Brand, Primary) · Diffusion vs multimodal models — aesthetic-but-loose vs instruction-following image models · sref — Midjourney style reference code · design.md — markdown brand/design spec for agents.
+- References & resources: Maven AI Creative Director course — https://bit.ly/4tJ9nF7 · mood-boarding.com (her tool, unreleased at recording) · Pre-Brand by Ben Pieratt (referenced) · Primary studio / Nick Pattison (referenced) · DesignJoy (referenced) · Flora — https://flora.ai · Midjourney, Nano Banana Pro, GPT Image 2, Seedance, ComfyUI, ElevenLabs, Wispr Flow, Claude Code, MagicPath (mentioned) · Claire Vo's "How I AI" podcast · Fast Hours podcast (Drew Brecker, Rory Flynn) · Tatiana Tsiguleva and Andrew Wendling/Iverson Studio (recommended follows) · Tommy's video "The New Portfolio" · Spotify — https://open.spotify.com/episode/1d3tmIA36tDIPEej2tTDje · Apple Podcasts — https://podcasts.apple.com/us/podcast/ai-creative-direction-is-here-jamey-gannon/id1859897039?i=1000770791063
+
+## AI Made Junior Designers Look Like Most Seniors — Hannah Ahn
+- URL: https://www.uxtools.co/episodes/ai-made-junior-designers-look-like-most-seniors-hannah-ahn
+- Type: episode
+- Date/author (if known): May 5, 2026 · host Tommy Geoco ("State of Play") · 39 min · YouTube https://www.youtube.com/watch?v=-vzBO-N-N0o
+- Transcript: YES (YouTube auto-captions, ~43k chars; video found via Tommy Geoco channel)
+- Guest(s): Hannah Ahn — head of design (product + brand/marketing) at Superpower (AI layer over bloodwork, genomics, labs, medical records); ex-Canva PM, no college degree
+- Summary:
+  - Trust in health: every release is clinically compliant; copywriting is a trust layer — people will see bad results, and how that's communicated matters far more than in typical SaaS.
+  - PM → design: wanted to steer the ship and "make things"; PM taught her practical trade-offs and not losing the forest for the trees (vs design Twitter's obsession with neat interactions). From Canva: ideas needed high-fidelity, clickable, animated mock-ups (reviewed by Melanie Perkins) to get buy-in — visualising intent is persuasive.
+  - Team (~5, doubling): high autonomy; "short toes" value (no one's toes to step on — see a problem, fix it); brand guidelines are "the floor, not the ceiling"; design jams/crits twice a week; find each person's "zone of genius".
+  - Hiring for composition, not clones; some designers are AI-native (built an internal tool to annotate live product blocks, edit copy in real time and open a PR), others are craft specialists (content, art direction). Love of the game first; AI literacy usually follows. Portfolio signal: does it look current, and does it show work that's hard to make (we value what looks difficult — cf. stock photos → illustration → illustration stock).
+  - Stack: Figma (sunk cost of assets there; open to Paper), Claude Code for everyone, Claude skills for copywriting and for reviewing designs against basic product psychology as a first check; Midjourney, Krea.
+  - January Claude Code rollout: whole-team push into the GitHub repo, messy at first; adoption spread through internal case studies — e.g. a video lead with zero coding built a Spotify-styled Premiere Pro plugin for shared media assets in a day.
+  - Velocity vs slop: strawman landing pages became trivial, so she reined the team in — use the time saved to polish instead of shipping everything AI-generated; designers are best positioned to spot slop. Tommy: "we can, but should we?" — launched and killed two big initiatives since January.
+  - The 1%: AI produces average UX/design/copy; trust comes from small tells of care (tiny details, interactions), plus rigor in evidence and clinical data, and brand/content (Bryan Johnson cited as high trust despite weak UX). Trust is built when users see an outcome.
+  - AI in health: aggregating records/genomics/blood data for insights — arguably better than many doctors; prescribing/accountability and relationships should stay human for now.
+  - Junior ladder: why hire 10 when one high-taste IC can run 10 agents; juniors now show near-senior quality; advice — demonstrate senior-level work and agency rather than waiting for apprenticeship; slope (speed of growth) matters.
+  - Designers must be architects, not command-typing cogs; ask "is this valuable, is this good?"; storytelling and showing up in the cultural zeitgeist matter more than pixel pushing.
+- Timestamps: 00:00 trust in health · 03:06 PM to design · 06:41 team · 10:34 hiring for composition · 13:55 love of the game · 16:46 Claude Code rollout · 21:47 velocity → slop · 24:41 the 1% · 33:23 junior ladder · 36:31 architects
+- Actionable takeaways for a designer:
+  - In sensitive domains, design the copy and result-delivery moments as carefully as the UI.
+  - Use AI time savings for polish, not just more output; set an explicit quality gate.
+  - Spread AI adoption through peer case studies, not mandates.
+  - Build a Claude/agent "skill" that checks designs against product-psychology principles as a first review pass.
+  - Showcase hard-to-make, current work and high growth slope.
+- Psychology links:
+  - Aesthetic-Usability Effect — AI-polished junior portfolios look senior; surface polish can mask gaps in judgment.
+  - Labor Illusion — "we're impressed by what appears difficult to create": visible effort and the 1% details signal care and earn trust.
+  - Framing — how bad health results are worded changes how users perceive and act on them.
+  - Authority Bias — clinical rigor, evidence and expert-backed content (and figures like Bryan Johnson) build trust in a health brand.
+  - Sunk Cost Effect — staying on Figma partly because all assets already live there.
+  - Social Proof — internal case studies (a non-coder shipping a plugin) drove team-wide Claude Code adoption.
+- New concepts: Team composition hiring · "Short toes" culture — no ownership turf, anyone fixes problems · Brand guidelines as floor, not ceiling · Growth slope as hiring signal · Designer as architect (vs prompt operator).
+- References & resources: Superpower — https://superpower.com · Hannah Ahn — https://www.linkedin.com/in/ahnhannah/ · Claude Code, Paper, Midjourney, Krea, Figma (tools mentioned) · Bryan Johnson (trust-through-content example) · Spotify — https://open.spotify.com/episode/2bHuhbdeiz5ag8g3BC4gaf · Apple Podcasts — https://podcasts.apple.com/us/podcast/ai-made-junior-designers-better-than-most-seniors-hannah/id1859897039?i=1000766234035
+
+## Amelia Wattenberger: Designing The Next Flow State (YouTube: "Your Design File Is Now an Agent Input")
+- URL: https://www.uxtools.co/episodes/amelia-wattenberger-designing-the-next-flow-state
+- Type: episode
+- Date/author (if known): Apr 20, 2026 · host Tommy Geoco ("State of Play") · S1E19 · 45 min · YouTube https://www.youtube.com/watch?v=ffQqstT5HFk
+- Transcript: YES (YouTube auto-captions, ~45k chars; video found via Tommy Geoco channel)
+- Guest(s): Amelia Wattenberger — 8 years front-end dev (dashboards, data vis), ex-GitHub, author of hand-crafted HCI essays (wattenberger.com); builds Intent, a desktop "ADE" at Augment Code
+- Summary:
+  - Material-agnostic maker: code is a means; the interest is what behaviour a tool affords. Analogy: web code moved from separation by language (HTML/CSS/JS) to component slices; AI lets designers slice "horizontally" across mediums too.
+  - Ladder of abstraction: punch cards → assembly → high-level languages → agents → orchestrators of orchestrators… until you reach purpose — "agents won't eat ice cream for me"; the experience itself can't be automated.
+  - Dev loop = plan → implement → review, repeated at macro and micro scale. Implementation used to dominate and produced flow; with agents taking 20 minutes per task, developers are "mourning" the flow state of mastery and look for a new rhythm. The new flow will be intention-heavy (planning, thinking) and move across mediums: natural language → spec → diagrams/Figma-level fidelity → code prototype → code. Different tools have different "physics" and suit different fidelity.
+  - Eras of AI coding tools: Copilot autocomplete ("moving sidewalk") → agentic chat in the IDE → CLI/tmux with many agents (no visibility) → app era / ADE bringing back interfaces for visibility, observability and common actions (review, PR).
+  - Interface principle: show everything and you can focus on nothing; keep "the hood closed by default" but let users open it; recursive zoom in/out like a map. Data-vis analogy: visualisation is lossy compression that gives perspective; agent UIs need the same.
+  - Living spec: a shared note/markdown "source of truth" that agents and humans both work from, with bidirectional sync as reality diverges from plan; humans need compressed reports (like a weekly team update). LLMs are good at expanding and compressing text — the spec sits in the middle between "add dark mode" and full code, surfacing hidden assumptions.
+  - Intent demo: unit of work is a workspace (not a chat) — an isolated "desk as you left it" per task, easy to pick up and put down; kicks off parallel workspaces with different models that return specs, edits spec, then delegates to sub-agents. Orientation across frequent context switches is a key design goal.
+  - Thinking process for essays (e.g. "Our interfaces have lost their senses"): collect threads, use ChatGPT on long walks as a thought partner that reflects ideas back, sketch on paper and Figma — switching mediums to see an idea differently.
+  - Under-planning risk: three-word prompts yield full features but you lose ownership and evolving understanding.
+  - Advice for the "too employed to pathfind": pick a real goal and try reaching it with a new tool; re-try agents often because models change month to month.
+- Timestamps: 02:16 ladder of abstraction · 07:35 ice cream · 10:29 mourning flow · 16:02 eras of tools · 22:43 living specs · 29:38 Intent demo · 39:02 plan/implement/review · 42:46 advice
+- Actionable takeaways for a designer:
+  - For agent tools, design "closed hood" summaries with drill-down rather than raw logs.
+  - Make task contexts resumable (workspaces/desks) to cut reorientation cost.
+  - Keep a living spec as the shared source of truth and design for its bidirectional sync.
+  - Use specs to surface assumptions between terse intent and full implementation.
+  - Choose the medium (text, diagram, canvas, code) whose fidelity fits the current question.
+- Psychology links:
+  - Flow State — the core topic: agent latency breaks the challenge–skill–feedback rhythm; tools must restore it.
+  - Progressive Disclosure — "hood closed by default", recursive zoom from overview to detail.
+  - Zeigarnik Effect — workspaces preserve unfinished tasks so they can be resumed without loss.
+  - Cognitive Load — juggling many agents multiplies what you hold in your head; compression and orientation reduce it.
+  - Feedback Loop — plan → implement → review loops need to stay short so humans keep driving.
+  - IKEA Effect — three-word prompts reduce felt ownership of the result; more upfront intent increases it.
+- New concepts: Ladder of abstraction (Bret Victor) · Living spec — bidirectionally synced shared plan · ADE (agentic development environment) · Lossy compression as UI principle · Medium "physics" — each tool's affordances suit a fidelity level · Moving from implementation to intention.
+- References & resources: Intent — https://www.augmentcode.com/product/intent · Amelia on X — https://x.com/Wattenberger · Amelia's essays — https://wattenberger.com/ (incl. "Our interfaces have lost their senses") · GitHub Copilot, VS Code, tmux, Codex, Obsidian, Claude Projects, Dreamweaver (mentioned) · Spotify — https://open.spotify.com/episode/0WhtYxIqvFLF0Px90Mvnld · Apple Podcasts — https://podcasts.apple.com/us/podcast/amelia-wattenberger-designing-the-next-flow-state/id1859897039?i=1000762421861
+
+## Weber Wong: One Person Should Have the Creative Power of Pixar (Flora / anti-slop)
+- URL: https://www.uxtools.co/episodes/anti-slop-manifesto-how-flora-thinks-about-ai
+- Type: episode
+- Date/author (if known): Feb 16, 2026 · host Tommy Geoco ("State of Play") · S1E9 · 47 min · YouTube https://www.youtube.com/watch?v=kBwNlJzjWPw
+- Transcript: YES (YouTube auto-captions, ~49k chars)
+- Guest(s): Weber Wong — founder of Flora (node-based AI canvas for text/image/video); ex-investment banking and Menlo Ventures (looked at Anthropic, Runway); NYU ITP dropout
+- Summary:
+  - Origin: realised he "wouldn't back himself" as a VC; Runway founders' ITP background showed him tech could be for art; joined NYU ITP on scholarship, built real-time AI mirrors and a live-streamed GoPro "see my world in your prompt" piece; Flora grew from a tool he built for his own AI art systems. Team hiring bar: you must have built a creative tool (or be proficient in three).
+  - Poetry roots: a Berkeley professor explained Cat's Cradle to him at 14; fine-tuned GPT-2 on his Apple Notes poetry — liked its odd associations. Avoids AI-written copy: human-written text has higher "quality of thought per word"; best is human draft first, then AI.
+  - Vision: give one individual the creative power of Pixar (as Ableton let any kid make a viral beat); users become "creative system designers" building repeatable, tweakable living systems.
+  - Functional vs non-functional pixels: Flora focuses on non-functional (brand, marketing, film, product photography). Example: a sake brand swapped 99 labels onto one model photo.
+  - Why nodes: inspired by TouchDesigner (transformation + visual output in the same block). Most creative tools are sequential (undo/redo); nodes store transformations so a process becomes repeatable and scalable.
+  - Node tools "have baggage" because they were modelled on code (one node = one function). Flora models nodes on how the brain thinks — just text, image, video (down from ~20 node types) — claims a lower barrier than Figma for complete novices.
+  - Convenience vs control trade-off sits on an "efficient frontier"; good design reaches it, and you can still have low floor + high ceiling ("iceberg": three blocks at first, compositing/editing revealed later).
+  - Slop = low effort, no specific end goal; current AI interfaces bias toward slop because generating is easy and refining is hard. Anti-slop principle: maximum creative control, many variations side-by-side to pick the closest. Slop is fine for play and learning.
+  - AI's biggest gap is consistency: traditional tools made consistency the default; AI makes randomness the default.
+  - Communities: creative technologists (anti-scale, one-of-one art) vs agencies (task/efficiency oriented; use AI for precise concepting references). AI adoption moving from early adopters to early majority.
+  - Pentagram reaching out during alpha made them rebuild Flora from scratch in ~3 months for pro creative teams; launch went viral. Figma's early cloud resistance cited as precedent for paradigm shifts.
+  - Advice to young creatives: learn creative coding with p5.js (Dan Shiffman's The Coding Train); all creative tools are abstractions over code.
+- Timestamps: 25:42 why node-based · 28:50 iceberg · 32:56 anti-slop · 40:48 Pentagram · 44:51 advice
+- Actionable takeaways for a designer:
+  - When designing complex tools, model primitives on users' mental categories (text/image/video), not on the implementation.
+  - Use the iceberg pattern: minimal entry surface, power revealed progressively.
+  - Show many variations side by side to support selection rather than one-roll generation.
+  - Encode repeatable workflows (systems) to escape AI's randomness-by-default.
+  - Write the first draft yourself before using AI to raise quality of thought.
+- Psychology links:
+  - Progressive Disclosure — the iceberg model: three blocks first, compositing/editing revealed later.
+  - Mental Model — Flora's nodes follow how people think about media, not how code is structured; node-tool "baggage" is a prior mental model to overcome.
+  - Tesler's Law — the convenience-vs-control efficient frontier: complexity can only be moved, and the tool designer chooses where.
+  - Familiarity Bias — designers resist node graphs and earlier resisted Figma's cloud paradigm because unfamiliar.
+  - Juxtaposition — viewing many variations at once to pick the closest is comparative evaluation built into the UI.
+  - Authority Bias / Social Proof — Pentagram's interest reshaped strategy and signalled credibility to other studios.
+- New concepts: Functional vs non-functional pixels — interactive UI pixels vs pure media/brand imagery · Creative system designer — someone who builds reusable generative workflows rather than single outputs · Low floor, high ceiling (iceberg) · Efficient frontier of convenience vs control · Slop — low-effort output with no specific goal; interfaces can bias toward it.
+- References & resources: Flora — https://flora.ai · Weber Wong — https://x.com/weberwongwong · NYU ITP / IMA (referenced) · TouchDesigner, Runway, Ableton, Blender, Unity (referenced) · p5.js and The Coding Train by Dan Shiffman (recommended) · Cat's Cradle by Kurt Vonnegut · "Pain cave" metaphor from Ben Huffman, Contra founder (referenced) · Spotify — https://open.spotify.com/episode/3X2dpgO5xzxE8FqV9hZzdo · Apple Podcasts — https://podcasts.apple.com/us/podcast/one-person-should-have-the-creative-power-of-pixar/id1859897039?i=1000755322055
+
+## Basement Studio: This Design Agency Is Becoming a VC
+- URL: https://www.uxtools.co/episodes/basement-studio-this-design-agency-is-becoming-a-vc
+- Type: episode
+- Date/author (if known): Apr 8, 2026 · host Tommy Geoco ("State of Play") · S1E16 · 34 min · YouTube https://www.youtube.com/watch?v=nv7M79lMEnU
+- Transcript: YES (YouTube auto-captions, ~33k chars; video found via Tommy Geoco channel)
+- Guest(s): Facundo Santana and José Rago — co-founders of Basement Studio (35 people, Argentina; clients Vercel, Kid Super, MrBeast)
+- Summary:
+  - Craft example: poured real wine on a surface, scanned it and used it as a WebGL shader texture — "the best way to recreate that texture".
+  - Three-part operating model: client services; an in-house R&D lab (time, money, energy spent exploring what's next); Basement Ventures, a microfund/venture studio that incubates lab output and may become a formal VC. Margins from client work are reinvested; some projects are done for no money to validate a capability.
+  - Quality bar: subjective but operationalised as "are we proud? would you show it to your friends — your mom?", plus metrics and public reaction on X; each release should raise the bar. "Easier to get here than to keep this momentum."
+  - Kid Super World: began as a lab-style proof of concept for one mini bag (team: art director, 3D artist, illustrator, UI designer, two 3D devs), grew into an explorable hand-painted atelier with paint-over-mask hover reveals; real paintings by studio artists used in loading screens.
+  - Lab prioritisation: a big jam of ideas; the ones that survive are those someone quickly turns into a small concept and validates. BaseHub (headless CMS for non-technical marketing teams) started this way and spun out with its own CEO; XMCP ("what Next.js did for React, for MCP servers") came from wanting Cursor to scaffold sites from their own component library and finding raw MCP setup took days.
+  - The last 1%: a #review Slack channel where ~30 of 35 people pile on a pre-launch link to find small tweaks, "no hard feelings". Process change: developers now start on day zero, exploring experiences in parallel with design; unused experiments go to their own "arcade".
+  - Hiring an art director is a "unicorn" search: guides designers, loves building, articulates feedback and sells direction to clients, and understands code enough to know what's feasible; ADs work hands-on in Figma.
+  - Stack: Figma daily, Paper (new), Cursor, Next.js; prefer latest tech (chose Next.js over WordPress early, which led to the Vercel relationship). AI raises the bar; projects that took two months now take one; keep nostalgia and physical tools too.
+  - Open source (XMCP, Geist font for Vercel now on Google Fonts) as giving back and building things that outlast the founders; community issues/PRs improve tools.
+  - Tommy's close: the lab isn't a side hobby but the third leg of the business — a compounding loop of experiments → tools → companies → better services.
+- Timestamps: 0:00 wine texture · 5:17 Kid Super World · 7:19 show it to your mom · 9:49 Vercel/Geist · 13:20 Slack review · 16:05 open source · 18:06 lab → products · 24:49 Basement Ventures · 31:14 outlasting founders
+- Actionable takeaways for a designer:
+  - Use a simple, emotional quality gate ("would I proudly show this to someone I respect?") at every release.
+  - Run whole-team, low-ego pre-launch reviews for the final 1%.
+  - Start engineering exploration at day zero alongside design; bank unused experiments.
+  - Capture physical textures (real materials) for richer digital surfaces.
+  - Reinvest in an R&D habit; validate lab ideas quickly with small proofs of concept.
+- Psychology links:
+  - Sensory Appeal — real wine and hand-painted textures give digital experiences tactile richness that makes them memorable.
+  - Storytelling Effect — "we used actual wine" is a story that sells the studio's craft better than any spec.
+  - Reciprocity — open-sourcing XMCP and Geist gives value to the community, returning goodwill, contributors and reputation.
+  - Peak-End Rule — the obsessive final-1% review polishes the moments users remember (launch, loading screen, reveals).
+  - Aesthetic-Usability Effect — immersive, high-craft e-commerce (Kid Super) is perceived as higher quality and more trustworthy.
+  - Social Proof — clients "begging" to work with them after seeing public work; reputation compounds.
+- New concepts: Studio flywheel (services → lab → ventures) · Day-zero engineering — developers explore in parallel from kickoff · "Show it to your mom" quality heuristic · MCP — Model Context Protocol servers that expose tools/components to AI agents.
+- References & resources: Basement Studio — https://basement.studio · Facundo — https://x.com/falanfantana · José — https://x.com/ragojose · XMCP (open-source TypeScript framework for MCP servers) · BaseHub (headless CMS spun out of Basement) · Geist font by Vercel (on Google Fonts) · Kid Super World (project) · Tools: Figma, Paper, Cursor, Next.js · Spotify — https://open.spotify.com/episode/25ZycWOCOb3VKZrlXHsVHJ · Apple Podcasts — https://podcasts.apple.com/us/podcast/basement-studio-they-used-wine-to-build-a-website-heres-how/id1859897039?i=1000760254933
+
+## Creating a graffiti ink app with Figma Make ("Designer Reacts to Your INSANE Side Projects")
+- URL: https://www.uxtools.co/episodes/creating-a-graffiti-ink-app-with-figma-make
+- Type: video
+- Date/author (if known): Jan 16, 2026 · Tommy Geoco (vlog) · ~25 min · YouTube https://www.youtube.com/watch?v=R8imeWfBn84
+- Transcript: YES (YouTube auto-captions, ~29k chars)
+- Guest(s): Lovnit (Love Nitsani, product design lead at Amazon Pay, Bengaluru); Victoria (NY product designer, Framer experiments); Fred Moon (design engineer/creative director)
+- Summary:
+  - Framing question: when should I stop iterating, now that AI tools make loops so fast they can spin forever? (Tommy admits a $2,000 Cursor bill making "slop code" for a tabletop app.)
+  - Lovnit — graffiti paint-marker simulator (massive.ink), inspired by Exit Through the Gift Shop and the "software as a gift" idea. Started in Figma Make (banding/stamping artifacts), then looped Make → Figma (screenshot what worked, plan) → Make. Treated vibe coding as a physics problem: studied real Krink pens on YouTube and codified viscosity, drip spawn rate, thickness, gravity, nozzle size/flow. Metallic ink repeatedly failed. Built a hidden CMS/debug panel (shortcut) with Supabase to upload pen assets and surfaces without re-prompting. Cites "match between system and real world".
+  - Victoria — cute interactive hero for her site: no clear idea, so started from Pinterest/X inspiration; used AI images as drafts, Flora with very simple prompts to separate elements ("remove everything, keep only rabbit"), then Framer for layers, parallax, hover/bounce micro-interactions next to her name's typography. Advice: don't wait for perfect assets.
+  - Tommy's asides: stopped using Dribbble; finds inspiration on X, Instagram (motion/illustration), Are.na, Mobbin; node-based UIs (TouchDesigner, Houdini, Flora, Weavy acquired by Figma) are good for navigating the randomness of generative AI.
+  - Fred Moon — reverse-engineered Mike Smith's (Smith & Diction) Contra branding tile effect in Unicorn Studio: first tried hover radius (dead end), then a glyph dither with custom sprites driven by an invisible moving noise layer, high-contrast adjustment to remove grey, masking/blending, locked-direction animation, static exports. Parks work for days and returns ("let the brain process"). Recreating something admired is soothing because the end state/win condition is clear — originality isn't the goal; credit the source.
+  - Closing: tool-bending is about asking "what if" and knowing when you've pushed far enough to call it done.
+- Timestamps: 01:24 Lovnit · 04:05 Figma→Make→Figma loop · 05:19 physics approach · 07:53 in-project CMS · 09:40 Victoria/Framer · 12:03 Flora nodes · 15:25 Fred Moon · 21:07 parking it
+- Actionable takeaways for a designer:
+  - Study the real-world reference deeply and turn it into explicit parameters before prompting.
+  - Build yourself an admin/debug panel so you tune variables directly instead of re-prompting.
+  - Use AI imagery as throwaway drafts to test motion and layout, then craft finals.
+  - Recreate admired work (with credit) as a learning exercise with a clear target.
+  - Step away from stuck problems; incubation produces breakthroughs.
+  - Define a stopping rule for iteration when loops become nearly free.
+- Psychology links:
+  - Skeuomorphism — Lovnit's marker physics mimics real paint behaviour so the digital tool feels authentic ("match between system and real world").
+  - Mental Model — physical-ink parameters (nozzle, viscosity) map to how users already understand markers.
+  - Delighters — Victoria's bouncy hover states and parallax are small joyful moments given room to breathe.
+  - Goal Gradient Effect — Fred finds recreation soothing because the clear end state makes progress visible and motivating.
+  - Parkinson's Law — when iteration is free, work expands; the episode's "when to stop iterating" question needs a deliberate stop rule.
+  - Sensory Appeal — grain, gradients, drips and tactile motion make the experiments compelling.
+- New concepts: Software as a gift — non-commercial software made purely for delight · Incubation effect — stepping away lets unconscious processing produce solutions · Glyph dither — rendering shapes/sprites by underlying image brightness · Nielsen heuristic "match between system and real world".
+- References & resources: massive.ink — https://massive.ink · Lovnit — https://x.com/Luvnits · Victoria — https://x.com/victoria_framer · Fred Moon — https://x.com/fw3d · Submit your work — https://forms.gle/oBxGBHSn4uRgkRLZ7 · Tools: Figma Make, Flora (https://flora.ai), Framer, Unicorn Studio (by George Hastings), Supabase, Weavy, TouchDesigner, Houdini · Bret Victor, "Inventing on Principle" (2012 talk) · Exit Through the Gift Shop (Banksy documentary) · Inspiration sources: Are.na, Mobbin · Contra branding by Smith & Diction
+
+## Ben Blumenrose: He Sees How 50+ Design Teams Use AI. Most Are Doing It Wrong.
+- URL: https://www.uxtools.co/episodes/decent-design-is-now-the-default-so-what-actually-matters
+- Type: episode
+- Date/author (if known): Apr 4, 2026 · host Tommy Geoco ("State of Play") · S1E16 · 45 min · YouTube https://www.youtube.com/watch?v=f5-D53i7W5o
+- Transcript: YES (YouTube auto-captions, ~44k chars; video found via Tommy Geoco channel)
+- Guest(s): Ben Blumenrose — runs Designer Fund (VC investing in designer-founders; portfolio includes Stripe, Gusto, Physical Intelligence, Anvil)
+- Summary:
+  - Be as flexible with your design process as with your designs — tooling changes so fast that calcifying a workflow is risky.
+  - Portfolio reality: nearly every company now uses AI somewhere, but depth and breadth vary widely (designers shipping code, building internal tools, AI-heavy research). Versus a year ago ("figure it out on nights and weekends"), companies now formalise sharing — weekly best-practice sessions, internal dev environments for designers.
+  - Adoption strategy depends on culture: tinkerer-heavy orgs can go bottom-up and embrace chaos; very large orgs shouldn't just let everyone use every tool. Tommy contrasts Carvana ("here's tokens, go wild") with eBay (lunch-and-learns).
+  - New mess: high-fidelity prototypes live at scattered URLs with feedback spread across Looms and Slack — no single source like Figma comments; finding "the latest version" becomes hard at scale.
+  - AI ops role appearing as early as the 4th design hire: someone who codifies process, researches tools and educates; if they make each designer 1.5–2x, a team of 5–6 performs like 10. Ben's name for it: "AI Imagineer" (after Disney Imagineers). Designers historically spent ~95% of time on output and almost none improving how they work.
+  - Junior vs early-career: designers always overstated seniority; hire "early career people who don't think they're junior" because they lack old-process baggage and may out-produce mids; seniors' value is taste, experience and professionalism (reply well, be on time, deliver what you promised — doing that consistently puts you in the top 10%). Tommy cites ~56% of design postings skewing senior, ~25% junior and falling.
+  - AI fluency defined: when you think "I wonder if…", you know which tool, what questions, what fidelity, and when to time-box — like the shift from encyclopedias to "just Google it". Requires unlearning "stay in your lane".
+  - Tommy raises METR's study (experienced devs ~19% slower with AI tools) and the "factory floor" question: bolting AI onto old processes vs redesigning. Ben: the T-shaped designer gets both wider (own research, data, internal tools, light PMing) and deeper (an always-available expert mentor). Tommy's "phantom competency" — tool-borrowed skill that, used long enough, becomes real (an apprenticeship).
+  - Evaluating fluency: case studies should show, at each phase, whether you did it the old way or explored new ways. New hires currently face a higher AI-fluency bar than internal promotions. Prefer honest timed exercises ("this used to take a week; 3 hours, any tools; show high signal") over trick take-homes.
+  - Where AI still falls short: refinement and judgment — five decent marketing sites can all be defended; which converts or lifts brand is a systems question in people's heads. "The floor is high, the ceiling still matters."
+  - The number of people who can produce good design is going vertical, so the value of merely good design drops; exceptional designers decide what to build (e.g. telling a founder the dashboard is the wrong artifact — push data via text/email/voice instead).
+  - Designer-founder thesis holds and strengthens: engineering got easier faster than design; value goes to direction, saying no, storytelling and recruiting. VC still matters because ambitions scale up (Physical Intelligence). Hard-to-cheat moats: regulated spaces and community embedding (Anvil going farm to farm).
+  - Kids: mostly keeping his young daughters away from AI for now; build hands-on creativity and face-to-face communication first; Tin Can (whitelisted faux-landline) as tech that removes features to create better outcomes.
+  - Close: the bar is moving sideways — value shifts to judgment, systems and designing how work happens.
+- Timestamps: 02:27 portfolio AI use · 05:34 Carvana vs eBay · 06:40 AI ops at hire #4 · 09:59 AI Imagineer · 12:12 juniors vs early career · 16:09 AI native vs fluency · 21:05 19% slower · 22:12 T-shape · 25:21 evaluating fluency · 30:06 floor vs ceiling · 33:27 designer-founder · 37:13 phantom competency · 40:24 kids / Tin Can
+- Actionable takeaways for a designer:
+  - Create a single catalogue for prototype URLs and their feedback to avoid version chaos.
+  - Consider an early "AI Imagineer"/ops owner whose job is improving how the team works.
+  - In portfolios, narrate per phase how you used new tools and where you consulted experts.
+  - Widen your T: do your own lightweight research, data pulls and internal tooling.
+  - Question the artifact itself (dashboard vs push notification) before polishing it.
+- Psychology links:
+  - Law of the Instrument — layering AI onto old workflows (the "factory floor") vs redesigning the process; teams reach for the tool rather than rethinking the job.
+  - Dunning-Kruger Effect — "phantom competency": AI output can make people appear (and feel) more skilled than they are; also designers overstating seniority.
+  - Curiosity Gap — AI fluency as acting on "I wonder if…" moments, with time-boxing to avoid rabbit holes.
+  - Default Bias — the dashboard example: users won't log in; push information to channels they already use.
+  - Bandwagon Effect — enterprise "use AI for everything" mandates and moral panic both spread by herd dynamics.
+  - Second-Order Effect — Tin Can removes features to produce better social outcomes; AI over-reliance may erode kids' skills.
+- New concepts: AI Imagineer / AI ops — role dedicated to codifying AI-era design process and tooling · Phantom competency — borrowed capability from tools that can become real skill through repetition · AI fluency — knowing how to turn curiosity into tool-assisted inquiry at the right fidelity · Wider-and-deeper T-shape · METR study (experienced developers ~19% slower with AI in familiar codebases).
+- References & resources: Designer Fund — https://designerfund.com · Ben Blumenrose — https://x.com/benblumenrose · Figma State of Design / AI reports (referenced) · METR developer productivity study (referenced) · Tin Can kids' landline (referenced) · Portfolio examples: Stripe, Gusto, Physical Intelligence, Anvil · Spotify — https://open.spotify.com/episode/54WU3pM0asnsvZt7SRIHts · Apple Podcasts — https://podcasts.apple.com/us/podcast/ben-blumenrose-he-sees-how-50-design-teams-use-ai-most/id1859897039?i=1000759215544
+
+## Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired?
+- URL: https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired
+- Type: episode
+- Date/author (if known): Mar 30, 2026 · host Tommy Geoco ("State of Play") · S1E15 · 40 min · YouTube https://www.youtube.com/watch?v=tNEcRJKgys0
+- Transcript: YES (YouTube auto-captions, ~45k chars; video found via Tommy Geoco channel)
+- Guest(s): Josh Puckett — ~20 years in design (Dropbox, led craft at Wealthfront), Upper Study (mentored/placed 100+ designers), Combine VC (early in Framer, Runway), creator of Interface Craft and DialKit
+- Summary:
+  - Interface Craft: built in a 4-week "goblin mode" sprint after a holiday side project drew interest; onboarding has you pick a library card, sign it and insert it into the web UI to unlock the course — care made tangible.
+  - The job hasn't changed: make software people use and love to achieve their goal; tools changed (Dreamweaver/TextMate/Photoshop → AI). Founders now all want great design early, so the floor rises and designers must reach higher.
+  - AI as tutor/apprenticeship: LLMs can generate custom tutorials for anything, but lack top-end specificity (maintainable, performant front-end techniques) and depend on the quality of your input. Tommy's "phantom competency" — operate at a borrowed ceiling long enough and it becomes your floor.
+  - Market paradox: least openness to juniors across design/eng/product, yet highest demand for design he's seen. To stand out, show uncommon effort and/or uncommon taste; taste at 22 is rare, effort is available to anyone. Use early-career time (fewer responsibilities) as an investment in making things. "No excuse now" — show what you've built. Tommy's example: an applicant researched a company with AI and built an unsolicited prototype in ~4 hours; leadership replied within 8 hours.
+  - "AI native" is the new "mobile designer": a temporarily scarce specialism that will become assumed. Anchor identity in principles and practice, not tools or artifacts — the price of producing an interface artifact is now near zero.
+  - High slope = prolific output. Chef analogy: a culinary student cooking one new dish a week should find another career; taste and intuition come from volume. Classic three-case-study portfolios get pattern-matched in a second; a stream of experiments signals a tinkerer who owns their learning. Playground-style personal sites (Rauno, Chloe Yang) are the new Dribbble; sharing isn't influencing. Names to watch: Soren Blank, Lele Zeng. Soleio: "everything is jump ball".
+  - Design engineering for yourself: "one of the chief goals of design is to engineer desire" — apply it to getting hired by working backwards from the role.
+  - Uncommon care: "just give a shit"; pick the key moments and take them to 11; default to going further than most. Example: Stripe Press cover for Stewart Brand's Maintenance of Everything went through ~60–70 iterations by world-class designers; also their Virgil Abloh archive site. Ask "can I make this better?" with a critique hat on.
+  - Shot selection is the question of the era: follow genuine excitement ("hard to compete with someone having fun") while eating your veggies (most of his time is client founder work).
+  - Product design is not art — it serves a business outcome; exposure to founding/investing builds business intuition and empathy.
+  - Designers report the least happiness with AI (survey cited from Lenny's Newsletter); his hypothesis: design historically carried the least responsibility in the EPD triangle and now must handle engineering realities (states, browsers, resizing) — hopefully building empathy.
+- Timestamps: 00:00 high slope · 04:03 goblin mode · 08:22 phantom competency & apprenticeship · 12:32 effort vs taste · 19:18 AI native = mobile designer · 21:50 high slope · 25:47 anxiety · 29:31 uncommon care · 37:30 product design is not art
+- Actionable takeaways for a designer:
+  - Be prolific: ship many small experiments publicly; a playground beats three polished case studies.
+  - Choose a few key moments per product and over-invest in them.
+  - Iterate far beyond the first good answer on high-visibility artifacts.
+  - Work backwards from the role you want and design the path (unsolicited prototype, research).
+  - Tie your identity to your practice and principles, not your tools.
+- Psychology links:
+  - IKEA Effect — Interface Craft's sign-your-card onboarding makes users invest effort and feel ownership before entering.
+  - Endowment Effect — "your" signed library card becomes a personal possession, raising perceived value of membership.
+  - Peak-End Rule — "take key moments to 11": concentrate care on the moments people remember.
+  - Skeuomorphism — library-card insertion borrows a physical ritual to make access feel meaningful.
+  - Dunning-Kruger Effect — phantom competency and new grads expecting top-tier roles without matching effort.
+  - Spark Effect — small, effortful first actions (one experiment, one post) can trigger momentum: "one post away from changing your life" (weak link).
+- New concepts: High slope — rate of growth as a hiring signal · Uncommon effort vs uncommon taste · Uncommon care · Shot selection — choosing where to spend effort when output is cheap · "Engineer desire" as a design goal · Playground portfolio.
+- References & resources: Interface Craft — https://interfacecraft.dev/ · Upper Study — https://upperstudy.com · Josh Puckett — https://x.com/joshpuckett · DialKit (Josh's project, referenced) · Combine VC · Stripe Press cover for Stewart Brand's "Maintenance of Everything" (referenced) · Virgil Abloh archive website (referenced) · Designers referenced: Soleio, Rauno, Chloe Yang, Soren Blank · Lenny's Newsletter AI survey (referenced) · UX Tools State of Prototyping survey (link in video description) · Spotify — https://open.spotify.com/episode/6NAVwtW3QA1qJEeWgE6RUW · Apple Podcasts — https://podcasts.apple.com/us/podcast/design-has-never-been-more-in-demand-so-why-cant-juniors/id1859897039?i=1000758215593
+
+## Design Taste Comes From Participation — Tom Krcha (YouTube: "Design Tools Are Going Headless")
+- URL: https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha
+- Type: episode
+- Date/author (if known): May 12, 2026 · host Tommy Geoco ("State of Play") · 39 min · YouTube https://www.youtube.com/watch?v=rVrhRewFIP8
+- Transcript: YES (YouTube auto-captions, ~36k chars; video found via Tommy Geoco channel; ASR renders "Pencil" as "Basil/Balsamiq" in places)
+- Guest(s): Tom Krcha — founder of Pencil.dev (agentic design canvas); created Adobe XD; was Adobe's youngest Flash evangelist; grew up in a Czech design-studio family
+- Summary:
+  - Context: design tools are splitting as Claude Design, Figma Make, v0, Lovable, Google Stitch converge on "who owns the next design workflow"; debate over hands-on files vs creative-director/reviewer role.
+  - Stochastic vs deterministic design: start stochastic (open exploration from intent/design.md), then use the "chisel" for the last ~20%. He still hand-codes most of Pencil's canvas/perf code because letting agents roll leaves you disconnected from the output. Quotes Koen Bok (Framer): AI gets you 80% there, then you spend $1,000 and you're at 70%.
+  - Origin: inside Cursor he was writing essays to describe a sidebar, wanted a canvas to draw and say "build this" — then reversed it and asked the agent to design; "head-exploding" moment.
+  - Designer as orchestrator and final authority: like a design-agency lead who can still step in; swarm mode spits out 10–15 variations, each iteration building on what was interesting in the previous one.
+  - Future stack: canvas + "tweaker" (visual edits on production code) + headless agent (Pencil CLI runs on a server, reads .pen files and the codebase/design system, returns PDFs/screenshots via iMessage). No single super-tool — people assemble bespoke workflows ("No Man's Sky spaceships").
+  - Headless design tool = runnable from terminal, canvas renders off-screen; .pen is an open JSON format anyone can read/generate. The constant is context — Tommy's "briefcase" (customer feedback, specs, tickets) carried between tools; "less about working on the same canvas, more about working with the same context".
+  - "Agentic canvas" / "autonomous design agency": anyone in an org can "hire an AI designer" for a task; still a starting point to refine. Blank-canvas help compared to crazy eights — bad ideas made visible help eliminate directions.
+  - Users: many developers, designers, design engineers, PMs, marketers (e.g. screenshot existing site → iterate → hand to Claude/Codex). Pencil embeds in VS Code, Cursor, Antigravity, Windsurf.
+  - Tools that build tools: on-canvas scripting for generative components (waveforms, generative art) and on-the-fly custom plugins (logo generator from primitives, ASCII-art generator with controls). Tommy: Vercel's design team (33) is mostly design engineers; brand designers now called "brand engineers"; UX Tools survey found a majority of AI-using designers had built a custom tool.
+  - Surprise: users make 30–50-artboard files because variation is now cheap — they explore far deeper.
+  - Sub-agents: role-based sub-agents (marketer, brand, logo + assembler) help when optimising clean context; for speed, one agent with all context can be faster.
+  - Vibe coding ≈ Flash era: designers with a bit of scripting can realise visions again. Agents can have "happy accidents" — upcoming "let it cook" mode runs N parallel agents for N iterations and reveals surprising drift.
+  - Canvas as "crime scene" (Bjarke Ingels): lay all variants out to think — why canvases beat branch-based, canvas-less tools for version exploration.
+  - AI makes him a better author through more iterations: late-night spark → working prototype by morning → persuades the team (e.g. live agent cursors for parallel agents).
+  - With 60 agents, the designer orchestrates an orchestra but must retain direct control — bitmap image models frustrate because you can't move one thing. No long backlog; weekly priorities from feel, Discord, market.
+  - Close: "taste comes from participation" — keep your hands in the clay.
+- Timestamps: 5:13 stochastic vs deterministic · 6:16 the chisel · 9:18 Pencil inside Cursor · 10:19 orchestrator/final authority · 12:05 canvas/tweaker/headless · 14:16 headless defined · 15:52 context briefcase · 20:53 tools that build tools · 24:52 50-artboard files · 26:26 sub-agents · 27:35 vibe coding ≈ Flash · 29:38 happy accidents · 31:17 canvas as crime scene · 38:22 taste from participation
+- Actionable takeaways for a designer:
+  - Use agents for divergent exploration, then take manual control of the final 20%.
+  - Maintain a portable context "briefcase" (design system, specs, feedback) that any tool/agent can consume.
+  - Lay variants side by side on a canvas to compare before converging.
+  - Build small generative tools/plugins for repetitive creative tasks.
+  - Prototype a spark immediately to persuade the team with something real.
+- Psychology links:
+  - Juxtaposition — the canvas "crime scene": seeing many variants side by side enables comparison and judgment.
+  - IKEA Effect — "taste comes from participation": hand-tuning the last 20% preserves ownership; pure delegation leaves you disconnected.
+  - Mental Model — shift from designer-as-maker to designer-as-orchestrator/agency lead.
+  - Hick's Law / Decision Fatigue — 50-artboard files and 15-variation swarms expand choice; curation becomes the bottleneck.
+  - Labor Illusion — a working overnight prototype carries more persuasive weight than a description (visible effort/reality).
+  - Variable Reward — "let it cook" drift and happy accidents provide unpredictable, motivating discoveries.
+- New concepts: Stochastic vs deterministic design · Headless design tool — runs from CLI/server with off-screen canvas · Tweaker — visual editor over production code · Agentic canvas / autonomous design agency · Context as portable briefcase · Tools that build tools (generative plugins) · Canvas as crime scene (Bjarke Ingels).
+- References & resources: Pencil.dev — https://pencil.dev · Tom Krcha — https://x.com/tomkrcha · Pencil CLI and .pen open JSON format (referenced) · Google's open-sourced design.md (referenced) · Tools mentioned: Claude Design, Figma Make, v0, Lovable, Google Stitch, Cursor, VS Code, Antigravity, Windsurf, Codex, Hermes, OpenClaw, Unicorn Studio (George Hastings), Flora, Weavy · Koen Bok (Framer) quote via Soleio's podcast · Bjarke Ingels (architect) · Tommy Geoco — https://x.com/tommygeoco · Spotify — https://open.spotify.com/episode/4FOqnGCSs15wCtFFr9cas1 · Apple Podcasts — https://podcasts.apple.com/us/podcast/design-tools-are-going-headless-tom-krcha/id1859897039?i=1000767427012
+
+## Escha Vera: She Trained Her Own AI to Make Art
+- URL: https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art
+- Type: episode
+- Date/author (if known): Jan 19, 2026 · host Tommy Geoco ("State of Play") · S1E5 · 55 min · YouTube https://www.youtube.com/watch?v=oDok8FcX6rM
+- Transcript: YES (YouTube auto-captions, ~50k chars)
+- Guest(s): Escha Vera — designer at Perplexity (brand/product, design system), ex-sole designer at Descript (2015–2024), runs a record label
+- Summary:
+  - Core thesis (Tommy's framing of her work): AI isn't the output, it's the throughput — one layer in a stack of decisions, taste and craft.
+  - Roots: MySpace image maps, Neopets coding, Asian Avenue; client work erodes self-expression; the label grew from wanting physical media and packaging — "accidental creative direction" (demo an idea, pitch to talented collaborators). Calls herself "a designer" and doesn't elaborate to avoid pigeonholing.
+  - Perplexity culture: high trust, high ownership, high autonomy; most designers code; "there's no roadmap, just do it"; collaboration is bottom-up — designers seek out people with historical context.
+  - Comet invitations: first idea (pretty QR codes) wasn't special enough. Mixed brand imagery with ambassador Midjourney styles, composed in Photoshop, made a small curated set, trained several LoRAs with different weights, then combined three models at varying weights with a prompt whose elements swap randomly at runtime (fal.ai for generation; tuned inference steps to ~seconds) → 10k+ unique but intentional invites. Chose an ambient, motion-heavy style so imperfections (non-circular orbs) read as style, after Fi's isometric idea proved too fragile at scale.
+  - Process: many input/output cycles — generate, edit/collage in Photoshop, generate textures, feed back as inputs. Evaluates a new tool by where it fits in her larger chain (beginning, middle, end), not as an end-to-end solution; spends an hour or two playing.
+  - Keeps a huge Midjourney prompt library (poetry, lyrics, stories, keyword lists); old prompts still regenerate despite stricter policies; probing policy limits taught her that "being a good designer is about communication".
+  - Prompting style: starts minimal ("stream of consciousness"), adds detail where it fails (Comet agent failed to find a hover-hidden "add to playlist" button until given a paragraph of instructions).
+  - Product stance: prompting is the "headless" engineering approach and causes a blinking-cursor problem; at Descript AI was hidden behind features, sliders and dropdowns, with custom instructions as an optional power layer — prompting as a "second-class citizen" boosts adoption and calms AI sceptics.
+  - Ethics: stayed at Descript because voice cloning was gated to verified consent (contrasted with lighter-touch competitors). Photoshop analogy (the moved horse on a book cover). Mind changed by watching a respected Doom/Halo concept artist use Midjourney for concepting. Music: uses Suno to demo odd genre mashups, then commissions real producers — never releases the generated piece.
+  - Hate and disclosure: received death threats; adding "AI" disclaimers made posts a search target, so she stopped labelling each post but stays vocal; asks people to ask how something was made before hating. AI share in a work can be 10% or 100% — the line is blurred.
+  - Daily tools: Perplexity, Midjourney, Krea; some Cursor; shipped Comet onboarding's spinning planet made in 5 minutes with Perplexity Labs. Perplexity keeps an internal library of style codes and prompt fragments as part of brand guidelines.
+- Timestamps: 08:05 Perplexity culture · 11:53 Comet invites · 14:51 scaling 10k · 17:44 tools as inputs vs outputs · 21:35 communication · 26:22 prompting as second-class citizen · 36:13 Descript ethics · 45:31 disclosure · 50:37 spinning planet
+- Actionable takeaways for a designer:
+  - Hide AI behind direct-manipulation controls; offer free-text instructions as an advanced layer.
+  - For generative-at-scale brand assets, curate training data, combine models with weights and randomise prompt slots; pick a style forgiving of imperfections.
+  - Treat each AI output as an input to the next step (collage, edit, regenerate).
+  - Design consent and verification into risky AI features rather than relying on ToS checkboxes.
+  - Add prompt fragments/style codes to brand guidelines.
+- Psychology links:
+  - Default Bias — at Descript AI ran through feature defaults (sliders, dropdowns) so users needed no prompt; most users stay with defaults.
+  - Progressive Disclosure — custom instructions/prompting exposed only for power users.
+  - Cognitive Load — the blinking-cursor problem: an empty prompt box forces recall and composition; controls reduce load.
+  - Recognition Over Recall — dropdowns and sliders let users recognise options rather than recall prompt syntax.
+  - Singularity Effect / Endowment Effect — unique per-recipient Comet invites made each person feel singled out and attached to "their" card (Endowment is a moderate link).
+  - Negativity Bias / Bandwagon Effect — the AI-label backlash shows how a single label triggers outsized negative reactions and pile-ons.
+- New concepts: AI as throughput (not output) — generated material as an intermediate step in a human-led chain · LoRA — low-rank adapter fine-tune for a custom image style · Prompting as second-class citizen — AI driven by UI controls, free text optional · Blinking cursor problem — blank-input paralysis in prompt-first tools.
+- References & resources: Perplexity / Comet browser · Perplexity Labs · Descript · Midjourney, Krea, Suno, Cursor, fal.ai, ElevenLabs (mentioned) · Comet invitation walkthrough (her public tutorial, referenced) · Tatiana Tsiguleva's shared Midjourney style codes (referenced) · Spotify — https://open.spotify.com/episode/1i8kLuBWphi49VyhC5JXNq · Apple Podcasts — https://podcasts.apple.com/us/podcast/designer-trained-her-own-ai-to-make-art-escha-vera/id1859897039?i=1000755317680
+
+## Dive Radio: Backyard Designers behind-the-scenes
+- URL: https://www.uxtools.co/episodes/dive-radio-backyard-designers-behind-the-scenes
+- Type: episode (live stream)
+- Date/author (if known): Aug 6, 2026 (streamed live) · Dive Radio S1E4 · ~2h03 · YouTube https://www.youtube.com/watch?v=0tRHVW0qRt4
+- Transcript: no transcript (YouTube has no caption track for this live stream; show notes are a one-line blurb) — summarised from metadata and public comments only
+- Guest(s): not listed (Dive Radio hosts — Tommy Geoco and co-hosts; live call-ins)
+- Summary:
+  - Weekly live call-in show; this episode is a behind-the-scenes look at "Backyard Designers" (likely the UX Tools/Dive Club video series of that name) — content details not verifiable without transcript.
+  - Format: audience drops comments or calls in; "the best takes make the show".
+  - Public comments praise the episode but criticise stream quality (glitches, slideshow visuals, robotic voices) — ironic given the show's emphasis on craft and quality bar.
+- Actionable takeaways for a designer:
+  - Weak source for design guidance; useful mainly as a signal that live/community formats (call-ins) are part of the Dive/UX Tools ecosystem.
+  - Audience feedback shows production polish is judged against the brand's own stated standards.
+- Psychology links:
+  - Expectations Bias — viewers judged the stream harshly because the brand talks about high craft; expectations set by the brand shape perceived quality (weak link, from comments).
+  - Aesthetic-Usability Effect — glitchy, low-fidelity streaming reduced perceived value despite content being called a "banger" (weak link).
+  - Social Proof — "the best takes make the show": call-in format rewards and showcases audience contributions (weak link).
+- References & resources: YouTube — https://www.youtube.com/watch?v=0tRHVW0qRt4 · Related Dive Radio episodes listed on uxtools.co: Just-in-Time Interfaces, How To Become a Founding Designer, How Designers Are Getting Hired in 2026, How to Engineer a Brand Universe, Steal These AI Design Patterns, The Mascot Industrial Complex, Goodbye Blank Canvas
+
+
+
+## Episode index (all 47)
+Transcript summary above = ✅; others: show notes only (transcription skipped by user decision — fewer than 10 rule).
+
+- ◻️ Dive Radio: Just-in-Time Interfaces — https://www.uxtools.co/episodes/dive-radio-just-in-time-interfaces · https://youtube.com/watch?v=Cjv-0MKQ4GU
+- ◻️ Dive Radio: How To Become a Founding Designer — https://www.uxtools.co/episodes/dive-radio-how-to-become-a-founding-designer · https://youtube.com/watch?v=x05zZ90lY28
+- ◻️ Dive Radio: How Designers Are Getting Hired in 2026 — https://www.uxtools.co/episodes/dive-radio-how-designers-are-getting-hired-in-2026 · https://youtube.com/watch?v=DUejFPtYll0
+- ◻️ Dive Radio: How to Engineer a Brand Universe — https://www.uxtools.co/episodes/dive-radio-how-to-engineer-a-brand-universe · https://youtube.com/watch?v=Vh8ogFIE8CA
+- ◻️ Dive Radio: Steal These AI Design Patterns + Live Call-Ins — https://www.uxtools.co/episodes/dive-radio-steal-these-ai-design-patterns-live-call-ins · https://youtube.com/watch?v=sC3Wvi1Whm4
+- ◻️ How One Designer Builds Tools People Pay For: George Hastings — https://www.uxtools.co/episodes/how-one-designer-builds-tools-people-pay-for-george-hastings · https://www.youtube.com/watch?v=ElRZEc5iAUM
+- ◻️ Dive Radio: The Mascot Industrial Complex + Live Call-Ins — https://www.uxtools.co/episodes/dive-radio-the-mascot-industrial-complex-live-call-ins · https://youtube.com/watch?v=RhemcDEc_-A
+- ✅ Dive Radio: Backyard Designers behind-the-scenes — https://www.uxtools.co/episodes/dive-radio-backyard-designers-behind-the-scenes · https://youtube.com/watch?v=0tRHVW0qRt4
+- ◻️ Dive Radio: Goodbye, Blank Canvas + Live Call-Ins — https://www.uxtools.co/episodes/dive-radio-goodbye-blank-canvas-live-call-ins
+- ◻️ Dive Radio: Linear on Data vs. Intuition, the Web Designer Is Back, DialKit — https://www.uxtools.co/episodes/dive-radio-linear-on-data-vs-intuition-the-web-designer-is-back-dialkit-live-call-ins · https://youtube.com/watch?v=TJqSfnadiGM
+- ◻️ Dive Radio: Mixed Media Workflows, Game Design — https://www.uxtools.co/episodes/dive-radio-mixed-media-workflows-game-design-live-call-ins · https://youtube.com/watch?v=9HYGZgaHdlw
+- ◻️ Dive Radio: Bumpy Takeoff — https://www.uxtools.co/episodes/dive-radio-bumpy-takeoff · https://youtube.com/watch?v=VcLm0kAGCck
+- ✅ AI Creative Direction Is Here: Jamey Gannon — https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon · https://www.youtube.com/watch?v=N-6LCrvxHIs
+- ◻️ He Designs Channels Like He Grows Plants: Kevin Espiritu — https://www.uxtools.co/episodes/he-grows-youtube-channels-like-plants-kevin-espiritu · https://podcasts.apple.com/us/podcast/he-grows-youtube-channels-like-plants-kevin-espiritu/id1859897039?i=1000768412219
+- ✅ Design Taste Comes From Participation: Tom Krcha — https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha
+- ✅ AI Made Junior Designers Look Like Most Seniors: Hannah Ahn — https://www.uxtools.co/episodes/ai-made-junior-designers-look-like-most-seniors-hannah-ahn
+- ✅ Amelia Wattenberger: Designing The Next Flow State — https://www.uxtools.co/episodes/amelia-wattenberger-designing-the-next-flow-state
+- ✅ Basement Studio: This Design Agency Is Becoming a VC — https://www.uxtools.co/episodes/basement-studio-this-design-agency-is-becoming-a-vc
+- ◻️ Nad Chishtie: Lovable's Design System For Agents — https://www.uxtools.co/episodes/nad-chishtie-lovables-design-system-for-agents
+- ✅ Ben Blumenrose: Decent design is now the default — https://www.uxtools.co/episodes/decent-design-is-now-the-default-so-what-actually-matters
+- ✅ Josh Puckett: Why can't juniors get hired — https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired
+- ◻️ The New Designers Superpower (Code + AI) — https://www.uxtools.co/episodes/the-new-designers-superpower-code-ai
+- ◻️ Steve Ruiz: He Turned Down Adobe. Then He Shelved His Own Product. — https://www.uxtools.co/episodes/he-turned-down-adobe-then-he-shelved-his-own-product
+- ◻️ Design At The Most AI-Installed Company: Diego Zaks — https://www.uxtools.co/episodes/this-is-design-at-the-most-ai-installed-company-diego-zaks
+- ◻️ Ben Fryc: He Quit Freelancing After Doubling His Salary — https://www.uxtools.co/episodes/he-quit-freelancing-after-doubling-his-salary
+- ◻️ The Design Industry is Splitting in Two — https://www.uxtools.co/episodes/the-design-industry-is-splitting-in-two
+- ◻️ Andy Allen: Why He Takes 3 Years to Build Apps — https://www.uxtools.co/episodes/why-this-designer-takes-3-years-to-build-apps
+- ◻️ Everything You Need to Start Vibe Coding (From Scratch) — https://www.uxtools.co/episodes/everything-you-need-to-start-vibe-coding
+- ◻️ Pietro Schirano: He Solved Figma-to-Code — https://www.uxtools.co/episodes/he-solved-figma-to-code.-it-went-viral-overnight
+- ◻️ The New Design Portfolio (No Case Studies) — https://www.uxtools.co/episodes/the-new-design-portfolio-no-case-studies
+- ◻️ Stephen Haney: He Canceled Figma 4 Months Ago — https://www.uxtools.co/episodes/they-canceled-figma-4-months-ago-here-s-what-they-use-now · https://www.youtube.com/watch?v=i2V8P2WY0X0
+- ✅ Weber Wong (Flora): One Person Should Have the Creative Power of Pixar — https://www.uxtools.co/episodes/anti-slop-manifesto-how-flora-thinks-about-ai · https://www.youtube.com/watch?v=kBwNlJzjWPw
+- ◻️ You Sent Me Your Designs. I Stole This One — https://www.uxtools.co/episodes/you-sent-me-your-designs.-i-stole-this-one · https://www.youtube.com/watch?v=Jn9--8Esd_c
+- ◻️ We Need to Talk About AI Agents — https://www.uxtools.co/episodes/we-need-to-talk-about-ai-agents
+- ◻️ Sara Vienna: Metalab's "Kind Not Nice" Rule — https://www.uxtools.co/episodes/metalab-s-kind-not-nice-rule-changed-how-i-give-feedback
+- ✅ A Most Talented Designer's Tool Stack (Lee Black) — https://www.uxtools.co/episodes/a-most-talented-designer-s-tool-stack · https://www.youtube.com/watch?v=I2rhTUQYjhU
+- ✅ Creating a graffiti ink app with Figma Make — https://www.uxtools.co/episodes/creating-a-graffiti-ink-app-with-figma-make · https://www.youtube.com/watch?v=R8imeWfBn84
+- ✅ Escha Vera: She Trained Her Own AI to Make Art — https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art · https://www.youtube.com/watch?v=oDok8FcX6rM
+- ◻️ I designed admin panels for 10 years. This woke me up — https://www.uxtools.co/episodes/i-designed-admin-panels-for-10-years.-this-woke-me-up
+- ◻️ Devin Matthews: How He Became YouTube's Best New Filmmaker — https://www.uxtools.co/episodes/how-a-designer-became-youtube-s-best-new-filmmaker · https://podcasts.apple.com/us/podcast/how-a-designer-became-youtubes-best-new-filmmaker/id1859897039?i=1000755317657
+- ◻️ Soren Iverson: The Most Absurd Designer in the World — https://www.uxtools.co/episodes/he-turned-memes-into-a-1m-design-agency
+- ◻️ Ridd: The Most Trusted Man in Design — https://www.uxtools.co/episodes/why-he-s-the-most-trusted-man-in-design · https://www.youtube.com/watch?v=mD3Q2fYmaMA
+- ◻️ This is the most expensive thing I've made — https://www.uxtools.co/episodes/i-spent-my-design-career-savings-on-this · https://www.youtube.com/watch?v=Ku8c-OWGz5I
+- ◻️ I ruined this Figma episode — https://www.uxtools.co/episodes/why-i-trashed-the-figma-episode
+- ◻️ This AI dev tool shouldn't be here — https://www.uxtools.co/episodes/this-ai-dev-tool-shouldn-t-be-here
+- ◻️ Ryo Lu: Why He Cloned Himself With Cursor — https://www.uxtools.co/episodes/the-designer-who-cloned-himself-with-cursor
+- ◻️ Ben Huffman: Every Investor Called His Idea Stupid — https://www.uxtools.co/episodes/he-built-a-freelance-platform-with-no-fees-investors-laughed-now-he-has-1m-users

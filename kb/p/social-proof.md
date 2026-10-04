@@ -1,0 +1,32 @@
+## Social Proof
+_People copy what others do_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Strong
+- Definition: Under uncertainty, people infer the correct action from what others — especially similar others — are doing, and adjust their own behaviour toward it.
+- Mechanism (why it happens): Others' behaviour is a cheap information signal (informational influence) and conformity reduces social risk (normative influence); System 1 treats popularity as a proxy for quality, especially when personal knowledge is low.
+- Origin & key evidence:
+  - Goldstein, Cialdini & Griskevicius (2008), Journal of Consumer Research — hotel signs saying most guests reuse towels raised reuse from 35.1% to 44.1%; a same-room norm worked even better. https://www.sciencedaily.com/releases/2008/08/080822160338.htm ; https://ideas.repec.org/a/oup/jconrs/v35y2008i3p472-482.html
+  - Salganik, Dodds & Watts (2006), Science (MusicLab) — 14,341 participants in 8 "worlds"; showing download counts increased both inequality and unpredictability of which songs became hits. https://acawiki.org/Experimental_Study_of_Inequality_and_Unpredictability_in_an_Artificial_Cultural_Market
+- Evidence grade: Strong — large field experiments; caveat: descriptive-norm effects vary in size across replications and can backfire when the norm shown is undesirable ("many people do X bad thing").
+- Enterprise/B2B note: B2B buyers rely on peer proof (logos of comparable operators, case studies, "teams like yours use this setting"); within tools, "most admins choose…" hints help configuration under uncertainty.
+- Ethics/watch-out: Fake or inflated counts and reviews are deceptive and, in many jurisdictions, illegal; popularity cascades can also bury better options (MusicLab).
+- Contexts: pricing, checkout, onboarding, content/copy, branding, settings
+- Sources: https://www.sciencedaily.com/releases/2008/08/080822160338.htm ; https://ideas.repec.org/a/oup/jconrs/v35y2008i3p472-482.html ; https://acawiki.org/Experimental_Study_of_Inequality_and_Unpredictability_in_an_Artificial_Cultural_Market
+- Design applications: Show counts of people who took the action; Mark the most popular plan; Show what similar users chose; Add social signals where users judge worth (ratings, listens)
+- Watch-out (growth.design): Fake or inflated numbers destroy trust; popular-filter defaults can backfire.
+- Product examples: Calm referral — number of people; Tinder Rewind upsell — 'most popular'; Amazon — common choice of similar buyers; Airbnb — popular filters per destination; Spotify podcasts — missing social proof
+- Typed edges: supports → Bandwagon Effect; supports → Nudge; tension → Reactance; supports → Authority Bias; mechanism-of → Group Attractiveness Effect; tension → Survey Bias; tension → Singularity Effect
+- Related: Bandwagon Effect, Authority Bias, Survey Bias
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Cognitive Bias Codex (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Self-Determination Theory (mechanism-of)
+- Linked sources (24):
+  - [article] 3 ways MagicPath closes the design-to-code gap — the post cites bookmarks, views and a respected designer's endorsement as adoption signals. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
+  - [survey] 7 Takeaways from the 2020 Design Tools Survey — survey rankings themselves influence which tools designers try next. <https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey> (sources/uxtools-articles.md)
+  - [article] How Linear hires designers — designers believe social visibility drives discovery. <https://www.uxtools.co/blog/how-linear-hires-designers> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — peer forwarding ("this person gets it") as the strongest discovery signal. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [article] The Year Design Communities Go Small (and Real) — verified paid projects act as credible proof of value. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+  - [article] Your team isn't AI-installed — public Slack agents let usage spread by visibility. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
+  - [tool-category] Tools: UI Design — usage share displayed as a ranking is itself social proof. <https://www.uxtools.co/tools/design> (sources/uxtools-challenges-tools.md)
+  - [other] About UX Tools — "join 100K+ designers". <https://www.uxtools.co/about> (sources/uxtools-challenges-tools.md)
+  - [other] Newsletter — the 100K+ subscriber count. <https://www.uxtools.co/newsletter> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Overview — multiplayer files make tool use visible and shared, which reinforces adoption. <https://uxtools.co/survey/interface-design/overview> (sources/uxtools-survey.md)
+  - [survey] Digital Whiteboarding — Shapes of Work — clients' tools set the agency's tool. <https://uxtools.co/survey/digital-whiteboarding/shapes-of-work> (sources/uxtools-survey.md)
+  - [survey] Top Tool Stacks — Overview — peers' stacks validate tool choices. <https://uxtools.co/survey/top-tool-stacks/overview> (sources/uxtools-survey.md)
+  - …12 more in sources/*.md (search the principle name)

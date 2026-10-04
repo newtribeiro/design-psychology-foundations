@@ -1,0 +1,35 @@
+## Survey Bias
+_Answers skew to the socially acceptable_ · cycle: 🔮 Meaning · cluster: C10 · evidence: Strong
+- Definition: Umbrella term for systematic distortions in self-reported data caused by how questions are worded, ordered, scaled or administered, and by respondents' wish to look good, agree or please the researcher.
+- Mechanism (why it happens): Answering is a constructive process (comprehend, retrieve, judge, report); at each stage context leaks in — social desirability shapes reporting, satisficing (System 1 shortcuts) produces acquiescence and straight-lining, and earlier questions prime later ones.
+- Origin & key evidence:
+  - Krumpal (2013), Quality & Quantity 47(4), 2025–2047 — review of determinants of social-desirability bias in sensitive surveys; anonymity and indirect methods reduce it. https://ideas.repec.org/a/spr/qualqt/v47y2013i4p2025-2047.html
+  - Tourangeau & Yan (2007), Psychological Bulletin, "Sensitive questions in surveys" — self-administration reduces misreporting (details not verified).
+  - Spool, "Net Promoter Score considered harmful" — practitioner critique of scale design and interpretation. https://articles.uie.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it/
+- Evidence grade: Strong — survey methodology has extensive experimental literature on each component bias; the umbrella label itself is practitioner shorthand.
+- Design applications:
+  - Ask about past behaviour, not hypothetical intent — compare answers against product analytics.
+  - Neutral, single-barrelled questions; balanced scales — measure item non-response and straight-lining.
+  - Randomise option and question order — check position effects.
+  - Self-administered/anonymous mode for sensitive topics — compare disclosure rates across modes.
+  - Triangulate any survey finding with behavioural data before shipping decisions.
+- Real product examples: NPS prompts in SaaS (e.g. after support chats) widely criticised for bias; Airbnb/Uber post-trip ratings skewed toward 5 stars; anti-pattern — "How much do you love our new feature?" in-app polls.
+- Enterprise/B2B note: B2B samples are small and often answered by champions or admins, so non-response and social desirability (rating a vendor they chose) inflate satisfaction.
+- Ethics/watch-out: Don't design leading surveys to manufacture evidence for a decision already made.
+- Contexts: research, stakeholder-communication, content/copy, retention, offboarding
+- Sources: https://ideas.repec.org/a/spr/qualqt/v47y2013i4p2025-2047.html ; https://articles.uie.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it/ ; https://www.surveymonkey.com/curiosity/double-barrel-survey-question/
+- Typed edges: tension → Survivorship Bias; special-case-of → Observer-Expectancy Effect; supports → Framing; tension → Social Proof; tension → False Consensus Effect; mechanism-of → Hawthorne Effect
+- Linked sources (15):
+  - [other] Blog index & topic taxonomy (combined) — the large Research & Testing cluster is about getting unbiased signal from users. <https://www.uxtools.co/blog> (sources/uxtools-articles.md)
+  - [article] 12 Ways to Utilize Other Departments in User Research — advisory boards, sales calls and support tickets are skewed samples (motivated, loudest voices). <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [tool-category] 17 Tools That Will Streamline Your UX Research — tool choice (in-context microsurveys vs. emailed forms) changes response quality and recall bias. <https://www.uxtools.co/blog/17-tools-that-will-streamline-your-ux-research> (sources/uxtools-articles.md)
+  - [article] Fast and Cheap Ways to Find UX Research Participants — friends, family and co-workers bring bias; target-profile mismatch skews findings. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
+  - [article] The Best UX Research Methods in a Pinch — surveys need careful wording; self-report differs from behaviour. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
+  - [article] The fog between layoffs and prototyping — short (≤4 min), single-topic surveys aim to reduce fatigue and get honest answers. <https://www.uxtools.co/blog/the-fog-between-layoffs-and-prototyping> (sources/uxtools-articles.md)
+  - [article] When to Skip UX Research — poorly-resourced research can bias and mislead a project. <https://www.uxtools.co/blog/when-to-skip-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — people say what is socially acceptable. Ask about real past actions instead. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Usability Test (Test) — post-task ratings skew positive. Weight observed behaviour over stated satisfaction. <https://www.uxtools.co/challenges/usability-test> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Survey (Test) — question wording, order and social desirability distort answers. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Research Recruiting — panel participants who are professional testers may give rehearsed answers. <https://www.uxtools.co/tools/research-recruiting> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — About This Report — results depend on who is willing to answer, and the respondents here are a self-selected audience. <https://uxtools.co/survey/introduction/about-this-report> (sources/uxtools-survey.md)
+  - …3 more in sources/*.md (search the principle name)

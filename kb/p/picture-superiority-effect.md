@@ -1,0 +1,32 @@
+## Picture Superiority Effect
+_Images beat words for recall_ · cycle: 💾 Memory · cluster: C1 · evidence: Strong
+- Definition: Pictures are remembered better than equivalent words, especially after short exposure or long delays.
+- Mechanism (why it happens): Dual coding (Paivio) — pictures are encoded both visually and verbally; distinctive perceptual features also aid recognition.
+- Origin & key evidence:
+  - Paivio's dual-coding theory (1970s) — https://en.wikipedia.org/wiki/Dual-coding_theory
+  - Standing (1973): very high recognition memory after viewing thousands of pictures — https://en.wikipedia.org/wiki/Picture_superiority_effect
+  - NN/g explainer applying it to UI — https://nngroup.com/articles/picture-superiority-effect/
+- Evidence grade: Strong — highly replicated in memory research; the effect is reduced for abstract or ambiguous images.
+- Design applications:
+  - Pair key concepts with distinctive images in onboarding — next-day recall test.
+  - Thumbnail-first catalogue/listing — time-to-find a remembered item.
+  - Icons + labels (not icons alone) for navigation — findability and error rates.
+  - Visual summaries of reports (charts > tables for patterns) — comprehension test scores.
+- Real product examples: Netflix personalised artwork for titles — https://www.dezeen.com/?p=1165745 ; Pinterest's image-first browsing.
+- Enterprise/B2B note: Product catalogues and spare-part libraries benefit from photo-first identification; field techs recall parts by image faster than SKU.
+- Ethics/watch-out: Images can be misleading (unrepresentative product photos) and inaccessible without alt text.
+- Contexts: onboarding, branding, search, data-viz, content/copy
+- Sources: https://en.wikipedia.org/wiki/Picture_superiority_effect ; https://en.wikipedia.org/wiki/Dual-coding_theory ; https://nngroup.com/articles/picture-superiority-effect/ ; https://www.dezeen.com/?p=1165745
+- Typed edges: supports → Recognition Over Recall; supports → Storytelling Effect; supports → Sensory Appeal; tension → Banner Blindness; supports → Von Restorff Effect
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of)
+- Linked sources (10):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — annotated before/after images communicate impact faster than text. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] How research teams are keeping up with build teams — video highlight clips persuade stakeholders more than reports. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — tangible, visual demos are remembered better than text case studies. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [article] User Research: Is It Worth It? — watching a recording of a user struggling is more convincing than a written report. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Persona (Understand) — a face and a visual layout make the persona stick in team memory. <https://www.uxtools.co/challenges/user-persona> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Whiteboarding — visual boards help teams remember workshop output. <https://www.uxtools.co/tools/whiteboarding> (sources/uxtools-challenges-tools.md)
+  - [survey] Prototyping — Shapes of Work — interactive, visual demos are remembered better than specs. <https://uxtools.co/survey/prototyping/shapes-of-work> (sources/uxtools-survey.md)
+  - [case-study] How to avoid (and repair) these 3 critical design blunders — images are remembered better than words. <https://growth.design/case-studies/design-blunders> (sources/growth-design-case-studies.md)
+  - [case-study] 3 UX Tips To Make "Aha Moments" Click (Too Good To Go) — show rather than tell. <https://growth.design/case-studies/too-good-to-go-onboarding> (sources/growth-design-case-studies.md)
+  - [episode] AI Creative Direction Is Here — Jamey Gannon — her "image is worth a thousand words" principle: images encode far more retrievable information than verbal descriptions, for humans and models. <https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon> (sources/uxtools-episodes.md)

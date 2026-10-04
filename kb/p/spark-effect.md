@@ -1,0 +1,29 @@
+## Spark Effect
+_Small effort → more action_ · cycle: 🙈 Information · cluster: C6 · evidence: Practitioner
+- Definition: People are more likely to act when the effort needed looks small and the payoff looks clearly reachable (growth.design's definition: "more likely to take action when the effort is small").
+- Mechanism (why it happens): Expected cost is weighed against expected reward. A low perceived cost moves the behaviour above Fogg's action line even when motivation is modest. Low-effort starts also avoid System 2 deliberation and procrastination.
+- Origin & key evidence:
+  - growth.design psychology cards (practitioner coinage). https://growth.design/psychology
+  - Fogg (2009) Behavior Model: ability (simplicity) trades off against motivation. Making a behaviour easier is often more reliable than raising motivation. https://behaviormodel.org
+  - Zhang, Allard, Agrawal & Bagchi (2025), Journal of Marketing Research, eight studies including field experiments: a trivial effort (typing a promo code) increased discount redemption compared with automatic discounts. The benefit disappeared once the effort became burdensome. The "small" effort level is the key boundary condition. https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness
+- Evidence grade: Practitioner. The term has no academic origin of its own. Friction-reduction effects are well supported under other names (defaults, ability). Note the naming clash: Fogg's "spark" means a motivating prompt, not low effort.
+- Design applications:
+  - Make the first step tiny ("Add one asset", "5 min lesson"). Signal: step-1 start rate.
+  - Show effort cost up front ("Takes 30 seconds", "3 fields"). Signal: form start and completion rate.
+  - Pair a visible small reward with a micro-action. Signal: conversion lift in an A/B test.
+  - Pre-fill and use smart defaults. Signal: time-on-task and completion.
+- Real product examples: Duolingo pitches lessons as a few minutes a day. Amazon 1-Click ordering (patented in 1999). Typeform's one-question-at-a-time forms.
+- Enterprise/B2B note: split heavy setup (integrations, fleet registration) into small sparks with an immediate visible payoff, such as the first data showing on a dashboard.
+- Ethics/watch-out: frictionless purchase or sign-up can lead to commitments people regret. Keep friction on irreversible actions.
+- Contexts: onboarding, forms, checkout, pricing, empty-states, retention
+- Sources: https://growth.design/psychology ; https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness ; https://www.thebehavioralscientist.com/?p=3058 ; https://haebom.dev/d7916x82rvxj724kpyg3?tl=en
+- Typed edges: supports → Goal Gradient Effect; supports → Shaping; mechanism-of → Default Bias; tension → IKEA Effect; special-case-of → Fogg Behavior Model (ability); supports → Hick's Law
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of)
+- Linked sources (7):
+  - [other] UX in 60 Seconds — a small, 60-second effort lowers the barrier to engage. <https://growth.design/ux-in-60-seconds> (sources/growth-design-case-studies.md)
+  - [case-study] One simple way Apple could improve your sleep habits — a small first step starts the behaviour. <https://growth.design/case-studies/apple-sleep-notification> (sources/growth-design-case-studies.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — low-effort first actions start engagement. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts (Grammarly) — easy first questions. <https://growth.design/case-studies/grammarly-onboarding-survey> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology behind highly effective landing pages — a low-effort first step. <https://growth.design/case-studies/landing-page-ux-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind TikTok's Addictive Feed — a tiny swipe starts the habit. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
+  - [episode] Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired? — small, effortful first actions (one experiment, one post) can trigger momentum: "one post away from changing your life" (weak link). <https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired> (sources/uxtools-episodes.md)

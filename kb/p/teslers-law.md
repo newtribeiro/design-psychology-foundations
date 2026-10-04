@@ -1,0 +1,27 @@
+## Tesler's Law
+_Complexity can't vanish — only move_ · cycle: 🙈 Information · cluster: C2 · evidence: Practitioner
+- Definition: Every system has some complexity that cannot be removed. The only question is whether the system (its engineers and designers) absorbs it or the user does.
+- Mechanism (why it happens): Task complexity is a property of the domain, not of the UI. Removing UI surface moves decisions elsewhere: into defaults, automation, or the user's head. Tognazzini's corollary is that simpler tools lead users to attempt harder tasks, so overall complexity reappears.
+- Origin & key evidence:
+  - Larry Tesler, Xerox PARC, mid-1980s. Popularised through an interview in Dan Saffer's *Designing for Interaction*. https://lawsofux.com/teslers-law/
+  - Background on the "law of conservation of complexity": https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity
+  - I found no controlled empirical test. It is a design heuristic.
+- Evidence grade: Practitioner. It is a widely cited engineering maxim with no experimental literature.
+- Design applications:
+  - Smart defaults and inference (auto-detect units, location, device model). Signal: share of users who keep the defaults, and fields completed per task.
+  - Progressive disclosure: put advanced settings behind "More options". Signal: task success for novices against expert time-on-task.
+  - Move validation to the system (address lookup, format tolerance). Signal: form error rate.
+  - Contextual help (tooltips) where complexity can't be removed. Signal: help-open rate and the error rate that follows.
+- Real product examples: Gmail's "Undo send" handles a recovery problem the user would otherwise own (no URL verified). Stripe Checkout validates card type and format inline (no URL verified).
+- Enterprise/B2B note: Regulatory and compliance rules (e.g. permits and authorisations) cannot be simplified away. Automate checks and show only the exceptions.
+- Ethics/watch-out: Hiding complexity can also hide control. Keep overrides and transparency for expert or high-risk decisions.
+- Contexts: forms, settings, onboarding, dashboards, checkout
+- Sources: https://lawsofux.com/teslers-law/ ; https://lawsofux.com/teslers-law/index.md ; https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity
+- Typed edges: supports → Progressive Disclosure; supports → Default Bias; counteracts → Cognitive Load; tension → Law of the Instrument; tension → Cognitive Load
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (supports)
+- Linked sources (5):
+  - [article] "Any Input = Any Output" - What Config Was Really About — complexity of design→code translation doesn't vanish; it moves into tools. <https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about> (sources/uxtools-articles.md)
+  - [article] Build Interfaces to Understand Systems — each abstraction layer absorbs complexity so users above it don't deal with it. <https://www.uxtools.co/blog/build-interfaces-to-understand-systems> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Flow (Ideate) — the complexity of delivery slots and substitutions must be absorbed by the system, not the user. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
+  - [other] Design System Reference (/design) — encoding design decisions once moves complexity out of every later build. <https://www.uxtools.co/design> (sources/uxtools-challenges-tools.md)
+  - [episode] Weber Wong: One Person Should Have the Creative Power of Pixar (Flora / anti-slop) — the convenience-vs-control efficient frontier: complexity can only be moved, and the tool designer chooses where. <https://www.uxtools.co/episodes/anti-slop-manifesto-how-flora-thinks-about-ai> (sources/uxtools-episodes.md)

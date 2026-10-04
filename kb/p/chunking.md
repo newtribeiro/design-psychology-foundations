@@ -1,0 +1,28 @@
+## Chunking
+_Grouped info is easier to remember_ · cycle: 💾 Memory · cluster: C2 · evidence: Strong
+- Definition: Grouping individual pieces of information into larger, meaningful units so that more can be held in working memory and processed at once.
+- Mechanism (why it happens): Working memory holds only a few units at a time; long-term knowledge lets several items be recoded as one familiar pattern, so capacity in "chunks" stays small while the information carried per chunk grows with expertise.
+- Origin & key evidence:
+  - Miller (1956), Psychological Review, "The Magical Number Seven, Plus or Minus Two" — introduced chunking as the way to beat span limits. https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two
+  - Chase & Simon (1973), Cognitive Psychology, "Perception in chess" — masters recalled real game positions far better than novices but not random positions, because they perceive familiar chunks. https://andymatuschak.org/prompts/Chase1973.pdf
+  - Cowan (2001), Behavioral and Brain Sciences — revised working-memory capacity to about 4 chunks when rehearsal and chunking are controlled. https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496
+- Evidence grade: Strong — foundational, extensively replicated; caveat: "7±2 items per menu" is a misreading — design for ~3–5 meaningful groups and remember chunk size depends on user expertise.
+- Enterprise/B2B note: Group long serial numbers, coordinates and IDs (e.g. device serials, part numbers) into short segments, and structure dense forms/spec sheets into labelled sections; experts chunk domain data differently from novices.
+- Ethics/watch-out: Don't use chunked "short" presentation to hide total cost or length (e.g. splitting fees across steps).
+- Contexts: forms, content/copy, navigation, data-viz, onboarding, settings
+- Sources: https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two ; https://andymatuschak.org/prompts/Chase1973.pdf ; https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/magical-number-4-in-shortterm-memory-a-reconsideration-of-mental-storage-capacity/44023F1147D4A1D44BDC0AD226838496
+- Design applications: Chunk steps, text and UI into small meaningful units; Group navigation by user jobs-to-be-done; Format numbers/codes in groups
+- Product examples: Growth.Design course modules; The psychology page's 4 categories; Stripe — 5 nav links, products in 3 JTBD groups
+- Typed edges: special-case-of → Miller's Law; counteracts → Cognitive Load; supports → Law of Proximity; supports → Progressive Disclosure; supports → Recognition Over Recall
+- Related: Miller's Law, Cognitive Load, Law of Proximity
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Gestalt principles of perception (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (9):
+  - [article] Generative media workflows in UI design — node groups organize many outputs into manageable units. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)
+  - [article] Quicker UX Research Synthesis — affinity grouping turns many observations into a few memorable themes. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)
+  - [article] The Best UX Research Methods in a Pinch — card sorting reveals how users group content into meaningful chunks. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
+  - [article] Translating User Research Into Design — clustering insights by location/journey/user type makes them actionable. <https://www.uxtools.co/blog/translating-user-research-into-design> (sources/uxtools-articles.md)
+  - [article] What No One Explains About the Design Process — reducing many frameworks to four principles makes the practice easier to hold in mind. <https://www.uxtools.co/blog/what-no-one-explains-about-the-design-process> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Card Sorting (Test) — the categories users produce are their natural chunks. <https://www.uxtools.co/challenges/card-sorting> (sources/uxtools-challenges-tools.md)
+  - [survey] Design Systems — Shapes of Work — design systems chunk UI into reusable units, which cuts designer cognitive load. <https://uxtools.co/survey/design-systems/shapes-of-work> (sources/uxtools-survey.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — splitting forms into steps. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)
+  - [episode] AI Creative Direction Is Here — Jamey Gannon — "work in steps": breaking a compound edit into small steps avoids overload (for model and human). <https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon> (sources/uxtools-episodes.md)

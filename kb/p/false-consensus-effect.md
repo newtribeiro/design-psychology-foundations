@@ -1,0 +1,28 @@
+## False Consensus Effect
+_We think others agree with us_ · cycle: ⏰ Time · cluster: C5 · evidence: Strong
+- Definition: People overestimate how much others share their own choices, opinions and behaviours.
+- Mechanism (why it happens): Own views are the most available data point (availability), people associate with similar others (selective exposure), and situational construal means they assume others see the situation as they do; Dawes argued some projection is statistically rational when data are scarce.
+- Origin & key evidence:
+  - Ross, Greene & House (1977), Journal of Experimental Social Psychology — participants who chose an option (e.g. wearing a sandwich-board sign) estimated that more peers would choose the same. https://forrt.org/open-social-psychology/chapter16.html
+  - Mullen et al. (1985) — meta-analysis of 23 studies / 115 hypotheses: highly significant, moderate effect. https://forrt.org/open-social-psychology/chapter16.html
+  - Later work extends it to online contexts (e.g. Bunker & Varnum 2021; Luzsa & Mayr 2021) (details not verified).
+- Evidence grade: Strong — reliable, meta-analysed; debate centres on whether it is a bias or partly rational projection, not on whether it occurs.
+- Design applications:
+  - Require user research before roadmap decisions ("we aren't the user") — track share of features shipped with research evidence.
+  - Test with representative, not internal, users — compare internal vs. external task success.
+  - Use analytics to check assumed behaviours (e.g. "everyone uses dark mode") — measure assumption hit rate.
+  - In stakeholder reviews, ask for estimated % of users with a behaviour, then compare to data.
+- Real product examples: Internal "dogfooding" bias at tech companies (features power users love but mainstream ignores); anti-pattern — designer-default jargon in enterprise UIs.
+- Enterprise/B2B note: Engineers and designers at industrial firms are not field operators — projecting their expertise onto pilots or procurement users is a key risk.
+- Ethics/watch-out: Don't present "everyone does X" claims to users based only on your own team's beliefs (fake social proof).
+- Contexts: research, stakeholder-communication, content/copy, onboarding
+- Sources: https://forrt.org/open-social-psychology/chapter16.html ; https://www.simplypsychology.org/?p=11567 ; https://spsp.org/news-center/blog/pelham-false-consensus
+- Typed edges: tension → Survey Bias; mechanism-of → Curse of Knowledge; supports → Confirmation Bias; tension → Empathy Gap; supports → Availability Heuristic
+- Linked sources (7):
+  - [article] User Research: Is It Worth It? — explicitly cited: designers assume users think like them. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [article] What Developers Need from UX Research — research exposure helps engineers stop assuming users behave like them. <https://www.uxtools.co/blog/what-developers-need-from-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — the reason to interview at all is that designers assume users think like them. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: User Persona (Understand) — personas counter the team's tendency to design for themselves. <https://www.uxtools.co/challenges/user-persona> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Card Sorting (Test) — the team's assumed groupings rarely match the users'. <https://www.uxtools.co/challenges/card-sorting> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Research Recruiting — convenience samples (coworkers, existing power users) skew findings. <https://www.uxtools.co/tools/research-recruiting> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — Demographic Summary — it is tempting to assume "everyone uses X" when the sample mirrors your own community. <https://uxtools.co/survey/introduction/demographic-summary> (sources/uxtools-survey.md)

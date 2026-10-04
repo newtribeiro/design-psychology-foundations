@@ -1,0 +1,29 @@
+## Investment Loops
+_Invested users come back_ · cycle: ⏰ Time · cluster: C6 · evidence: Practitioner
+- Definition: Product loops in which users put something of value into the product (data, content, effort, connections, reputation) that makes the product better for them next time and makes them more likely to return.
+- Mechanism (why it happens): Stored value raises switching costs and personal relevance, while effort spent increases valuation of the result (IKEA effect) and commitment; each investment can also "load the next trigger" (a follow, a pending reply) that pulls the user back.
+- Origin & key evidence:
+  - Eyal (2014), *Hooked* — Investment is the fourth phase of the Hook model (trigger, action, variable reward, investment); users invest time, data, effort, social capital or money that improves the service and primes the next loop. https://fs.blog/hooked/
+  - Norton, Mochon & Ariely (2012), Journal of Consumer Psychology — people valued self-assembled products more (e.g. ~63% higher willingness to pay for IKEA boxes), but only when they completed the task; replicated by Sarstedt et al. (2016). https://en.wikipedia.org/wiki/IKEA_effect ; https://dash.harvard.edu/handle/1/12136084
+- Evidence grade: Practitioner — the loop model is a practitioner framework; component effects (IKEA effect, commitment, endowment) have Moderate–Strong lab support.
+- Enterprise/B2B note: Configured workflows, saved job templates, integrations and historical activity data are powerful stored value; make investment visible (e.g. "your 312 saved reports") and exportable to keep trust.
+- Ethics/watch-out: Investment that becomes lock-in (data you cannot export) or compulsion loops crosses into manipulation; let users leave with their data.
+- Contexts: retention, onboarding, gamification, settings, offboarding
+- Sources: https://fs.blog/hooked/ ; https://en.wikipedia.org/wiki/IKEA_effect ; https://dash.harvard.edu/handle/1/12136084 ; https://amplitude.com/blog/the-hook-model.md
+- Design applications: Ask for small investments that improve the product for the user (personalisation, goals, notes); Make investments load the next trigger (e.g. goal reminders)
+- Watch-out (growth.design): Investment should create real value, not lock-in.
+- Product examples: Morning Brew — personalised stock ticker idea; Strava — personal goals; Spotify — podcast notes idea
+- Typed edges: supports → IKEA Effect; supports → Endowment Effect; supports → Commitment & Consistency; tension → Provide Exit Points; supports → Variable Reward; mechanism-of → Sunk Cost Effect
+- Related: IKEA Effect, Endowment Effect, Sunk Cost Effect, Internal Trigger
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (mechanism-of); ⚙ Fogg Behavior Model + Tiny Habits (organises); ⚙ Self-Determination Theory (mechanism-of)
+- Linked sources (10):
+  - [article] The 4 Levels of AI Fluency — L3 personal infrastructure compounds: each built skill makes the next task cheaper. <https://www.uxtools.co/blog/the-4-levels-of-ai-fluency> (sources/uxtools-articles.md)
+  - [article] The next gap in design work — persistent context and captured learnings compound: each use improves the next. <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Diary Study (Test) — watchlists and profiles build stored value over time. <https://www.uxtools.co/challenges/diary-study> (sources/uxtools-challenges-tools.md)
+  - [survey] Interface Design — Overview — every shared file and collaborator raises the cost of leaving (network-effect lock-in; see New concepts). <https://uxtools.co/survey/interface-design/overview> (sources/uxtools-survey.md)
+  - [survey] Prototyping — Basic Prototyping — existing files and components make staying put the cheapest option. <https://uxtools.co/survey/prototyping/basic-prototyping> (sources/uxtools-survey.md)
+  - [survey] Design Systems — Overview — every component added deepens lock-in. <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
+  - [survey] Award — Ecosystem Champion (Figma + FigJam) — cross-product assets deepen lock-in. <https://uxtools.co/survey/design-tools-awards/ecosystem-champion> (sources/uxtools-survey.md)
+  - [case-study] Spotify vs Apple: How Spotify is betting $230M on podcasts (Ep. 2) — notes as stored value. <https://growth.design/case-studies/spotify-vs-apple-podcast-ep2> (sources/growth-design-case-studies.md)
+  - [case-study] How Morning Brew Grew To 1.5 Million Subs In 5 Years — customisation and quiz participation. <https://growth.design/case-studies/morning-brew-newsletter-retention> (sources/growth-design-case-studies.md)
+  - [case-study] Strava: 7 Strategies To Convert More Freemium Users — goals set now pull users back later. <https://growth.design/case-studies/strava-freemium-conversion> (sources/growth-design-case-studies.md)

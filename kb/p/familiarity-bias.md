@@ -1,0 +1,33 @@
+## Familiarity Bias
+_People prefer what they know_ · cycle: 🔮 Meaning · cluster: C3 · evidence: Strong
+- Definition: The tendency to prefer and trust what one has encountered before over the new or unknown, even without evidence that the familiar option is better.
+- Mechanism (why it happens): Repeated exposure makes stimuli easier to process (perceptual fluency); that ease is misread as liking, safety or truth — a System 1 shortcut. It also lowers learning cost because existing mental models transfer.
+- Origin & key evidence:
+  - Zajonc (1968), mere exposure: merely seeing stimuli (words, shapes, faces) raised later liking — https://en.wikipedia.org/wiki/Mere-exposure_effect
+  - Bornstein (1989), meta-analysis of 208 experiments: r ≈ 0.26; peaks around 10–20 exposures, then liking can decline; weaker for children and art — https://en.wikipedia.org/wiki/Mere-exposure_effect
+  - NN/g: leveraging familiar labels and layouts cuts cognitive load — https://www.nngroup.com/articles/minimize-cognitive-load/
+- Evidence grade: Strong (mere exposure) / Practitioner (the "Familiarity Bias" UX label) — the core effect is well replicated; transfer to advertising and complex choices is mixed, and overexposure brings boredom.
+- Enterprise/B2B note: Operators trained on legacy tools resist redesigns; preserve key layouts/shortcuts, migrate gradually, and offer side-by-side modes.
+- Ethics/watch-out: Familiar-looking UI can be used to impersonate trusted systems (phishing-style patterns) or to lock users into inferior defaults.
+- Contexts: navigation, branding, onboarding, settings, content/copy
+- Sources: https://en.wikipedia.org/wiki/Mere-exposure_effect ; https://www.nngroup.com/articles/minimize-cognitive-load/
+- Design applications: Use common patterns and conventions (Jakob's Law); Reuse your own established patterns across features; Make new tech feel familiar via known metaphors
+- Watch-out (growth.design): Big-bang redesigns can trigger backlash even if 'better'.
+- Product examples: Superhuman — familiar keyboard shortcuts; Spotify podcast player mirrors music player; Snapchat redesign backlash; Brave built on Chromium; Tesla charging UI — phone-like battery
+- Typed edges: supports → Mental Model; mechanism-of → Default Bias; tension → Delighters; supports → Jakob's Law (framework); counteracts → Cognitive Load; supports → Aesthetic-Usability Effect; tension → Curse of Knowledge; tension → Bandwagon Effect; tension → Method of Loci
+- Related: Mental Model, Skeuomorphism, Weber's Law
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (mechanism-of)
+- Linked sources (31):
+  - [article] 3 ways MagicPath closes the design-to-code gap — designers adopt tools that let them start from existing files/products rather than a new world. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
+  - [article] 7 changes in brand world-building — consistent cross-surface brand cues keep generated experiences recognizable. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
+  - [article] A room full of prototypers — Granola's "good design is invisible" framing; tools succeed when they fit existing habits. <https://www.uxtools.co/blog/a-room-full-of-prototypers> (sources/uxtools-articles.md)
+  - [article] Design debt at machine speed — consistent components keep the product coherent and learnable rather than "five contractors" look. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — following conventions (Jakob's Law) prevents errors from violated expectations. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] Ideas from Developers on Handling UX Feedback — platform conventions reduce friction for both users and engineers. <https://www.uxtools.co/blog/ideas-from-developers-on-handling-ux-feedback> (sources/uxtools-articles.md)
+  - [article] Pages are becoming teammates — modelling agent permissions on familiar page-sharing lowers adoption friction. <https://www.uxtools.co/blog/pages-are-becoming-teammates> (sources/uxtools-articles.md)
+  - [article] Stochastic vs. Deterministic Design — deterministic/rule-bound systems preserve consistency users rely on. <https://www.uxtools.co/blog/stochastic-vs-deterministic-design> (sources/uxtools-articles.md)
+  - [article] The only AI workflow I use in production — consistent patterns mean users don't re-learn each new screen. <https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production> (sources/uxtools-articles.md)
+  - [article] The year of the connected canvas — "AI native" fades once the technology becomes ambient and familiar. <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
+  - [article] UX Design for Navigation Menus — conventional nav placement matches learned web patterns (Jakob's Law). <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — explicitly cited: redesign built on familiar icons/sounds. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - …19 more in sources/*.md (search the principle name)

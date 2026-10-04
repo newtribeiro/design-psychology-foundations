@@ -1,0 +1,31 @@
+## Signifiers
+_Cues that communicate what an element does_ · cycle: 🙈 Information · cluster: C3 · evidence: Practitioner
+- Definition: Perceivable cues (shape, label, icon, cursor change, underline, shadow) that tell people what action is possible and where — distinct from the affordance itself.
+- Mechanism (why it happens): People act on perceived, not actual, possibilities; signifiers trigger learned convention schemas (mental models) so action can be selected with minimal deliberation.
+- Origin & key evidence:
+  - Norman (2008), "Signifiers, not affordances", ACM interactions — argued designers mean signifiers when they say affordances — https://interactions.acm.org/archive/view/november-december-2008/the-way-i-see-itsignifiers-not-affordances1 ; https://jnd.org/signifiers-not-affordances/
+  - Built on Gibson's affordance concept (1979) and Norman's The Design of Everyday Things (revised 2013 edition introduces the term formally).
+- Evidence grade: Practitioner — strong conceptual framework widely adopted; controlled evidence exists mainly via flat-design clickability studies (not verified in this session).
+- Design applications:
+  - Give interactive elements consistent cues (buttons look pressable, links distinct) — first-click accuracy, "rage click" rate on non-interactive items.
+  - Drag handles / grip icons on reorderable lists — discovery rate of reordering in usability tests.
+  - Hover and focus states for every control — keyboard task completion, a11y audit.
+  - Avoid false signifiers (underlined non-links) — dead-click analytics.
+- Real product examples: iOS swipe actions lacking signifiers reduce discoverability (anti-pattern); Trello cards' visible grab affordance (no source URL verified).
+- Enterprise/B2B note: Industrial users trained on legacy tools rely on conventional signifiers; minimalist flat controls in operations software raise error rates.
+- Ethics/watch-out: Deceptive signifiers (ads styled as download buttons) are a dark pattern.
+- Contexts: navigation, forms, settings, onboarding, errors
+- Sources: https://jnd.org/signifiers-not-affordances/ ; https://interactions.acm.org/archive/view/november-december-2008/the-way-i-see-itsignifiers-not-affordances1
+- Typed edges: supports → Mental Model; supports → Discoverability; special-case-of → Feedforward; supports → Familiarity Bias; tension → Occam's Razor; tension → Aesthetic-Usability Effect
+- Explained by frameworks: ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (supports); ⚙ Norman's design principles (organises)
+- Linked sources (10):
+  - [article] 7 Practical Tips for Better Microcopy — verb-first labels signal what an interactive element will do. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
+  - [article] "Agent-permeable" is the new mobile-responsive — the agent equivalent of signifiers is machine-readable metadata. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)
+  - [article] How Designers Can Prevent User Errors — clear affordance cues prevent mis-clicks and missed controls. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)
+  - [article] Motion design's system update — state-driven motion signals what is interactive and what just changed. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — controls appear when needed, signalling available actions without clutter. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Heuristic Evaluation (Test) — are rating and shelving controls recognisable as interactive? <https://www.uxtools.co/challenges/heuristic-evaluation> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Design System (Implement) — the system codifies how interactive affordances look. <https://www.uxtools.co/challenges/design-system> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Accessibility (Implement) — colour-only cues fail colour-blind users, so add icons and labels. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Form (Implement) — each control's appearance must communicate how to operate it (toggle vs checkbox semantics). <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
+  - [case-study] Airbnb: How To Reduce Churn With Personalization — unclear toggle outcomes. <https://growth.design/case-studies/airbnb-personalization> (sources/growth-design-case-studies.md)

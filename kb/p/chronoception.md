@@ -1,0 +1,26 @@
+## Chronoception
+_Time perception is subjective_ · cycle: ⏰ Time · cluster: C8 · evidence: Strong
+- Definition: The subjective perception of elapsed time. Perceived duration changes with attention, uncertainty, occupation and emotion, so waits that are equally long objectively can feel very different.
+- Mechanism (why it happens): Attentional models of timing hold that the more attention goes to time itself, the longer an interval feels. Unoccupied, uncertain or unexplained waits draw attention to time and feel longer. Progress and pacing cues shift both the estimate and the memory of the wait (peak-end).
+- Origin & key evidence:
+  - Maister (1985), "The Psychology of Waiting Lines": unoccupied, uncertain and unexplained waits feel longer. Widely cited in service design. https://www.psychologicalscience.org/news/why-waiting-is-torture.html
+  - Harrison, Amento, Kuznetsov & Bell (2007, UIST), "Rethinking the Progress Bar", and Harrison, Yeo & Hudson (2010, CHI), "Faster Progress Bars": changing the pacing of a progress bar (accelerating, ribbed animations) changed perceived duration while the actual duration stayed the same. https://www.figlab.com/research/2010/faster-progress-bars ; https://chrisharrison.net/index.php/Research/ProgressBars2
+  - Follow-up modelling of slow-to-fast and constant progress bars (2022). https://arxiv.org/pdf/2211.13909
+- Evidence grade: Strong for the basic finding that time perception is malleable (decades of psychophysics) and for progress-bar effects, though the latter come from modest lab samples. Moderate for specific UI prescriptions.
+- Design applications:
+  - Use skeleton screens and progressive loading rather than blank spinners. Signal: perceived-speed rating at the same load time.
+  - Use determinate progress with honest estimates and accelerate toward the end. Signal: abandonment rate during the wait.
+  - Fill the wait with useful content (tips, preview, the next step). Signal: post-wait satisfaction.
+  - Respond optimistically, showing success at once and reconciling later. Signal: perceived latency against measured latency.
+- Real product examples: Houston airport lengthened the walk to baggage claim and complaints fell, as reported in the NYT (2012). https://yourmileagemayvary.com/2021/09/20/the-sneaky-way-this-texas-airport-stopped-passengers-complaints-about-long-waits/ Facebook and LinkedIn skeleton feeds. Uber shows the approaching car on a map while you wait.
+- Enterprise/B2B note: long jobs (data processing, report exports, firmware uploads) need determinate progress, ETA and a "notify me when done" option so users are not left watching a spinner.
+- Ethics/watch-out: fake progress or invented "working…" steps mislead people. Keep estimates honest (see Labor Illusion).
+- Contexts: loading/waits, checkout, onboarding, errors, notifications
+- Sources: https://growth.design/psychology ; https://www.figlab.com/research/2010/faster-progress-bars ; https://chrisharrison.net/index.php/Research/ProgressBars2 ; https://arxiv.org/pdf/2211.13909 ; https://www.psychologicalscience.org/news/why-waiting-is-torture.html ; https://yourmileagemayvary.com/2021/09/20/the-sneaky-way-this-texas-airport-stopped-passengers-complaints-about-long-waits/
+- Typed edges: supports → Labor Illusion; supports → Peak-End Rule; supports → Zeigarnik Effect; tension → Parkinson's Law; measured-by → perceived vs actual duration; mechanism-of → Selective Attention; tension → Peak-End Rule; tension → Labor Illusion
+- Explained by frameworks: ⚙ Kano model (mechanism-of)
+- Linked sources (4):
+  - [article] Your UI needs more Walt Disney — 100–200 ms delays shape the perceived timing and smoothness of transitions. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)
+  - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — perceived waiting time can be managed. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How To Properly Apply Jobs-To-Be-Done To User Onboarding (Headspace) — loading time can be reframed. <https://growth.design/case-studies/headspace-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Labor Perception Bias: Why faster isn't always better — well-designed waits feel shorter and more valuable. <https://growth.design/case-studies/labor-perception-bias> (sources/growth-design-case-studies.md)

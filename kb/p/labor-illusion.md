@@ -1,0 +1,31 @@
+## Labor Illusion
+_Visible effort increases perceived value_ · cycle: ⏰ Time · cluster: C8 · evidence: Moderate
+- Definition: People value a service more, and may even prefer a slower one, when it visibly shows the work being done on their behalf.
+- Mechanism (why it happens): Visible operations signal effort; perceived effort raises perceived value and elicits reciprocity. Transparency also fills empty waiting time, which otherwise feels longer.
+- Origin & key evidence:
+  - Buell & Norton (2011), "The Labor Illusion: How Operational Transparency Increases Perceived Value", Management Science 57(9), 1564–1579 — travel and dating search experiments; effect fades when waits get too long or effort looks fake — https://ideas.repec.org/a/inm/ormnsc/v57y2011i9p1564-1579.html
+  - Buell, Porter & Norton (2013, rev. 2018), operational transparency raised trust in government services — https://ideas.repec.org/p/hbs/wpaper/14-034.html
+- Evidence grade: Moderate — several lab and field studies by one research group and collaborators; boundary conditions acknowledged by the authors.
+- Enterprise/B2B note: Long jobs (log processing, image processing, report generation) feel more credible with step-by-step status than a bare spinner.
+- Ethics/watch-out: Artificial delays to fake effort are deceptive and waste time; show real steps, don't invent them.
+- Contexts: loading/waits, search, checkout, dashboards
+- Sources: https://ideas.repec.org/a/inm/ormnsc/v57y2011i9p1564-1579.html ; https://ideas.repec.org/p/hbs/wpaper/14-034.html
+- Design applications: Show what the system is doing during waits (steps, data being checked); Avoid results so instant they seem low-quality for high-stakes tasks
+- Watch-out (growth.design): Artificial delays must be honest and short.
+- Product examples: Tinder — instant matches feel low-quality; KAYAK — 'crunching data' results; TurboTax — validation screens; Brave case study
+- Typed edges: supports → Reciprocity; counteracts → Chronoception; supports → Feedback Loop; supports → Goal Gradient Effect; tension → Parkinson's Law; tension → Chronoception; tension → Doherty-style speed
+- Related: Feedback Loop, Chronoception, IKEA Effect
+- Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Kano model (organises)
+- Linked sources (12):
+  - [article] Designers and "phantom competency" — output looks effortful/expert though little skill was invested. <https://www.uxtools.co/blog/designers-and-phantom-competency> (sources/uxtools-articles.md)
+  - [article] Play out the end of design work — stakeholders read visible velocity as value even when it isn't. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)
+  - [article] The only AI workflow I use in production — "one-shot" demos hide the real iteration effort; perceived effort ≠ actual value. <https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production> (sources/uxtools-articles.md)
+  - [article] Your team isn't AI-installed — impressive demos (the ceiling) are mistaken for installed productivity. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
+  - [survey] AI Adoption — Overview — AI-generated docs can look effortful, so review quality rather than volume. <https://uxtools.co/survey/ai-adoption/overview> (sources/uxtools-survey.md)
+  - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — visible effort increases trust and value. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How To Properly Apply Jobs-To-Be-Done To User Onboarding (Headspace) — a crafted delay raises trust. <https://growth.design/case-studies/headspace-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Labor Perception Bias: Why faster isn't always better — the core principle, which the site now calls Labor Perception Bias. <https://growth.design/case-studies/labor-perception-bias> (sources/growth-design-case-studies.md)
+  - [case-study] How Tinder Converts 8% Of Singles Into Customers In Less Than 15min. — a crafted delay. <https://growth.design/case-studies/tinder-monetization> (sources/growth-design-case-studies.md)
+  - [episode] AI Creative Direction Is Here — Jamey Gannon — pricing dilemma: AI makes a $200k-style shoot quick, so perceived effort no longer justifies price; value has to be framed differently. <https://www.uxtools.co/episodes/ai-creative-direction-is-here-jamey-gannon> (sources/uxtools-episodes.md)
+  - [episode] AI Made Junior Designers Look Like Most Seniors — Hannah Ahn — "we're impressed by what appears difficult to create": visible effort and the 1% details signal care and earn trust. <https://www.uxtools.co/episodes/ai-made-junior-designers-look-like-most-seniors-hannah-ahn> (sources/uxtools-episodes.md)
+  - [episode] Design Taste Comes From Participation — Tom Krcha (YouTube: "Design Tools Are Going Headle — a working overnight prototype carries more persuasive weight than a description (visible effort/reality). <https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha> (sources/uxtools-episodes.md)

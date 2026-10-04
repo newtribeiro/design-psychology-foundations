@@ -1,0 +1,22 @@
+## Streisand Effect
+_Censoring spreads the info_ · cycle: 🔮 Meaning · cluster: C7 · evidence: Practitioner
+- Definition: Trying to suppress, hide or censor information draws far more attention to it than leaving it alone would have.
+- Mechanism (why it happens): Suppression signals that the information is valuable, which triggers curiosity and reactance (a threat to people's freedom to know). It also creates a new, shareable injustice story. Networked sharing then amplifies the outrage.
+- Origin & key evidence:
+  - Streisand (2003) tried to restrict an aerial photo of her Malibu home that was part of a coastal-erosion archive. The attempt led to far more views. Jansen & Martin (2015, *International Journal of Communication* 9) frame this as "censorship backfire" and list five tactics censors use to reduce outrage. https://ijoc.org/index.php/ijoc/article/view/2498
+  - The AACS "09 F9" key (2007): DMCA takedowns on Digg led users to post the key everywhere, and Digg reversed course. https://en.wikipedia.org/wiki/AACS_encryption_key_controversy
+- Evidence grade: Practitioner. The evidence is case studies and conceptual analysis, with no controlled experiments. Survivorship bias is likely, because suppression that worked doesn't make the news.
+- Design applications:
+  - Moderation transparency: explain removals and offer appeals instead of silent deletion. Signal: appeal rate and the volume of public complaints.
+  - Changelogs: disclose a removed feature or a price change up front. Signal: sentiment spikes on social media and support tickets after the change.
+  - Incident status pages: communicate outages openly. Signal: duplicate support tickets during incidents.
+  - Avoid aggressive takedowns of user reviews. Signal: review-site rating trend.
+- Real product examples: The Digg/AACS 2007 revolt (above). Companies whose attempts to suppress negative reviews or press drew wider coverage (no specific URL verified).
+- Enterprise/B2B note: Hiding known defects or limits from B2B customers (e.g. a firmware issue) tends to come out through customer networks. Proactive advisories build trust.
+- Ethics/watch-out: Transparency is the ethical default. Don't respond by suppressing more quietly.
+- Contexts: content/copy, stakeholder-communication, branding, offboarding, notifications
+- Sources: https://ijoc.org/index.php/ijoc/article/view/2498 ; https://ro.uow.edu.au/articles/journal_contribution/The_Streisand_effect_and_censorship_backfire/27705732 ; https://en.wikipedia.org/wiki/AACS_encryption_key_controversy
+- Typed edges: tension → Curiosity Gap; supports → Curiosity Gap; supports → Negativity Bias; tension → Scarcity; supports → Backfire Effect
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (tension); ⚙ Self-Determination Theory (organises)
+- Linked sources (1):
+  - [case-study] The Psychology of Misinformation on Facebook — censorship amplifies spread. <https://growth.design/case-studies/facebook-misinformation> (sources/growth-design-case-studies.md)

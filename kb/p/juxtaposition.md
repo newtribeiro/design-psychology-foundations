@@ -1,0 +1,24 @@
+## Juxtaposition
+_Close + similar = one unit_ · cycle: 🙈 Information · cluster: C1 · evidence: Moderate
+- Definition: In the skill's (growth.design) sense, elements that are both close together and alike are read as one unit; it is the combined action of the Gestalt proximity and similarity cues, often reinforced by a shared container (common region).
+- Mechanism (why it happens): Pre-attentive perceptual grouping organises the visual field before conscious inspection; when several grouping cues agree (near + similar + enclosed) the grouping is stronger and faster, lowering the cognitive cost of parsing a layout.
+- Origin & key evidence:
+  - Wertheimer (1923), "Laws of organization in perceptual forms" — proximity and similarity as grouping factors. https://www.yorku.ca/pclassic/Wertheimer/Forms/forms.htm
+  - Palmer (1992), Cognitive Psychology — "common region" (shared enclosure) as an additional grouping principle that can override proximity (details not verified beyond the citation). https://uxcel.com/blog/law-of-the-common-region-in-ux
+  - Wagemans et al. (2012), Psychological Bulletin — century review of Gestalt grouping confirming the principles with modern psychophysics. https://ruccs.sas.rutgers.edu/images/archive/personal-manish-singh/papers/Wagemans_etal_2012_I.pdf
+- Evidence grade: Moderate — the label is practitioner-coined (no dedicated literature under "Juxtaposition"), but the underlying grouping cues are Strong in perception research.
+- Design applications:
+  - Put a field's label, input, hint and error in one tight, similar-styled cluster — measure form error rate and fixation count in eye-tracking.
+  - Group related toolbar actions (same style, minimal gap) and separate destructive ones — measure misclick rate.
+  - Use cards (common region) for each entity in a list — measure scan time for "find item X".
+  - Test conflicting cues (similar but far, or near but different) in a 5-second test — measure grouping errors.
+- Real product examples: Google Material Design cards group image, title and actions as one unit (https://m3.material.io/components/cards); Figma's properties panel groups related controls by section; anti-pattern — e-commerce filter panels where a "Clear" link sits nearer the next group than its own.
+- Enterprise/B2B note: Dense industrial UIs (telemetry, scheduling) depend on grouping to stay legible; misgrouped controls cause wrong-target actions.
+- Ethics/watch-out: Don't visually fuse an opt-in checkbox with mandatory terms to make it read as one required item.
+- Contexts: forms, navigation, dashboards, settings, data-viz, content/copy
+- Sources: https://www.yorku.ca/pclassic/Wertheimer/Forms/forms.htm ; https://uxcel.com/blog/law-of-the-common-region-in-ux ; https://ruccs.sas.rutgers.edu/images/archive/personal-manish-singh/papers/Wagemans_etal_2012_I.pdf ; https://blog.logrocket.com/ux-design/gestalt-laws-of-grouping
+- Typed edges: special-case-of → Law of Proximity; special-case-of → Law of Similarity; supports → Chunking; counteracts → Cognitive Load; supports → Law of Prägnanz
+- Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
+- Linked sources (2):
+  - [episode] Weber Wong: One Person Should Have the Creative Power of Pixar (Flora / anti-slop) — viewing many variations at once to pick the closest is comparative evaluation built into the UI. <https://www.uxtools.co/episodes/anti-slop-manifesto-how-flora-thinks-about-ai> (sources/uxtools-episodes.md)
+  - [episode] Design Taste Comes From Participation — Tom Krcha (YouTube: "Design Tools Are Going Headle — the canvas "crime scene": seeing many variants side by side enables comparison and judgment. <https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha> (sources/uxtools-episodes.md)

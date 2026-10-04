@@ -1,0 +1,27 @@
+## Endowment Effect
+_Owning it makes it worth more_ · cycle: 💾 Memory · cluster: C4 · evidence: Contested
+- Definition: People value something more once they own it (or feel they own it), typically demanding more to give it up than they would pay to acquire it (WTA > WTP).
+- Mechanism (why it happens): Loss aversion relative to a new reference point — giving up an owned item is coded as a loss — plus psychological ownership and self-association with possessions.
+- Origin & key evidence:
+  - Kahneman, Knetsch & Thaler (1990), Journal of Political Economy — mug owners asked roughly twice what non-owners would pay. https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf
+  - Plott & Zeiler (2005): with extensive procedural controls the gap largely disappeared; a later study reported a failed replication of that null. https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html
+  - List (2003–04): experienced traders show little or no effect; Tunçel & Hammitt (2014) meta-analysis of 76 studies found a mean WTA/WTP ratio near 3, varying with good type and procedure. https://atticusli.com/replication-crisis/endowment-effect/
+- Evidence grade: Contested — real but conditional on elicitation procedure, market experience and type of good.
+- Enterprise/B2B note: Free trials, sandbox data and customised workspaces create felt ownership that lifts conversion; in procurement, incumbent tools benefit from it, which a challenger must overcome with migration support.
+- Ethics/watch-out: Trials that auto-convert or hold user data hostage to exploit ownership feelings are coercive.
+- Contexts: pricing, onboarding, offboarding, retention, checkout
+- Sources: https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf ; https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html ; https://atticusli.com/replication-crisis/endowment-effect/
+- Design applications: Encourage personalisation early so it feels 'mine'; Let users save/collect items before signup or paywall; Free trials grant a sense of ownership
+- Product examples: Trello — nudge to personalise board; Blinkist — save books to library during onboarding
+- Typed edges: supports → Loss Aversion; supports → IKEA Effect; supports → Default Bias; supports → Sunk Cost Effect; supports → Investment Loops; tension → Reactance
+- Related: Loss Aversion, IKEA Effect, Investment Loops
+- Explained by frameworks: ⚙ Kano model (organises); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (8):
+  - [survey] Design Systems — Overview — teams overvalue the systems they built. <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
+  - [case-study] One Simple Psychology Framework To Improve Your Onboarding (Blinkist) — owning a library item increases commitment. <https://growth.design/case-studies/blinkist-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How To Properly Apply Jobs-To-Be-Done To User Onboarding (Headspace) — a personalised plan creates ownership. <https://growth.design/case-studies/headspace-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] User Onboarding: Is HEY Email Worth It? — personalised setup. <https://growth.design/case-studies/hey-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] The psychology of Temu's casino-like shopping UX — an "owned" voucher. <https://growth.design/case-studies/temu-onboarding-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Trello User Onboarding: 7 Tactics To Inspire You — customisation creates ownership. <https://growth.design/case-studies/trello-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] Spotify vs Apple: How Spotify is betting $230M on podcasts (Ep. 2) — user-created notes feel owned. <https://growth.design/case-studies/spotify-vs-apple-podcast-ep2> (sources/growth-design-case-studies.md)
+  - [episode] Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired? — "your" signed library card becomes a personal possession, raising perceived value of membership. <https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired> (sources/uxtools-episodes.md)

@@ -1,0 +1,33 @@
+## Reciprocity
+_Give value first, users give back_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Strong
+- Definition: People feel obliged to return favours, gifts or concessions, so receiving something first increases the likelihood of complying with a later request.
+- Mechanism (why it happens): A widely shared social norm makes unreturned favours feel like debt; the discomfort of indebtedness motivates repayment, and the obligation can override how much the person likes the giver.
+- Origin & key evidence:
+  - Gouldner (1960), American Sociological Review, "The Norm of Reciprocity: A Preliminary Statement" — proposed reciprocity as a near-universal moral norm. https://en.wikipedia.org/wiki/Alvin_Gouldner
+  - Regan (1971) — participants given an unsolicited soft drink by a confederate bought more raffle tickets from him; after the favour, liking no longer predicted buying. https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)
+  - Cialdini — reciprocity as one of the core principles of influence (draft chapter). https://www.d.umn.edu/~rvaidyan/mktg4731/Cialdini_InPress.doc
+- Evidence grade: Strong — consistent lab and field support for the norm; specific marketing tactics (free gift → purchase) vary widely and are often reported without controls.
+- Enterprise/B2B note: Genuinely useful free value (templates, ROI calculators, a pilot, expert onboarding) builds goodwill with procurement; gated "gifts" that demand data immediately feel transactional and erode trust.
+- Ethics/watch-out: Unsolicited "gifts" engineered to create obligation (forced free trials that auto-convert) are manipulative; give value without hidden strings.
+- Contexts: onboarding, pricing, content/copy, retention, offboarding
+- Sources: https://en.wikipedia.org/wiki/Reciprocity_(social_psychology) ; https://en.wikipedia.org/wiki/Alvin_Gouldner ; https://www.d.umn.edu/~rvaidyan/mktg4731/Cialdini_InPress.doc
+- Design applications: Deliver value before signup, paywall or permission asks; Offer free useful content/tools; Sequence: give → then ask
+- Watch-out (growth.design): Asking before giving anything violates the norm.
+- Product examples: Brave — asked to be default browser before showing app (anti-example)
+- Typed edges: supports → Commitment & Consistency; supports → Aha! Moment; tension → Reactance; supports → Delighters; special-case-of → Social Proof
+- Related: Commitment & Consistency, Aha! Moment
+- Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises)
+- Linked sources (25):
+  - [article] 12 Ways to Utilize Other Departments in User Research — advisory boards trade perks (discounts, early access, swag) for ongoing feedback. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [article] Fast and Cheap Ways to Find UX Research Participants — gift cards, swag, test swaps and feedback trades motivate participation. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
+  - [article] How Linear hires designers — offering unsolicited, relevant work for a company earns attention/interview. <https://www.uxtools.co/blog/how-linear-hires-designers> (sources/uxtools-articles.md)
+  - [article] How to Maximize the User Research You're Already Doing — adding other teams' questions earns their help and participants. <https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing> (sources/uxtools-articles.md)
+  - [article] How to share your design work in 2026 — giving to audiences before asking sustains trust (soil metaphor). <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)
+  - [article] I was wrong about taste — asking for attention after giving the community years of free media. <https://www.uxtools.co/blog/i-was-wrong-about-taste> (sources/uxtools-articles.md)
+  - [article] Ideas from Developers on Handling UX Feedback — acting on dev feedback earns devs defending design priorities (accessibility, system integrity). <https://www.uxtools.co/blog/ideas-from-developers-on-handling-ux-feedback> (sources/uxtools-articles.md)
+  - [article] The Year Design Communities Go Small (and Real) — apprenticeship trades real-work exposure for feedback/community; lifting others up returns goodwill. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Onboarding (Implement) — explaining value before asking for contacts or permissions raises grant rates. <https://www.uxtools.co/challenges/onboarding> (sources/uxtools-challenges-tools.md)
+  - [other] Detach 2026 Partner Perks — free perks create goodwill toward partners. <https://www.uxtools.co/detach-2026> (sources/uxtools-challenges-tools.md)
+  - [survey] Conclusion — Help Us Improve — a free report followed by a request for feedback or a share. <https://uxtools.co/survey/conclusion/help-us-improve> (sources/uxtools-survey.md)
+  - [case-study] 5 Deadly Onboarding Mistakes You Should Avoid (Sleepzy) — give value before asking for permissions. <https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid> (sources/growth-design-case-studies.md)
+  - …13 more in sources/*.md (search the principle name)

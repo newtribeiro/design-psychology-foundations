@@ -1,0 +1,29 @@
+## Second-Order Effect
+_Consequences of consequences_ · cycle: ⏰ Time · cluster: C10 · evidence: Practitioner
+- Definition: The downstream, often delayed and unintended consequences of a decision — what happens because of the first-order result, including how people and systems adapt to it.
+- Mechanism (why it happens): People evaluate decisions by the immediate, salient outcome (System 1, availability) and neglect feedback loops, incentive changes and behavioural adaptation; Merton attributed unanticipated consequences to ignorance, error, the "imperious immediacy of interest", basic values and self-defeating prophecy.
+- Origin & key evidence:
+  - Merton (1936), American Sociological Review, "The Unanticipated Consequences of Purposive Social Action" — founding analysis of why purposive action produces unforeseen outcomes. https://stafforini.com/works/merton-1936-unanticipated-consequences-purposive/ ; https://www.d.umn.edu/cla/faculty/jhamlin/4111/Readings/MertonSocialAction.htm
+  - Contemporary commentary on Merton's toolkit and its application to policy. https://jerryzmuller.substack.com/p/a-mertonian-toolkit
+- Evidence grade: Practitioner — a reasoning heuristic grounded in sociology and systems thinking, documented by case studies rather than controlled experiments.
+- Enterprise/B2B note: Optimising one dashboard KPI (e.g. jobs completed) can degrade unmeasured ones (maintenance, data quality); pair every success metric with a guardrail metric and review lagging effects.
+- Ethics/watch-out: Growth tactics that win this quarter (aggressive notifications, dark patterns) often cost trust, churn and regulatory risk later; document anticipated downstream harms.
+- Contexts: stakeholder-communication, research, dashboards, notifications, retention, pricing
+- Sources: https://stafforini.com/works/merton-1936-unanticipated-consequences-purposive/ ; https://www.d.umn.edu/cla/faculty/jhamlin/4111/Readings/MertonSocialAction.htm ; https://jerryzmuller.substack.com/p/a-mertonian-toolkit
+- Design applications: Map 'and then what?' for key metrics/incentives; Consider how users might game incentives; Review wellbeing impacts
+- Watch-out (growth.design): Over-optimising a single metric creates perverse outcomes.
+- Product examples: Facebook — blind sharing of unread links; Cobra bounty in colonial India; Instagram — curated feeds hurt self-image
+- Typed edges: tension → Temptation Bundling; tension → Nudge; supports → Feedback Loop; counteracts → Planning Fallacy; tension → Pareto Principle; measured-by → guardrail metrics / holdout groups
+- Related: Investment Loops, Variable Reward
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Kano model (supports)
+- Linked sources (10):
+  - [article] "Agent-permeable" is the new mobile-responsive — agent-mediated buying removes persuasion surfaces (marketing pages) designers rely on. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)
+  - [article] Design debt at machine speed — faster generation compounds inconsistency (design debt) downstream. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
+  - [article] Play out the end of design work — explicitly names downstream consequences of velocity-obsessed shipping. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)
+  - [article] What is AI doing to design career ladders? — erased apprenticeship paths are downstream consequences of capability gains. <https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders> (sources/uxtools-articles.md)
+  - [survey] Design Systems — Trends — consolidating on one ecosystem has knock-on effects on handoff quality and developer satisfaction. <https://uxtools.co/survey/design-systems/trends> (sources/uxtools-survey.md)
+  - [survey] User Research — Trends — consolidation will reshape which insights get surfaced. <https://uxtools.co/survey/user-research/trends> (sources/uxtools-survey.md)
+  - [case-study] The Psychology Behind Amazon's Purchase Experience — the downstream environmental and consumption impact. <https://growth.design/case-studies/amazon-purchase-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The Scary Future Of Instagram — the library cites Instagram (a feed optimised for ads harms wellbeing). <https://growth.design/case-studies/instagram-monetization> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology of Misinformation on Facebook — engagement optimisation leads to misinformation. <https://growth.design/case-studies/facebook-misinformation> (sources/growth-design-case-studies.md)
+  - [episode] Ben Blumenrose: He Sees How 50+ Design Teams Use AI. Most Are Doing It Wrong. — Tin Can removes features to produce better social outcomes; AI over-reliance may erode kids' skills. <https://www.uxtools.co/episodes/decent-design-is-now-the-default-so-what-actually-matters> (sources/uxtools-episodes.md)

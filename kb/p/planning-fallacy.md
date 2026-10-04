@@ -1,0 +1,26 @@
+## Planning Fallacy
+_Tasks take longer than planned_ · cycle: ⏰ Time · cluster: C10 · evidence: Strong
+- Definition: People underestimate how long (and how much) their own future tasks will take, even when they know similar past tasks overran.
+- Mechanism (why it happens): Planners take the "inside view" — they simulate a best-case scenario for this specific task and neglect base rates from past experience; optimism and motivated reasoning attribute past delays to one-off causes.
+- Origin & key evidence:
+  - Kahneman & Tversky (1979), "Intuitive prediction: biases and corrective procedures" — coined the term and proposed the outside view (details not verified). https://arxiv.org/pdf/1302.2544
+  - Buehler, Griffin & Ross (1994), Journal of Personality and Social Psychology 67(3) — students' thesis completion took far longer than predicted, even their "worst case" estimates; people discounted past overruns. https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf
+  - Flyvbjerg (2006 onward) — reference-class forecasting reduces cost/schedule overruns in large projects. https://arxiv.org/pdf/1302.2544
+  - PMI overview of causes and remedies. https://www.pmi.org/learning/library/planning-fallacy-causes-solutions-project-expectations-6374
+- Evidence grade: Strong — replicated across lab, field and megaproject datasets; magnitude varies (smaller for others' tasks and short tasks).
+- Design applications:
+  - Show historical actuals next to new estimates (reference class) — measure estimate error over time.
+  - Suggest durations from past data in schedulers — measure on-time completion rate.
+  - Prompt users to break tasks into steps (unpacking) — measure estimate accuracy.
+  - Buffer and show ranges ("2–4 days") rather than single points in ETAs — measure support contacts about delays.
+- Real product examples: Jira/Linear velocity and cycle-time charts support outside-view planning; Asana/Monday timelines; anti-pattern — installers and progress bars that promise "1 minute remaining" for ten minutes.
+- Enterprise/B2B note: Scheduling and deployment tools should forecast from logged job/setup times, not operator gut estimates.
+- Ethics/watch-out: Don't quote optimistic timelines to win deals, then shift blame to users or "unexpected" causes.
+- Contexts: stakeholder-communication, loading/waits, onboarding, dashboards, research
+- Sources: https://bear.warrington.ufl.edu/brenner/mar7588/Papers/buehler-et-al-1994.pdf ; https://arxiv.org/pdf/1302.2544 ; https://www.pmi.org/learning/library/planning-fallacy-causes-solutions-project-expectations-6374
+- Typed edges: tension → Hindsight Bias; tension → Parkinson's Law; tension → Hyperbolic Discounting; tension → Feedback Loop; supports → Hyperbolic Discounting; special-case-of → Self-Serving Bias; tension → Availability Heuristic
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (3):
+  - [article] Design's hardest role has a two-year clock — underestimating how quickly the 0→1 arc ends. <https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock> (sources/uxtools-articles.md)
+  - [article] Running an Effective Design Kickoff Meeting — explicitly asking "what have we overlooked in this timeline?" counters optimistic estimates. <https://www.uxtools.co/blog/running-an-effective-design-kickoff-meeting> (sources/uxtools-articles.md)
+  - [survey] AI Adoption — Trends — leaders underestimate the effort ICs need to adopt AI. <https://uxtools.co/survey/ai-adoption/trends> (sources/uxtools-survey.md)

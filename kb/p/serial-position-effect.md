@@ -1,0 +1,29 @@
+## Serial Position Effect
+_First and last are remembered_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: Items at the beginning (primacy) and end (recency) of a list are recalled better than those in the middle.
+- Mechanism (why it happens): Primacy reflects more rehearsal and transfer to long-term memory for early items; recency reflects items still held in working memory at recall.
+- Origin & key evidence:
+  - Ebbinghaus (1885) observed it; Murdock (1962) produced the classic serial position curves; Glanzer & Cunitz (1966) showed a delay before recall removes recency but leaves primacy (classic citations, not opened this session).
+  - UX applications summarised — https://careerfoundry.com/blog/ux-design/serial-position-effect ; https://blog.logrocket.com/ux-design/serial-position-effect-ux-design/
+- Evidence grade: Strong — among the most replicated findings in memory research; transfer to menu/navigation choice is plausible but less directly tested.
+- Design applications:
+  - Place most important nav items at start and end of a bar — tap share by position.
+  - Lead and close presentations/research readouts with key findings — recall of takeaways in a follow-up survey.
+  - In pricing pages/lists, avoid burying the recommended option mid-list — selection share.
+  - Randomise or rotate survey options to control order effects — response distribution by order.
+- Real product examples: iOS tab bars placing Home first and Profile/Settings last; Apple keynotes ending with "one more thing" (no source URL verified).
+- Enterprise/B2B note: In long catalogue or parts lists, middle items are least remembered; add search, filters and pinned favourites rather than relying on order.
+- Ethics/watch-out: Placing unfavourable terms in the middle of long T&Cs exploits the effect.
+- Contexts: navigation, pricing, stakeholder-communication, research, content/copy
+- Sources: https://careerfoundry.com/blog/ux-design/serial-position-effect ; https://blog.logrocket.com/ux-design/serial-position-effect-ux-design/
+- Typed edges: tension → Centre-Stage Effect; supports → Peak-End Rule; supports → Von Restorff Effect; supports → Miller's Law; measured-by → Survey Bias; supports → Chunking
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Kano model (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (8):
+  - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — reviewers retain the opening (end result, lead) best, so front-load it. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
+  - [article] The portfolio is becoming a playground — reviewers decide fast; what's first in the portfolio carries disproportionate weight. <https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground> (sources/uxtools-articles.md)
+  - [article] UX Design for Navigation Menus — first and last items are most noticed; order matters. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Survey (Test) — options at the start and end of lists get chosen more, so randomise them. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Information Architecture (Implement) — the first and last nav items get the most attention. <https://www.uxtools.co/challenges/information-architecture> (sources/uxtools-challenges-tools.md)
+  - [case-study] Beehiiv subscription: 5 small UX mistakes that make a BIG difference — re-ordering so delight comes first or last affects what is remembered. <https://growth.design/case-studies/beehiiv-newsletter-subscription-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The "almost" perfect trial conversion (Mine) — reordering changes impact. <https://growth.design/case-studies/mine-trial-conversion> (sources/growth-design-case-studies.md)
+  - [case-study] Uber Eats: How To Ethically Use Scarcity To Increase Sales — first and last recall. <https://growth.design/case-studies/uber-eats-scarcity> (sources/growth-design-case-studies.md)

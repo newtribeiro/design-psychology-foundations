@@ -1,0 +1,27 @@
+## Shaping
+_Reinforce steps toward a target behaviour_ · cycle: 💾 Memory · cluster: C6 · evidence: Strong
+- Definition: Building a complex target behaviour by reinforcing successive approximations: rewarding small steps that get progressively closer to the goal.
+- Mechanism (why it happens): Operant conditioning. Reinforcing a behaviour makes it more likely. Raising the criterion step by step moves behaviour toward a target that would rarely happen on its own. Early wins also build self-efficacy (Bandura), which sustains motivation.
+- Origin & key evidence:
+  - Skinner (1938, 1953, *Science and Human Behavior*): describes shaping by successive approximations, worked out in animal training such as the 1943 pigeon "bowling" demonstration (Peterson, 2004, JEAB). https://en.wikipedia.org/wiki/Shaping_(psychology)
+  - Applied behaviour analysis: shaping is a standard, well-validated teaching procedure. https://sk.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-abnormal-and-clinical-psychology/chpt/shaping-by-successive-approximations-the-desired-behavior
+  - Fogg (2019), *Tiny Habits*: popular habit framing that starts tiny and scales up (practitioner).
+- Evidence grade: Strong in behaviour analysis and learning. Moderate for digital-product effects, which are mostly practitioner case studies.
+- Design applications:
+  - Build progressive onboarding checklists that add complexity one step at a time. Signal: step-to-step completion and activation.
+  - Make the difficulty curve adaptive (levels, unlocks). Signal: success rate held at roughly 70–85% per step.
+  - Celebrate micro-milestones, then thin the rewards. Signal: retention after rewards are reduced.
+  - Unlock advanced features as competence is shown. Signal: advanced-feature adoption without a spike in errors.
+- Real product examples: Duolingo's skill paths and adaptive lessons. Video-game tutorials such as Nintendo's World 1-1 design. LinkedIn's profile-strength steps.
+- Enterprise/B2B note: train equipment operators or analysts with staged simulation tasks and certification tiers, unlocking real-asset permissions only after earlier steps are mastered.
+- Ethics/watch-out: shaping toward compulsive engagement is manipulation, so the target behaviour should serve the user's own goals.
+- Contexts: onboarding, gamification, retention, settings, empty-states
+- Sources: https://en.wikipedia.org/wiki/Shaping_(psychology) ; https://sk.sagepub.com/ency/edvol/embed/the-sage-encyclopedia-of-abnormal-and-clinical-psychology/chpt/shaping-by-successive-approximations-the-desired-behavior ; https://growth.design/psychology
+- Typed edges: supports → Goal Gradient Effect; supports → Progressive Disclosure; supports → Variable Reward; mechanism-of → Flow State; supports → Spark Effect; measured-by → step completion funnel
+- Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of); ⚙ Fogg Behavior Model + Tiny Habits (organises); ⚙ Self-Determination Theory (mechanism-of)
+- Linked sources (5):
+  - [article] Designers and "phantom competency" — ratcheting skill upward by successive approximations. <https://www.uxtools.co/blog/designers-and-phantom-competency> (sources/uxtools-articles.md)
+  - [article] How these designers are learning today — iterative generate → evaluate → refine as successive approximation. <https://www.uxtools.co/blog/how-these-designers-are-learning-today> (sources/uxtools-articles.md)
+  - [article] The 30-second test designers fail — trust and permissions expand incrementally as the loop proves itself. <https://www.uxtools.co/blog/the-30-second-test-designers-fail> (sources/uxtools-articles.md)
+  - [article] What is AI doing to design career ladders? — careers need incremental steps; removing early rungs breaks the shaping sequence. <https://www.uxtools.co/blog/what-is-ai-doing-to-design-career-ladders> (sources/uxtools-articles.md)
+  - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — gradually rewarding steps toward the target behaviour. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)

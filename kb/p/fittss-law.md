@@ -1,0 +1,28 @@
+## Fitts's Law
+_Bigger, closer targets are faster to hit_ · cycle: 🙈 Information · cluster: C2 · evidence: Strong
+- Definition: The time to acquire a target grows with the ratio of distance to target width: in MacKenzie's Shannon form, MT = a + b·log₂(D/W + 1), where the log term is the index of difficulty in bits.
+- Mechanism (why it happens): Aimed movement is a closed-loop, information-limited process — a fast ballistic phase followed by visually guided corrections; far or small targets need more corrective sub-movements, so throughput (bits/s) caps speed.
+- Origin & key evidence:
+  - Fitts (1954), Journal of Experimental Psychology — reciprocal tapping studies establishing the speed–accuracy law (as reviewed by MacKenzie below).
+  - Card, English & Burr (1978) applied it to mouse vs. other devices at Xerox PARC (reviewed in MacKenzie 1992).
+  - MacKenzie (1992), Human-Computer Interaction 7:91–139 — Shannon formulation, review of six device studies; throughput varied 1.1–13.7 bits/s, exposing method inconsistencies. https://www.yorku.ca/mack/hci1992.html
+  - MacKenzie (2018) handbook chapter updating the model for HCI. https://www.yorku.ca/mack/hhci2018.html
+- Evidence grade: Strong — one of the most replicated quantitative laws in HCI; caveat that constants (a, b) are device- and context-specific, and touch input adds finger-occlusion error not captured by the base model.
+- Enterprise/B2B note: Matters most in high-frequency, time-critical controls (e.g. emergency or stop actions in a control console, dense data-grid row actions) and on rugged tablets used with gloves, where effective target width shrinks.
+- Ethics/watch-out: Making "Accept" huge and "Decline" tiny weaponises the law; keep destructive and opt-out targets reachable but not accident-prone.
+- Contexts: navigation, forms, checkout, dashboards, settings, errors
+- Sources: https://www.yorku.ca/mack/hci1992.html ; https://www.yorku.ca/mack/hhci2018.html ; https://cefns.nau.edu/~edo/Classes/CS477_WWW/Docs/TechArticles/Fitts-Law.pdf
+- Design applications: Make primary actions large and near the user's focus/thumb; Increase hit areas of small controls; Place related actions close together; use screen edges/corners
+- Watch-out (growth.design): Shrinking cancel/unsubscribe links to discourage use is a dark pattern.
+- Product examples: Amazon — huge subscribe area vs tiny one-time radio; Adobe — tiny subscription-management link in renewal email
+- Typed edges: supports → Hick's Law; supports → Law of Proximity; tension → Cognitive Load; supports → Visual Hierarchy; measured-by → Feedback Loop
+- Related: Visual Hierarchy, Contrast, Law of Proximity
+- Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (supports)
+- Linked sources (7):
+  - [challenge] Challenge: Wireframe (Ideate) — drivers need big, reachable touch targets. <https://www.uxtools.co/challenges/wireframe> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Accessibility (Implement) — small targets fail motor-impaired users and touch users. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Form (Implement) — tappable label areas and large touch targets on mobile. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
+  - [case-study] Adobe: The Psychology of User Offboarding — the psychology library cites this study for button size and placement in the cancellation flow. <https://growth.design/case-studies/adobe-cancel-subscription> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind Amazon's Purchase Experience — target size and distance decide which option gets picked. <https://growth.design/case-studies/amazon-purchase-ux> (sources/growth-design-case-studies.md)
+  - [case-study] GoDaddy: How to improve checkout flows ethically — options that are visible and easy to reach. <https://growth.design/case-studies/godaddy-checkout-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The Ugly Truth About Net Promoter Score Surveys — tiny tap targets. <https://growth.design/case-studies/nps-surveys> (sources/growth-design-case-studies.md)

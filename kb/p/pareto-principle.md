@@ -1,0 +1,26 @@
+## Pareto Principle
+_~80% of effects from ~20% of causes_ · cycle: ⏰ Time · cluster: C2 · evidence: Practitioner
+- Definition: In many systems a small share of causes produces most of the effects (often summarised as 80/20). The exact ratio varies.
+- Mechanism (why it happens): Outcomes in complex systems often follow power-law or heavy-tailed distributions (preferential attachment, compounding usage). This is not a cognitive bias but a statistical regularity that people tend to overlook when they spread effort evenly.
+- Origin & key evidence:
+  - Vilfredo Pareto (1896) observed that about 80% of land in Italy was held by about 20% of the population. Juran later generalised this as "the vital few". These are standard accounts; I did not check primary texts.
+  - Microsoft, Ballmer memo (Oct 2002): error reporting found that about 20% of bugs caused 80% of errors, and 1% caused half. https://www.eweek.com/enterprise-apps/full-text-of-10-02-ballmer-memo/
+- Evidence grade: Practitioner. Heavy-tailed distributions are well documented, but "80/20" is a rule of thumb, not a law. The ratio has to be measured each time.
+- Design applications:
+  - Rank features by usage and optimise the top tasks first. Signal: share of sessions covered by the top N tasks.
+  - Triage bugs and crash reports by frequency × severity. Signal: crash-free sessions after fixing the top issues.
+  - Put the most-used actions in primary navigation and the long tail in search. Signal: navigation clicks per task.
+  - Interview your power users (the vital few accounts) separately. Signal: revenue share against the sample.
+- Real product examples: Microsoft's Windows Error Reporting prioritisation (Ballmer memo above). Microsoft Office's ribbon redesign, which was reportedly driven by command-usage telemetry (no URL verified).
+- Enterprise/B2B note: In product catalogues and fleets, a few SKUs or assets usually account for most of the volume. Design default views around them.
+- Ethics/watch-out: The "20%" may exclude minority needs such as accessibility. Low frequency doesn't mean low importance.
+- Contexts: navigation, dashboards, research, settings, search, data-viz
+- Sources: https://www.eweek.com/enterprise-apps/full-text-of-10-02-ballmer-memo/ ; https://route-fifty.com/digital-government/2002/10/microsofts-ballmer-says-1-percent-of-software-bugs-cause-50-percent-of-errors/285949
+- Typed edges: tension → Second-Order Effect; supports → Progressive Disclosure; tension → Survivorship Bias; measured-by → usage analytics; supports → Hick's Law; tension → Hick's Law
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Linked sources (5):
+  - [article] The Best UX Research Methods in a Pinch — prioritise high-ROI methods that give most insight for least cost. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
+  - [article] Usability Testing in 4 Simplified Steps — 5 users uncover most issues; more yields diminishing returns. <https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps> (sources/uxtools-articles.md)
+  - [article] UX Lessons from Big Sur — investing in the most-used workflows (Messages) yields outsized value. <https://www.uxtools.co/blog/ux-lessons-from-big-sur> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Usability Test (Test) — a few issues cause most failures, and 5 users find most of them. <https://www.uxtools.co/challenges/usability-test> (sources/uxtools-challenges-tools.md)
+  - [survey] Prototyping — Trends — Figma covers about 80% of prototyping needs, and specialists handle the remaining high-value 20%. <https://uxtools.co/survey/prototyping/trends> (sources/uxtools-survey.md)

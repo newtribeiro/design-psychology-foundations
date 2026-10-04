@@ -1,0 +1,21 @@
+## Attentional Bias
+_Current thoughts filter what users notice_ · cycle: 🙈 Information · cluster: C1 · evidence: Moderate
+- Definition: The tendency for attention to be drawn preferentially to certain stimuli (threat, reward, recently-thought-about or personally relevant items) so that what we notice, and thus decide on, is skewed.
+- Mechanism (why it happens): Salience and goal-relevance bias early, largely automatic (System 1) attentional selection; emotionally charged or currently-motivated items win the competition for limited attention, and what is attended is overweighted in judgement.
+- Origin & key evidence:
+  - MacLeod, Mathews & Tata (1986): dot-probe task showed anxious participants detect probes faster where threat words had appeared — https://en.wikipedia.org/wiki/Dot-probe_paradigm
+  - Later work questions the reliability of dot-probe bias scores (poor test–retest reliability is a recurring critique) — https://pmc.ncbi.nlm.nih.gov/articles/PMC4442069
+- Evidence grade: Moderate — robust phenomenon in clinical/emotion research, but the standard measure has weak psychometric reliability and UI-specific evidence is mostly indirect.
+- Design applications:
+  - Put the one decision-critical item where motivated attention already lands (e.g., the failing asset at top of a fleet list) — measure time-to-first-fixation / time-to-action.
+  - Use alert colour sparingly so threat-coded red keeps its pull — track alert acknowledgement latency and false-alarm dismissals.
+  - In research, counter it: ask users what they *didn't* look at; compare heatmaps vs task success.
+  - Avoid priming a metric (e.g., showing "errors" first) when you want balanced review — A/B the default dashboard tab against decision quality.
+- Real product examples: Slack's red unread badge pulls attention over the content itself; Google Maps highlighting traffic incidents in red on route (no source URL verified).
+- Enterprise/B2B note: In asset fleet or ops dashboards, operators over-attend to red/alerting tiles and miss slow-drift trends; design a "quiet but changing" signal.
+- Ethics/watch-out: Exploiting threat or FOMO cues to hijack attention degrades trust and causes alarm fatigue.
+- Contexts: dashboards, notifications, errors, research, data-viz
+- Sources: https://en.wikipedia.org/wiki/Dot-probe_paradigm ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4442069
+- Typed edges: mechanism-of → Banner Blindness; supports → Von Restorff Effect; supports → Selective Attention; tension → Decision Fatigue; counteracts → Visual Hierarchy
+- Linked sources (1):
+  - [case-study] The Psychology of Advertising: Why this ad made me stop scrolling (Balance app) — we notice what we're already thinking about. <https://growth.design/case-studies/balance-psychology> (sources/growth-design-case-studies.md)

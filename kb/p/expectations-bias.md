@@ -1,0 +1,28 @@
+## Expectations Bias
+_Expectations shape perception_ · cycle: 🙈 Information · cluster: C9 · evidence: Moderate
+- Definition: Prior expectations about an outcome shape how the outcome is perceived and evaluated, so the same experience is judged better or worse depending on what we were led to expect.
+- Mechanism (why it happens): Top-down predictions combine with sensory input; expectations (from price, brand, framing) alter both reported and neurally encoded experience, and also bias observers toward confirming data.
+- Origin & key evidence:
+  - Plassmann, O'Doherty, Shiv & Rangel (2008), PNAS: the same wine labelled with a higher price was rated more pleasant and increased medial orbitofrontal cortex activity — https://pubmed.ncbi.nlm.nih.gov/18195362/
+  - Related to placebo and observer-expectancy research (Rosenthal); see Observer-Expectancy Effect.
+- Evidence grade: Moderate — consistent with large placebo literature; Plassmann was a small fMRI sample (about 20 participants), so neural specifics should be treated cautiously.
+- Design applications:
+  - Set accurate expectations for waits (progress, ETA) — perceived wait ratings vs actual time.
+  - Premium visual polish on high-value tiers — perceived-quality survey scores by variant.
+  - Release notes / onboarding that preview benefits — first-week satisfaction (CSAT) vs control.
+  - In research, blind evaluations of variants to avoid expectancy contamination — inter-rater agreement.
+- Real product examples: Premium-priced apps rated as higher quality; Apple's unboxing setting expectations of quality (no source URL verified).
+- Enterprise/B2B note: Overpromising in sales demos inflates expectations and drives post-deployment dissatisfaction in complex software (e.g., autonomy claims for autonomous operations).
+- Ethics/watch-out: Inflating expectations to mask weak product quality backfires at the peak-end moment.
+- Contexts: onboarding, pricing, branding, loading/waits, research
+- Sources: https://pubmed.ncbi.nlm.nih.gov/18195362/
+- Typed edges: supports → Aesthetic-Usability Effect; supports → Halo Effect; supports → Priming; supports → Observer-Expectancy Effect; tension → Peak-End Rule; tension → Variable Reward
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (7):
+  - [other] Newsletter — setting the Tue/Fri cadence shapes how readers perceive frequency. <https://www.uxtools.co/newsletter> (sources/uxtools-challenges-tools.md)
+  - [other] UX Tools Summer Bundle 2026 — transparent "pending" labels manage expectations and avoid backlash. <https://www.uxtools.co/summer-bundle-2026> (sources/uxtools-challenges-tools.md)
+  - [case-study] 5 Deadly Onboarding Mistakes You Should Avoid (Sleepzy) — vague copy creates suspicion. Specific copy sets accurate expectations. <https://growth.design/case-studies/5-product-onboarding-mistakes-to-avoid> (sources/growth-design-case-studies.md)
+  - [case-study] One Simple Psychology Framework To Improve Your Onboarding (Blinkist) — personalisation questions set expectations that must be met. <https://growth.design/case-studies/blinkist-user-onboarding> (sources/growth-design-case-studies.md)
+  - [case-study] How to Craft Onboarding Surveys Users Love: 5 Do's and Don'ts (Grammarly) — survey answers create expectations of tailoring. <https://growth.design/case-studies/grammarly-onboarding-survey> (sources/growth-design-case-studies.md)
+  - [case-study] How Blinkist Increased Trial Conversions by 23% (Ethically) — fine print triggers learned suspicion. <https://growth.design/case-studies/trial-paywall-challenge> (sources/growth-design-case-studies.md)
+  - [episode] Dive Radio: Backyard Designers behind-the-scenes — viewers judged the stream harshly because the brand talks about high craft; expectations set by the brand shape perceived quality (weak link, from comments). <https://www.uxtools.co/episodes/dive-radio-backyard-designers-behind-the-scenes> (sources/uxtools-episodes.md)

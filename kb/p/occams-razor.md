@@ -1,0 +1,28 @@
+## Occam's Razor
+_Prefer the simplest adequate solution_ · cycle: 🔮 Meaning · cluster: C2 · evidence: Practitioner
+- Definition: Among options that perform equally well, prefer the one with the fewest assumptions or elements. In design, remove anything that doesn't serve the core purpose.
+- Mechanism (why it happens): Each extra element adds perceptual and decision load (see Hick's Law and Cognitive Load) and more ways to fail. Simpler designs are easier to scan, learn and maintain.
+- Origin & key evidence:
+  - William of Ockham (c. 1287–1347), *lex parsimoniae*. https://lawsofux.com/occams-razor/
+  - The principle is philosophical and methodological, not empirical. Indirect support comes from cognitive-load and choice research (see Hick's Law entries elsewhere in this library).
+- Evidence grade: Practitioner. It is a heuristic with no direct experimental test as a design rule.
+- Design applications:
+  - Use a "remove until it breaks" review, deleting one element at a time. Signal: task success unchanged or better.
+  - Default to a single path for core tasks. Signal: path-variance analysis.
+  - Hide unused features. Signal: feature-usage telemetry, removing anything below a threshold.
+  - Prefer the simplest explanation when interpreting research, and avoid over-fitted narratives. Signal: replication in a second study.
+- Real product examples: Google Search's minimal homepage (no URL verified). Apple's product-line reductions, discussed at https://uxdesign.cc/occams-razor-how-did-steve-jobs-followed-the-law-of-parsimony-at-apple-6e44cf5372b0
+- Enterprise/B2B note: Pressure to add features accumulates in enterprise tools. Pair this principle with Tesler's Law so that simplicity doesn't push necessary complexity onto users.
+- Ethics/watch-out: Over-simplifying can remove information users need, such as safety details or transparency.
+- Contexts: navigation, settings, forms, dashboards, content/copy, research
+- Sources: https://lawsofux.com/occams-razor/ ; https://uxdesign.cc/occams-razor-how-did-steve-jobs-followed-the-law-of-parsimony-at-apple-6e44cf5372b0 ; https://bootcamp.uxdesign.cc/simplifying-ux-with-occams-razor-2915004178ff
+- Design applications: What's the minimum information needed to complete the job?; Would someone without my knowledge find this confusing?; How can I halve the effort?
+- Watch-out (growth.design): Simple ≠ simplistic; don't drop necessary complexity (Tesler's Law).
+- Typed edges: tension → Signifiers; tension → Aesthetic-Usability Effect; tension → Skeuomorphism; supports → Pareto Principle; counteracts → Cognitive Load; supports → Hick's Law
+- Related: Tesler's Law, Law of the Instrument, Cognitive Load
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises)
+- Linked sources (4):
+  - [article] Design debt at machine speed — vague direction yields vague output; explicit simple rules beat interpretation. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — "simplest way to increase quality is reduce scope." <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [article] What No One Explains About the Design Process — the simplest common principles underlie all complex frameworks. <https://www.uxtools.co/blog/what-no-one-explains-about-the-design-process> (sources/uxtools-articles.md)
+  - [episode] A Most Talented Designer's Tool Stack — Lee Black ("He Makes Figma Do Things It Wasn't Des — his restraint principle: strip layers to the simplest version that still delivers. <https://www.uxtools.co/episodes/a-most-talented-designer-s-tool-stack> (sources/uxtools-episodes.md)

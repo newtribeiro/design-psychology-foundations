@@ -1,0 +1,27 @@
+## Decoy Effect
+_A worse third option makes the target look better_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
+- Definition: Adding an option that is clearly worse than one target option (but not than its competitor) on every attribute shifts choice toward the target — the asymmetric dominance or attraction effect.
+- Mechanism (why it happens): Preferences are built relative to the visible set; the dominated decoy gives the target an easy, justifiable "win", supplying a reason for choosing it and violating the regularity axiom of rational choice.
+- Origin & key evidence:
+  - Huber, Payne & Puto (1982), Journal of Consumer Research — original demonstration (details via their 2014 reply) — https://people.duke.edu/~jch8/bio/Papers/HuberPaynePutoJMR%202014.pdf
+  - Frederick, Lee & Baskin (2014), JMR — effect largely vanishes with pictorial or qualitative stimuli; Yang & Lynn (2014) report ~11 of 91 replication attempts succeeding — https://atticusli.com/replication-crisis/decoy-effect-asymmetric-dominance/
+  - Silva et al. (2014), European Journal of Marketing — meta-regression: procedure, decoy type and placement explain ~16% of variance; viable (choosable) decoys can reverse the effect — https://economiayadministracion.uc.cl/synthesis-attraction-effect-research-practical-marketing-implications/
+  - Wu & Cosguner (2020), Marketing Science — first field evidence from an online diamond retailer: shoppers notice decoy–target pairs only 11–25% of the time, but when they do they are 1.8–3.2× likelier to buy the dominant item; ~14% gross-profit gain — https://pubsonline.informs.org/doi/fpi/10.1287/mksc.2020.1231
+  - Stoffel et al. (2023), JBEE field experiment (n=203) — adding an inferior survey option raised completion of the target from ~33% to ~56%; order mattered a lot — https://ideas.repec.org/a/eee/soceco/v107y2023ics2214804323001295.html
+  - Hasan, Liu, Owens & Trueblood (2025), JDM Registered Report (n≈2.3k, 24 conditions) — robust attraction effect overall; stronger in numeric than graphical displays and when target sits next to decoy; by-attribute vs by-option layout barely mattered — https://www.cambridge.org/core/product/020CD617E5D20D6D323B57C290404EA6/core-reader
+- Evidence grade: Moderate (was Contested; re-graded 2026-10-04 after evidence review) — a 2025 preregistered registered report (Hasan et al., N≈2.3k) and field data (Wu & Cosguner 2020, ~14% gross-profit lift) confirm a real effect when options are compared numerically side by side; it still weakens or vanishes with pictorial/qualitative stimuli (Frederick et al. 2014; Brendl 2023), and most shoppers never notice the dominance relation.
+- Enterprise/B2B note: Tiered SaaS/plan tables are numeric matrices where it can work; procurement committees with spec sheets and RFPs scrutinise options and are more resistant — and a transparently phantom tier damages trust.
+- Ethics/watch-out: Phantom tiers that exist only to steer are manipulative; every tier should be a real, sensible purchase.
+- Contexts: pricing, checkout
+- Sources: https://people.duke.edu/~jch8/bio/Papers/HuberPaynePutoJMR%202014.pdf ; https://atticusli.com/replication-crisis/decoy-effect-asymmetric-dominance/ ; https://economiayadministracion.uc.cl/synthesis-attraction-effect-research-practical-marketing-implications/ ; https://pubsonline.informs.org/doi/fpi/10.1287/mksc.2020.1231 ; https://ideas.repec.org/a/eee/soceco/v107y2023ics2214804323001295.html ; https://www.cambridge.org/core/product/020CD617E5D20D6D323B57C290404EA6/core-reader
+- Design applications: Show plans as numeric attribute rows, not imagery; Place the decoy adjacent to the target; Make the dominance easy to see (same price, fewer features) — the effect only works on users who notice it; Keep the decoy clearly inferior (a viable decoy can backfire); Validate with plan-mix A/B tests
+- Watch-out (growth.design): Can feel manipulative if the decoy has no real purpose.
+- Product examples: The Economist — print-only priced same as print+web; Online diamond retail — near-dominated stones lift sales of the better one; YouTube — recommendation redesign concept
+- Typed edges: special-case-of → Framing; supports → Anchoring Bias; tension → Hick's Law; supports → Pseudo-Set Framing; measured-by → plan-mix share A/B test
+- Related: Anchoring Bias, Centre-Stage Effect, Framing
+- Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (counteracts); ⚙ Prospect Theory (mechanism-of)
+- Linked sources (3):
+  - [case-study] Adobe: The growing issue with "Free" trials UX — complex tiers can be built to herd users. The study flags this when it hides the true cost. <https://growth.design/case-studies/adobe-trial-ux> (sources/growth-design-case-studies.md)
+  - [case-study] YouTube's Attempt To Solve The Paradox of Choice — easier comparisons between similar options. <https://growth.design/case-studies/youtube-user-retention> (sources/growth-design-case-studies.md)
+  - [case-study] Tesla: How To Grow Through Word-of-Mouth — the print-only decoy. <https://growth.design/case-studies/tesla-word-of-mouth> (sources/growth-design-case-studies.md)
+- Last reviewed: 2026-10-04

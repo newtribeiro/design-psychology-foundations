@@ -1,0 +1,34 @@
+## Empathy Gap
+_We underestimate emotion's pull on behaviour_ · cycle: 🙈 Information · cluster: C10 · evidence: Moderate
+- Definition: People in one emotional or visceral state (calm, sated, rested) misjudge how they would think or act in another (anxious, craving, exhausted). They also misjudge what other people in that state need.
+- Mechanism (why it happens): Visceral states change preferences in the moment, but they leave few traces in memory, so we cannot easily simulate them. When "cold", our deliberate System 2 predicts behaviour using cold-state values. As a result it underweights how strongly a hot-state System 1 pushes.
+- Origin & key evidence:
+  - Loewenstein (1990s–2000s) developed the hot–cold empathy gap framework (overview: https://www.behavioraleconomics.com/mini-encyclopedia-of-be/hot-cold-empathy-gap/).
+  - Sayette, Loewenstein, Griffin & Black (2008, *Psychological Science*): smokers who were not craving underpredicted how much they would later value a cigarette while craving. https://www.cmu.edu/dietrich/psychology/behavioral-health-lab/Papers and CV/Cold to hot gap Psych Science.pdf
+  - Applied to medical decisions, e.g. predicting pain or end-of-life preferences: https://longevity.stanford.edu/?p=21187
+- Evidence grade: Moderate. Lab effects are consistent across domains (pain, hunger, craving, arousal), but most studies are small, and the effect is rarely tested in software contexts.
+- Design applications:
+  - Test error and recovery flows under real time pressure (timed tasks, field conditions), not in calm lab sessions. Signal: completion time and error rate under time pressure compared with untimed.
+  - Write alerts for the stressed reader: a verb first, then one action. Signal: time-to-correct-action in incident simulations.
+  - Run "hot-state" diary studies, e.g. capturing feedback right after a failed field job. Signal: number of issues found per method.
+  - Pre-commitment settings: let users set limits while calm (spend caps, auto-RTH thresholds). Signal: share of users who configure them, and how often the limits fire.
+- Real product examples: Uber's surge confirmation asks users to acknowledge the multiplier at the hot moment of booking (no URL verified). Smartphone "Screen Time" limits are set in a cold state and enforced in a hot state (no URL verified).
+- Enterprise/B2B note: Operators of asset fleets or industrial dashboards often decide things mid-incident. Designers and stakeholders reviewing designs at a desk are in the cold state.
+- Ethics/watch-out: Don't exploit hot states (urgency, fatigue) to push upsells or irreversible actions.
+- Contexts: errors, notifications, research, onboarding, settings, checkout
+- Sources: https://www.behavioraleconomics.com/mini-encyclopedia-of-be/hot-cold-empathy-gap/ ; https://www.cmu.edu/dietrich/psychology/behavioral-health-lab/Papers and CV/Cold to hot gap Psych Science.pdf ; https://longevity.stanford.edu/?p=21187
+- Typed edges: tension → Hyperbolic Discounting; counteracts → Planning Fallacy; supports → Decision Fatigue; mechanism-of → Affect Heuristic; tension → False Consensus Effect
+- Linked sources (15):
+  - [article] 33 Activity Ideas for Remote UX Workshops — Roleplay, storyboarding and journey maps force teams into the user's state. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
+  - [article] Fixing User Personas — personas bridge the gap between designers and users' states and needs. <https://www.uxtools.co/blog/fixing-user-personas> (sources/uxtools-articles.md)
+  - [article] How research teams are keeping up with build teams — seeing real users (e.g. visually impaired participant) collapses teams' empathy gap. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)
+  - [article] How to Maximize the User Research You're Already Doing — inviting devs/marketing to observe sessions builds firsthand empathy. <https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing> (sources/uxtools-articles.md)
+  - [article] The How (and Why) of User Flows — writing from the user's perspective counters designers' drift into requirements and jargon. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
+  - [article] User Research: Is It Worth It? — imagining yourself in users' shoes is insufficient without evidence. <https://www.uxtools.co/blog/user-research-is-it-worth-it> (sources/uxtools-articles.md)
+  - [article] What Developers Need from UX Research — engineers note "I wouldn't like this" reactions need checking against other user types. <https://www.uxtools.co/blog/what-developers-need-from-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: User Interview (Understand) — interviewing in calm conditions underestimates how users act when rushed or stressed. <https://www.uxtools.co/challenges/user-interview> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Empathy Map (Understand) — the method exists to bridge the gap between the designer's state and the user's state. <https://www.uxtools.co/challenges/empathy-map> (sources/uxtools-challenges-tools.md)
+  - [challenge] Challenge: Accessibility (Implement) — designers without disabilities underestimate the barriers. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — Shapes of Work — leaders and ICs underestimate each other's constraints, as the AI and Miro gaps later show. <https://uxtools.co/survey/introduction/shapes-of-work> (sources/uxtools-survey.md)
+  - [survey] Digital Whiteboarding — Trends — leaders' and ICs' tools diverge because their jobs do. <https://uxtools.co/survey/digital-whiteboarding/trends> (sources/uxtools-survey.md)
+  - …3 more in sources/*.md (search the principle name)

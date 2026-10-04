@@ -1,0 +1,28 @@
+## Self-Initiated Triggers
+_Users respond to prompts they set_ · cycle: 🔮 Meaning · cluster: C6 · evidence: Moderate
+- Definition: Users are more likely to respond to prompts or reminders they set up themselves (choosing the time, channel or condition) than to prompts the system imposes.
+- Mechanism (why it happens): Choosing creates commitment and a sense of ownership (consistency, autonomy). Specifying "when X, I will Y" forms an implementation intention: the cue is encoded in advance, so when it appears it triggers the action automatically with little deliberation. Self-chosen prompts also cause less reactance.
+- Origin & key evidence:
+  - Gollwitzer (1999), American Psychologist, "Implementation intentions: strong effects of simple plans": if-then plans improve goal attainment.
+  - Gollwitzer & Sheeran (2006), meta-analysis (94 studies) in Advances in Experimental Social Psychology: medium-to-large effect, d ≈ 0.65. https://stafforini.com/works/gollwitzer-2006-implementation-intentions-and/
+  - growth.design (practitioner framing): "more likely to interact with prompts they setup for themselves". https://growth.design/psychology
+  - Caution: a related precommitment finding (Ariely & Wertenbroch 2002, self-imposed deadlines) did not replicate in a 2026 Psychological Science replication by Hyndman & Bisin. https://www.psychologicalscience.org/journals/psychological-science/09567976261460772/
+- Evidence grade: Moderate. Implementation intentions are well supported, though recent large studies find smaller effects than the early meta-analysis. The specific claim that "self-set notifications beat system ones" has little direct product-level published evidence.
+- Design applications:
+  - During onboarding, ask users to pick the reminder time and day. Signal: reminder open rate compared with a default-time control.
+  - Offer "Remind me when…" condition-based alerts (e.g. battery below 20%, a price drop). Signal: alert action rate and alert retention.
+  - Phrase opt-ins as if-then plans ("When I finish a job, I'll log it"). Signal: habit completion over 4 weeks.
+  - Let users snooze and choose a channel. Signal: notification opt-out rate.
+- Real product examples: Duolingo asks new learners to choose a daily reminder time. Slack's /remind and "Remind me about this message". Google Flights price-tracking alerts that the user switches on.
+- Enterprise/B2B note: let operators define their own alert thresholds and watchlists (fleets, maintenance intervals). Owned alerts get acted on, while vendor-default alerts get muted.
+- Ethics/watch-out: do not pressure users into setting reminders they did not want ("confirmshaming" in reminder setup).
+- Contexts: notifications, onboarding, retention, settings, gamification
+- Sources: https://growth.design/psychology ; https://stafforini.com/works/gollwitzer-2006-implementation-intentions-and/ ; https://www.psy.uni-hamburg.de/arbeitsbereiche/paedagogische-psychologie-und-motivation/personen/oettingen-gabriele/dokumente/gollwitzer-oettingen-2019-implementation-intentions.pdf ; https://www.psychologicalscience.org/journals/psychological-science/09567976261460772/
+- Typed edges: special-case-of → External Trigger; supports → Commitment & Consistency; counteracts → Reactance; supports → Internal Trigger; supports → IKEA Effect; measured-by → reminder action rate
+- Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (organises)
+- Linked sources (5):
+  - [article] Interfaces that rearrange for each user — the user's own answer drives the change, preserving a sense of control. <https://www.uxtools.co/blog/interfaces-that-rearrange-for-each-user> (sources/uxtools-articles.md)
+  - [course] Product Psychology Masterclass (course) — BMAP's Prompt component covers triggers, including self-set ones. <https://growth.design/courses/product-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] How Hopper Perfectly Nails Permission Requests UX — user-driven prompts are accepted more readily. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
+  - [case-study] The Psychology Behind Loom's Explosive Growth — user-set reminders. <https://growth.design/case-studies/loom-psychology> (sources/growth-design-case-studies.md)
+  - [case-study] Strava: 7 Strategies To Convert More Freemium Users — user-set goals act as prompts. <https://growth.design/case-studies/strava-freemium-conversion> (sources/growth-design-case-studies.md)

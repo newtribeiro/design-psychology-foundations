@@ -1,0 +1,35 @@
+## Survivorship Bias
+_Ignoring what didn't make it through_ · cycle: 🙈 Information · cluster: C10 · evidence: Strong
+- Definition: Drawing conclusions only from the cases that passed a selection filter (users who stayed, products that succeeded) and ignoring the ones that dropped out and left no data.
+- Mechanism (why it happens): What we can see is what survived, and System 1 treats the available sample as complete (WYSIATI, "what you see is all there is"). Failures are silent: churned users file no tickets, answer no surveys and leave no logs, so they are under-represented in memory and in data.
+- Origin & key evidence:
+  - Abraham Wald, Statistical Research Group (c. 1943): armour should go where returning bombers showed no hits, because planes hit there did not come back. The memoranda were reprinted and discussed in Mangel & Samaniego (1984), JASA, DOI 10.1080/01621459.1984.10478083.
+  - Practitioner retellings: https://vintageaviationnews.com/warbird-articles/making-aircraft-survivable-abraham-walds-counterintuitive-armor-theory.html
+  - Selection bias is a standard concern in statistics and research design. In UX it shows up as satisfaction surveys sent only to active users and usability panels drawn from existing customers.
+- Evidence grade: Strong as a statistical artefact (it is a sampling property, not a psychological effect that needs replication). The popular version of the Wald story is somewhat embellished.
+- Design applications:
+  - Recruit churned and never-activated users for research. Signal: share of interviews drawn from non-retained cohorts.
+  - Compare funnels with cohort retention curves, not active-user averages. Signal: drop-off rate by step.
+  - Add exit surveys at cancellation and uninstall. Signal: response rate and the coded reasons.
+  - Audit "best practice" case studies for missing failures before copying them. Signal: a documented counter-example check in the design review.
+- Real product examples: app-store reviews and NPS reflect people who are still engaged. Netflix-style cancel flows that ask "why are you leaving?" are an attempt to sample the non-survivors. Copying "what unicorn startups did" is the classic anti-pattern.
+- Enterprise/B2B note: feature requests come from power users at retained accounts, while lost deals and abandoned pilots never reach the roadmap. Interview lost prospects as well.
+- Ethics/watch-out: designing only for survivors excludes users who struggled, often the less technical or less able ones.
+- Contexts: research, offboarding, retention, stakeholder-communication, dashboards
+- Sources: https://growth.design/psychology ; https://vintageaviationnews.com/warbird-articles/making-aircraft-survivable-abraham-walds-counterintuitive-armor-theory.html ; https://uxplanet.org/design-principles-selection-bias-bf51ff9ac69b
+- Typed edges: tension → Survey Bias; supports → Confirmation Bias; supports → Availability Heuristic; counteracts → Hindsight Bias; measured-by → cohort / churn analysis; tension → Singularity Effect; tension → Pareto Principle
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Kano model (supports)
+- Linked sources (14):
+  - [article] 12 Ways to Utilize Other Departments in User Research — support only hears from users who reached out; silent churners are missing. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [survey] 7 Takeaways from the 2020 Design Tools Survey — survey respondents skew toward engaged UX Tools readers. <https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey> (sources/uxtools-articles.md)
+  - [survey] Designers who vibe code are happier at work — self-selected respondents; correlation, not causation (author notes this). <https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work> (sources/uxtools-articles.md)
+  - [article] Showing up for design quality — comparing dead vs surviving apps shows craft wasn't the differentiator. <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
+  - [article] Switching Careers to UX Design — the article notably includes people who gave up, not only success stories. <https://www.uxtools.co/blog/switching-careers-to-ux-design> (sources/uxtools-articles.md)
+  - [survey] This is the State of Prototyping in 2026 — opt-in survey respondents may over-represent engaged, AI-curious designers. <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
+  - [article] Translating User Research Into Design — research not converted to design leaves only visible UI ideas considered. <https://www.uxtools.co/blog/translating-user-research-into-design> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Competitive Analysis (Understand) — you only see the apps that survived, not the patterns that failed. <https://www.uxtools.co/challenges/competitive-analysis> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: UI Design — the survey reflects UX Tools' audience, not all designers. <https://www.uxtools.co/tools/design> (sources/uxtools-challenges-tools.md)
+  - [survey] Introduction — Demographic Summary — only people engaged with UX Tools are counted, and disengaged or non-English designers are missing. <https://uxtools.co/survey/introduction/demographic-summary> (sources/uxtools-survey.md)
+  - [survey] Introduction — Methodology — filtering out incomplete responses removes less-engaged voices. <https://uxtools.co/survey/introduction/methodology> (sources/uxtools-survey.md)
+  - [survey] Interface Design — Trends — niche tools' remaining users self-selected because they love them, which inflates satisfaction. <https://uxtools.co/survey/interface-design/trends> (sources/uxtools-survey.md)
+  - …2 more in sources/*.md (search the principle name)

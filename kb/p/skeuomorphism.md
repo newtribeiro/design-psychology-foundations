@@ -1,0 +1,26 @@
+## Skeuomorphism
+_Real-world resemblance eases adoption_ · cycle: 🔮 Meaning · cluster: C3 · evidence: Moderate
+- Definition: Design that keeps visual, auditory or tactile cues from an older physical or prior form (leather calendar, shutter click, folder icon) even when those cues no longer perform their original function.
+- Mechanism (why it happens): Borrowed cues map new interfaces onto existing mental models, so affordances are recognised rather than learned; depth, shadow and texture also act as signifiers of interactivity. Cost: ornament adds visual noise and screen-space.
+- Origin & key evidence:
+  - Term from Greek skeuos (tool/container) + morphē (shape), used for material objects since about 1890; Apple's 2013 iOS 7 redesign marked the industry turn to flat UI. https://en.wikipedia.org/wiki/Skeuomorph
+  - Moran / NN/g (2017) eye-tracking, 71 users, 9 page pairs: weak-signifier (flat) versions took about 22% longer and drew about 25% more fixations, with "click uncertainty". https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/
+  - NN/g follow-ups recommend "flat 2.0" — minimal style but retained clickability cues. https://www.nngroup.com/videos/making-flat-design-usable/
+- Evidence grade: Moderate — the usability case is really about signifiers (well supported); evidence for full realistic textures vs. flat-with-cues is thin and largely practitioner.
+- Enterprise/B2B note: Industrial software often mirrors physical controls (gauges, joysticks, map pins) — helpful for operators transitioning from hardware, but avoid faux-hardware that slows dense data reading.
+- Ethics/watch-out: Mimicking trusted physical artefacts (official seals, paper receipts) can lend false legitimacy.
+- Contexts: branding, onboarding, navigation, settings, dashboards
+- Sources: https://en.wikipedia.org/wiki/Skeuomorph ; https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/ ; https://www.nngroup.com/videos/making-flat-design-usable/ ; https://ux.iu.edu/articles/skeuomorphic-flat-design/index.html
+- Design applications: Use for genuinely new technology or concepts; Borrow affordances (how it's manipulated), not just looks
+- Watch-out (growth.design): Purely decorative skeuomorphism adds clutter.
+- Product examples: Trash/recycle bin icon; Tesla — 3D car and battery widget
+- Typed edges: special-case-of → Familiarity Bias; supports → Mental Model; supports → Signifiers; tension → Occam's Razor; supports → Aesthetic-Usability Effect; tension → Cognitive Load
+- Related: Familiarity Bias, Signifiers, Mental Model
+- Explained by frameworks: ⚙ Gestalt principles of perception (tension); ⚙ Norman's design principles (mechanism-of)
+- Linked sources (6):
+  - [article] Monitor stands have more personality than software — tactile, physical-feeling interfaces (dials, camera controls) borrow from hardware. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
+  - [article] You Can't Prompt This — light and material realism (not nostalgia) gives physical weight to UI. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)
+  - [case-study] Tesla: How To Grow Through Word-of-Mouth — a phone-like battery widget. <https://growth.design/case-studies/tesla-word-of-mouth> (sources/growth-design-case-studies.md)
+  - [episode] A Most Talented Designer's Tool Stack — Lee Black ("He Makes Figma Do Things It Wasn't Des — Drams translates Braun/Pioneer knobs and inertia into web UI, borrowing physical affordances. <https://www.uxtools.co/episodes/a-most-talented-designer-s-tool-stack> (sources/uxtools-episodes.md)
+  - [video] Creating a graffiti ink app with Figma Make ("Designer Reacts to Your INSANE Side Projects — Lovnit's marker physics mimics real paint behaviour so the digital tool feels authentic ("match between system and real world"). <https://www.uxtools.co/episodes/creating-a-graffiti-ink-app-with-figma-make> (sources/uxtools-episodes.md)
+  - [episode] Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired? — library-card insertion borrows a physical ritual to make access feel meaningful. <https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired> (sources/uxtools-episodes.md)

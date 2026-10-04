@@ -1,0 +1,35 @@
+## Availability Heuristic
+_Recent/easy-to-recall wins_ · cycle: 💾 Memory · cluster: C8 · evidence: Strong
+- Definition: Judging how frequent or likely something is by how easily examples come to mind, so vivid, recent or memorable events are overweighted.
+- Mechanism (why it happens): Ease of retrieval stands in for frequency (attribute substitution, System 1). Recency, emotional vividness and media coverage boost retrieval fluency regardless of the true base rate.
+- Origin & key evidence:
+  - Tversky & Kahneman (1973), Cognitive Psychology 5(2), "Availability: A heuristic for judging frequency and probability". In the letter-position task, people judged words starting with K as more common than words with K in third position, which is wrong. https://cbsm.com/articles/31767-availability-a-heuristic-for-judging-frequency-and-probability
+  - Schwarz et al. (1991), JPSP: people who recalled 12 assertive behaviours rated themselves as less assertive than those who recalled 6. The felt ease of recall mattered more than the number recalled.
+  - Lichtenstein et al. (1978): estimates of death risk tracked how prominent each cause was in the media. (Secondary citation.)
+- Evidence grade: Strong. A foundational, widely replicated finding, though some specific ease-of-retrieval effects vary across replications.
+- Design applications:
+  - Surface "recently used" and favourites to work with recall. Signal: time to reach a frequent item.
+  - Counter vivid anecdotes with base rates in dashboards and research readouts (e.g. "1 loud ticket vs. 2% of sessions"). Signal: how often decisions cite quantitative evidence.
+  - Use concrete, memorable examples in onboarding and copy to make a benefit easy to recall. Signal: recall in a follow-up survey.
+  - In surveys, avoid priming recent events before frequency questions. Signal: variance against behavioural logs.
+- Real product examples: Amazon "Buy it again" and recent-orders lists. Insurance sign-ups rising after disasters (a classic marketing pattern). Anti-pattern: product teams reprioritising after one angry customer call while the usage data says otherwise.
+- Enterprise/B2B note: the most recent incident (e.g. one equipment failure) can dominate the roadmap. Fleet dashboards should show incident rates and trends, not just the latest alert.
+- Ethics/watch-out: inflating fear with vivid rare cases ("security breach!" upsells) exploits availability.
+- Contexts: research, stakeholder-communication, dashboards, data-viz, navigation, search, content/copy
+- Sources: https://en.wikipedia.org/wiki/Availability_heuristic ; https://cbsm.com/articles/31767-availability-a-heuristic-for-judging-frequency-and-probability ; https://www.sketchplanations.com/the-availability-heuristic-and-bias
+- Typed edges: tension → Planning Fallacy; tension → Storytelling Effect; supports → Negativity Bias; supports → Recognition Over Recall; supports → Survivorship Bias; mechanism-of → Framing; special-case-of → Affect Heuristic; measured-by → comparing estimates with base rates
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Linked sources (13):
+  - [article] 12 Ways to Utilize Other Departments in User Research — vivid recent support complaints can be overweighted; the article warns to check representativeness. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
+  - [survey] How prototyping has changed — survey positioned as antidote to impressions formed from viral social posts. <https://www.uxtools.co/blog/how-prototyping-has-changed> (sources/uxtools-articles.md)
+  - [article] How to Maximize the User Research You're Already Doing — searchable, tagged research keeps evidence (not anecdotes) available for decisions. <https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing> (sources/uxtools-articles.md)
+  - [article] Quicker UX Research Synthesis — synthesizing late overweights recent/vivid sessions; continuous synthesis counters it. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)
+  - [article] The fog between layoffs and prototyping — vivid layoff counts shape beliefs more than less-visible adoption statistics. <https://www.uxtools.co/blog/the-fog-between-layoffs-and-prototyping> (sources/uxtools-articles.md)
+  - [article] The Psychology of User Decisions — users overweight what's visible/recalled immediately. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
+  - [article] When to Skip UX Research — reusing archived research avoids over-relying on what's top of mind. <https://www.uxtools.co/blog/when-to-skip-ux-research> (sources/uxtools-articles.md)
+  - [challenge] Challenge: Diary Study (Test) — entries made long after the event overweight memorable moments, so prompt near the event. <https://www.uxtools.co/challenges/diary-study> (sources/uxtools-challenges-tools.md)
+  - [tool-category] Tools: Research Repository — without a repository, teams rely on whatever research they recall most vividly. <https://www.uxtools.co/tools/research-repository> (sources/uxtools-challenges-tools.md)
+  - [survey] User Research — Research Repository Overview — without a repository, teams rely on whichever recent insight comes to mind. <https://uxtools.co/survey/user-research/research-repository-overview> (sources/uxtools-survey.md)
+  - [survey] Award — Research Excellence (Dovetail) — a repository counters reliance on recent or memorable anecdotes. <https://uxtools.co/survey/design-tools-awards/research-excellence> (sources/uxtools-survey.md)
+  - [case-study] Coronavirus Dashboard UX: How Design Impacts Your Perception — recent information is overweighted. <https://growth.design/case-studies/coronavirus-dashboard-ux> (sources/growth-design-case-studies.md)
+  - …1 more in sources/*.md (search the principle name)

@@ -1,0 +1,25 @@
+## Visual Anchors
+_Elements that guide the eye_ · cycle: 🙈 Information · cluster: C1 · evidence: Practitioner
+- Definition: Visual elements such as high-contrast shapes, imagery, faces, arrows, numbers or icons that catch the eye first and steer where it goes next. They set where a scan starts and the route it takes through a layout.
+- Mechanism (why it happens): Bottom-up salience (contrast, size, motion, faces) grabs pre-attentive vision in System 1. Directional cues such as gaze direction and arrows then shift attention reflexively (exogenous orienting). Once an anchor is fixated, users scan nearby content relative to it.
+- Origin & key evidence:
+  - Posner (1980), spatial cueing paradigm: a cue speeds detection at the cued location. "Orienting of attention", Q J Exp Psychol, DOI 10.1080/00335558008248231.
+  - Friesen & Kingstone (1998): another face's gaze direction shifts the observer's attention reflexively, even when the gaze does not predict the target (Psychonomic Bulletin & Review).
+  - Nielsen / NN/g (2006): eye-tracking found the F-shaped scanning pattern on text-heavy pages. Headings, bold text and bullets act as anchors that break the pattern. https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
+  - growth.design defines the term as "elements used to guide users' eyes". https://growth.design/psychology
+- Evidence grade: Practitioner. The underlying attentional-cueing science is strong, but "visual anchors" as a named UX principle has no single empirical origin.
+- Design applications:
+  - Put one dominant anchor per screen (a hero metric or primary CTA). Signal: time-to-first-fixation in eye-tracking, or first-click accuracy.
+  - Have face or arrow imagery point toward the CTA or form. Signal: A/B test CTA click-through.
+  - Use numerals and icons as scan anchors in long settings lists. Signal: task time to find a given setting.
+  - Run a 5-second test or a saliency model (e.g. EyeQuant) to confirm the anchor you intended is the one people see. Signal: correct recall of the main message.
+- Real product examples: Airbnb and Booking listing cards use photos and price as anchors. Stripe's pricing page anchors on large numerals. Anti-pattern: auto-rotating homepage carousels, which split attention across competing anchors (NN/g has covered carousel failures).
+- Enterprise/B2B note: in fleet or telemetry dashboards, reserve the strongest anchor (red, large) for alert states. Otherwise the anchors compete and the real alarm gets lost.
+- Ethics/watch-out: anchors can pull eyes away from fees or disclosures. Do not use them to bury required information.
+- Contexts: navigation, dashboards, data-viz, onboarding, checkout, content/copy
+- Sources: https://growth.design/psychology ; https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/ ; https://eyequant.com/resources/eye-tracking-studies-does-the-famous-f-shape-pattern-really-exist
+- Typed edges: special-case-of → Visual Hierarchy; mechanism-of → Selective Attention; supports → Von Restorff Effect; supports → Centre-Stage Effect; tension → Banner Blindness; measured-by → eye-tracking / first-click testing
+- Explained by frameworks: ⚙ Gestalt principles of perception (supports)
+- Linked sources (2):
+  - [case-study] Beehiiv subscription: 5 small UX mistakes that make a BIG difference — anchors guide the eye and establish hierarchy. <https://growth.design/case-studies/beehiiv-newsletter-subscription-ux> (sources/growth-design-case-studies.md)
+  - [case-study] 9 Ways To Boost SaaS Revenues With A Better Upgrade UX (Zapier) — progress-bar anchoring. <https://growth.design/case-studies/zapier-upgrade> (sources/growth-design-case-studies.md)
