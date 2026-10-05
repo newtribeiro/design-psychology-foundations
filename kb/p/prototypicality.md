@@ -1,0 +1,23 @@
+## Prototypicality
+_Typical-looking designs are liked faster_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: The degree to which a design looks like a typical member of its category (a typical chair, a typical news site); more prototypical designs are generally preferred and trusted at first sight.
+- Mechanism (why it happens): Category prototypes are learnt from repeated exposure; an object that matches the prototype is classified quickly and fluently, and that ease plus the sense of "this is what it should be" is felt as liking.
+- Origin & key evidence:
+  - Martindale, Moore & Borkum (1990), "Aesthetic preference: Anomalous findings for Berlyne's psychobiological theory", American Journal of Psychology 103(1) — across several experiments, meaningfulness/typicality explained preference better than Berlyne's collative variables. https://doi.org/10.2307/1423259
+  - Veryzer & Hutchinson (1998), "The influence of unity and prototypicality on aesthetic responses to new product designs", Journal of Consumer Research 24(4) — more prototypical product designs drew more positive aesthetic responses, independent of unity. https://doi.org/10.1086/209516
+  - Hekkert, Snelders & van Wieringen (2003), "'Most advanced, yet acceptable'", British Journal of Psychology 94(1) — typicality predicted preference positively, but jointly with novelty; the two suppress each other. https://doi.org/10.1348/000712603762842147
+  - Tuch et al. (2012), "The role of visual complexity and prototypicality regarding first impression of websites", International Journal of Human-Computer Studies 70(11) — highly prototypical, low-complexity websites were rated most beautiful after only 50 ms exposure. https://doi.org/10.1016/j.ijhcs.2012.06.003
+- Evidence grade: Moderate — consistent positive effects across products and websites, but mostly short-exposure lab ratings, often confounded with familiarity, and moderated by novelty and expertise.
+- Design applications:
+  - Keep category conventions for layout landmarks (logo top-left, search top, primary nav) — measure first-impression appeal and time to first click.
+  - Match the visual genre users expect for the domain (e.g. a banking app should read as a banking app) — measure perceived trust and credibility.
+  - Spend novelty on one or two signature details rather than the whole frame — measure appeal vs. a fully conventional control.
+  - Benchmark against category leaders before redesigning — measure "looks like a … site" typicality ratings.
+- Real product examples: Google research blog summarising Tuch et al. (users love simple and familiar designs); the near-universal e-commerce pattern of logo/search/cart in the header (illustrative).
+- Enterprise/B2B note: Business users carry strong prototypes from the tools they already use daily; matching table, filter and form conventions lowers adoption friction more than a distinctive but unfamiliar visual language.
+- Ethics/watch-out: Copying a category prototype can slide into copying a competitor's trade dress or mimicking trusted brands to borrow credibility; typicality should not be used to impersonate.
+- Contexts: visual-design, branding, navigation, onboarding, research
+- Sources: https://doi.org/10.2307/1423259 ; https://doi.org/10.1086/209516 ; https://doi.org/10.1348/000712603762842147 ; https://doi.org/10.1016/j.ijhcs.2012.06.003 ; https://research.google/blog/users-love-simple-and-familiar-designs-why-websites-need-to-make-a-great-first-impression/
+- Typed edges: special-case-of → Processing Fluency; supports → Familiarity Bias; related → Mental Model; supports → Fifty-Millisecond Impression; related → MAYA Principle; tension → Von Restorff Effect
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): Swiss / International Typographic Style → lineage.md

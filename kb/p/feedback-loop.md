@@ -19,6 +19,7 @@ _Actions need visible results_ · cycle: 🙈 Information · cluster: C3 · evid
 - Sources: https://www.nngroup.com/articles/ten-usability-heuristics/ ; https://cris.huji.ac.il/en/publications/the-effects-of-feedback-interventions-on-performance-a-historical/ ; https://explore.psychsafety.com/n/kluger-denisi-1996/
 - Typed edges: supports → Goal Gradient Effect; supports → Feedforward; mechanism-of → Investment Loops; counteracts → Planning Fallacy; tension → Variable Reward; measured-by → Peak-End Rule; tension → Cashless Effect; tension → Planning Fallacy
 - Explained by frameworks: ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Lineage (art & design history): Brazilian Concrete & Neo-Concrete art → lineage.md
 - Linked sources (24):
   - [article] "Any Input = Any Output" - What Config Was Really About — collapsing design and code shortens the loop between idea and working product. <https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about> (sources/uxtools-articles.md)
   - [article] Designing The Next Flow State — intent → agent work → write-back → correction loop. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)

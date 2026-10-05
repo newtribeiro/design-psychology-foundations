@@ -1,11 +1,11 @@
 ---
 name: design-psychology-foundations
-description: Ground design work in product psychology — a semantic network of 106 cognitive biases and UX principles, 13 theory frameworks, evidence grades and ~1,000 linked sources (growth.design case studies, uxtools.co). Use to suggest principles for a design, validate or audit a flow or screen, or research the science behind a design decision.
+description: Ground design work in product psychology — a semantic network of 123 cognitive biases, UX and aesthetic principles, 14 theory frameworks, 15 art & design movements, evidence grades and ~1,000 linked sources (growth.design case studies, uxtools.co). Use to suggest principles for a design, validate or audit a flow or screen, research the science behind a design decision, or trace what a visual style signals and where it comes from.
 ---
 
 # Design Psychology Foundations
 
-A **semantic network**, not a list. Nodes: 106 principles · 10 clusters · 13 frameworks · 20 design contexts · ~1,000 linked sources (growth.design case studies, uxtools.co articles/challenges/survey/episodes). Edges (typed): `mechanism-of`, `supports`, `tension` (⟂), `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`.
+A **semantic network**, not a list. Nodes: 123 principles · 11 clusters · 14 frameworks · 15 art & design movements · 21 design contexts · ~1,000 linked sources (growth.design case studies, uxtools.co articles/challenges/survey/episodes). Edges (typed): `mechanism-of`, `supports`, `tension` (⟂), `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`, `lineage-of` (movement → principle).
 
 Every interaction runs the **B.I.A.S. cycle** (Benson's codex as used by growth.design): **F**ilter/Block → **I**nterpret → **A**ct → **R**emember/Store. Each principle carries its cycle step, cluster and evidence grade: **S** strong · **M** moderate · **P** practitioner heuristic · **C** contested (failed or mixed replications — never present as settled).
 
@@ -18,7 +18,8 @@ Every interaction runs the **B.I.A.S. cycle** (Benson's codex as used by growth.
 1. **This file only** — name principles, pick from a context playbook, resolve tensions. Most quick asks end here.
 2. **One principle file** (~1–4 KB): definition, mechanism, cited evidence, grade, design moves with metrics, product examples, B2B note, ethics, typed edges, top linked sources. Path `kb/p/<slug>.md`; slug = lowercase ASCII, apostrophes dropped, other non-alphanumerics → `-` (Hick's Law → `hicks-law`, Fitts's Law → `fittss-law`, Aha! Moment → `aha-moment`, Law of Prägnanz → `law-of-pragnanz`). Load ≤3 per turn; follow edges by loading neighbours only when needed.
 3. **Cluster index** `kb/clusters/<file>` (~4 KB) — all members with grade, tensions, supports, source counts. Use to traverse a family.
-4. **Theory** `kb/frameworks.md` (~55 KB; read only the relevant `## n.` section) — dual-process, Codex/B.I.A.S./Psych, Fogg/Hook/Skinner, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, SDT, dark-pattern ethics & regulation, replication caveats.
+3b. **Lineage** `kb/lineage.md` (~25 KB; read one `##` card) — 15 art & design movements: dates, figures, original intent, what the style signals today, how it reached digital, what got lost, linked principles. Principle files name their movements in a `Lineage` line.
+4. **Theory** `kb/frameworks.md` (~55 KB; read only the relevant `## n.` section) — dual-process, Codex/B.I.A.S./Psych, Fogg/Hook/Skinner, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, SDT, dark-pattern ethics & regulation, replication caveats, empirical aesthetics (§14).
 5. **Sources** (large: search, never load whole) — `kb/sources/growth-design-case-studies.md` (47+10 case studies, tactics, Product Psychology course outline, C.L.E.A.R. UI course), `uxtools-articles.md` (69 posts), `uxtools-challenges-tools.md` (18 practice challenges + tutorials, 9 tool categories), `uxtools-survey.md` (Design Tools Survey 2024, State of Prototyping 2026 data), `uxtools-episodes.md` (11 transcript summaries + index of 47 episodes).
 6. **Web research** only for freshness, gaps or primary-source verification.
 
@@ -27,9 +28,11 @@ Where the KB lives: the `kb/` folder next to this file (this repository). If the
 ## Modes
 **SUPPORT** (suggest) → identify context(s) + journey moment → start from the context playbook → walk F-I-A-R so picks aren't all from one step → choose 3–7 (Hick's Law applies to advice too) → for each: why here · design move · metric/test · grade. Check ⟂ tensions among picks and state the resolution. Load p-files only for the picks you'll go deep on.
 
-**VALIDATE** (audit; input can be a screenshot, Figma frame, flow description, URL or file) → describe the flow step by step → per step ask: F is the key info noticed? I does it match the mental model / build trust? A is the action easy, default sane, feedback clear? R will the ending/peak be remembered, can users resume? → ethics gate → scorecard `Step | Principle | ✅/⚠️/❌ | Evidence in design | Fix | H/M/L` → top 3 fixes by impact÷effort + what to test.
+**VALIDATE** (audit; input can be a screenshot, Figma frame, flow description, URL or file) → describe the flow step by step → per step ask: F is the key info noticed? I does it match the mental model / build trust? A is the action easy, default sane, feedback clear? R will the ending/peak be remembered, can users resume? → for visual, brand or marketing surfaces add a **style-signal check**: what does the style signal, to whom, and does that fit the product's job and audience? Which movement does it inherit (lineage card)? Are aesthetic claims graded (golden ratio and rule of thirds are Contested)? Experts and users differ (Symmetry, Curvature, Visual Complexity Preference) — test with users, not the team → ethics gate → scorecard `Step | Principle | ✅/⚠️/❌ | Evidence in design | Fix | H/M/L` → top 3 fixes by impact÷effort + what to test.
 
 **DEEP RESEARCH** → p-file → its `Explained by frameworks` → frameworks.md section → its linked sources → web for primary papers (and uxtools.co as a practitioner reference). Report: mechanism → evidence & grade (say if contested) → when it applies/doesn't → design implications → examples → citations. Offer to save the note alongside the project's design docs.
+
+**STYLE & LINEAGE** (visual direction, brand, "make it feel X") → describe the visual choice formally → match it to a movement card in `kb/lineage.md` → original intent → what it signals today → what got lost on the way to digital → the C11 principles that keep it alive or contradict it, with grades → recommendation in one line ("Use X because it signals Y, which these users need for Z"); mark interpretation as interpretation. For deep history, drills and reading, hand off to the companion **designer-growth-foundations** skill (Module H) when installed.
 
 **Reasoning over the network**: explain *why* via `mechanism-of` chains, predict side effects via `tension` and Second-Order Effect, justify to stakeholders with S/M evidence first, P as practice, C only with caveats. Name designer-side biases (C10) when critiquing research or roadmaps. Name principles exactly as in the index so they stay searchable; always say which principles you used and why.
 
@@ -54,7 +57,8 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - **stakeholder-communication**: Framing, Confirmation Bias, Survey Bias, Survivorship Bias, Availability Heuristic, Sunk Cost Effect, Halo Effect, Serial Position Effect, False Consensus Effect
 - **errors**: Cognitive Load, Loss Aversion, Peak-End Rule, Von Restorff Effect, Negativity Bias, Fitts's Law, Banner Blindness, Affect Heuristic, Self-Serving Bias
 - **data-viz**: Cognitive Load, Framing, Confirmation Bias, Availability Heuristic, Picture Superiority Effect, Law of Similarity, Chunking, Von Restorff Effect, Selective Attention
-- **branding**: Familiarity Bias, Social Proof, Authority Bias, Picture Superiority Effect, Law of Similarity, Halo Effect, Affect Heuristic, Contrast, Law of Prägnanz
+- **branding**: Visual Style Connotation, Familiarity Bias, Processing Fluency, MAYA Principle, Colour–Emotion Associations, Social Proof, Authority Bias, Halo Effect, Picture Superiority Effect
+- **visual-design**: Processing Fluency, Fifty-Millisecond Impression, Visual Complexity Preference, Prototypicality, Visual Balance, Unity-in-Variety, Symmetry Preference, Curvature Preference, Aesthetic-Usability Effect
 - **gamification**: Goal Gradient Effect, Sunk Cost Effect, Variable Reward, Self-Serving Bias, Hyperbolic Discounting, Shaping, Spacing Effect, Feedback Loop, Curiosity Gap
 - **offboarding**: Reciprocity, Loss Aversion, Peak-End Rule, Framing, Survey Bias, Survivorship Bias, Reactance, Sunk Cost Effect, Negativity Bias
 - **empty-states**: Banner Blindness, Shaping, Discoverability, Curiosity Gap, Progressive Disclosure, Curse of Knowledge, Pseudo-Set Framing, Delighters, Spark Effect
@@ -78,6 +82,11 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Social Proof / Bandwagon Effect ⟂ Singularity Effect: aggregate numbers build legitimacy, a single identifiable story builds emotion; use one named case next to the count.
 - Peak-End Rule ⟂ Negativity Bias / Hyperbolic Discounting: protect the end of flows and eliminate negative peaks first; don't sacrifice the experiencing self (ongoing friction) for a memorable finale.
 
+- Processing Fluency / Prototypicality ⟂ Von Restorff Effect / Aesthetic Aha: fluent and typical wins first impressions, but distinct and slightly challenging builds memory and delight — MAYA Principle: typical structure, one advanced element; test familiarity and novelty separately.
+- Symmetry, Curvature and Visual Complexity Preference ⟂ designer taste: lay users prefer simpler, symmetric, curved forms more than experts do (Curse of Knowledge, False Consensus Effect) — validate visual direction with target users, not the design team.
+- Golden Ratio / Rule of Thirds ⟂ evidence: fine as modular or compositional habits, but never claim them as perceptual laws in rationale; justify proportions by content, grid maths and tests.
+- Visual Style Connotation ⟂ Familiarity Bias / trends: a borrowed style imports its original signal (Swiss = neutral authority, Arts & Crafts = handmade, Constructivism = revolution); check the signal fits before following a trend, and credit non-European sources instead of using them as decoration.
+
 ## Mechanism chains (why principles co-occur)
 - Limited working memory (~4 chunks) → Cognitive Load → Hick's Law, Chunking, Miller's Law (as misnomer), Recognition Over Recall, Progressive Disclosure, Decision Fatigue (contested), Serial Position Effect (recency).
 - Pre-attentive perceptual grouping → Gestalt laws (Proximity, Similarity, Prägnanz) → Visual Hierarchy, Chunking (visual), Juxtaposition, Banner Blindness (ad-shaped regions grouped and filtered).
@@ -95,6 +104,9 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Mental models & conceptual mapping → Familiarity Bias / Jakob's Law → Skeuomorphism, Signifiers, Feedforward, Feedback Loop → gulfs of execution/evaluation closed → Discoverability, error recovery (Provide Exit Points).
 - Time perception → Chronoception (duration judged by attention & uncertainty) → Labor Illusion, Parkinson's Law, Peak-End duration neglect → loading/waiting design.
 - Egocentric projection (designer side) → Curse of Knowledge & Empathy Gap & False Consensus Effect → Law of the Instrument, Planning Fallacy, Survivorship Bias, Survey Bias, Observer-Expectancy / Hawthorne Effects → biased research → Second-Order Effects shipped unnoticed.
+
+- Ease of perceptual processing (fluency) → positive affect misattributed to the object → Processing Fluency → Prototypicality, Symmetry Preference, Visual Balance, Fractal Fluency, Fifty-Millisecond Impression → Aesthetic-Usability Effect & Halo Effect → trust and perceived usability; balanced by novelty and insight (MAYA Principle, Aesthetic Aha, Unity-in-Variety).
+- Learned cultural association → Visual Style Connotation & Colour–Emotion Associations → brand personality and expectations → Familiarity Bias / Mental Model; movements in `kb/lineage.md` explain where each association came from.
 
 ## Principle index — (cycle·grade) tagline ⟂ main tensions
 
@@ -224,5 +236,24 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Planning Fallacy (A·S) Tasks take longer than planned ⟂ Hindsight Bias, Parkinson's Law
 - Second-Order Effect (A·P) Consequences of consequences ⟂ Temptation Bundling, Nudge
 
+**C11 Aesthetics & visual culture** · C11-aesthetics-visual-culture.md
+- Processing Fluency (I·S) Easy to process feels good and true ⟂ Aesthetic Aha
+- Prototypicality (I·M) Typical-looking designs are liked faster ⟂ Von Restorff Effect
+- MAYA Principle (I·M) Most advanced, yet acceptable — novel but recognisable
+- Unity-in-Variety (I·M) Coherence plus richness beats either alone
+- Fifty-Millisecond Impression (F·M) Visual appeal is judged almost instantly
+- Visual Complexity Preference (F·M) Simpler screens usually win first impressions
+- Symmetry Preference (F·M) Symmetry pleases most people, not experts ⟂ Von Restorff Effect
+- Curvature Preference (I·M) Curves preferred over sharp angles, modestly
+- Visual Balance (F·M) Weighted elements feel settled around the centre
+- Colour–Emotion Associations (I·M) Colours carry shared, partly universal feelings
+- Fractal Fluency (F·M) Nature-like mid-complexity patterns are easy and calming
+- Aesthetic Aha (I·M) Pleasure spikes when hidden order clicks
+- Visual Style Connotation (I·M) How it looks says what it is
+- Complexity–Arousal Curve (F·C) Medium complexity liked most — on average ⟂ Processing Fluency
+- Golden Ratio (I·C) 1.618 is folklore more than a law
+- Rule of Thirds (F·C) A useful habit, not a perceptual law ⟂ Centre-Stage Effect
+- Peak Shift Effect (I·C) Exaggerated defining features can beat the original ⟂ Prototypicality
+
 ## Recommended reading
-Cognitive Biases Codex (Buster Benson) · Super Thinking (Weinberg & McCann) · Hooked (Nir Eyal) · Influence & Pre-Suasion (Cialdini) · Predictably Irrational (Ariely) · Thinking, Fast and Slow (Kahneman) · The Design of Everyday Things (Norman) · Laws of UX (Yablonski) · Tiny Habits (Fogg).
+Cognitive Biases Codex (Buster Benson) · Super Thinking (Weinberg & McCann) · Hooked (Nir Eyal) · Influence & Pre-Suasion (Cialdini) · Predictably Irrational (Ariely) · Thinking, Fast and Slow (Kahneman) · The Design of Everyday Things (Norman) · Laws of UX (Yablonski) · Tiny Habits (Fogg) · Art and Visual Perception (Arnheim) · Interaction of Color (Albers) · A History of Graphic Design (Meggs) · Ways of Seeing (Berger) · Reber, Schwarz & Winkielman 2004 (processing fluency) · Smarthistory (free).

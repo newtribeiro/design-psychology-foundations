@@ -16,6 +16,7 @@ _Grouped info is easier to remember_ · cycle: 💾 Memory · cluster: C2 · evi
 - Typed edges: special-case-of → Miller's Law; counteracts → Cognitive Load; supports → Law of Proximity; supports → Progressive Disclosure; supports → Recognition Over Recall
 - Related: Miller's Law, Cognitive Load, Law of Proximity
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Gestalt principles of perception (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Lineage (art & design history): Isotype (Vienna Method of Pictorial Statistics) → lineage.md
 - Linked sources (9):
   - [article] Generative media workflows in UI design — node groups organize many outputs into manageable units. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)
   - [article] Quicker UX Research Synthesis — affinity grouping turns many observations into a few memorable themes. <https://www.uxtools.co/blog/quicker-ux-research-synthesis> (sources/uxtools-articles.md)

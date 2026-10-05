@@ -1,0 +1,23 @@
+## Colour–Emotion Associations
+_Colours carry shared, partly universal feelings_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: People link colours with emotions and traits in largely shared ways (red with love and anger, black with sadness and fear, yellow with joy), with smaller cultural and personal variations; brands and interfaces borrow these links to signal mood and personality.
+- Mechanism (why it happens): Associations are learned from repeated pairings in nature, language and culture (e.g. red faces in anger, black in mourning) and from conventions; colour then primes the linked concept quickly. Context changes meaning — the same red signals danger on a warning and appetite on a menu.
+- Origin & key evidence:
+  - Jonauskaite et al. (2020), "Universal patterns in color-emotion associations are further shaped by linguistic and geographic proximity", Psychological Science 31(10) — 4,598 people in 30 nations; nation-to-global similarity averaged r ≈ .88, but nation could still be predicted above chance from responses. https://doi.org/10.1177/0956797620948810
+  - Labrecque & Milne (2012), "Exciting red and competent blue: the importance of color in marketing", Journal of the Academy of Marketing Science 40(5) — hue, saturation and value of logo colours shifted perceived brand personality and purchase intent. https://doi.org/10.1007/s11747-010-0245-y
+  - Elliot (2015), "Color and psychological functioning: a review of theoretical and empirical work", Frontiers in Psychology 6:368 — the field is young; many studies are small and underpowered, and effects depend on context. https://doi.org/10.3389/fpsyg.2015.00368
+  - Lehmann, Elliot & Calin-Jageman (2018), "Meta-analysis of the effect of red on perceived attractiveness", Evolutionary Psychology 16(4) — small, highly heterogeneous effects with signs of publication bias and decline over time. https://doi.org/10.1177/1474704918802412
+- Evidence grade: Moderate — the associations themselves are robust across cultures, but claims that a colour reliably changes behaviour (performance, attraction, conversion) are weak or failed to replicate.
+- Design applications:
+  - Choose brand and illustration palettes by the emotions they should signal, then check them with a quick association survey in target markets — measure match between intended and reported adjectives.
+  - Keep semantic colours (error, warning, success) consistent and never rely on colour alone — measure error recognition time and accessibility audit results.
+  - Localise colour meaning in markets with different conventions (e.g. red/green for price rises in some East Asian stock apps) — measure misreads in usability tests.
+  - Test saturation and lightness as well as hue; muted vs vivid versions convey different personalities — measure brand-attribute ratings.
+- Real product examples: Stock and trading apps in mainland China conventionally show price rises in red and falls in green, the reverse of Western apps; red "sale" and badge colours in retail interfaces (illustrative).
+- Enterprise/B2B note: In monitoring and operations tools, alarm colours carry safety meaning; keep red for genuine critical states and use calm neutrals elsewhere so the association stays sharp and alarm fatigue is avoided.
+- Ethics/watch-out: Do not promise clients that a colour change will boost conversions on the strength of colour-psychology pop claims; red-effect findings have replication problems.
+- Contexts: branding, visual-design, data-viz, notifications, errors, dashboards
+- Sources: https://doi.org/10.1177/0956797620948810 ; https://doi.org/10.1007/s11747-010-0245-y ; https://doi.org/10.3389/fpsyg.2015.00368 ; https://doi.org/10.1177/1474704918802412 ; https://www.benzinga.com/general/education/21/10/23258001/did-you-know-you-dont-want-to-be-in-the-green-if-youre-trading-in-china-japan-or-taiwan
+- Typed edges: supports → Visual Style Connotation; related → Priming; supports → Affect Heuristic; related → Sensory Appeal; related → Signifiers; related → Mental Model
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationality (mechanism-of)
+- Lineage (art & design history): Bauhaus → lineage.md

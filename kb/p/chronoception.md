@@ -19,6 +19,7 @@ _Time perception is subjective_ · cycle: ⏰ Time · cluster: C8 · evidence: S
 - Sources: https://growth.design/psychology ; https://www.figlab.com/research/2010/faster-progress-bars ; https://chrisharrison.net/index.php/Research/ProgressBars2 ; https://arxiv.org/pdf/2211.13909 ; https://www.psychologicalscience.org/news/why-waiting-is-torture.html ; https://yourmileagemayvary.com/2021/09/20/the-sneaky-way-this-texas-airport-stopped-passengers-complaints-about-long-waits/
 - Typed edges: supports → Labor Illusion; supports → Peak-End Rule; supports → Zeigarnik Effect; tension → Parkinson's Law; measured-by → perceived vs actual duration; mechanism-of → Selective Attention; tension → Peak-End Rule; tension → Labor Illusion
 - Explained by frameworks: ⚙ Kano model (mechanism-of)
+- Lineage (art & design history): Japanese Ma, wabi-sabi & Mingei → lineage.md
 - Linked sources (4):
   - [article] Your UI needs more Walt Disney — 100–200 ms delays shape the perceived timing and smoothness of transitions. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)
   - [case-study] Chrome vs Brave: How To Use Ethical Design To Win Customers — perceived waiting time can be managed. <https://growth.design/case-studies/brave-browser-onboarding> (sources/growth-design-case-studies.md)

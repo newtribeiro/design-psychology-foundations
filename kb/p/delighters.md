@@ -17,6 +17,7 @@ _Unexpected small pleasures are remembered_ · cycle: 💾 Memory · cluster: C7
 - Typed edges: tension → Familiarity Bias; supports → Peak-End Rule; supports → Aesthetic-Usability Effect; supports → Variable Reward; measured-by → Kano survey (framework); tension → Jakob's Law
 - Related: Peak-End Rule, Variable Reward, Sensory Appeal
 - Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (tension); ⚙ Self-Determination Theory (supports)
+- Lineage (art & design history): Postmodernism, Memphis & New Wave typography → lineage.md
 - Linked sources (15):
   - [article] 33 Activity Ideas for Remote UX Workshops — Kano "attractive" quadrant = delighters; must-haves are expected baseline. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
   - [article] Monitor stands have more personality than software — playful, unexpected details produce memorable delight. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)

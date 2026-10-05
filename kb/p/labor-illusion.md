@@ -16,6 +16,7 @@ _Visible effort increases perceived value_ · cycle: ⏰ Time · cluster: C8 · 
 - Typed edges: supports → Reciprocity; counteracts → Chronoception; supports → Feedback Loop; supports → Goal Gradient Effect; tension → Parkinson's Law; tension → Chronoception; tension → Doherty-style speed
 - Related: Feedback Loop, Chronoception, IKEA Effect
 - Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Kano model (organises)
+- Lineage (art & design history): Arts & Crafts → lineage.md
 - Linked sources (12):
   - [article] Designers and "phantom competency" — output looks effortful/expert though little skill was invested. <https://www.uxtools.co/blog/designers-and-phantom-competency> (sources/uxtools-articles.md)
   - [article] Play out the end of design work — stakeholders read visible velocity as value even when it isn't. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)

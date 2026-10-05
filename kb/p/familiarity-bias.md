@@ -17,6 +17,7 @@ _People prefer what they know_ · cycle: 🔮 Meaning · cluster: C3 · evidence
 - Typed edges: supports → Mental Model; mechanism-of → Default Bias; tension → Delighters; supports → Jakob's Law (framework); counteracts → Cognitive Load; supports → Aesthetic-Usability Effect; tension → Curse of Knowledge; tension → Bandwagon Effect; tension → Method of Loci
 - Related: Mental Model, Skeuomorphism, Weber's Law
 - Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (mechanism-of)
+- Lineage (art & design history): ⟂ Swiss / International Typographic Style; Mid-century corporate modernism; Pop Art → lineage.md
 - Linked sources (31):
   - [article] 3 ways MagicPath closes the design-to-code gap — designers adopt tools that let them start from existing files/products rather than a new world. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
   - [article] 7 changes in brand world-building — consistent cross-surface brand cues keep generated experiences recognizable. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)

@@ -19,6 +19,7 @@ _The odd one out gets noticed_ · cycle: 🙈 Information · cluster: C1 · evid
 - Sources: https://en.wikipedia.org/wiki/Hedwig_von_Restorff ; https://www.utsa.edu/mind/rrhunt.htm ; https://lawsofux.com/von-restorff-effect/
 - Typed edges: tension → Banner Blindness; mechanism-of → Contrast; supports → Visual Hierarchy; supports → Selective Attention; special-case-of → Attentional Bias; tension → Selective Attention; tension → Group Attractiveness Effect; tension → Law of Similarity; tension → Weber's Law
 - Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of); ⚙ Gestalt principles of perception (tension); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Lineage (art & design history): Russian Constructivism; Postmodernism, Memphis & New Wave typography; Pop Art → lineage.md
 - Linked sources (8):
   - [article] Brand as product's secret weapon — distinctiveness in a sea of look-alike AI products makes the brand stand out and be remembered. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)
   - [article] How to share your design work in 2026 — distinctive "one-of-one" work stands out in saturated feeds. <https://www.uxtools.co/blog/how-to-share-your-design-work-in-2026> (sources/uxtools-articles.md)

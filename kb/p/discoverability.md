@@ -16,6 +16,7 @@ _Users can find features by looking_ · cycle: ⏰ Time · cluster: C3 · eviden
 - Typed edges: tension → Hick's Law; tension → Progressive Disclosure; supports → Signifiers; supports → Recognition Over Recall; tension → Banner Blindness; supports → Feedforward; supports → Visual Hierarchy
 - Related: Signifiers, Progressive Disclosure, Feedback Loop
 - Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Lineage (art & design history): ⟂ Digital: skeuomorphism → flat → material → glass → lineage.md
 - Linked sources (4):
   - [article] "Agent-permeable" is the new mobile-responsive — agents bypass visual discovery entirely; capabilities must be explicitly exposed. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)
   - [article] UX Design for Navigation Menus — hidden menus reduce discovery of key sections. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)

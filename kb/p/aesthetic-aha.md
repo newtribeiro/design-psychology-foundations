@@ -1,0 +1,21 @@
+## Aesthetic Aha
+_Pleasure spikes when hidden order clicks_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: Liking for an image rises at the moment a viewer suddenly perceives a hidden structure or meaning in it (a face in a two-tone pattern, a shape in negative space); the reward comes from the insight, not from simplicity alone.
+- Mechanism (why it happens): A sudden gain in processing fluency after initial difficulty is felt as pleasant and "right"; ambiguity first raises interest, then resolution delivers the reward. This links insight problem-solving to aesthetic pleasure.
+- Origin & key evidence:
+  - Muth & Carbon (2013), "The Aesthetic Aha: On the pleasure of having insights into Gestalt", Acta Psychologica 144(1) — with Mooney-style hidden-face images, liking rose significantly only right after participants detected the face; mere repeated exposure did not raise liking. https://doi.org/10.1016/j.actpsy.2013.05.001
+  - Muth, Hesslinger & Carbon (2015), "The appeal of challenge in the perception of art: How ambiguity, solvability of ambiguity, and the opportunity for insight affect appreciation", Psychology of Aesthetics, Creativity, and the Arts 9(1) — strength of insights predicted appreciation of ambiguous artworks, while full solvability did not. https://doi.org/10.1037/a0038814
+  - Muth, Raab & Carbon (2015), "The stream of experience when watching artistic movies", Frontiers in Psychology 6:365 — continuous ratings showed liking increases at moments of perceptual insight, with interest rising just before them. https://doi.org/10.3389/fpsyg.2015.00365
+  - Topolinski & Reber (2010), "Gaining insight into the 'aha' experience", Current Directions in Psychological Science 19(6) — proposes that the sudden fluency gain explains the pleasure and confidence of insight. https://doi.org/10.1177/0963721410388803
+- Evidence grade: Moderate — consistent, theory-backed results, but mostly from small lab studies by one research group with art-like stimuli; transfer to product interfaces is untested.
+- Design applications:
+  - Use a single, solvable visual "puzzle" in brand marks (negative-space shapes, dual readings) — measure recall and liking after first vs second exposure.
+  - In onboarding or reveal animations, let a structure assemble so the user "gets it" at a clear moment — measure delight ratings and completion.
+  - Keep ambiguity for expressive surfaces only; task-critical UI should be instantly clear — measure task errors.
+- Real product examples: The FedEx logo's hidden arrow between the E and x; the WWF panda, which uses closure so viewers complete the shape.
+- Enterprise/B2B note: B2B brands can earn memorability through a subtle visual insight in the logo or campaign art, but product screens should resolve meaning immediately; ambiguity in operational tools is a usability cost.
+- Ethics/watch-out: Hidden meanings can be found that you did not intend; review marks for unintended readings across cultures.
+- Contexts: branding, onboarding, visual-design, gamification
+- Sources: https://doi.org/10.1016/j.actpsy.2013.05.001 ; https://doi.org/10.1037/a0038814 ; https://doi.org/10.3389/fpsyg.2015.00365 ; https://doi.org/10.1177/0963721410388803
+- Typed edges: special-case-of → Aha! Moment; related → Processing Fluency; related → Curiosity Gap; related → Law of Prägnanz; supports → Delighters; related → MAYA Principle
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Gestalt principles of perception (mechanism-of)

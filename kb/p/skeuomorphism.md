@@ -17,6 +17,7 @@ _Real-world resemblance eases adoption_ · cycle: 🔮 Meaning · cluster: C3 ·
 - Typed edges: special-case-of → Familiarity Bias; supports → Mental Model; supports → Signifiers; tension → Occam's Razor; supports → Aesthetic-Usability Effect; tension → Cognitive Load
 - Related: Familiarity Bias, Signifiers, Mental Model
 - Explained by frameworks: ⚙ Gestalt principles of perception (tension); ⚙ Norman's design principles (mechanism-of)
+- Lineage (art & design history): Digital: skeuomorphism → flat → material → glass → lineage.md
 - Linked sources (6):
   - [article] Monitor stands have more personality than software — tactile, physical-feeling interfaces (dials, camera controls) borrow from hardware. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
   - [article] You Can't Prompt This — light and material realism (not nostalgia) gives physical weight to UI. <https://www.uxtools.co/blog/you-can-t-prompt-this> (sources/uxtools-articles.md)

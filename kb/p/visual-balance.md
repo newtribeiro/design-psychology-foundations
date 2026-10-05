@@ -1,0 +1,23 @@
+## Visual Balance
+_Weighted elements feel settled around the centre_ · cycle: 🙈 Information · cluster: C11 · evidence: Moderate
+- Definition: People judge a composition as balanced when its visual "weight" (size, darkness, contrast, salience) is distributed so the perceived centre of mass sits near the frame's centre or main axes; balanced layouts are usually liked more than lopsided ones.
+- Mechanism (why it happens): The visual system rapidly estimates a centre of mass for a scene; a large offset reads as instability or tension. Balance overlaps heavily with symmetry and ease of processing, so part of its appeal is fluency.
+- Origin & key evidence:
+  - Locher, Stappers & Overbeeke (1998), "The role of balance as an organizing design principle underlying adults' compositional strategies for creating visual displays", Acta Psychologica 99(2) — when people arranged elements freely, they spontaneously produced balanced displays. https://doi.org/10.1016/S0001-6918(98)00008-0
+  - Wilson & Chatterjee (2005), "The assessment of preference for balance: Introducing a new test", Empirical Studies of the Arts 23(2) — an objective balance score explained most of the variance in untrained viewers' balance judgements and much of their preference for abstract shape patterns, with a plateau beyond moderate balance. https://doi.org/10.2190/B1LR-MVF3-F36X-XR64
+  - Hübner & Fillinger (2016), "Comparison of objective measures for predicting perceptual balance and visual aesthetic preference", Frontiers in Psychology 7:335 — deviation of the centre of mass predicted perceived balance best; balance predicted liking, but rated symmetry predicted liking even better. https://doi.org/10.3389/fpsyg.2016.00335
+  - McManus, Stöver & Kim (2011), "Arnheim's Gestalt theory of visual balance", i-Perception 2(6) — art photographs placed the centre of mass nearer the axes than controls, but paired-comparison tests gave no support for Arnheim's stronger balance theory. https://doi.org/10.1068/i0445aap
+- Evidence grade: Moderate — balance is reliably perceived and linked to liking for simple abstract stimuli, but its effect is hard to separate from symmetry, and strong art-theory versions have failed direct tests.
+- Design applications:
+  - Check the visual weight of hero sections and cards: offset a heavy image with a block of dense text or a strong colour on the opposite side — measure first-impression ratings in a 5-second test.
+  - Use deliberate imbalance (asymmetric weight) only where you want tension or movement, such as a campaign banner — measure click-through against a balanced variant.
+  - In dashboards, avoid stacking all heavy charts in one column; distribute high-contrast widgets — measure perceived clutter and time-to-find.
+  - In empty states, centre the illustration and message as a stable resting point — measure CTA engagement.
+- Real product examples: Centred, symmetrical hero layouts on large consumer product launch pages (illustrative); design-tool features such as Figma's auto layout that distribute spacing evenly (illustrative).
+- Enterprise/B2B note: Dense admin screens often pile toolbars, filters and tables to the left; rebalancing weight (e.g. moving secondary actions right, giving summary metrics a counterweight) can make complex screens feel calmer without removing content.
+- Ethics/watch-out: Balance is a means, not a goal — a perfectly balanced layout can still hide the important action; do not trade clarity of hierarchy for visual calm.
+- Contexts: visual-design, dashboards, branding, empty-states, data-viz
+- Sources: https://doi.org/10.1016/S0001-6918(98)00008-0 ; https://doi.org/10.2190/B1LR-MVF3-F36X-XR64 ; https://doi.org/10.3389/fpsyg.2016.00335 ; https://doi.org/10.1068/i0445aap
+- Typed edges: related → Symmetry Preference; supports → Visual Hierarchy; related → Processing Fluency; related → Rule of Thirds; supports → Aesthetic-Usability Effect; related → Law of Prägnanz
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): De Stijl (Neoplasticism) → lineage.md

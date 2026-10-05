@@ -19,6 +19,7 @@ _Self-made things feel more valuable_ · cycle: ⏰ Time · cluster: C7 · evide
 - Sources: https://dash.harvard.edu/handle/1/12136084 ; https://en.wikipedia.org/wiki/IKEA_effect ; https://andrewclark.super.site/papers-for-product-managers/the-ikea-effect-when-labor-leads-to-love ; https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness
 - Typed edges: tension → Spark Effect; supports → Investment Loops; supports → Endowment Effect; supports → Sunk Cost Effect; mechanism-of → Cognitive Dissonance; measured-by → willingness-to-pay / retention by customisation
 - Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Prospect Theory (supports); ⚙ Self-Determination Theory (organises)
+- Lineage (art & design history): Brazilian Concrete & Neo-Concrete art → lineage.md
 - Linked sources (18):
   - [survey] Designers who vibe code are happier at work — designers who build working things themselves may value (and enjoy) their work more. <https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work> (sources/uxtools-articles.md)
   - [article] Discovery code and new bottlenecks — risk: designers may overvalue prototypes they built themselves. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)

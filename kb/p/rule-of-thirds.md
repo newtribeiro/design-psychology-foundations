@@ -1,0 +1,21 @@
+## Rule of Thirds
+_A useful habit, not a perceptual law_ · cycle: 🙈 Information · cluster: C11 · evidence: Contested
+- Definition: The guideline that key subjects or horizons should sit on the lines or intersections of a 3×3 grid rather than in the centre, supposedly making images more attractive and dynamic.
+- Mechanism (why it happens): No dedicated mechanism is established. Where off-centre placement helps, it is better explained by inward bias (space in front of a facing subject), balance against other content, or room left for text; for single objects people actually prefer the centre.
+- Origin & key evidence:
+  - Palmer, Gardner & Wickens (2008), "Aesthetic issues in spatial composition: effects of position and direction on framing single objects", Spatial Vision 21(3–5) — a strong centre bias for single objects plus an inward bias for facing objects; no thirds advantage. https://doi.org/10.1163/156856808784532662
+  - Amirshahi, Hayn-Leichsenring, Denzler & Redies (2014), "Evaluating the rule of thirds in photographs and paintings", Art & Perception 2 — highly rated photos followed the rule only slightly more than controls, and paintings showed no thirds bias. https://doi.org/10.1163/22134913-00002024
+  - Svobodova, Sklenicka, Molnarova & Vojar (2014), "Does the composition of landscape photographs affect visual preferences? The rule of the Golden Section and the position of the horizon", Journal of Environmental Psychology 38 — in landscape photos, placing elements on grid points amplified their liking (positive or negative), so composition does matter in some genres. https://doi.org/10.1016/j.jenvp.2014.01.005
+- Evidence grade: Contested — the general claim fails in paintings and single-object framing; benefits appear only in specific genres and are confounded with balance and inward bias.
+- Design applications:
+  - For a single product or face in a card or avatar, start centred — measure recognition and preference against an off-centre variant.
+  - When a hero image shares space with headline text, place the subject off-centre facing into the frame, leaving the opposite area for copy — measure headline legibility and CTA clicks.
+  - Offer a thirds grid in crop or camera tools as an aid, but let users switch it off — measure crop completion time and grid usage.
+- Real product examples: Built-in camera apps on major phones offer a 3×3 grid overlay as an optional setting; photo-crop tools in social apps show thirds lines while cropping (illustrative).
+- Enterprise/B2B note: Marketing and product-imagery guidelines often codify the rule of thirds; frame it as a starting heuristic and let content and text placement decide, especially for product shots, where centred framing often reads best.
+- Ethics/watch-out: Low risk; the main harm is spending review time policing a rule with weak evidence.
+- Contexts: visual-design, branding, content/copy, onboarding
+- Sources: https://doi.org/10.1163/156856808784532662 ; https://palmerlab.berkeley.edu/spatial.html ; https://doi.org/10.1163/22134913-00002024 ; https://doi.org/10.1016/j.jenvp.2014.01.005
+- Typed edges: tension → Centre-Stage Effect; related → Visual Balance; related → Golden Ratio; related → Visual Anchors; related → Visual Hierarchy; related → Law of the Instrument
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): ⟂ Renaissance perspective & composition → lineage.md

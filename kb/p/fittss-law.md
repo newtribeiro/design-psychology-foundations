@@ -18,6 +18,7 @@ _Bigger, closer targets are faster to hit_ · cycle: 🙈 Information · cluster
 - Typed edges: supports → Hick's Law; supports → Law of Proximity; tension → Cognitive Load; supports → Visual Hierarchy; measured-by → Feedback Loop
 - Related: Visual Hierarchy, Contrast, Law of Proximity
 - Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (supports)
+- Lineage (art & design history): ⟂ De Stijl (Neoplasticism) → lineage.md
 - Linked sources (7):
   - [challenge] Challenge: Wireframe (Ideate) — drivers need big, reachable touch targets. <https://www.uxtools.co/challenges/wireframe> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Accessibility (Implement) — small targets fail motor-impaired users and touch users. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)

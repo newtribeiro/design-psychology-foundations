@@ -19,6 +19,7 @@ _Near things seem related_ · cycle: 🙈 Information · cluster: C1 · evidence
 - Sources: https://psychclassics.yorku.ca/Wertheimer/Forms/forms ; https://pubmed.ncbi.nlm.nih.gov/22845751/ ; https://lawsofux.com/law-of-proximity/
 - Typed edges: special-case-of → Law of Prägnanz; supports → Law of Similarity; supports → Chunking; supports → Visual Hierarchy; counteracts → Cognitive Load
 - Explained by frameworks: ⚙ Gestalt principles of perception (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Lineage (art & design history): Swiss / International Typographic Style → lineage.md
 - Linked sources (2):
   - [article] UX Design for Navigation Menus — mega menus' grouping clusters related links. <https://www.uxtools.co/blog/ux-design-for-navigation-menus> (sources/uxtools-articles.md)
   - [challenge] Challenge: Form (Implement) — a label close to its field and grouped fields reduce mismatches. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)

@@ -1,0 +1,22 @@
+## Peak Shift Effect
+_Exaggerated defining features can beat the original_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Contested
+- Definition: When a learner is rewarded for responding to one stimulus and not a similar one, the strongest response shifts to an exaggerated version beyond the trained stimulus; Ramachandran and Hirstein proposed that art (caricature, stylisation) works by amplifying an object's distinguishing features in the same way.
+- Mechanism (why it happens): In discrimination learning, responses are driven by the difference between categories, so pushing that difference further produces an even stronger response ("supernormal stimulus"). The aesthetic extension assumes neural category detectors respond more to caricatured features.
+- Origin & key evidence:
+  - Ramachandran & Hirstein (1999), "The science of art: a neurological theory of aesthetic experience", Journal of Consciousness Studies 6(6–7) — proposed eight "laws" of art with peak shift first; a theoretical essay, not an experiment. https://depts.washington.edu/fetzweb/assets/ramachandran-the-science-of-art.pdf
+  - Costa & Corazza (2006), "Aesthetic phenomena as supernormal stimuli: the case of eye, lip, and lower-face size and roundness in artistic portraits", Perception 35 — portraits in art tended to enlarge and round eyes and lips relative to real faces, consistent with supernormal exaggeration. https://hdl.handle.net/11585/24539
+  - Gombrich (2000), "Concerning 'The Science of Art': Commentary on Ramachandran and Hirstein", Journal of Consciousness Studies 7(8–9) — argued the theory fits only a narrow, modern idea of art and ignores most of art history. https://www.ingentaconnect.com/content/imp/jcs/2000/00000007/f0020008
+  - Hyman (2010), "Art and neuroscience", in Frigg & Hunter (eds), Beyond Mimesis and Convention (Boston Studies in the Philosophy of Science 262) — philosophical critique of neuroscientific accounts of art, including Ramachandran's "laws", for explaining perception rather than art. https://ebook.library.uitm.edu.my/Record/11942/TOC
+- Evidence grade: Contested — peak shift is solid in animal learning, but its use as a general theory of aesthetic appeal is speculative, lightly tested and strongly criticised by art theorists.
+- Design applications:
+  - In icons, mascots and illustrations, exaggerate the one or two features that define the object (e.g. a bigger lens on a camera icon) — measure icon recognition speed and accuracy.
+  - When stylising product imagery, push distinguishing traits but test against the realistic version — measure recognition and preference.
+  - In data storytelling, emphasise the key difference rather than every detail — measure correct takeaway in a comprehension check.
+- Real product examples: Caricatured faces in emoji and avatar systems (illustrative); simplified, exaggerated app icons that keep only the distinguishing silhouette (illustrative).
+- Enterprise/B2B note: Icon sets for complex domains benefit from exaggerating the distinguishing part of each object so similar items (valves, sensors, document types) stay distinguishable at small sizes; validate with recognition tests.
+- Ethics/watch-out: Exaggerating data differences in charts (truncated axes, inflated scales) is a deceptive "peak shift"; keep stylisation out of quantitative encodings.
+- Contexts: visual-design, branding, data-viz, gamification
+- Sources: https://depts.washington.edu/fetzweb/assets/ramachandran-the-science-of-art.pdf ; https://hdl.handle.net/11585/24539 ; https://www.ingentaconnect.com/content/imp/jcs/2000/00000007/f0020008 ; https://ebook.library.uitm.edu.my/Record/11942/TOC
+- Typed edges: tension → Prototypicality; related → Von Restorff Effect; related → Contrast; supports → Picture Superiority Effect; related → Visual Style Connotation
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): Pop Art → lineage.md

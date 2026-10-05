@@ -1,0 +1,22 @@
+## Fifty-Millisecond Impression
+_Visual appeal is judged almost instantly_ · cycle: 🙈 Information · cluster: C11 · evidence: Moderate
+- Definition: People form a stable judgement of a screen's visual appeal within roughly 50 ms (and partial judgements even faster), before reading any content.
+- Mechanism (why it happens): Coarse, global visual features — complexity, colourfulness, layout typicality — are extracted in a first glance and trigger an affective reaction; that early affect then colours later judgements of usability and trust through halo-style spill-over.
+- Origin & key evidence:
+  - Lindgaard, Fernandes, Dudek & Brown (2006), "Attention web designers: You have 50 milliseconds to make a good first impression!", Behaviour & Information Technology 25(2) — appeal ratings after 50 ms exposure correlated highly with ratings after 500 ms and with longer viewing. https://doi.org/10.1080/01449290500330448
+  - Tractinsky, Cokhavi, Kirschenbaum & Sharfi (2006), "Evaluating the consistency of immediate aesthetic perceptions of web pages", International Journal of Human-Computer Studies 64(11) — 500 ms aesthetic impressions were consistent with ratings made after longer exposure and on repeat testing. https://doi.org/10.1016/j.ijhcs.2006.06.009
+  - Tuch et al. (2012), "The role of visual complexity and prototypicality regarding first impression of websites", International Journal of Human-Computer Studies 70(11) — effects of complexity and prototypicality on appeal were detectable at exposures of 17–50 ms. https://doi.org/10.1016/j.ijhcs.2012.06.003
+  - Reinecke et al. (2013), "Predicting users' first impressions of website aesthetics with a quantification of perceived visual complexity and colorfulness", CHI '13 — computational complexity and colourfulness metrics plus demographics explained about half the variance in 500 ms appeal ratings. https://doi.org/10.1145/2470654.2481281
+- Evidence grade: Moderate — the speed and consistency of first-glance appeal judgements is well replicated, but these are lab ratings of static screenshots; how far they drive real behaviour (conversion, retention) is less established.
+- Design applications:
+  - Run 5-second or timed-exposure tests on landing and home screens — measure appeal and trust ratings plus recall of purpose.
+  - Prioritise above-the-fold layout simplicity and clear visual anchors — measure bounce rate and first-click success.
+  - Use automated complexity/colourfulness metrics as an early screen before user tests — measure correlation with panel ratings.
+  - Make sure the first paint looks finished (no layout shift, no blank shell) — measure perceived quality and Cumulative Layout Shift.
+- Real product examples: Google research blog reporting Tuch et al.'s first-impression findings; widespread use of five-second tests in UX research tools (illustrative).
+- Enterprise/B2B note: Even in procurement-led sales, evaluators form a quick visual impression during demos and trials; a dated or cluttered first screen can colour perceived capability before features are seen.
+- Ethics/watch-out: A strong first impression can mask poor usability or weak substance; do not let fast appeal tests substitute for task-based evaluation.
+- Contexts: visual-design, branding, onboarding, loading/waits, research
+- Sources: https://doi.org/10.1080/01449290500330448 ; https://doi.org/10.1016/j.ijhcs.2006.06.009 ; https://doi.org/10.1016/j.ijhcs.2012.06.003 ; https://doi.org/10.1145/2470654.2481281 ; https://research.google/blog/users-love-simple-and-familiar-designs-why-websites-need-to-make-a-great-first-impression/
+- Typed edges: supports → Halo Effect; supports → Aesthetic-Usability Effect; related → Visual Complexity Preference; related → Prototypicality; related → Affect Heuristic; related → Anchoring Bias
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationality (mechanism-of)

@@ -19,6 +19,7 @@ _One trait colours the whole judgment_ · cycle: 🔮 Meaning · cluster: C5 · 
 - Sources: https://www.gwern.net/doc/psychology/personality/1920-thorndike.pdf ; https://deepblue.lib.umich.edu/items/da93fb79-74ef-4ff0-a1fe-da088de2dc42 ; https://academic.oup.com/iwc/article/13/2/127/898608 ; https://measuringu.com/?p=169 ; https://www.behavioraleconomics.com/mini-encyclopedia-of-be/halo-effect/
 - Typed edges: supports → Aesthetic-Usability Effect; mechanism-of → Affect Heuristic; supports → Authority Bias; tension → Negativity Bias; measured-by → SUS vs task-success comparison
 - Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Lineage (art & design history): ⟂ Arts & Crafts; Mid-century corporate modernism → lineage.md
 - Linked sources (8):
   - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — a strong first screen colors judgment of the rest of the portfolio. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
   - [article] Brand as product's secret weapon — a compelling brand lifts perception of the whole product. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)

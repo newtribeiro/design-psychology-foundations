@@ -19,6 +19,7 @@ _Recognising beats remembering_ · cycle: 💾 Memory · cluster: C2 · evidence
 - Sources: https://www.nngroup.com/articles/recognition-and-recall/ ; https://www.nngroup.com/articles/ten-usability-heuristics/ ; https://uxdesign.cc/jakob-nielsens-sixth-usability-heuristic-for-user-interface-design-ac88e7d58ec
 - Typed edges: mechanism-of → Discoverability; supports → Picture Superiority Effect; counteracts → Cognitive Load; supports → Miller's Law; tension → Progressive Disclosure
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (mechanism-of)
+- Lineage (art & design history): Isotype (Vienna Method of Pictorial Statistics) → lineage.md
 - Linked sources (12):
   - [article] Designing The Next Flow State — the spec lets you recognize current state instead of recalling conversation history. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)
   - [article] How Designers Can Prevent User Errors — suggestions/recent locations replace memory with recognition. <https://www.uxtools.co/blog/how-designers-can-prevent-user-errors> (sources/uxtools-articles.md)

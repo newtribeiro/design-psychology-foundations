@@ -18,5 +18,6 @@ _Ambiguity is read in the simplest form_ · cycle: 🔮 Meaning · cluster: C1 �
 - Sources: https://psychclassics.yorku.ca/Wertheimer/Forms/forms ; https://cris.haifa.ac.il/en/publications/a-century-of-gestalt-psychology-in-visual-perception-ii-conceptua/ ; https://pubmed.ncbi.nlm.nih.gov/22845751/
 - Typed edges: supports → Law of Proximity; supports → Law of Similarity; supports → Occam's Razor; counteracts → Cognitive Load; supports → Aesthetic-Usability Effect
 - Explained by frameworks: ⚙ Gestalt principles of perception (organises)
+- Lineage (art & design history): De Stijl (Neoplasticism); Bauhaus; Mid-century corporate modernism; Brazilian Concrete & Neo-Concrete art → lineage.md
 - Linked sources (1):
   - [article] Your UI needs more Walt Disney — staggered, organic motion is perceived as a coherent, natural whole. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)

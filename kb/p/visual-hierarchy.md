@@ -18,6 +18,7 @@ _Order in which things are perceived_ · cycle: 🙈 Information · cluster: C1 
 - Sources: https://www.nngroup.com/videos/squint-test/ ; https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
 - Typed edges: supports → Law of Proximity; supports → Contrast; supports → Von Restorff Effect; counteracts → Cognitive Load; supports → Serial Position Effect
 - Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): Renaissance perspective & composition; Russian Constructivism; Swiss / International Typographic Style; Japanese Ma, wabi-sabi & Mingei → lineage.md
 - Linked sources (5):
   - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — headings/highlights make a 90-second scan productive. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
   - [article] The Psychology of User Decisions — size, contrast, whitespace signal priority for scanners. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)

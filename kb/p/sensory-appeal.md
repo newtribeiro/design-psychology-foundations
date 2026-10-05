@@ -16,6 +16,7 @@ _Multi-sensory experiences engage more_ · cycle: 💾 Memory · cluster: C1 · 
 - Product examples: Uber Eats — 'dry' text menu; Superhuman — sound as reward loop idea
 - Typed edges: supports → Aesthetic-Usability Effect; supports → Picture Superiority Effect; supports → Peak-End Rule; mechanism-of → Delighters; tension → Cognitive Load
 - Related: Picture Superiority Effect, Delighters, Aesthetic-Usability Effect
+- Lineage (art & design history): Arts & Crafts; Art Nouveau / Jugendstil / Secession → lineage.md
 - Linked sources (9):
   - [article] 7 changes in brand world-building — sound and motion as brand carriers engage more senses and improve recall. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
   - [article] Monitor stands have more personality than software — haptics, sound and tactile UI create richer experiences. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)

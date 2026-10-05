@@ -1,6 +1,6 @@
 # Design Psychology Foundations
 
-A Claude skill and open knowledge base that grounds design decisions in product psychology. It turns 106 cognitive biases and UX principles into a **semantic network**: each principle has a definition, the mechanism behind it, cited research, an **evidence grade**, concrete design moves with metrics, real product examples, an enterprise note, ethical watch-outs, typed links to other principles, and links to practitioner sources.
+A Claude skill and open knowledge base that grounds design decisions in product psychology. It turns 123 cognitive biases, UX and aesthetic principles into a **semantic network**: each principle has a definition, the mechanism behind it, cited research, an **evidence grade**, concrete design moves with metrics, real product examples, an enterprise note, ethical watch-outs, typed links to other principles, and links to practitioner sources.
 
 It is meant as a base for improving a designer's process: suggest the right principles for a design, audit a flow, and check how solid the science really is before you lean on it.
 
@@ -10,18 +10,20 @@ It is meant as a base for improving a designer's process: suggest the right prin
 
 | | |
 |---|---|
-| 106 principles | organised on the decision cycle **Filter → Interpret → Act → Remember** (Buster Benson's Cognitive Bias Codex, as used by growth.design) |
-| 10 clusters | perception & attention · cognitive load · interaction clarity · value & choice architecture · social influence · triggers & habits · autonomy & ownership · memory & time · user judgment biases · designer/research biases |
-| 13 frameworks | dual-process theory, B.I.A.S./Psych, Fogg & Hook, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, Self-Determination Theory, dark-pattern ethics & regulation, replication caveats |
-| ~1,300 typed edges | `supports`, `tension`, `mechanism-of`, `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by` |
+| 123 principles | organised on the decision cycle **Filter → Interpret → Act → Remember** (Buster Benson's Cognitive Bias Codex, as used by growth.design) |
+| 11 clusters | perception & attention · cognitive load · interaction clarity · value & choice architecture · social influence · triggers & habits · autonomy & ownership · memory & time · user judgment biases · designer/research biases · **aesthetics & visual culture** |
+| 14 frameworks | dual-process theory, B.I.A.S./Psych, Fogg & Hook, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, Self-Determination Theory, dark-pattern ethics & regulation, replication caveats, empirical aesthetics |
+| 15 art & design movements | Renaissance perspective → Arts & Crafts → Art Nouveau → De Stijl → Constructivism → Bauhaus → Isotype → Swiss style → corporate modernism → Pop Art → Postmodernism/Memphis → digital skeuomorphism/flat, plus Japanese Ma & Mingei, Islamic geometry and Brazilian Concrete art — each with original intent, what it signals today, what got lost on the way to digital, and `lineage-of` links to principles |
+| ~1,500 typed edges | `supports`, `tension`, `mechanism-of`, `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`, `lineage-of` |
 | ~1,000 linked sources | growth.design case studies and course outline; uxtools.co articles, practice challenges, tool surveys and podcast episodes |
-| Evidence grades | **Strong** 46 · **Moderate** 31 · **Practitioner** 18 · **Contested** 11 — contested principles (failed or mixed replications) are flagged, never presented as settled |
+| Evidence grades | **Strong** 47 · **Moderate** 43 · **Practitioner** 18 · **Contested** 15 — contested principles (failed or mixed replications) are flagged, never presented as settled |
 
 ```
 SKILL.md                  the skill: modes, loading protocol, playbooks, tensions, principle index
 kb/p/<principle>.md       one file per principle (1–6 KB)
 kb/clusters/*.md          cluster indexes with grades, tensions and source counts
 kb/frameworks.md          the theory backbone
+kb/lineage.md             art & design movement cards (intent, signal, digital transmission)
 kb/sources/*.md           summarised source library (paraphrased, with links)
 kb/graph.json             nodes, typed edges and resources
 kb/state.json             update state: seen URLs, review queue, last run
@@ -45,6 +47,7 @@ The skill is token-lean: it answers from `SKILL.md` first and loads a single 1�
 - **Support** — "Which principles should shape this onboarding for a field-service app?" → 3–7 principles across the cycle, each with a design move, a metric, its evidence grade, and any tensions between them.
 - **Validate** — share a screenshot, Figma frame or flow → step-by-step audit (Filter / Interpret / Act / Remember), an ethics gate for dark patterns, a scorecard and the top 3 fixes.
 - **Deep research** — "How solid is the Decoy Effect?" → mechanism, evidence and replications, when it applies, design implications and citations.
+- **Style & lineage** — "We want it to feel Swiss / handmade / playful" → which movement that comes from, its original intent, what it signals today, what got lost in digital, and the aesthetic principles (with grades) that keep it alive — golden ratio and rule of thirds are flagged as contested.
 
 ## Keeping it current
 

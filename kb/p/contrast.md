@@ -18,6 +18,7 @@ _Heavier visual weight draws attention_ · cycle: 🙈 Information · cluster: C
 - Sources: https://en.wikipedia.org/wiki/Feature_integration_theory ; https://users.cs.utah.edu/~miriah/uncertainty/FeatureIntegrationTheoryOfAttention.pdf ; https://w3c.github.io/wcag/understanding/contrast-minimum.html
 - Typed edges: supports → Visual Hierarchy; supports → Selective Attention; tension → Aesthetic-Usability Effect; measured-by → WCAG contrast ratio
 - Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): Renaissance perspective & composition; Russian Constructivism; ⟂ Digital: skeuomorphism → flat → material → glass → lineage.md
 - Linked sources (5):
   - [article] Discovery code and new bottlenecks — pushing ideas to extremes makes comparison and judgment clearer. <https://www.uxtools.co/blog/discovery-code-and-new-bottlenecks> (sources/uxtools-articles.md)
   - [article] Your UI needs more Walt Disney — exploring extremes makes the better, simpler option obvious by comparison. <https://www.uxtools.co/blog/your-ui-needs-more-walt-disney> (sources/uxtools-articles.md)

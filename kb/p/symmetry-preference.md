@@ -1,0 +1,24 @@
+## Symmetry Preference
+_Symmetry pleases most people, not experts_ · cycle: 🙈 Information · cluster: C11 · evidence: Moderate
+- Definition: Most people find symmetrical patterns, objects and faces more attractive than asymmetrical ones, and respond to symmetry positively even when not asked to judge beauty — though the preference depends on context and expertise.
+- Mechanism (why it happens): Mirror symmetry is detected quickly and processed fluently, which is felt as pleasant; in faces it may also act as a cue to health. Training and context (art, branding, dynamism) can override the default.
+- Origin & key evidence:
+  - Jacobsen & Höfel (2002), "Aesthetic judgments of novel graphic patterns: Analyses of individual judgments", Perceptual and Motor Skills 95(3) — symmetry was the strongest predictor of beauty ratings, followed by complexity, with sizeable individual differences (some preferred asymmetry). https://doi.org/10.2466/pms.2002.95.3.755
+  - Jacobsen, Schubotz, Höfel & von Cramon (2006), "Brain correlates of aesthetic judgment of beauty", NeuroImage 29(1) — fMRI study in which symmetry was again a major determinant of beauty ratings and beauty judgements recruited distinct evaluative brain regions. https://doi.org/10.1016/j.neuroimage.2005.07.010
+  - Makin, Pecchinenda & Bertamini (2012), "Implicit affective evaluation of visual symmetry", Emotion 12(5) — symmetry was implicitly associated with positive words in IAT-style tasks, without explicit rating. https://doi.org/10.1037/a0026924
+  - Rhodes, Proffitt, Grady & Sumich (1998), "Facial symmetry and the perception of beauty", Psychonomic Bulletin & Review 5(4) — more symmetrical faces were rated more attractive. https://doi.org/10.3758/BF03208842
+  - Leder et al. (2019), "Symmetry is not a universal law of beauty", Empirical Studies of the Arts 37(1) — art experts rated asymmetric, simple patterns as most beautiful, the opposite of typical lay preference. https://doi.org/10.1177/0276237418777941
+- Evidence grade: Moderate — robust and implicit in lay viewers across many studies, but clearly moderated by expertise, individual differences and context, so not a universal law.
+- Design applications:
+  - Use symmetrical, centred compositions for calm, trustworthy moments (sign-in, confirmation, brand marks) — measure trust and appeal ratings.
+  - Use deliberate asymmetry to create direction and energy where you want movement (hero layouts, CTAs) — measure click-through vs. a symmetrical control.
+  - Check icons and logos for unintended near-symmetry (looks like an error) — measure perceived quality in 5-second tests.
+  - Do not rely on designer preference alone: experts and users may disagree — measure with representative users.
+- Real product examples: Centred, symmetrical sign-in and onboarding screens common across major apps (illustrative); symmetrical marks in many corporate logos (illustrative).
+- Enterprise/B2B note: Symmetric layouts suit summary and status views that need to feel stable; operational screens with a clear workflow direction often work better with asymmetric, left-to-right structure.
+- Ethics/watch-out: Facial-symmetry findings should not be used to rank or filter people (e.g. in avatars or photo scoring); keep the principle to layout and form.
+- Contexts: visual-design, branding, onboarding, dashboards
+- Sources: https://doi.org/10.2466/pms.2002.95.3.755 ; https://doi.org/10.1016/j.neuroimage.2005.07.010 ; https://doi.org/10.1037/a0026924 ; https://doi.org/10.3758/BF03208842 ; https://doi.org/10.1177/0276237418777941
+- Typed edges: special-case-of → Processing Fluency; related → Law of Prägnanz; related → Visual Balance; related → Curvature Preference; related → Aesthetic-Usability Effect; tension → Von Restorff Effect
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): Islamic geometric pattern & calligraphy → lineage.md

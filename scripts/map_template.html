@@ -10,26 +10,26 @@
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   --c-C1:hsl(212 62% 42%); --c-C2:hsl(190 70% 30%); --c-C3:hsl(166 60% 28%); --c-C4:hsl(36 82% 36%); --c-C5:hsl(330 58% 44%);
   --c-C6:hsl(278 46% 48%); --c-C7:hsl(96 44% 32%); --c-C8:hsl(14 72% 44%); --c-C9:hsl(250 40% 50%); --c-C10:hsl(0 0% 38%);
-  --c-fw:hsl(48 85% 32%); --c-ctx:hsl(200 26% 40%);
+  --c-C11:hsl(304 38% 40%); --c-fw:hsl(48 85% 32%); --c-mv:hsl(24 42% 36%); --c-ctx:hsl(200 26% 40%);
   --r-supports:hsl(150 55% 34%); --r-tension:hsl(356 68% 46%); --r-mechanism:hsl(268 52% 50%); --r-related:hsl(210 14% 50%);
-  --r-framework:hsl(44 90% 38%); --r-context:hsl(200 45% 42%);
+  --r-framework:hsl(44 90% 38%); --r-context:hsl(200 45% 42%); --r-lineage:hsl(24 72% 42%);
   --g-Strong:hsl(150 50% 32%); --g-Moderate:hsl(200 60% 38%); --g-Practitioner:hsl(36 85% 38%); --g-Contested:hsl(356 64% 44%);
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
   --c-C1:hsl(212 80% 72%); --c-C2:hsl(190 65% 60%); --c-C3:hsl(166 55% 58%); --c-C4:hsl(38 85% 64%); --c-C5:hsl(330 70% 74%);
   --c-C6:hsl(278 65% 78%); --c-C7:hsl(96 45% 62%); --c-C8:hsl(14 80% 68%); --c-C9:hsl(250 65% 78%); --c-C10:hsl(0 0% 70%);
-  --c-fw:hsl(48 85% 62%); --c-ctx:hsl(200 35% 68%);
+  --c-C11:hsl(304 50% 76%); --c-fw:hsl(48 85% 62%); --c-mv:hsl(24 55% 70%); --c-ctx:hsl(200 35% 68%);
   --r-supports:hsl(150 50% 60%); --r-tension:hsl(356 78% 70%); --r-mechanism:hsl(268 70% 78%); --r-related:hsl(210 14% 66%);
-  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%);
+  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%); --r-lineage:hsl(24 85% 66%);
   --g-Strong:hsl(150 45% 60%); --g-Moderate:hsl(200 60% 66%); --g-Practitioner:hsl(38 85% 62%); --g-Contested:hsl(356 75% 70%); color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f131a; --panel:#161b24; --ink:#e5e9f0; --muted:#9aa4b5; --line:#2a3240; --soft:#1d2430; --focus:#7aa2ff;
   --c-C1:hsl(212 80% 72%); --c-C2:hsl(190 65% 60%); --c-C3:hsl(166 55% 58%); --c-C4:hsl(38 85% 64%); --c-C5:hsl(330 70% 74%);
   --c-C6:hsl(278 65% 78%); --c-C7:hsl(96 45% 62%); --c-C8:hsl(14 80% 68%); --c-C9:hsl(250 65% 78%); --c-C10:hsl(0 0% 70%);
-  --c-fw:hsl(48 85% 62%); --c-ctx:hsl(200 35% 68%);
+  --c-C11:hsl(304 50% 76%); --c-fw:hsl(48 85% 62%); --c-mv:hsl(24 55% 70%); --c-ctx:hsl(200 35% 68%);
   --r-supports:hsl(150 50% 60%); --r-tension:hsl(356 78% 70%); --r-mechanism:hsl(268 70% 78%); --r-related:hsl(210 14% 66%);
-  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%);
+  --r-framework:hsl(44 90% 62%); --r-context:hsl(200 50% 68%); --r-lineage:hsl(24 85% 66%);
   --g-Strong:hsl(150 45% 60%); --g-Moderate:hsl(200 60% 66%); --g-Practitioner:hsl(38 85% 62%); --g-Contested:hsl(356 75% 70%); color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;margin:0;padding-inline:16px;padding-block:20px 40px}
@@ -123,7 +123,7 @@ td.n{text-align:right;font-family:var(--f-mono)}
   <header>
     <div>
       <h1>Product Psychology Map</h1>
-      <p class="sub">The semantic network behind the <span class="mono">design-psychology-foundations</span> skill: 106 principles in 10 clusters, the theory frameworks that explain them and the design contexts they apply to. Every line is a typed relation. Press Play for a guided tour, or select any node to follow its links.</p>
+      <p class="sub">The semantic network behind the <span class="mono">design-psychology-foundations</span> skill: 123 principles in 11 clusters, the theory frameworks that explain them, the art and design movements they descend from, and the design contexts they apply to. Every line is a typed relation. Press Play for a guided tour, or select any node to follow its links.</p>
     </div>
     <div class="stats" id="stats"></div>
   </header>
@@ -165,8 +165,8 @@ td.n{text-align:right;font-family:var(--f-mono)}
 const D=JSON.parse(document.getElementById('data').textContent);
 const CATS=D.cats, CATN=Object.fromEntries(CATS);
 const N=new Map(D.nodes.map(n=>[n.id,n]));
-const REL={supports:'supports',tension:'tension','mechanism-of':'mechanism','special-case-of':'mechanism',counteracts:'tension',related:'related',organises:'framework','applies-in':'context'};
-const RELNAME={supports:'Supports',tension:'Tension / counteracts',mechanism:'Mechanism / special case',related:'Related',framework:'Framework organises',context:'Applies in context'};
+const REL={supports:'supports',tension:'tension','mechanism-of':'mechanism','special-case-of':'mechanism',counteracts:'tension',related:'related',organises:'framework','lineage-of':'lineage','applies-in':'context'};
+const RELNAME={supports:'Supports',tension:'Tension / counteracts',mechanism:'Mechanism / special case',related:'Related',framework:'Framework organises',lineage:'Art & design lineage',context:'Applies in context'};
 const relGroup=r=>REL[r]||'related';
 const adj=new Map(D.nodes.map(n=>[n.id,[]]));
 D.edges.forEach(e=>{if(!adj.has(e.s)||!adj.has(e.t))return;adj.get(e.s).push({rel:e.rel,o:e.t,dir:'out',note:e.note});adj.get(e.t).push({rel:e.rel,o:e.s,dir:'in',note:e.note});});
@@ -178,7 +178,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const principles=D.nodes.filter(n=>n.cat.startsWith('C'));
 
 // stats
-const st=[['Principles',principles.length],['Frameworks',D.nodes.filter(n=>n.cat==='fw').length],['Relations',D.edges.length],['Linked sources',D.meta.sources]];
+const st=[['Principles',principles.length],['Frameworks',D.nodes.filter(n=>n.cat==='fw').length],['Movements',D.nodes.filter(n=>n.cat==='mv').length],['Relations',D.edges.length],['Linked sources',D.meta.sources]];
 document.getElementById('stats').innerHTML=st.map(([k,v])=>`<div><b>${v}</b>${k}</div>`).join('');
 
 // chips
@@ -284,8 +284,8 @@ function relBlocks(id){
 function panel(id){
   const p=document.getElementById('panel');
   if(!id){p.innerHTML=`<span class="tag">How to read this</span><h2>Pick a node</h2>
-   <p>The ring places ${principles.length} principles in 10 evidence-sorted clusters (strongest first), beside ${D.nodes.filter(n=>n.cat==='fw').length} theory frameworks and ${D.nodes.filter(n=>n.cat==='ctx').length} design contexts. Filled dots have strong or moderate evidence; hollow dots are practitioner heuristics or contested findings.</p>
-   <p>Every line is a typed relation: <b style="color:var(--r-supports)">supports</b>, <b style="color:var(--r-tension)">tension</b>, <b style="color:var(--r-mechanism)">mechanism</b>, <b style="color:var(--r-framework)">framework</b>, <b style="color:var(--r-context)">context</b>. Use the relation chips to isolate one kind.</p>
+   <p>The ring places ${principles.length} principles in ${CATS.filter(c=>c[0].startsWith('C')).length} evidence-sorted clusters (strongest first), beside ${D.nodes.filter(n=>n.cat==='fw').length} theory frameworks, ${D.nodes.filter(n=>n.cat==='mv').length} art & design movements and ${D.nodes.filter(n=>n.cat==='ctx').length} design contexts. Filled dots have strong or moderate evidence; hollow dots are practitioner heuristics or contested findings.</p>
+   <p>Every line is a typed relation: <b style="color:var(--r-supports)">supports</b>, <b style="color:var(--r-tension)">tension</b>, <b style="color:var(--r-mechanism)">mechanism</b>, <b style="color:var(--r-framework)">framework</b>, <b style="color:var(--r-lineage)">lineage</b>, <b style="color:var(--r-context)">context</b>. Use the relation chips to isolate one kind.</p>
    <p class="mono">${D.meta.last_run?'Knowledge base updated '+esc(D.meta.last_run):''}</p>`;bind(p);return;}
   const n=N.get(id); let html=`<div class="tags"><span class="tag" style="--c:${col(n.cat)}"><i></i>${esc(CATN[n.cat])}</span></div><h2>${esc(n.label)}</h2>`;
   if(n.cat.startsWith('C')){
@@ -294,6 +294,9 @@ function panel(id){
     if(n.res&&n.res.length) html+=`<div class="md"><h3>Linked sources (${n.nres})</h3><ul>${n.res.map(r=>`<li><span class="mono">[${esc(r[2]||'item')}]</span> ${r[1]?`<a href="${esc(r[1])}" target="_blank" rel="noopener">${esc(r[0])}</a>`:esc(r[0])} — ${esc(r[3])}</li>`).join('')}</ul></div>`;
   } else if(n.cat==='fw'){
     html+=`<p class="lead">${esc(n.title)}</p><div class="md"><p>${esc(n.desc)}</p>${n.fgrade?`<h3>Evidence</h3><p>${esc(n.fgrade)}</p>`:''}</div><div class="rel">${relBlocks(id)}</div>`;
+  } else if(n.cat==='mv'){
+    const row=(k,v)=>v?`<h3>${k}</h3><p>${esc(v)}</p>`:'';
+    html+=`<p class="lead">${esc(n.dates)} · ${esc(n.region)}</p><div class="md">${row('Figures & works',n.figures)}${row('Original intent',n.intent)}${row('What it signals today',n.signals)}${row('Into digital',n.digital)}${row('What got lost',n.lost)}${row('Watch out',n.watch)}${n.sources&&n.sources.length?`<h3>Sources</h3><ul>${n.sources.map(u=>`<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(www\.)?/,'').slice(0,60))}</a></li>`).join('')}</ul>`:''}</div><div class="rel">${relBlocks(id)}</div>`;
   } else {
     const ps=adj.get(id).map(r=>N.get(r.o)).sort((a,b)=>GRADE_ORDER[a.grade]-GRADE_ORDER[b.grade]);
     html+=`<p class="lead">${ps.length} principles apply in ${esc(n.label)}, strongest evidence first.</p><div class="rel"><ul>${ps.map(o=>`<li><a data-id="${esc(o.id)}" style="--c:${col(o.cat)}" tabindex="0"><i></i>${esc(o.label)}</a></li>`).join('')}</ul></div>`;

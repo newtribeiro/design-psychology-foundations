@@ -20,6 +20,7 @@ _Beautiful feels easier_ · cycle: 🙈 Information · cluster: C1 · evidence: 
 - Sources: https://chi1995.chistatic.hosting.acm.org/proceedings/shortppr/mk_bdy.htm ; https://academic.oup.com/iwc/article/13/2/127/898608 ; https://uxpajournal.org/wp-content/uploads/sites/7/pdf/JUS_Grishin_Feb2019.pdf ; https://en.wikipedia.org/wiki/Aesthetic%E2%80%93usability_effect ; https://uxdesign.cc/how-tinder-makes-you-forgive-its-bad-design-3a0ecfe1246b
 - Typed edges: tension → Contrast; mechanism-of → Affect Heuristic; tension → Occam's Razor; supports → Sensory Appeal; measured-by → SUS; tension → Negativity Bias; tension → Signifiers
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (tension); ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (tension)
+- Lineage (art & design history): Bauhaus; Japanese Ma, wabi-sabi & Mingei → lineage.md
 - Linked sources (25):
   - [article] 7 changes in brand world-building — crafted brand worlds raise perceived quality of the product. <https://www.uxtools.co/blog/7-changes-in-brand-world-building> (sources/uxtools-articles.md)
   - [article] Brand as product's secret weapon — strong brand craft raises perceived usability/quality. <https://www.uxtools.co/blog/brand-as-product-s-secret-weapon> (sources/uxtools-articles.md)

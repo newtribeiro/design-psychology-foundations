@@ -21,6 +21,7 @@ _Prefer the simplest adequate solution_ · cycle: 🔮 Meaning · cluster: C2 ·
 - Typed edges: tension → Signifiers; tension → Aesthetic-Usability Effect; tension → Skeuomorphism; supports → Pareto Principle; counteracts → Cognitive Load; supports → Hick's Law
 - Related: Tesler's Law, Law of the Instrument, Cognitive Load
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises)
+- Lineage (art & design history): De Stijl (Neoplasticism); Bauhaus → lineage.md
 - Linked sources (4):
   - [article] Design debt at machine speed — vague direction yields vague output; explicit simple rules beat interpretation. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
   - [article] Showing up for design quality — "simplest way to increase quality is reduce scope." <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)

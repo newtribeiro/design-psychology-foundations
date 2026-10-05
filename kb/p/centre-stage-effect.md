@@ -20,5 +20,6 @@ _People pick the middle option_ · cycle: 🙈 Information · cluster: C1 · evi
 - Sources: https://www.coglode.com/research/centre-stage-effect ; https://journals.sagepub.com/doi/10.1177/2041669516639959 ; https://learningloop.io/plays/psychology/centre-stage-effect
 - Typed edges: supports → Decoy Effect; supports → Default Bias; mechanism-of → Social Proof; tension → Serial Position Effect; measured-by → Survey Bias
 - Explained by frameworks: ⚙ Gestalt principles of perception (supports)
+- Lineage (art & design history): Renaissance perspective & composition → lineage.md
 - Linked sources (1):
   - [other] Home page — one featured item placed centrally gets the attention. <https://www.uxtools.co/> (sources/uxtools-challenges-tools.md)

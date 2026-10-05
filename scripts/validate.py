@@ -60,8 +60,9 @@ def main():
     # 2. principle index in SKILL.md
     index = re.findall(r"^- (.+?) \(([FIAR])·([SMPC])\) (.+?)(?: ⟂ (.+))?$", skill, re.M)
     names = [n for n, *_ in index]
-    if len(names) != 106:
-        err(f"SKILL.md index lists {len(names)} principles (expected 106)")
+    expected = sum(1 for n in json.loads((KB / "graph.json").read_text(encoding="utf-8"))["nodes"] if n.get("kind") == "principle")
+    if len(names) != expected:
+        err(f"SKILL.md index lists {len(names)} principles (graph has {expected})")
     if len(set(names)) != len(names):
         err("SKILL.md index has duplicate principles")
 
@@ -127,12 +128,17 @@ def main():
 
     # 5. graph edges point to known nodes
     known = {n["id"] for n in graph["nodes"]}
+    movements = [n for n in graph["nodes"] if n.get("kind") == "movement"]
+    lineage = (KB / "lineage.md").read_text(encoding="utf-8") if (KB / "lineage.md").exists() else ""
+    for mv in movements:
+        if f"## {mv['id'][3:]} ·" not in lineage:
+            err(f"movement {mv['id']} has no card in kb/lineage.md")
     bad = [e for e in graph["edges"] if e["s"] not in known or e["d"] not in known]
     if bad:
         err(f"graph.json: {len(bad)} edges reference unknown nodes (e.g. {bad[0]})")
 
     # 6. required KB files
-    for f in ["frameworks.md", "CHANGELOG.md", "UPDATE_PROTOCOL.md", "cycle.json"]:
+    for f in ["frameworks.md", "CHANGELOG.md", "UPDATE_PROTOCOL.md", "cycle.json", "lineage.md"]:
         if not (KB / f).exists():
             err(f"kb/{f} missing")
     for f in ["growth-design-case-studies.md", "uxtools-articles.md", "uxtools-challenges-tools.md",

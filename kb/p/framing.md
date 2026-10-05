@@ -17,6 +17,7 @@ _Presentation changes decisions more than facts do_ · cycle: 🙈 Information �
 - Typed edges: supports → Loss Aversion; supports → Anchoring Bias; special-case-of → Priming; supports → Pseudo-Set Framing; tension → Reactance; supports → Affect Heuristic; tension → Backfire Effect
 - Related: Loss Aversion, Anchoring Bias, Priming
 - Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Prospect Theory (mechanism-of)
+- Lineage (art & design history): Russian Constructivism → lineage.md
 - Linked sources (19):
   - [article] Design's hardest role has a two-year clock — "founding" is a framing device that makes a first-designer role more attractive. <https://www.uxtools.co/blog/design-s-hardest-role-has-a-two-year-clock> (sources/uxtools-articles.md)
   - [article] The artifact stopped proving seniority — health results UX: mis-framing data can lead users to misunderstand their bodies. <https://www.uxtools.co/blog/the-artifact-stopped-proving-seniority> (sources/uxtools-articles.md)

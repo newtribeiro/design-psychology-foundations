@@ -402,3 +402,26 @@
 - **Labor Illusion ↔ Chronoception / Doherty-style speed** — show work only when a wait is unavoidable; never add artificial delay to fast operations beyond what aids trust.
 - **Social Proof / Bandwagon Effect ↔ Singularity Effect** — aggregate numbers build legitimacy, a single identifiable story builds emotion; use one named case next to the count.
 - **Peak-End Rule ↔ Negativity Bias / Hyperbolic Discounting** — protect the end of flows and eliminate negative peaks first; don't sacrifice the experiencing self (ongoing friction) for a memorable finale.
+
+---
+
+## 14. Empirical aesthetics
+**Definition.** The experimental study of why people find some things beautiful, pleasing or interesting, using measurement rather than philosophical argument; it links low-level visual features, cognitive processing, emotion and context to aesthetic judgements.
+**Core model in words.** Fechner (1876) began measuring preferences "from below" (e.g. rectangles). Berlyne (1971) proposed that liking tracks arousal potential (complexity, novelty) in an inverted U. Later work showed the U is unreliable and shifted to processing fluency: what is easy to perceive (symmetric, prototypical, high-contrast) feels good. Leder et al. (2004) staged aesthetic experience from perceptual analysis through implicit memory, classification and cognitive mastering to aesthetic judgement and emotion; Leder & Nadal (2014) added context and the "aesthetic episode". Chatterjee & Vartanian (2014) frame it as a triad of sensory-motor, emotion-valuation and meaning-knowledge systems. Redies (2015) separates universal, perception-based beauty from culture- and knowledge-based appreciation. Preferences such as curvature and symmetry are fairly general among lay viewers, while experts and different cultures often prefer more complexity, novelty or asymmetry.
+**Key sources.**
+- Leder, Belke, Oeberst & Augustin (2004), British Journal of Psychology 95(4) — https://doi.org/10.1348/0007126042369811
+- Leder & Nadal (2014), British Journal of Psychology 105(4) — https://doi.org/10.1111/bjop.12084
+- Reber, Schwarz & Winkielman (2004), Personality and Social Psychology Review 8(4) — https://doi.org/10.1207/s15327957pspr0804_3
+- Chatterjee & Vartanian (2014), Trends in Cognitive Sciences 18(7) — https://doi.org/10.1016/j.tics.2014.03.003
+- Redies (2015), Frontiers in Human Neuroscience 9 — https://doi.org/10.3389/fnhum.2015.00218
+- Leder et al. (2019), "Symmetry is not a universal law of beauty", Empirical Studies of the Arts 37(1) — https://doi.org/10.1177/0276237418777941
+**Evidence grade.** Moderate — individual effects (fluency, curvature, symmetry, prototypicality) are well replicated, but stimuli are often abstract or static, effect sizes are moderate, and many findings shrink with expertise, culture or longer viewing.
+**Principles explained / organised.**
+- organises → Processing Fluency; Prototypicality; MAYA Principle; Unity-in-Variety; Complexity–Arousal Curve; Fifty-Millisecond Impression; Visual Complexity Preference; Symmetry Preference; Curvature Preference; Visual Balance; Golden Ratio; Rule of Thirds; Colour–Emotion Associations; Fractal Fluency; Peak Shift Effect; Aesthetic Aha; Visual Style Connotation
+- mechanism-of → Aesthetic-Usability Effect; Halo Effect; Familiarity Bias; Sensory Appeal; Affect Heuristic
+- tension → Occam's Razor (variety and expert preference for complexity push against pure minimalism)
+**How a designer uses it.**
+- Use fluency levers (contrast, symmetry, prototypical layout) to make first impressions positive, then add controlled novelty and variety for interest.
+- Treat popular "laws" (golden ratio, rule of thirds, inverted U) as hypotheses and check their evidence grade before citing them.
+- Segment aesthetic tests by audience: lay users, experts and cultures differ, so averaged preference can mislead.
+- Measure aesthetics alongside task performance, since appeal colours perceived usability but does not replace it.

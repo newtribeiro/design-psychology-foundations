@@ -19,6 +19,7 @@ _Experts forget what novices don't know_ · cycle: 🔮 Meaning · cluster: C10 
 - Sources: https://en.wikipedia.org/wiki/Curse_of_knowledge ; https://www.thedecisionlab.com/reference-guide/management/curse-of-knowledge ; https://nesslabs.com/curse-of-knowledge
 - Typed edges: tension → Mental Model; counteracts → Mental Model; tension → Familiarity Bias; supports → False Consensus Effect; measured-by → usability testing; tension → Dunning-Kruger Effect; tension → Barnum-Forer Effect
 - Explained by frameworks: ⚙ Norman's design principles (supports)
+- Lineage (art & design history): Isotype (Vienna Method of Pictorial Statistics) → lineage.md
 - Linked sources (11):
   - [article] 12 Ways to Utilize Other Departments in User Research — new hires and trainers reveal jargon insiders no longer notice. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
   - [article] 7 Practical Tips for Better Microcopy — jargon and technical error codes come from insiders forgetting users' perspective. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)

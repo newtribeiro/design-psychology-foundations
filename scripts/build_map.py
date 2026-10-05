@@ -28,6 +28,7 @@ FRAMEWORK_LABELS = {
     "Self-Determination": "Self-Determination Theory",
     "Ethics": "Dark-pattern ethics",
     "Replication": "Replication caveats",
+    "Empirical aesthetics": "Empirical aesthetics",
 }
 CYCLE = {"info": "Filter", "meaning": "Interpret", "time": "Act", "memory": "Remember"}
 
@@ -82,6 +83,19 @@ def build(kb: pathlib.Path):
             sec = fw_sections.get(label, {})
             nodes.append(dict(id="fw:" + label, label=label, cat="fw", desc=sec.get("desc", ""),
                               title=sec.get("title", label), fgrade=sec.get("grade", "")))
+    mv_ids = {}
+    lin = (kb / "lineage.md").read_text(encoding="utf-8") if (kb / "lineage.md").exists() else ""
+    for card in re.split(r"\n(?=## )", lin):
+        m = re.match(r"## (.+?) · (.+?) · (.+)", card)
+        if not m:
+            continue
+        f = dict(re.findall(r"^- ([A-Za-z ]+): (.+)$", card, re.M))
+        name = m.group(1).strip()
+        mv_ids["MV:" + name] = "mv:" + name
+        nodes.append(dict(id="mv:" + name, label=name, cat="mv", dates=m.group(2), region=m.group(3).strip(),
+                          figures=f.get("Figures", ""), intent=f.get("Intent", ""), signals=f.get("Signals today", ""),
+                          digital=f.get("Into digital", ""), lost=f.get("Lost", ""), watch=f.get("Watch", ""),
+                          sources=[u.strip() for u in f.get("Sources", "").split(" ; ") if u.strip()]))
     contexts = sorted({c for n in principle.values() for c in n.get("ctx", []) if "(" not in c})
     for c in contexts:
         nodes.append(dict(id="ctx:" + c, label=c, cat="ctx"))
@@ -91,8 +105,8 @@ def build(kb: pathlib.Path):
         s, d, t = e["s"], e["d"], e["t"]
         if t in ("illustrated-by", "measured-by"):
             continue
-        s = fw_ids.get(s, s)
-        if s not in principle and not s.startswith("fw:"):
+        s = fw_ids.get(s, mv_ids.get(s, s))
+        if s not in principle and not s.startswith(("fw:", "mv:")):
             continue
         if d not in principle:
             continue
@@ -106,7 +120,8 @@ def build(kb: pathlib.Path):
             if "(" not in c:
                 edges.append(dict(s=name, t="ctx:" + c, rel="applies-in"))
 
-    cats = [[c["id"], c["name"]] for c in clusters] + [["fw", "Theory frameworks"], ["ctx", "Design contexts"]]
+    cats = [[c["id"], c["name"]] for c in clusters] + [["fw", "Theory frameworks"]] + \
+        ([["mv", "Art & design movements"]] if mv_ids else []) + [["ctx", "Design contexts"]]
     return dict(cats=cats, nodes=nodes, edges=edges,
                 meta=dict(last_run=state.get("last_run", ""), sources=sum(len(v) for v in graph.get("resources", {}).values())))
 

@@ -17,6 +17,7 @@ _Mental effort needed to complete a task_ · cycle: 🙈 Information · cluster:
 - Typed edges: mechanism-of → Hick's Law; supports → Progressive Disclosure; supports → Chunking; mechanism-of → Decision Fatigue; measured-by → task time / NASA-TLX (framework); tension → Fitts's Law; tension → Curiosity Gap; tension → Skeuomorphism; tension → Sensory Appeal; tension → Spacing Effect; tension → Tesler's Law; tension → Zeigarnik Effect
 - Related: Miller's Law, Chunking, Hick's Law, Tesler's Law
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports); ⚙ Fogg Behavior Model + Tiny Habits (supports); ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
+- Lineage (art & design history): ⟂ Art Nouveau / Jugendstil / Secession; Swiss / International Typographic Style; Japanese Ma, wabi-sabi & Mingei; ⟂ Postmodernism, Memphis & New Wave typography → lineage.md
 - Linked sources (32):
   - [article] 7 Practical Tips for Better Microcopy — plain language and active voice are faster to parse. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
   - [article] Build Interfaces to Understand Systems — abstraction reduces what users must hold in mind, enabling mass adoption. <https://www.uxtools.co/blog/build-interfaces-to-understand-systems> (sources/uxtools-articles.md)

@@ -1,0 +1,23 @@
+## MAYA Principle
+_Most advanced, yet acceptable — novel but recognisable_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: Raymond Loewy's maxim that the most appealing design is the most advanced one people will still accept: novel enough to be interesting, typical enough to be understood.
+- Mechanism (why it happens): Typicality supplies fluency and safety, novelty supplies interest and arousal; because the two are negatively correlated, preference peaks where a design gains novelty without losing category membership.
+- Origin & key evidence:
+  - Hekkert, Snelders & van Wieringen (2003), "'Most advanced, yet acceptable': Typicality and novelty as joint predictors of aesthetic preference in industrial design", British Journal of Psychology 94(1) — across product categories both typicality and novelty independently predicted preference once their mutual suppression was controlled. https://doi.org/10.1348/000712603762842147
+  - Berger, Bradlow, Braunstein & Zhang (2012), "From Karen to Katie: Using baby names to understand cultural evolution", Psychological Science 23(10) — names sounding similar to recently popular ones rose in popularity: familiar-but-new spreads (a cultural analogue of MAYA). https://doi.org/10.1177/0956797612443371
+  - Thurgood, Hekkert & Blijlevens (2014), "The joint effect of typicality and novelty on aesthetic pleasure for product designs: influences of safety and risk", IAEA Congress paper — two experiments again favoured designs balancing typicality and novelty, but priming safety vs. risk did not shift the balance as predicted. https://opus.lib.uts.edu.au/bitstream/10453/36796/4/The%20joint%20effect%20of%20typicality%20and%20novelty%20on%20aesthetic%20pleasure%20for%20product%20designs.pdf
+  - Martindale, Moore & Borkum (1990), American Journal of Psychology 103(1) — typicality as a major driver of preference, the "acceptable" half of MAYA. https://doi.org/10.2307/1423259
+- Evidence grade: Moderate — supported in product-design studies and by analogous diffusion data, but much of the work comes from one research group and the optimum point is context-dependent and hard to predict in advance.
+- Design applications:
+  - Introduce new visual language as an evolution of the old (keep layout skeleton, change surface) — measure appeal and task success vs. old and radical variants.
+  - Test concepts on a typicality and a novelty scale together, not just "liking" — measure both and plot the trade-off.
+  - Stage bold redesigns over several releases so each step stays acceptable — measure churn/complaints per release.
+  - Pair novel interactions with familiar signifiers or labels — measure discoverability and first-use errors.
+- Real product examples: Loewy's own evolutionary redesigns, e.g. the Lucky Strike pack and Shell logo (documented in design histories); incremental iOS/Android visual refreshes (illustrative).
+- Enterprise/B2B note: Professional users have high switching costs, so the "acceptable" boundary sits closer to the familiar; ship visual modernisation alongside unchanged workflows and offer transition aids.
+- Ethics/watch-out: "Acceptable" can be gamed by making a product superficially familiar while hiding unfamiliar terms or behaviour; novelty should not be used to obscure changes users would object to.
+- Contexts: branding, visual-design, onboarding, research, stakeholder-communication
+- Sources: https://doi.org/10.1348/000712603762842147 ; https://doi.org/10.1177/0956797612443371 ; https://opus.lib.uts.edu.au/bitstream/10453/36796/4/The%20joint%20effect%20of%20typicality%20and%20novelty%20on%20aesthetic%20pleasure%20for%20product%20designs.pdf ; https://doi.org/10.2307/1423259
+- Typed edges: related → Prototypicality; related → Unity-in-Variety; related → Complexity–Arousal Curve; related → Familiarity Bias; related → Skeuomorphism; related → Processing Fluency
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): Digital: skeuomorphism → flat → material → glass → lineage.md

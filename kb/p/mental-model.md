@@ -17,6 +17,7 @@ _Users bring beliefs about how things work_ · cycle: 🔮 Meaning · cluster: C
 - Typed edges: mechanism-of → Familiarity Bias; supports → Skeuomorphism; mechanism-of → Expectations Bias; supports → Signifiers; tension → Curse of Knowledge; measured-by → card sorting / tree testing; tension → Law of the Instrument
 - Related: Familiarity Bias, Skeuomorphism, Curse of Knowledge
 - Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (organises)
+- Lineage (art & design history): ⟂ Mid-century corporate modernism; Digital: skeuomorphism → flat → material → glass → lineage.md
 - Linked sources (30):
   - [other] Blog index & topic taxonomy (combined) — personas, user flows and navigation articles are about matching users' expectations. <https://www.uxtools.co/blog> (sources/uxtools-articles.md)
   - [article] 12 Ways to Utilize Other Departments in User Research — using customers' own words in copy aligns UI language with how users think. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)

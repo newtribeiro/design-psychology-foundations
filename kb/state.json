@@ -1087,6 +1087,125 @@
    "grade": "Strong",
    "sources": 8,
    "last_reviewed": "2026-10-04"
+  },
+  "Processing Fluency": {
+   "slug": "processing-fluency",
+   "cluster": "C11",
+   "grade": "Strong",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Prototypicality": {
+   "slug": "prototypicality",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "MAYA Principle": {
+   "slug": "maya-principle",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Unity-in-Variety": {
+   "slug": "unity-in-variety",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Complexity–Arousal Curve": {
+   "slug": "complexityarousal-curve",
+   "cluster": "C11",
+   "grade": "Contested",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Fifty-Millisecond Impression": {
+   "slug": "fifty-millisecond-impression",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Visual Complexity Preference": {
+   "slug": "visual-complexity-preference",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Symmetry Preference": {
+   "slug": "symmetry-preference",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Curvature Preference": {
+   "slug": "curvature-preference",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Visual Balance": {
+   "slug": "visual-balance",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Golden Ratio": {
+   "slug": "golden-ratio",
+   "cluster": "C11",
+   "grade": "Contested",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Rule of Thirds": {
+   "slug": "rule-of-thirds",
+   "cluster": "C11",
+   "grade": "Contested",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Colour–Emotion Associations": {
+   "slug": "colouremotion-associations",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Fractal Fluency": {
+   "slug": "fractal-fluency",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Peak Shift Effect": {
+   "slug": "peak-shift-effect",
+   "cluster": "C11",
+   "grade": "Contested",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Aesthetic Aha": {
+   "slug": "aesthetic-aha",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
+  },
+  "Visual Style Connotation": {
+   "slug": "visual-style-connotation",
+   "cluster": "C11",
+   "grade": "Moderate",
+   "sources": 0,
+   "last_reviewed": "2026-10-05"
   }
  },
  "review_queue": [

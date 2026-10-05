@@ -1,0 +1,24 @@
+## Complexity–Arousal Curve
+_Medium complexity liked most — on average_ · cycle: 🙈 Information · cluster: C11 · evidence: Contested
+- Definition: Berlyne's proposal that liking follows an inverted U against a stimulus's "arousal potential" (complexity, novelty, surprise): too simple bores, too complex overwhelms, the middle pleases most.
+- Mechanism (why it happens): Berlyne posited competing reward and aversion systems driven by arousal; modern accounts add that complexity has several dimensions and that people differ in their optimum, so the average curve may hide very different individual curves.
+- Origin & key evidence:
+  - Berlyne (1971), Aesthetics and Psychobiology (book, Appleton-Century-Crofts) — origin of the arousal-potential and inverted-U account; summarised and re-tested in Marin et al. (2016) below.
+  - Martindale, Moore & Borkum (1990), "Aesthetic preference: Anomalous findings for Berlyne's psychobiological theory", American Journal of Psychology 103(1) — the predicted inverted U often failed; typicality and meaning explained more variance. https://doi.org/10.2307/1423259
+  - Nadal, Munar, Marty & Cela-Conde (2010), "Visual complexity and beauty appreciation: Explaining the divergence of results", Empirical Studies of the Arts 28(2) — complexity splits into separate dimensions (amount/variety of elements, organisation, asymmetry) with different relations to beauty. https://doi.org/10.2190/EM.28.2.d
+  - Güçlütürk et al. (2016), "Liking versus complexity: Decomposing the inverted U-curve", Frontiers in Human Neuroscience 10 — the group-level inverted U emerged from averaging two subgroups, one liking simplicity and one liking complexity. https://doi.org/10.3389/fnhum.2016.00112
+  - Marin, Lampatz, Wandl & Leder (2016), "Berlyne revisited", Frontiers in Human Neuroscience 10 — the shape of the complexity relation depended on whether beauty, pleasantness or liking was measured. https://doi.org/10.3389/fnhum.2016.00536
+- Evidence grade: Contested — the inverted U appears in some averaged data but not reliably; it depends on how complexity and pleasure are measured and is partly an artefact of pooling different people.
+- Design applications:
+  - Treat "medium complexity" as a hypothesis, not a rule: test a simple, a medium and a rich variant — measure appeal and task success separately.
+  - Segment results by user group (novice/expert, domain) rather than averaging — measure preference distributions, not just means.
+  - Distinguish element count from organisation; reduce disorganisation before reducing content — measure perceived clutter and findability.
+  - Track novelty decay: complexity that intrigues on day one may tire by week four — measure appeal over repeated sessions.
+- Real product examples: Ongoing "minimal vs. rich" homepage debates in published A/B case studies (illustrative); game difficulty and level-design pacing curves (illustrative).
+- Enterprise/B2B note: Expert operators often tolerate or prefer higher information density than novices; avoid stripping expert views to novice-level simplicity based on averaged preference tests.
+- Ethics/watch-out: Citing the inverted U as settled science can justify arbitrary design choices; report it as contested and let user data decide.
+- Contexts: visual-design, dashboards, data-viz, research, gamification
+- Sources: https://doi.org/10.2307/1423259 ; https://doi.org/10.2190/EM.28.2.d ; https://doi.org/10.3389/fnhum.2016.00112 ; https://doi.org/10.3389/fnhum.2016.00536 ; https://doi.org/10.1037/aca0000224
+- Typed edges: related → Visual Complexity Preference; tension → Processing Fluency; related → Cognitive Load; related → Flow State; related → MAYA Principle; related → Unity-in-Variety
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): Postmodernism, Memphis & New Wave typography → lineage.md

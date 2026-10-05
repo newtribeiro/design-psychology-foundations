@@ -1,5 +1,10 @@
 # Knowledge base changelog
 
+## 2026-10-05 — Aesthetics & visual culture layer
+- Added cluster C11 with 17 empirical-aesthetics principles (Processing Fluency [S], Prototypicality [M], MAYA Principle [M], Unity-in-Variety [M], Complexity–Arousal Curve [C], Fifty-Millisecond Impression [M], Visual Complexity Preference [M], Symmetry Preference [M], Curvature Preference [M], Visual Balance [M], Golden Ratio [C], Rule of Thirds [C], Colour–Emotion Associations [M], Fractal Fluency [M], Peak Shift Effect [C], Aesthetic Aha [M], Visual Style Connotation [M]).
+- Added framework §14 Empirical aesthetics and kb/lineage.md with 15 art & design movements linked to principles (`lineage-of` / `tension` edges).
+- Golden Ratio, Rule of Thirds, Peak Shift Effect and Complexity–Arousal Curve graded Contested.
+
 ## 2026-10-04 — first update pass
 - New source: growth.design "C.L.E.A.R. Design Masterclass: The Psychology of UI Design" (course, Sep 2026). C.L.E.A.R. (Copywriting, Layout, Emphasis, Accessibility, Reward) noted as a concept; below the 3-source threshold for its own entry.
 - Re-reviewed the 8 weakest principles: Cashless Effect, Group Attractiveness Effect, Backfire Effect, Nudge, Decoy Effect, Cognitive Dissonance, Miller's Law, Singularity Effect.

@@ -19,6 +19,7 @@ _Experts' opinions weigh more_ · cycle: 🔮 Meaning · cluster: C5 · evidence
 - Sources: https://effectiviology.com/authority-bias-the-milgram-obedience-experiment/ ; https://credibility.stanford.edu ; https://credibility.stanford.edu/research
 - Typed edges: supports → Halo Effect; supports → Social Proof; tension → Reactance; counteracts → Decision Fatigue; mechanism-of → Observer-Expectancy Effect; measured-by → trust / credibility scales; tension → Backfire Effect
 - Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Kano model (organises)
+- Lineage (art & design history): Mid-century corporate modernism → lineage.md
 - Linked sources (18):
   - [article] 3 ways MagicPath closes the design-to-code gap — "when Dann Petty is excited, I pay attention" reasoning. <https://www.uxtools.co/blog/3-ways-magicpath-closes-the-design-to-code-gap> (sources/uxtools-articles.md)
   - [article] Play out the end of design work — earned trust in the designer's judgment determines how much latitude stakeholders grant. <https://www.uxtools.co/blog/play-out-the-end-of-design-work> (sources/uxtools-articles.md)

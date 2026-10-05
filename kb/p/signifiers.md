@@ -18,6 +18,7 @@ _Cues that communicate what an element does_ · cycle: 🙈 Information · clust
 - Sources: https://jnd.org/signifiers-not-affordances/ ; https://interactions.acm.org/archive/view/november-december-2008/the-way-i-see-itsignifiers-not-affordances1
 - Typed edges: supports → Mental Model; supports → Discoverability; special-case-of → Feedforward; supports → Familiarity Bias; tension → Occam's Razor; tension → Aesthetic-Usability Effect
 - Explained by frameworks: ⚙ Gestalt principles of perception (supports); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (supports); ⚙ Norman's design principles (organises)
+- Lineage (art & design history): ⟂ Digital: skeuomorphism → flat → material → glass → lineage.md
 - Linked sources (10):
   - [article] 7 Practical Tips for Better Microcopy — verb-first labels signal what an interactive element will do. <https://www.uxtools.co/blog/7-practical-tips-for-better-microcopy> (sources/uxtools-articles.md)
   - [article] "Agent-permeable" is the new mobile-responsive — the agent equivalent of signifiers is machine-readable metadata. <https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive> (sources/uxtools-articles.md)

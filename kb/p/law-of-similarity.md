@@ -19,6 +19,7 @@ _Similar-looking = related_ · cycle: 🔮 Meaning · cluster: C1 · evidence: S
 - Sources: https://www.yorku.ca/pclassic/Wertheimer/Forms/forms.htm ; https://ruccs.sas.rutgers.edu/images/archive/personal-manish-singh/papers/Wagemans_etal_2012_I.pdf ; https://nulab.com/learn/design-and-ux/how-to-use-gestalt-principles-law-of-similarity-in-design/
 - Typed edges: supports → Law of Proximity; supports → Juxtaposition; supports → Mental Model; tension → Von Restorff Effect; supports → Signifiers
 - Explained by frameworks: ⚙ Gestalt principles of perception (organises)
+- Lineage (art & design history): De Stijl (Neoplasticism); Isotype (Vienna Method of Pictorial Statistics); Islamic geometric pattern & calligraphy; Pop Art → lineage.md
 - Linked sources (9):
   - [article] Gen image workflows in software design — style training keeps icon sets visually consistent so they read as one family. <https://www.uxtools.co/blog/gen-image-workflows-in-software-design> (sources/uxtools-articles.md)
   - [article] Generative media workflows in UI design — palette/style nodes enforce consistent brand families. <https://www.uxtools.co/blog/generative-media-workflows-in-ui-design> (sources/uxtools-articles.md)

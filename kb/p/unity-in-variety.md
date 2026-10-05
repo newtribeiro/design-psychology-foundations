@@ -1,0 +1,22 @@
+## Unity-in-Variety
+_Coherence plus richness beats either alone_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: An old aesthetic principle, now tested empirically: designs are most appreciated when they show strong unity (coherence, grouping, consistency) and rich variety (diversity, contrast, detail) at the same time.
+- Mechanism (why it happens): Unity makes a design easy to organise into a whole (Gestalt grouping, fluency), while variety supplies interest and something to discover; the pleasure is in perceiving order within diversity, so maximising both together beats trading one for the other.
+- Origin & key evidence:
+  - Post, Blijlevens & Hekkert (2016), "'To preserve unity while almost allowing for chaos': Testing the aesthetic principle of unity-in-variety in product design", Acta Psychologica 163 — unity and variety each had independent positive effects on aesthetic appreciation of products, and appreciation peaked when both were high. https://doi.org/10.1016/j.actpsy.2015.11.013
+  - Post, Nguyen & Hekkert (2017), "Unity in variety in website aesthetics: A systematic inquiry", International Journal of Human-Computer Studies 103 — the same independent positive effects held for web pages, with unity and variety manipulated via cues such as symmetry and colourfulness. https://doi.org/10.1016/j.ijhcs.2017.02.003
+  - Veryzer & Hutchinson (1998), "The influence of unity and prototypicality on aesthetic responses to new product designs", Journal of Consumer Research 24(4) — unity raised aesthetic responses to product designs independently of prototypicality. https://doi.org/10.1086/209516
+- Evidence grade: Moderate — controlled experiments across two domains support the principle, but most evidence comes from a single research group and stimulus manipulations are simplified.
+- Design applications:
+  - Lock unity with a strict grid, type scale and token set, then add variety through imagery, illustration and accent colour — measure appeal vs. a monochrome/uniform variant.
+  - When a page feels "boring", add variety inside existing groups rather than breaking the grid — measure appeal and scan time.
+  - When a page feels "chaotic", increase unity (alignment, repeated shapes, fewer type styles) before removing content — measure perceived clarity and task success.
+  - Audit design-system components for both consistency and expressive range — measure designer adoption and visual-QA issues.
+- Real product examples: Editorial sites that pair a rigid grid with varied photography and illustration (illustrative); design systems with strict tokens but expressive illustration libraries (illustrative).
+- Enterprise/B2B note: Enterprise suites tend to over-index on unity (everything grey and uniform); controlled variety — distinct module colours, meaningful iconography, varied chart types — can make dense products easier to navigate and less fatiguing.
+- Ethics/watch-out: Variety used as decoration can compete with critical information; keep variety out of status, warning and error signalling where consistency carries meaning.
+- Contexts: visual-design, branding, dashboards, data-viz, navigation
+- Sources: https://doi.org/10.1016/j.actpsy.2015.11.013 ; https://doi.org/10.1016/j.ijhcs.2017.02.003 ; https://research.tudelft.nl/en/publications/unity-in-variety-in-website-aesthetics-a-systematic-inquiry/ ; https://doi.org/10.1086/209516
+- Typed edges: related → MAYA Principle; related → Complexity–Arousal Curve; supports → Law of Similarity; supports → Law of Prägnanz; related → Visual Hierarchy; related → Aesthetic Aha
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Gestalt principles of perception (mechanism-of)
+- Lineage (art & design history): Islamic geometric pattern & calligraphy → lineage.md

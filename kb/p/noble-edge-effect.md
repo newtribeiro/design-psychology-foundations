@@ -17,6 +17,7 @@ _Users favour caring, responsible brands_ · cycle: 🔮 Meaning · cluster: C5 
 - Typed edges: special-case-of → Halo Effect; supports → Affect Heuristic; tension → Reactance; supports → Authority Bias; supports → Storytelling Effect; tension → Loss Aversion
 - Related: Reciprocity, Halo Effect
 - Explained by frameworks: ⚙ Cialdini's 7 principles of influence (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports); ⚙ Prospect Theory (tension)
+- Lineage (art & design history): Arts & Crafts → lineage.md
 - Linked sources (9):
   - [article] Fast and Cheap Ways to Find UX Research Participants — invitations framed as helping shape the product appeal to customers' desire to contribute. <https://www.uxtools.co/blog/fast-and-cheap-ways-to-find-ux-research-participants> (sources/uxtools-articles.md)
   - [article] I was wrong about taste — care and values-driven choices make makers/brands more admired. <https://www.uxtools.co/blog/i-was-wrong-about-taste> (sources/uxtools-articles.md)

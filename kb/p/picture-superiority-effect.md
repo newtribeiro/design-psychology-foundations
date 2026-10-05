@@ -19,6 +19,7 @@ _Images beat words for recall_ · cycle: 💾 Memory · cluster: C1 · evidence:
 - Sources: https://en.wikipedia.org/wiki/Picture_superiority_effect ; https://en.wikipedia.org/wiki/Dual-coding_theory ; https://nngroup.com/articles/picture-superiority-effect/ ; https://www.dezeen.com/?p=1165745
 - Typed edges: supports → Recognition Over Recall; supports → Storytelling Effect; supports → Sensory Appeal; tension → Banner Blindness; supports → Von Restorff Effect
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of)
+- Lineage (art & design history): Isotype (Vienna Method of Pictorial Statistics) → lineage.md
 - Linked sources (10):
   - [article] 5 Principles of Exceptional Case Studies in UX Portfolios — annotated before/after images communicate impact faster than text. <https://www.uxtools.co/blog/5-principles-of-exceptional-case-studies-in-ux-portfolios> (sources/uxtools-articles.md)
   - [article] How research teams are keeping up with build teams — video highlight clips persuade stakeholders more than reports. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)

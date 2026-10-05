@@ -19,6 +19,7 @@ _Ignoring what didn't make it through_ · cycle: 🙈 Information · cluster: C1
 - Sources: https://growth.design/psychology ; https://vintageaviationnews.com/warbird-articles/making-aircraft-survivable-abraham-walds-counterintuitive-armor-theory.html ; https://uxplanet.org/design-principles-selection-bias-bf51ff9ac69b
 - Typed edges: tension → Survey Bias; supports → Confirmation Bias; supports → Availability Heuristic; counteracts → Hindsight Bias; measured-by → cohort / churn analysis; tension → Singularity Effect; tension → Pareto Principle
 - Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Kano model (supports)
+- Lineage (art & design history): ⟂ Bauhaus; ⟂ Brazilian Concrete & Neo-Concrete art → lineage.md
 - Linked sources (14):
   - [article] 12 Ways to Utilize Other Departments in User Research — support only hears from users who reached out; silent churners are missing. <https://www.uxtools.co/blog/12-ways-to-utilize-other-departments-in-user-research> (sources/uxtools-articles.md)
   - [survey] 7 Takeaways from the 2020 Design Tools Survey — survey respondents skew toward engaged UX Tools readers. <https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey> (sources/uxtools-articles.md)

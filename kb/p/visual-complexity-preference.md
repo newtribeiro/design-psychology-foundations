@@ -1,0 +1,22 @@
+## Visual Complexity Preference
+_Simpler screens usually win first impressions_ · cycle: 🙈 Information · cluster: C11 · evidence: Moderate
+- Definition: For interfaces viewed at a glance, people on average rate lower-complexity layouts as more appealing, but the preferred level of complexity and colourfulness varies with age, gender, education and country.
+- Mechanism (why it happens): Visual complexity (number, variety and disorder of elements) slows perceptual organisation, lowering fluency and first-glance appeal; learnt norms from one's own culture and media diet shift where "too busy" begins.
+- Origin & key evidence:
+  - Tuch et al. (2012), "The role of visual complexity and prototypicality regarding first impression of websites", International Journal of Human-Computer Studies 70(11) — low-complexity, highly prototypical sites were rated most beautiful; high complexity lowered appeal even for familiar designs. https://doi.org/10.1016/j.ijhcs.2012.06.003
+  - Reinecke et al. (2013), "Predicting users' first impressions of website aesthetics with a quantification of perceived visual complexity and colorfulness", CHI '13 — image-based complexity and colourfulness metrics, with demographics, explained about half the variance in appeal. https://doi.org/10.1145/2470654.2481281
+  - Reinecke & Gajos (2014), "Quantifying visual preferences around the world", CHI '14 — 2.4 million ratings from ~40,000 people: preferred complexity and colourfulness differed by gender, education, age and country. https://doi.org/10.1145/2556288.2557052
+  - Nadal et al. (2010), "Visual complexity and beauty appreciation: Explaining the divergence of results", Empirical Studies of the Arts 28(2) — "complexity" is multidimensional; organisation and element variety affect beauty differently. https://doi.org/10.2190/EM.28.2.d
+- Evidence grade: Moderate — large-sample online studies and lab experiments agree that average first-glance appeal falls with complexity, but effects are moderated by culture and demographics and are measured on screenshots, not use.
+- Design applications:
+  - Reduce clutter on entry screens (fewer competing blocks, more whitespace, fewer typefaces) — measure first-impression appeal and bounce rate.
+  - Separate density from disorder: keep information but improve grouping and alignment — measure perceived clutter and scan time.
+  - Localise visual density and colourfulness for major markets after testing — measure appeal per region.
+  - Use automated complexity scoring in design QA to flag outliers — measure correlation with user ratings.
+- Real product examples: LabintheWild's public aesthetics studies that underpin Reinecke & Gajos; Google research blog on simple and familiar designs; denser portal-style home pages common in some East Asian markets (illustrative).
+- Enterprise/B2B note: Admin and analytics screens are inherently information-rich; aim for low perceived complexity through hierarchy, progressive disclosure and consistent grids rather than removing data experts need.
+- Ethics/watch-out: Treating one population's preference as universal can disadvantage other markets and user groups; check that "clean" designs do not hide information users need to make decisions.
+- Contexts: visual-design, dashboards, navigation, onboarding, research
+- Sources: https://doi.org/10.1016/j.ijhcs.2012.06.003 ; https://doi.org/10.1145/2470654.2481281 ; https://doi.org/10.1145/2556288.2557052 ; https://doi.org/10.2190/EM.28.2.d ; https://eecs.harvard.edu/~kgajos/papers/2014/reinecke14visual.shtml
+- Typed edges: related → Complexity–Arousal Curve; related → Cognitive Load; supports → Fifty-Millisecond Impression; related → Prototypicality; related → Occam's Razor; related → Colour–Emotion Associations
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)

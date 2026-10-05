@@ -19,6 +19,7 @@ _Adoption grows with adoption_ · cycle: ⏰ Time · cluster: C5 · evidence: Mo
 - Sources: https://pdodds.w3.uvm.edu/research/papers/years/2006/salganik2006a.pdf ; https://arxiv.org/pdf/1408.1542
 - Typed edges: special-case-of → Social Proof; supports → Authority Bias; supports → False Consensus Effect; tension → Familiarity Bias; supports → Scarcity; tension → Singularity Effect
 - Explained by frameworks: ⚙ Cialdini's 7 principles of influence (mechanism-of); ⚙ Cialdini's 7 principles of influence (organises)
+- Lineage (art & design history): ⟂ Postmodernism, Memphis & New Wave typography → lineage.md
 - Linked sources (20):
   - [article] 33 Activity Ideas for Remote UX Workshops — simultaneous (not sequential) dot voting and silent brainwriting prevent people copying early opinions. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
   - [survey] 7 Takeaways from the 2020 Design Tools Survey — rapid Figma/Miro adoption reflects tool choice spreading through the community. <https://www.uxtools.co/blog/7-takeaways-from-the-2020-design-tools-survey> (sources/uxtools-articles.md)

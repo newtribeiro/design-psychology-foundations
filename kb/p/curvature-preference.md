@@ -1,0 +1,24 @@
+## Curvature Preference
+_Curves preferred over sharp angles, modestly_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Moderate
+- Definition: People tend to prefer objects and shapes with curved contours over otherwise similar ones with sharp angles; the effect is moderate in size and varies with stimulus type, task and expertise.
+- Mechanism (why it happens): Competing accounts: sharp angles may signal threat and trigger mild avoidance (dislike of angularity), curves may be processed more fluently or read as softer and friendlier; current evidence suggests both liking for curves and dislike of angles contribute.
+- Origin & key evidence:
+  - Bar & Neta (2006), "Humans prefer curved visual objects", Psychological Science 17(8) — emotionally neutral objects and patterns with curved contours were liked more than sharp-angled versions. https://doi.org/10.1111/j.1467-9280.2006.01759.x
+  - Gómez-Puerto, Munar & Nadal (2016), "Preference for curvature: A historical and conceptual framework", Frontiers in Human Neuroscience 9 — review tracing the effect from early aesthetics to current explanations. https://doi.org/10.3389/fnhum.2015.00712
+  - Palumbo, Ruta & Bertamini (2015), "Comparing angular and curved shapes in terms of implicit associations and approach/avoidance responses", PLOS ONE 10 — curved shapes were implicitly linked with positive and angular shapes with negative concepts. https://doi.org/10.1371/journal.pone.0140043
+  - Gómez-Puerto et al. (2018), "Preference for curved contours across cultures", Psychology of Aesthetics, Creativity, and the Arts 12(4) — similar curve preference in Spain, rural Mexico and rural Ghana. https://doi.org/10.1037/aca0000135
+  - Chuquichambi et al. (2022), "How universal is preference for visual curvature? A systematic review and meta-analysis", Annals of the New York Academy of Sciences 1518 — 61 studies, 11,023 participants: medium effect (g ≈ 0.39), strongest for abstract stimuli and short exposures, near zero for experts (g ≈ 0.13) and for spatial/architectural designs. https://doi.org/10.1111/nyas.14919
+- Evidence grade: Moderate — a meta-analysis and cross-cultural data confirm a real medium-sized average effect, but it shrinks with expertise, longer viewing and some design categories.
+- Design applications:
+  - Use rounded corners and soft shapes for friendly, approachable surfaces (cards, buttons, avatars) — measure perceived friendliness and appeal.
+  - Reserve sharp, angular forms for signalling precision, urgency or alerts — measure recognition speed of warnings.
+  - Keep corner radius consistent as a design token so curvature reads as intentional — measure visual-QA defects.
+  - Test with actual users, since expert designers' own curvature preferences are weaker — measure preference by audience segment.
+- Real product examples: Rounded "squircle" app-icon masks on iOS (illustrative); Google's Material Design shape system with configurable corner rounding (illustrative).
+- Enterprise/B2B note: Curvature can soften dense, technical interfaces and make them feel less intimidating; keep it subtle so tools still read as precise and serious.
+- Ethics/watch-out: Soft, friendly forms can lower users' guard; do not use rounded "friendly" styling to make risky actions (deleting data, payments) look harmless.
+- Contexts: visual-design, branding, onboarding, notifications, errors
+- Sources: https://doi.org/10.1111/j.1467-9280.2006.01759.x ; https://doi.org/10.3389/fnhum.2015.00712 ; https://doi.org/10.1371/journal.pone.0140043 ; https://doi.org/10.1037/aca0000135 ; https://doi.org/10.1111/nyas.14919
+- Typed edges: related → Symmetry Preference; related → Affect Heuristic; related → Negativity Bias; supports → Visual Style Connotation; related → Fifty-Millisecond Impression; related → Sensory Appeal
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): Art Nouveau / Jugendstil / Secession; Brazilian Concrete & Neo-Concrete art → lineage.md

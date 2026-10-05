@@ -1,0 +1,22 @@
+## Golden Ratio
+_1.618 is folklore more than a law_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Contested
+- Definition: The claim that proportions near 1:1.618 (the golden section) are intrinsically the most beautiful, so rectangles, layouts and logos built on it will be preferred.
+- Mechanism (why it happens): No reliable perceptual mechanism has been shown. Where small preferences appear, they are better explained by a general liking for moderately elongated, non-square shapes, by demand characteristics in the experiment, or by the story itself (designers and viewers expect "golden" to be better).
+- Origin & key evidence:
+  - Fechner (1876) reported a preference for golden rectangles; later work traced this to method choices. Green (1995), "All that glitters: a review of psychological research on the aesthetics of the golden section", Perception 24(8) — some effect may exist but is fragile and highly sensitive to method. https://doi.org/10.1068/p240937
+  - McManus (1980), "The aesthetics of simple figures", British Journal of Psychology 71(4) — previous golden-section effects judged dubious; preferences were stable but idiosyncratic per person. https://doi.org/10.1111/j.2044-8295.1980.tb01763.x
+  - Markowsky (1992), "Misconceptions about the golden ratio", College Mathematics Journal 23(1) — many claims of the ratio in the Parthenon, paintings and the body rely on loose measurement and selective fitting. https://doi.org/10.2307/2686193
+  - Stieger & Swami (2015), "Time to let go? No automatic aesthetic preference for the golden ratio in art pictures", Psychology of Aesthetics, Creativity, and the Arts 9 — no automatic preference for golden-ratio proportions in art images. https://doi.org/10.1037/a0038506
+- Evidence grade: Contested — over a century of studies gives at most a weak, method-dependent effect, and modern tests find no special preference for 1.618 over nearby ratios.
+- Design applications:
+  - Treat 1.618 as one convenient modular ratio (for type scales, column splits), not a beauty guarantee — measure readability and layout fit, not "harmony".
+  - When a stakeholder insists on golden-ratio geometry, A/B or preference-test against a 3:2 or 16:10 alternative — measure preference share and task success.
+  - Prefer content-driven proportions (image aspect ratios, line length 45–75 characters) over imposed ratios — measure reading time and scroll depth.
+- Real product examples: Twitter's 2010 web redesign was publicly described as following the golden ratio (illustrative of the myth's appeal); many logo "construction grid" case studies overlay golden spirals after the fact (illustrative).
+- Enterprise/B2B note: Proportion systems help consistency across large product suites, but justify them on modularity and token maths; claiming a perceptual advantage invites unfounded design debates.
+- Ethics/watch-out: Selling work on golden-ratio "science" misleads clients; be honest that it is a stylistic choice.
+- Contexts: visual-design, branding, stakeholder-communication
+- Sources: https://doi.org/10.1068/p240937 ; https://www.yorku.ca/christo/papers/goldrev3.htm ; https://doi.org/10.1111/j.2044-8295.1980.tb01763.x ; https://doi.org/10.2307/2686193 ; https://doi.org/10.1037/a0038506 ; https://www.r-bloggers.com/2010/09/newtwitter-design-based-on-a-golden-spiral/
+- Typed edges: related → Visual Balance; related → Rule of Thirds; related → Confirmation Bias; related → Authority Bias; related → Expectations Bias
+- Explained by frameworks: ⚙ Empirical aesthetics (organises)
+- Lineage (art & design history): ⟂ Renaissance perspective & composition; ⟂ Islamic geometric pattern & calligraphy → lineage.md

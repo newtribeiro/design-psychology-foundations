@@ -1,0 +1,23 @@
+## Processing Fluency
+_Easy to process feels good and true_ · cycle: 🔮 Meaning · cluster: C11 · evidence: Strong
+- Definition: The subjective ease with which a stimulus is perceived and understood; the easier something is to process, the more people tend to like it, trust it and judge it as familiar.
+- Mechanism (why it happens): The brain monitors the speed of its own processing; a fast, smooth experience is mildly positive and is misattributed to the object itself ("I like this") rather than to the ease. Symmetry, contrast, clarity, repetition and prototypicality all raise fluency.
+- Origin & key evidence:
+  - Reber, Winkielman & Schwarz (1998), "Effects of perceptual fluency on affective judgments", Psychological Science 9(1) — priming, clearer figure-ground contrast and longer exposure all raised liking ratings. https://doi.org/10.1111/1467-9280.00008
+  - Reber, Schwarz & Winkielman (2004), "Processing fluency and aesthetic pleasure: Is beauty in the perceiver's processing experience?", Personality and Social Psychology Review 8(4) — review proposing fluency as a common account of symmetry, contrast, prototypicality and mere-exposure effects on beauty. https://doi.org/10.1207/s15327957pspr0804_3
+  - Alter & Oppenheimer (2009), "Uniting the tribes of fluency to form a metacognitive nation", Personality and Social Psychology Review 13(3) — integrative review: perceptual, linguistic and conceptual fluency all shift judgements of liking, truth, risk and frequency. https://doi.org/10.1177/1088868309341564
+  - Meyer et al. (2015), "Disfluent fonts don't help people solve math problems", Journal of Experimental Psychology: General 144(2) — 17 studies (n > 7,000) failed to replicate the claimed benefit of hard-to-read fonts on reasoning; the "disfluency helps" corollary is not reliable. https://doi.org/10.1037/xge0000049
+- Evidence grade: Strong — the fluency→liking link is replicated across many paradigms and labs, though effects are modest and the reverse claim (disfluency improves thinking) has failed replication.
+- Design applications:
+  - Use high-contrast, legible type and clean figure-ground separation on key screens — measure first-impression appeal and trust ratings (A/B or 5-second test).
+  - Reuse consistent components and patterns so repeat views get faster — measure time-on-task and error rate across sessions.
+  - Write plain-language headings and labels — measure comprehension score and support-ticket volume.
+  - Do not deliberately add friction "to make people think"; test instead — measure task success, not just engagement.
+- Real product examples: GOV.UK design system's plain typography and language guidance (illustrative); Google's research blog on Tuch et al. reporting users preferring simple, familiar website layouts.
+- Enterprise/B2B note: Dense operational software benefits from fluency through consistency more than minimalism — stable layouts, predictable labels and standard controls let expert users process screens quickly even when information density is high.
+- Ethics/watch-out: Fluency also makes claims feel true; a polished, easy-to-read message can lend unearned credibility, so do not use fluency to dress up weak or misleading content.
+- Contexts: visual-design, content/copy, branding, forms, onboarding, dashboards
+- Sources: https://doi.org/10.1111/1467-9280.00008 ; https://doi.org/10.1207/s15327957pspr0804_3 ; https://doi.org/10.1177/1088868309341564 ; https://doi.org/10.1037/xge0000049 ; https://research.google/blog/users-love-simple-and-familiar-designs-why-websites-need-to-make-a-great-first-impression/
+- Typed edges: mechanism-of → Aesthetic-Usability Effect; mechanism-of → Familiarity Bias; related → Affect Heuristic; related → Cognitive Load; supports → Prototypicality; supports → Symmetry Preference; tension → Aesthetic Aha
+- Explained by frameworks: ⚙ Empirical aesthetics (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationality (mechanism-of)
+- Lineage (art & design history): Swiss / International Typographic Style → lineage.md
