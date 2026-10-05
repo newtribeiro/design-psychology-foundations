@@ -45,7 +45,7 @@
 - organises → *all 106* via the four sections (Information = Block, Meaning = Interpret, Time = Act, Memory = Store).
 - organises (Psych) → Social Proof, Aha! Moment, Spark Effect, Goal Gradient Effect, Labor Illusion, Curiosity Gap (+Psych); Cognitive Load, Decision Fatigue, Cashless Effect's inverse (pain of paying), Reactance (−Psych).
 - supports → Progressive Disclosure (spend Psych only once it has been earned), Default Bias (zero-cost Psych).
-- tension → Nudge ethics (Psych optimisation can drift into sludge/dark patterns; see §12).
+- tension → Nudge (ethics: Psych optimisation can drift into sludge/dark patterns; see §12).
 
 **How a designer uses it.**
 - Run a B.I.A.S. pass on a screen: what gets *blocked* (banner blindness), how is it *interpreted* (mental model, framing), what makes *acting* easy (defaults, Fitts), what is *stored* (peak-end, picture superiority).
@@ -417,8 +417,8 @@
 - Leder et al. (2019), "Symmetry is not a universal law of beauty", Empirical Studies of the Arts 37(1) — https://doi.org/10.1177/0276237418777941
 **Evidence grade.** Moderate — individual effects (fluency, curvature, symmetry, prototypicality) are well replicated, but stimuli are often abstract or static, effect sizes are moderate, and many findings shrink with expertise, culture or longer viewing.
 **Principles explained / organised.**
-- organises → Processing Fluency; Prototypicality; MAYA Principle; Unity-in-Variety; Complexity–Arousal Curve; Fifty-Millisecond Impression; Visual Complexity Preference; Symmetry Preference; Curvature Preference; Visual Balance; Golden Ratio; Rule of Thirds; Colour–Emotion Associations; Fractal Fluency; Peak Shift Effect; Aesthetic Aha; Visual Style Connotation
-- mechanism-of → Aesthetic-Usability Effect; Halo Effect; Familiarity Bias; Sensory Appeal; Affect Heuristic
+- organises → Processing Fluency, Prototypicality, MAYA Principle, Unity-in-Variety, Complexity–Arousal Curve, Fifty-Millisecond Impression, Visual Complexity Preference, Symmetry Preference, Curvature Preference, Visual Balance, Golden Ratio, Rule of Thirds, Colour–Emotion Associations, Fractal Fluency, Peak Shift Effect, Aesthetic Aha, Visual Style Connotation
+- mechanism-of → Aesthetic-Usability Effect, Halo Effect, Familiarity Bias, Sensory Appeal, Affect Heuristic
 - tension → Occam's Razor (variety and expert preference for complexity push against pure minimalism)
 **How a designer uses it.**
 - Use fluency levers (contrast, symmetry, prototypical layout) to make first impressions positive, then add controlled novelty and variety for interest.

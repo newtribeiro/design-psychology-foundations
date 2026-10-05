@@ -137,6 +137,28 @@ def main():
     if bad:
         err(f"graph.json: {len(bad)} edges reference unknown nodes (e.g. {bad[0]})")
 
+    # 5b. duplicate edges, symmetric tensions, typed edges in principle files match the graph
+    import collections
+    dup = [k for k, c in collections.Counter((e["s"], e["t"], e["d"]) for e in graph["edges"]).items() if c > 1]
+    if dup:
+        err(f"graph.json: {len(dup)} duplicate edges (e.g. {dup[0]})")
+    ten = {(e["s"], e["d"]) for e in graph["edges"] if e["t"] == "tension" and e["s"] in nodes and e["d"] in nodes}
+    for s_, d_ in sorted(ten):
+        if (d_, s_) not in ten:
+            err(f"asymmetric tension {s_} ⟂ {d_}")
+    gedge = {(e["s"], e["t"], e["d"]) for e in graph["edges"]}
+    for name in nodes:
+        path = KB / "p" / f"{slug(name)}.md"
+        if not path.exists():
+            continue
+        m = re.search(r"- Typed edges: (.+)", path.read_text(encoding="utf-8"))
+        for part in (m.group(1).split("; ") if m else []):
+            mm = re.match(r"([\w-]+) → (.+)", part.strip())
+            if mm and mm.group(2).strip() in nodes and (name, mm.group(1), mm.group(2).strip()) not in gedge:
+                err(f"{name}: typed edge {mm.group(1)} → {mm.group(2).strip()} missing from graph.json")
+    for t_name, *_ in index:
+        pass
+
     # 6. required KB files
     for f in ["frameworks.md", "CHANGELOG.md", "UPDATE_PROTOCOL.md", "cycle.json", "lineage.md"]:
         if not (KB / f).exists():

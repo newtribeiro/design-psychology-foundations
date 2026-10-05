@@ -2,7 +2,7 @@
 Documented history and interpretation, not graded findings. Use for: where a visual convention comes from, what a style signals, what got lost on the way to digital. Deep study lives in the companion designer-growth skill (Module H).
 
 ## Renaissance perspective & composition · c.1415–1500s · Florence / Italy
-- Figures: Filippo Brunelleschi, Leon Battista Alberti, Masaccio, Donatello, Leonardo da Vinci · Works: Brunelleschi's Baptistery perspective panel (c.1415, lost); Alberti, De pictura (1435); Masaccio, Holy Trinity (1425–27)
+- Figures: Filippo Brunelleschi, Leon Battista Alberti, Masaccio, Donatello, Leonardo da Vinci · Works: Brunelleschi's Baptistery perspective panel (c.1415–20, lost); Alberti, De pictura (1435); Masaccio, Holy Trinity (c.1427)
 - Intent: A geometric method for placing the viewer in a single, measurable space so painted narratives read as continuous with the real world; Alberti codified it as a teachable procedure.
 - Signals today: Interpretive: depth, realism and 'serious' authority; a centred vanishing point still reads as order and control.
 - Into digital: Drop shadows, z-axis elevation, parallax and 3D product renders reuse perspective and chiaroscuro cues to imply hierarchy and layering (e.g. Material elevation, card stacks).
@@ -19,7 +19,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Lost: The socialist goal of fair labour was dropped; the look now sells premium goods, the very contradiction Morris faced.
 - Principles: ↳ Noble Edge Effect (Ethical making signals a company's values); ↳ Labor Illusion (Visible effort raises perceived value of crafted things); ↳ Sensory Appeal (Texture, pattern and material richness invite touch); ↳ Visual Style Connotation (Hand-made look connotes authenticity and care); ⟂ Halo Effect (Craft aesthetics can mask poor function or labour practices)
 - Watch: 'Artisanal' styling on mass-produced or exploitative products is craft-washing, the opposite of the movement's intent.
-- Sources: https://www.britannica.com/art/Arts-and-Crafts-movement ; https://www.vam.ac.uk/articles/introducing-william-morris ; https://en.wikipedia.org/wiki/Kelmscott_Press
+- Sources: https://www.britannica.com/art/Arts-and-Crafts-movement ; https://www.vam.ac.uk/articles/introducing-william-morris ; https://en.wikipedia.org/wiki/Kelmscott_Press ; https://collections.vam.ac.uk/item/O78889
 
 ## Art Nouveau / Jugendstil / Secession · c.1890–1914 · Belgium, France, Austria, Germany, Scotland, USA
 - Figures: Victor Horta, Alphonse Mucha, Hector Guimard, Henry van de Velde, Gustav Klimt · Works: Horta, Hôtel Tassel, Brussels (1893); Mucha, Gismonda poster (1894–95); Bing's gallery L'Art Nouveau, Paris (1895)
@@ -42,7 +42,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Sources: https://www.britannica.com/topic/De-Stijl-art ; https://www.moma.org/collection/works/4044 ; https://smarthistory.org/de-stijl-part-i-total-purity/
 
 ## Russian Constructivism · c.1915–1930s · Russia / Soviet Union
-- Figures: Vladimir Tatlin, Aleksandr Rodchenko, Varvara Stepanova, Liubov Popova, El Lissitzky · Works: Lissitzky, Beat the Whites with the Red Wedge (1919–20); Lissitzky, Of Two Squares (1922); Lissitzky & Mayakovsky, For the Voice (1923)
+- Figures: Vladimir Tatlin, Aleksandr Rodchenko, Varvara Stepanova, Liubov Popova, El Lissitzky · Works: Lissitzky, Beat the Whites with the Red Wedge (1919–20); Lissitzky, Of Two Squares (published Berlin, 1922); Lissitzky & Mayakovsky, For the Voice (1923)
 - Intent: Replace art-for-art's-sake with the 'artist-engineer' producing useful objects, propaganda, typography and textiles for a new socialist society.
 - Signals today: Interpretive: revolution, urgency, disruption, collective power; red/black diagonals now read as activist or edgy.
 - Into digital: Diagonal compositions, photomontage, bold sans headlines and red/black palettes in campaign sites, music/streaming promos and 'disruptor' brand launches.
@@ -72,7 +72,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Sources: https://isotype.univie.ac.at/en/abstract ; https://gerdarntz.org/content/gerd-arntz.html
 
 ## Swiss / International Typographic Style · c.1950–1970s (Ulm HfG 1953–68) · Switzerland (Basel, Zurich), Germany (Ulm)
-- Figures: Josef Müller-Brockmann, Armin Hofmann, Emil Ruder, Max Bill, Otl Aicher · Works: Müller-Brockmann, Musica Viva posters (from 1950); Helvetica (1957); Neue Grafik journal (1958–65)
+- Figures: Josef Müller-Brockmann, Armin Hofmann, Emil Ruder, Max Bill, Otl Aicher · Works: Müller-Brockmann, Musica Viva posters (from 1950); Neue Haas Grotesk / Helvetica (1957; renamed Helvetica 1960); Neue Grafik journal (1958–65)
 - Intent: Objective, rational communication: grids, sans-serif type and documentary photography to convey information clearly and neutrally, as a post-war ethic of clarity over persuasion.
 - Signals today: Interpretive: neutrality, precision, institutional trust, 'international' professionalism.
 - Into digital: The default grammar of UI: 8/12-column grids, flush-left ragged-right type, sans-serif system fonts, generous whitespace; Ulm's systems thinking feeds design systems and the Braun → product-design lineage.
@@ -87,7 +87,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Signals today: Interpretive: stability, competence, scale, institutional trust; also 'establishment'.
 - Into digital: Brand guidelines became design systems; logo systems, app icons and transit-style wayfinding in apps descend from standards manuals; Rand's NeXT logo (1986) links directly to tech branding.
 - Lost: Manuals were about governance and public legibility; today the reduction is often chased as a trend (blanding).
-- Principles: ↳ Authority Bias (Systematic identity signals a competent institution); ↳ Familiarity Bias (Consistency over decades builds recognition); ↳ Law of Prägnanz (Abstract simple marks survive reduction); ⟂ Mental Model (Vignelli map traded geography for clarity; riders objected); ↳ Halo Effect (Good identity lends credibility to the whole company)
+- Principles: ↳ Authority Bias (Systematic identity signals a competent institution); ↳ Familiarity Bias (Consistency over decades builds recognition); ↳ Law of Prägnanz (Abstract simple marks survive reduction); ⟂ Mental Model (Vignelli map traded geography for clarity — riders objected); ↳ Halo Effect (Good identity lends credibility to the whole company)
 - Watch: Copying the flat-mark-plus-sans formula produces interchangeable 'blands'; the Vignelli map shows that elegance can clash with users' mental models.
 - Sources: https://www.moma.org/collection/works/89300 ; https://www.moma.org/collection/works/89303 ; https://eyemagazine.com/feature/article/symbols-and-survival ; https://en.wikipedia.org/wiki/Paul_Rand
 
@@ -99,7 +99,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Lost: Ma is temporal and relational, not just empty margin; wabi-sabi is reduced to beige minimalism and 'distressed' textures.
 - Principles: ↳ Visual Hierarchy (Emptiness frames and elevates the essential); ↳ Cognitive Load (Restraint reduces visual and decision clutter); ↳ Chronoception (Ma includes intervals of time, i.e. pacing); ↳ Aesthetic-Usability Effect ('Beauty of use' fuses function and pleasure); ⟂ Visual Style Connotation (Western 'zen' cliché misreads the concepts)
 - Watch: 'Zen' styling is an orientalist cliché; Yanagi's own Korea writings are criticised as colonial aesthetics, so cite mingei with that context.
-- Sources: https://en.wikipedia.org/wiki/Mingei ; https://mingeikan.or.jp/?lang=en ; https://www.archpaper.com/?p=263191
+- Sources: https://en.wikipedia.org/wiki/Mingei ; https://mingeikan.or.jp/?lang=en ; https://www.archpaper.com/?p=263191 ; https://www.festival-automne.com/storage/medias/Publish__evenement__448__FAP_1978_AP_01_JP_PRGS.pdf
 
 ## Islamic geometric pattern & calligraphy · c.8th century onward (girih from c.13th c.) · Middle East, North Africa, Iberia, Central & South Asia
 - Figures: Anonymous master builders and craftsmen, Calligraphers (e.g. Ibn Muqla, proportioned scripts) · Works: Alhambra, Granada (mainly 13th–14th c.); Darb-i Imam shrine girih, Isfahan (1453); Met — Damascus Room (1707)
@@ -109,7 +109,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Lost: Pattern is lifted from meaning and context; calligraphy carrying sacred text is used as mere texture.
 - Principles: ↳ Symmetry Preference (Rotational and mirror symmetry at every scale); ↳ Unity-in-Variety (Few rules yield endlessly varied patterns); ↳ Law of Similarity (Repeated units read as one surface); ↳ Fractal Fluency (Nested scales of pattern resemble self-similarity); ⟂ Golden Ratio (Proportion was compass-based, not golden-ratio derived)
 - Watch: Using Qur'anic or Arabic calligraphy as decoration, or 'arabesque' as exotic shorthand, is a common appropriation and sacrilege risk.
-- Sources: https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art ; https://www.nature.com/news/2007/070219/full/news070219-9.html ; https://www.metmuseum.org/learn/educators/lesson-plans/geometric-design-in-islamic-art
+- Sources: https://www.metmuseum.org/essays/geometric-patterns-in-islamic-art ; https://www.nature.com/news/2007/070219/full/news070219-9.html ; https://www.metmuseum.org/learn/educators/lesson-plans/geometric-design-in-islamic-art ; https://www.metmuseum.org/essays/the-damascus-room
 
 ## Brazilian Concrete & Neo-Concrete art · 1952–1960s (Ruptura 1952; Neo-Concrete Manifesto 1959) · Brazil (São Paulo, Rio de Janeiro, Recife)
 - Figures: Waldemar Cordeiro, Geraldo de Barros, Judith Lauand, Lygia Clark, Hélio Oiticica · Works: Ruptura exhibition & manifesto, MAM São Paulo (1952); Neo-Concrete Manifesto, Jornal do Brasil (1959); Lygia Pape, Book of Creation (1959)
@@ -139,7 +139,7 @@ Documented history and interpretation, not graded findings. Use for: where a vis
 - Lost: Flat design often removed signifiers along with ornament, hurting discoverability; neumorphism repeated the mistake with low contrast.
 - Principles: ↳ Skeuomorphism (Real-world metaphors taught first computer users); ⟂ Signifiers (Flat design stripped affordance cues from controls); ↳ Mental Model (Desktop, folder and trash map familiar office models); ⟂ Discoverability (Flat buttons and glass blur what's clickable); ↳ MAYA Principle (Each shift stays novel yet acceptable); ⟂ Contrast (Neumorphism and glass struggle with contrast)
 - Watch: Chasing platform aesthetics (neumorphism, glass) without contrast and signifier checks creates accessibility failures.
-- Sources: https://www.britannica.com/technology/Xerox-Star ; https://www.moma.org/collection/works/188382 ; https://www.apple.com/newsroom/2013/06/10Apple-Unveils-iOS-7/ ; https://www.webdesignmuseum.org/web-design-history/material-design-2014
+- Sources: https://www.britannica.com/technology/Xerox-Star ; https://www.moma.org/collection/works/188382 ; https://www.apple.com/newsroom/2013/06/10Apple-Unveils-iOS-7/ ; https://www.webdesignmuseum.org/web-design-history/material-design-2014 ; https://design.google/library/material-design-launch-2014
 
 ## Pop Art · mid-1950s–1970s · UK, USA
 - Figures: Richard Hamilton, Andy Warhol, Roy Lichtenstein, Claes Oldenburg · Works: Warhol, Campbell's Soup Cans (1962); Lichtenstein, Whaam! (1963)
