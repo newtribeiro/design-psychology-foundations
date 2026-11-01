@@ -3,10 +3,14 @@ _Order in which things are perceived_ · cycle: 🙈 Information · cluster: C1 
 - Definition: The arrangement of elements by size, contrast, colour, weight, position and spacing so that their visual prominence matches their importance and the intended reading order.
 - Mechanism (why it happens): Pre-attentive features (size, luminance contrast, colour) are processed in parallel before conscious reading, so they set the order in which items are fixated; hierarchy offloads ordering work from System 2.
 - Origin & key evidence:
-  - Rooted in Gestalt and pre-attentive processing research; codified by practitioners (NN/g's "squint test" as a hierarchy check) — https://www.nngroup.com/videos/squint-test/
-  - UXmatters (2024) synthesis of hierarchy tools: scale, contrast, spacing, alignment — https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
-- Evidence grade: Practitioner — underlying perceptual science is strong, but "visual hierarchy" as a design principle is a synthesis, not a single tested effect.
+  - Rooted in Gestalt and pre-attentive processing research; codified by practitioners (NN/g's "squint test" as a hierarchy check) - https://www.nngroup.com/videos/squint-test/
+  - Buscher, Cutrell & Morris (2009), CHI: 20 users viewed 361 web pages; attention varied by page location and task, and a model predicted element-level attention. https://www.microsoft.com/en-us/research/publication/what-do-you-see-when-youre-surfing-using-eye-tracking-to-predict-salient-regions-of-web-pages/
+  - Eye-tracking test of Faraday's visual-hierarchy model (2018, journal and authors not verified): the size-weighted model predicted page entry points poorly; position, colour and text style predicted better, size and image did not. https://www.datalearner.com/academic/journal-papers/0747-5632/volumes-and-issues/196/paper-detail/37405
+  - Pernice / NN/g (2019): headings drive the "layer-cake" scanning pattern, and subheadings help even committed readers. https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/
+  - Jiang et al. (2023), CHI, UEyes: 62 participants, 1,980 screenshots; viewing biases differ across web, desktop, mobile and poster UIs. https://userinterfaces.aalto.fi/ueyeschi23 . Sultanum & Setlur (2026 preprint, Tableau, details not fully verified): with 16 end-users, salience sometimes pulled early attention, but titles/KPIs and layout often outweighed it in dashboard reading order. https://arxiv.org/pdf/2608.06845
+- Evidence grade: Practitioner — perceptual science is strong and web eye-tracking supports position, headings and task effects, but studies contradict a simple "bigger is first" rule, so hierarchy remains a synthesis.
 - Design applications:
+  - Do not rely on size alone: combine position, colour and text style, then verify with eye-tracking or a saliency model (UEyes, Bylinskii).
   - One primary CTA per view, visibly dominant — measure primary-action click share and misclicks on secondary actions.
   - Typographic scale with ≤3–4 distinct heading levels — first-click test on "where would you find X".
   - Squint/blur test in design review; eye-tracking time-to-first-fixation on key KPI.
@@ -15,7 +19,7 @@ _Order in which things are perceived_ · cycle: 🙈 Information · cluster: C1 
 - Enterprise/B2B note: Dense catalogues and fleet dashboards often flatten everything to equal weight; explicit tiers (status > identity > metadata) cut scan time.
 - Ethics/watch-out: Hierarchy can bury opt-outs or fees ("confirmshaming", low-contrast decline links).
 - Contexts: navigation, dashboards, checkout, forms, content/copy, data-viz
-- Sources: https://www.nngroup.com/videos/squint-test/ ; https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
+- Sources: https://www.nngroup.com/videos/squint-test/ ; https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/ ; https://userinterfaces.aalto.fi/ueyeschi23 ; https://www.microsoft.com/en-us/research/publication/what-do-you-see-when-youre-surfing-using-eye-tracking-to-predict-salient-regions-of-web-pages/ ; https://www.datalearner.com/academic/journal-papers/0747-5632/volumes-and-issues/196/paper-detail/37405 ; https://arxiv.org/pdf/2608.06845 ; https://www.uxmatters.com/mt/archives/2024/02/visual-hierarchy-making-user-experiences-easier-to-understand.php
 - Typed edges: supports → Law of Proximity; supports → Contrast; supports → Von Restorff Effect; counteracts → Cognitive Load; supports → Serial Position Effect
 - Explained by frameworks: ⚙ Gestalt principles of perception (mechanism-of)
 - Lineage (art & design history): Renaissance perspective & composition; Russian Constructivism; Swiss / International Typographic Style; Japanese Ma, wabi-sabi & Mingei → lineage.md

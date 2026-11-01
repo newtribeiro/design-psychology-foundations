@@ -3,20 +3,22 @@ _Unfinished tasks stick in mind_ · cycle: 💾 Memory · cluster: C6 · evidenc
 - Definition: The claim that unfinished or interrupted tasks are remembered better than finished ones; in UX, used loosely for the pull of incomplete tasks.
 - Mechanism (why it happens): Lewin-style "task tension": an open goal stays active until resolved. The closely related Ovsiankina effect is the urge to resume interrupted tasks.
 - Origin & key evidence:
-  - Zeigarnik (1927), Berlin lab studies on recall of interrupted tasks — background in https://en.wikipedia.org/wiki/Zeigarnik_effect
-  - Ghibellini & Meier (2025), "Interruption, recall and resumption: a meta-analysis of the Zeigarnik and Ovsiankina effects", Humanities & Social Sciences Communications 12 — no reliable memory advantage for unfinished tasks; a robust tendency to resume them — https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html
-- Evidence grade: Contested — the memory effect does not replicate consistently; the resumption (Ovsiankina) effect is what designers actually rely on and is well supported.
+  - Zeigarnik (1927), Berlin lab studies on recall of interrupted tasks (original not opened).
+  - Ghibellini & Meier (2025), Humanities & Social Sciences Communications 12 — meta-analysis of 59 publications: interrupted vs completed recall ratio ≈ 0.99 (≈49% of recalled tasks were interrupted; weighted dz ≈ 0.15 from only 8 papers); ≈67% of interrupted tasks are resumed (21 papers). Simple weighted means, no CIs/heterogeneity/bias tests. https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html ; full text https://www.kog.psy.unibe.ch/e48276/e1785865/s41599-025-05000-w1_ger.pdf
+  - Ghibellini & Meier (2023), ESCOP poster, N=1,094 — unsolved anagrams recalled more than solved ones, more so with high achievement motivation (abstract only, unpublished). https://boris.unibe.ch/189777/
+- Evidence grade: Contested — no reliable memory advantage for unfinished tasks (small, setup-dependent). The resumption (Ovsiankina) tendency, which designers actually rely on, is well supported. (reviewed 2026-10-07)
 - Enterprise/B2B note: Draft states, "resume where you left off" and incomplete-setup banners help long, interrupted workflows (e.g. multi-day project planning).
 - Ethics/watch-out: Manufacturing open loops (cliffhangers, never-complete badges) to drive compulsive return; let users dismiss open items.
 - Contexts: onboarding, retention, gamification, forms, notifications, empty-states
-- Sources: https://en.wikipedia.org/wiki/Zeigarnik_effect ; https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html
-- Design applications: Show incomplete progress bars / profile completion; Save state so users can resume; Use open loops to bring users back
+- Sources: https://ideas.repec.org/a/pal/palcom/v12y2025i1d10.1057_s41599-025-05000-w.html ; https://www.kog.psy.unibe.ch/e48276/e1785865/s41599-025-05000-w1_ger.pdf ; https://boris.unibe.ch/189777/
+- Design applications: Show incomplete progress bars / profile completion; Save state so users can resume ("resume where you left off" is the well-supported part); Use open loops to bring users back — but don't claim open items are remembered better
 - Watch-out (growth.design): Endless never-complete loops create anxiety.
 - Product examples: Duolingo — incomplete daily-goal bar
 - Typed edges: tension → Fresh Start Effect; tension → Provide Exit Points; supports → Goal Gradient Effect; supports → Curiosity Gap; supports → Investment Loops; special-case-of → Commitment & Consistency; tension → Cognitive Load
 - Related: Goal Gradient Effect, Curiosity Gap, Pseudo-Set Framing
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Prospect Theory (supports)
-- Linked sources (7):
+- Linked sources (8):
+  - [case-study] Zeigarnik Effect: Why it's hard to leave things incomplete — completion meters, endowed progress, remaining-steps bars; ethics of compulsive open loops. <https://growth.design/case-studies/zeigarnik-effect> (sources/growth-design-case-studies.md)
   - [challenge] UX Challenges (index) — a numbered, unfinished curriculum keeps pulling the learner back. <https://www.uxtools.co/challenges> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Digital Prototype (Ideate) — unfinished lessons and "resume" prompts drive return visits. <https://www.uxtools.co/challenges/digital-prototype> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Heuristic Evaluation (Test) — reading goals and "currently reading" exploit open loops. Evaluate whether this is helpful or nagging. <https://www.uxtools.co/challenges/heuristic-evaluation> (sources/uxtools-challenges-tools.md)
@@ -24,3 +26,4 @@ _Unfinished tasks stick in mind_ · cycle: 💾 Memory · cluster: C6 · evidenc
   - [case-study] Duolingo's User Retention: 8 Tactics Tested On 300 Million Users — incomplete goals and progress bars pull users back. <https://growth.design/case-studies/duolingo-user-retention> (sources/growth-design-case-studies.md)
   - [case-study] How Morning Brew Grew To 1.5 Million Subs In 5 Years — unresolved quiz answers. <https://growth.design/case-studies/morning-brew-newsletter-retention> (sources/growth-design-case-studies.md)
   - [episode] Amelia Wattenberger: Designing The Next Flow State (YouTube: "Your Design File Is Now an A — workspaces preserve unfinished tasks so they can be resumed without loss. <https://www.uxtools.co/episodes/amelia-wattenberger-designing-the-next-flow-state> (sources/uxtools-episodes.md)
+- Last reviewed: 2026-10-07

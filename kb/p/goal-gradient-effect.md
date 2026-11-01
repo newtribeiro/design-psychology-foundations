@@ -5,7 +5,7 @@ _Motivation rises near the finish_ · cycle: 🔮 Meaning · cluster: C6 · evid
 - Origin & key evidence:
   - Hull (1932/1934), rats ran faster as they neared food (exact year varies by source) — https://business.columbia.edu/insights/chazen-global-insights/goal-gradient-hypothesis-resurrected-purchase-acceleration
   - Kivetz, Urminsky & Zheng (2006), Journal of Marketing Research — coffee-card customers bought more often nearer the reward; a 12-stamp card with 2 bonus stamps was completed faster (median 10 vs 15 days) than a plain 10-stamp card — https://business.columbia.edu/sites/default/files-efs/pubfiles/1200/goalgradient.pdf
-- Evidence grade: Strong-to-Moderate — solid field data and an old animal base; post-reward slow-down and "stuck in the middle" effects show it is not uniform.
+- Evidence grade: Strong — solid field data and an old animal base; post-reward slow-down and "stuck in the middle" effects show it is not uniform (effect size varies by context).
 - Enterprise/B2B note: Setup checklists and configuration wizards (e.g. fleet onboarding) benefit from visible progress and credit for steps already done.
 - Ethics/watch-out: Fake progress or moving finish lines erode trust; progress should represent real completion.
 - Contexts: onboarding, gamification, retention, forms, checkout, loading/waits

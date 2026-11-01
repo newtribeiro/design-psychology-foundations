@@ -3,11 +3,12 @@ _Full immersion in a task_ · cycle: 🔮 Meaning · cluster: C7 · evidence: Co
 - Definition: A state of deep, effortless absorption in an activity, in which self-consciousness and the sense of time fade. It is classically associated with a balance between challenge and skill, plus clear goals and immediate feedback.
 - Mechanism (why it happens): When demands slightly stretch a person's skill and feedback is continuous, attention is fully taken up by the task, with no spare capacity for distraction or self-monitoring. Too little challenge produces boredom; too much produces anxiety.
 - Origin & key evidence:
-  - Csikszentmihalyi (1975; *Flow*, 1990). The phenomenology has been documented across cultures with the Experience Sampling Method.
-  - Engeser & Rheinberg (2008): the challenge–skill "flow channel" was only partly supported and depended on achievement motivation and how important the activity was. Summarised at https://atticusli.com/replication-crisis/csikszentmihalyi-flow/
-  - Peifer et al. (2022) scoping review of about 250 studies: mostly correlational, with mixed evidence on performance outcomes (same source). I did not verify the primary review directly.
-  - Laws of UX entry: https://lawsofux.com/flow/index.md
-- Evidence grade: Contested. The experience is real and reported reliably, but the structural model and the performance claims are weaker than popular accounts suggest.
+  - Csikszentmihalyi (1975; *Flow*, 1990). Phenomenology documented across cultures with the Experience Sampling Method.
+  - Fong, Zaleski & Leach (2015), J. Positive Psychology — meta-analysis of 28 studies: challenge–skill balance moderately associated with flow, weaker in work/education and ESM studies (via third-party summary). https://www.instituteofcoaching.org/resources/challenge%E2%80%93skill-balance-and-antecedents-flow-meta-analytic-investigation
+  - Harris, Allen, Vine & Wilson (2021), Int. Review of Sport & Exercise Psychology — meta-analysis, 22 sport/gaming studies: flow–performance r = .31 [.24, .38]; causal direction unresolved (abstract only). https://ore.exeter.ac.uk/articles/journal_contribution/A_systematic_review_and_meta-analysis_of_the_relationship_between_flow_states_and_performance/29784977
+  - Zhang & Qi (2023), Frontiers in Psychology — 13 studies, n=3,253: learning flow–achievement r ≈ .43, extreme heterogeneity, mostly correlational. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1270642/full
+  - Peifer et al. (2022), Frontiers in Psychology — scoping review of 252 studies: mostly positive flow–performance links, calls for experimental/longitudinal designs. https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.815665/pdf
+- Evidence grade: Contested — the experience is reliably reported and meta-analyses show a moderate flow–performance correlation (r ≈ .3–.4), but evidence is correlational; "design for flow → better outcomes" is not shown causally. Upgrade to Moderate pending review. (reviewed 2026-10-07)
 - Design applications:
   - Remove interruptions in focused tasks (modal-free editing, deferred notifications). Signal: session length and number of context switches.
   - Give immediate, continuous feedback on actions. Signal: latency budget below 100 ms and error correction time.
@@ -15,17 +16,17 @@ _Full immersion in a task_ · cycle: 🔮 Meaning · cluster: C7 · evidence: Co
   - Make the next step obvious so users don't plan between steps. Signal: time between steps.
 - Real product examples: Figma's keyboard-driven canvas and multiplayer cursors, which preserve uninterrupted creation (no URL verified). Games with dynamic difficulty adjustment (no URL verified).
 - Enterprise/B2B note: Analysts and designers using pro tools benefit most. Safety-critical operations may want controlled interruption instead, because flow can mask alarms.
-- Ethics/watch-out: Engineered "flow" in infinite feeds can become compulsive use. Provide exit points.
+- Ethics/watch-out: Flow correlates with performance but doesn't prove it causes it — measure task outcomes, not just engagement. Engineered "flow" in infinite feeds can become compulsive use. Provide exit points.
 - Contexts: gamification, retention, dashboards, loading/waits, onboarding
-- Sources: https://lawsofux.com/flow/index.md ; https://atticusli.com/replication-crisis/csikszentmihalyi-flow/ ; https://learningloop.io/glossary/flow-theory-product-psychology
+- Sources: https://lawsofux.com/flow/index.md ; https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.815665/pdf ; https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1270642/full ; https://ore.exeter.ac.uk/articles/journal_contribution/A_systematic_review_and_meta-analysis_of_the_relationship_between_flow_states_and_performance/29784977
 - Typed edges: supports → Feedback Loop; tension → Selective Attention; supports → Goal Gradient Effect; counteracts → Decision Fatigue; tension → Variable Reward
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (supports); ⚙ Fogg Behavior Model + Tiny Habits (tension); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Self-Determination Theory (organises)
 - Linked sources (8):
   - [article] Designers and "phantom competency" — staying in the challenge zone slightly above skill drives growth. <https://www.uxtools.co/blog/designers-and-phantom-competency> (sources/uxtools-articles.md)
   - [survey] Designers who vibe code are happier at work — hands-on building with fast feedback plausibly raises engagement/satisfaction. <https://www.uxtools.co/blog/designers-who-vibe-code-are-happier-at-work> (sources/uxtools-articles.md)
   - [article] Designing The Next Flow State — a stable shared spec reduces context-switching and re-explaining, sustaining flow. <https://www.uxtools.co/blog/designing-the-next-flow-state> (sources/uxtools-articles.md)
-  - [article] How these designers are learning today — clear win conditions (recreation exercises) make learning absorbing ("soothing"). <https://www.uxtools.co/blog/how-these-designers-are-learning-today> (sources/uxtools-articles.md)
   - [challenge] Challenge: Digital Prototype (Ideate) — reduce friction between lessons (autoplay, remembered position) to keep learners immersed. <https://www.uxtools.co/challenges/digital-prototype> (sources/uxtools-challenges-tools.md)
-  - [survey] Award — Satisfaction Leader (ProtoPie) — tools that make complex interactions easy keep designers in flow. <https://uxtools.co/survey/design-tools-awards/satisfaction-leader> (sources/uxtools-survey.md)
   - [case-study] The Psychology Behind TikTok's Addictive Feed — immersive, distraction-free consumption. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
   - [episode] Amelia Wattenberger: Designing The Next Flow State (YouTube: "Your Design File Is Now an A — the core topic: agent latency breaks the challenge–skill–feedback rhythm; tools must restore it. <https://www.uxtools.co/episodes/amelia-wattenberger-designing-the-next-flow-state> (sources/uxtools-episodes.md)
+  - …2 more in sources/*.md (search the principle name)
+- Last reviewed: 2026-10-07

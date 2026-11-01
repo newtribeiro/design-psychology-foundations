@@ -3,26 +3,30 @@ _Prefer the simplest adequate solution_ · cycle: 🔮 Meaning · cluster: C2 ·
 - Definition: Among options that perform equally well, prefer the one with the fewest assumptions or elements. In design, remove anything that doesn't serve the core purpose.
 - Mechanism (why it happens): Each extra element adds perceptual and decision load (see Hick's Law and Cognitive Load) and more ways to fail. Simpler designs are easier to scan, learn and maintain.
 - Origin & key evidence:
-  - William of Ockham (c. 1287–1347), *lex parsimoniae*. https://lawsofux.com/occams-razor/
-  - The principle is philosophical and methodological, not empirical. Indirect support comes from cognitive-load and choice research (see Hick's Law entries elsewhere in this library).
-- Evidence grade: Practitioner. It is a heuristic with no direct experimental test as a design rule.
+  - William of Ockham (c. 1287–1347), *lex parsimoniae*; a philosophical principle, not an empirical law. https://lawsofux.com/occams-razor/
+  - Thompson, Hamilton & Rust (2005), *J. Marketing Research*: in three studies, people expect more features to mean more capability but less usability, favour feature-rich products before use, and shift toward usability after use ("feature fatigue"). Applies to feature count, not to the razor as such. https://acawiki.org/Feature_Fatigue:_When_Product_Capabilities_Become_Too_Much_of_a_Good_Thing
+  - Adams, Converse, Hales & Klotz (2021), *Nature* 592:258–261: eight experiments showed people default to additive fixes and overlook subtractive ones, more so under cognitive load. This is evidence that teams need prompts to subtract. https://sites.olemiss.edu/scilab/publications/people-systematically-overlook-subtractive-changes
+  - Reinecke et al. (2013), CHI: across three online experiments (548 participants, 450 screenshots at 500 ms), visual complexity and colorfulness models plus demographics explained about 48% of first-impression appeal variance; high complexity cut appeal most. Effects varied by age and education. https://wildlab.cs.washington.edu/Publications_files/Reinecke_CHI2013.pdf
+  - Lombrozo (2007), *Cognitive Psychology* 55(3): simpler causal explanations were preferred and treated as more probable, unless probability data clearly favoured a complex one (cognitive-side support for the research-interpretation use). https://pubmed.ncbi.nlm.nih.gov/17097080/
+- Evidence grade: Practitioner. The razor itself is untested as a design rule, but adjacent findings (feature fatigue, complexity and first impressions, subtraction neglect) are supportive and mostly single-paper or lab-based, with no meta-analysis found.
 - Design applications:
-  - Use a "remove until it breaks" review, deleting one element at a time. Signal: task success unchanged or better.
+  - Use a "remove until it breaks" review, deleting one element at a time; explicitly prompt the team to consider subtraction (people skip it by default). Signal: task success unchanged or better.
   - Default to a single path for core tasks. Signal: path-variance analysis.
-  - Hide unused features. Signal: feature-usage telemetry, removing anything below a threshold.
+  - Hide unused features, and judge feature sets on post-use satisfaction, not pre-use appeal. Signal: feature-usage telemetry, removing anything below a threshold.
   - Prefer the simplest explanation when interpreting research, and avoid over-fitted narratives. Signal: replication in a second study.
 - Real product examples: Google Search's minimal homepage (no URL verified). Apple's product-line reductions, discussed at https://uxdesign.cc/occams-razor-how-did-steve-jobs-followed-the-law-of-parsimony-at-apple-6e44cf5372b0
 - Enterprise/B2B note: Pressure to add features accumulates in enterprise tools. Pair this principle with Tesler's Law so that simplicity doesn't push necessary complexity onto users.
 - Ethics/watch-out: Over-simplifying can remove information users need, such as safety details or transparency.
 - Contexts: navigation, settings, forms, dashboards, content/copy, research
-- Sources: https://lawsofux.com/occams-razor/ ; https://uxdesign.cc/occams-razor-how-did-steve-jobs-followed-the-law-of-parsimony-at-apple-6e44cf5372b0 ; https://bootcamp.uxdesign.cc/simplifying-ux-with-occams-razor-2915004178ff
+- Sources: https://lawsofux.com/occams-razor/ ; https://uxdesign.cc/occams-razor-how-did-steve-jobs-followed-the-law-of-parsimony-at-apple-6e44cf5372b0 ; https://bootcamp.uxdesign.cc/simplifying-ux-with-occams-razor-2915004178ff ; https://acawiki.org/Feature_Fatigue:_When_Product_Capabilities_Become_Too_Much_of_a_Good_Thing ; https://sites.olemiss.edu/scilab/publications/people-systematically-overlook-subtractive-changes ; https://wildlab.cs.washington.edu/Publications_files/Reinecke_CHI2013.pdf ; https://pubmed.ncbi.nlm.nih.gov/17097080/
 - Design applications: What's the minimum information needed to complete the job?; Would someone without my knowledge find this confusing?; How can I halve the effort?
 - Watch-out (growth.design): Simple ≠ simplistic; don't drop necessary complexity (Tesler's Law).
 - Typed edges: tension → Signifiers; tension → Aesthetic-Usability Effect; tension → Skeuomorphism; supports → Pareto Principle; counteracts → Cognitive Load; supports → Hick's Law
 - Related: Tesler's Law, Law of the Instrument, Cognitive Load
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises)
 - Lineage (art & design history): De Stijl (Neoplasticism); Bauhaus → lineage.md
-- Linked sources (4):
+- Linked sources (5):
+  - [article] Anyone can animate now — when motion is free, the craft is subtracting it to what serves the task. <https://www.uxtools.co/blog/anyone-can-animate-now> (sources/uxtools-articles.md)
   - [article] Design debt at machine speed — vague direction yields vague output; explicit simple rules beat interpretation. <https://www.uxtools.co/blog/design-debt-at-machine-speed> (sources/uxtools-articles.md)
   - [article] Showing up for design quality — "simplest way to increase quality is reduce scope." <https://www.uxtools.co/blog/showing-up-for-design-quality> (sources/uxtools-articles.md)
   - [article] What No One Explains About the Design Process — the simplest common principles underlie all complex frameworks. <https://www.uxtools.co/blog/what-no-one-explains-about-the-design-process> (sources/uxtools-articles.md)

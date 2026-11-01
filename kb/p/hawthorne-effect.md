@@ -3,22 +3,23 @@ _Being observed changes behaviour_ · cycle: 🔮 Meaning · cluster: C10 · evi
 - Definition: People change their behaviour because they know they are being observed or studied, rather than because of the intervention being tested.
 - Mechanism (why it happens): Awareness of observation activates self-presentation and social-desirability motives and raises attention to the task; participants may also guess the study's aim and try to "help" — overlapping with demand characteristics and experimenter expectancy.
 - Origin & key evidence:
-  - Western Electric Hawthorne Works studies (1920s–30s), Chicago — origin of the label; popular telling says productivity rose with every lighting change.
-  - Levitt & List (2011, NBER w15016 2009), AEJ: Applied — recovered the original illumination data; the "remarkable" pattern described in textbooks is fictional, with only subtle hints of an observation effect. https://www.nber.org/papers/w15016
-  - McCambridge, Witton & Elbourne (2014), Journal of Clinical Epidemiology — systematic review of 19 studies: participation effects exist in most, but there is no single Hawthorne effect and little is known about conditions, mechanism or size; propose "research participation effects". https://pmc.ncbi.nlm.nih.gov/articles/PMC3969247
-- Evidence grade: Contested — the founding story is largely myth; observation effects are real but heterogeneous and usually small.
+  - Western Electric Hawthorne Works studies (1920s–30s) — origin of the label.
+  - Levitt & List (2011), AEJ: Applied — the original illumination data show only subtle hints of an observation effect; the textbook story is largely fiction. https://www.nber.org/papers/w15016
+  - McCambridge, Witton & Elbourne (2014), J. Clin. Epidemiology — 19 studies: participation effects common but heterogeneous; "research participation effects". https://pmc.ncbi.nlm.nih.gov/articles/PMC3969247
+  - Purssell et al. (2020), J. Hospital Infection — meta-analysis: hand-hygiene adherence rose 4–65 points (median ≈36) when staff knew they were observed; poor-quality studies, possibly transient. https://openaccess.city.ac.uk/id/eprint/24617/ ; Wu et al. (2018), BMC Infect. Dis. — 31,522 opportunities: 78% overt vs 55% covert compliance. https://bmcinfectdis.biomedcentral.com/track/pdf/10.1186/s12879-018-3292-5
+  - Miles et al. (2020), J. Clin. Epidemiology — 43 RCTs: merely being asked questions changes health behaviour (SMD ≈ 0.06). https://researchportal.northumbria.ac.uk/en/publications/asking-questions-changes-health-related-behavior-an-updated-syste/
+- Evidence grade: Contested — the founding story is myth and there is no single "Hawthorne effect"; but meta-analyses show observation/measurement reliably shifts compliance-type behaviour. Narrow-claim upgrade to Moderate pending review. (reviewed 2026-10-07)
 - Enterprise/B2B note: Usability tests and pilots with observed operators (or managers watching usage dashboards) inflate task performance and compliance; triangulate moderated sessions with unobserved telemetry.
 - Ethics/watch-out: Covert observation to avoid the effect raises consent issues; employee-monitoring dashboards can create surveillance pressure rather than better work.
 - Contexts: research, dashboards, stakeholder-communication, settings
-- Sources: https://www.nber.org/papers/w15016 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3969247 ; https://organizationsandmarkets.com/2009/06/02/the-hawthorne-effect-revisited
-- Design applications: In research, account for observation effects (diary studies, analytics triangulation); In personalised products, let users explore without 'polluting' their profile
+- Sources: https://www.nber.org/papers/w15016 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3969247 ; https://openaccess.city.ac.uk/id/eprint/24617/ ; https://bmcinfectdis.biomedcentral.com/track/pdf/10.1186/s12879-018-3292-5
+- Design applications: In research, account for observation effects (diary studies, analytics triangulation) — observed sessions inflate "correct procedure" behaviour most; compare day 1 vs later sessions and vs unobserved telemetry; In personalised products, let users explore without 'polluting' their profile
 - Watch-out (growth.design): Users self-censor in behaviour-tracked products.
 - Product examples: TikTok — users hesitate to explore; Incognito use to avoid retargeting
 - Typed edges: supports → Observer-Expectancy Effect; supports → Survey Bias; counteracts → valid usability findings; measured-by → unmoderated analytics vs. moderated sessions; tension → Spotlight Effect
 - Related: Observer-Expectancy Effect, Survey Bias, Spotlight Effect
 - Linked sources (11):
   - [tool-category] 17 Tools That Will Streamline Your UX Research — moderated sessions can alter behavior; passive session recordings/heatmaps capture more natural behavior. <https://www.uxtools.co/blog/17-tools-that-will-streamline-your-ux-research> (sources/uxtools-articles.md)
-  - [article] How research teams are keeping up with build teams — note when many observers attend; keep sessions natural. <https://www.uxtools.co/blog/how-research-teams-are-keeping-up-with-build-teams> (sources/uxtools-articles.md)
   - [article] How to Maximize the User Research You're Already Doing — briefed, role-defined observers reduce session disruption. <https://www.uxtools.co/blog/how-to-maximize-the-user-research-you-re-already-doing> (sources/uxtools-articles.md)
   - [article] The Best UX Research Methods in a Pinch — diary studies over weeks let natural behaviour emerge as observation novelty fades. <https://www.uxtools.co/blog/the-best-ux-research-methods-in-a-pinch> (sources/uxtools-articles.md)
   - [article] Usability Testing in 4 Simplified Steps — being watched changes behaviour; reassuring participants reduces it. <https://www.uxtools.co/blog/usability-testing-in-4-simplified-steps> (sources/uxtools-articles.md)
@@ -28,3 +29,5 @@ _Being observed changes behaviour_ · cycle: 🔮 Meaning · cluster: C10 · evi
   - [survey] User Research — User Testing Overview — moderated sessions change participant behaviour, so method choice matters. <https://uxtools.co/survey/user-research/user-testing-overview> (sources/uxtools-survey.md)
   - [case-study] The Psychology Behind McDonald's $2 Billion Self-Serve Kiosks — behaviour changes when no one is watching. <https://growth.design/case-studies/mcdonalds-self-serve-ux> (sources/growth-design-case-studies.md)
   - [case-study] The Psychology Behind TikTok's Addictive Feed — observation changes behaviour. <https://growth.design/case-studies/tiktok-feed-psychology> (sources/growth-design-case-studies.md)
+  - …1 more in sources/*.md (search the principle name)
+- Last reviewed: 2026-10-07

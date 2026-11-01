@@ -1,17 +1,19 @@
 ## Endowment Effect
 _Owning it makes it worth more_ · cycle: 💾 Memory · cluster: C4 · evidence: Contested
 - Definition: People value something more once they own it (or feel they own it), typically demanding more to give it up than they would pay to acquire it (WTA > WTP).
-- Mechanism (why it happens): Loss aversion relative to a new reference point — giving up an owned item is coded as a loss — plus psychological ownership and self-association with possessions.
+- Mechanism (why it happens): Classically loss aversion relative to a new reference point, plus psychological ownership and self-association with possessions; Chapman et al. (2023) found individual endowment effects uncorrelated with loss aversion, so the mechanism is unsettled.
 - Origin & key evidence:
-  - Kahneman, Knetsch & Thaler (1990), Journal of Political Economy — mug owners asked roughly twice what non-owners would pay. https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf
-  - Plott & Zeiler (2005): with extensive procedural controls the gap largely disappeared; a later study reported a failed replication of that null. https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html
-  - List (2003–04): experienced traders show little or no effect; Tunçel & Hammitt (2014) meta-analysis of 76 studies found a mean WTA/WTP ratio near 3, varying with good type and procedure. https://atticusli.com/replication-crisis/endowment-effect/
-- Evidence grade: Contested — real but conditional on elicitation procedure, market experience and type of good.
+  - Kahneman, Knetsch & Thaler (1990), JPE — mug owners asked roughly twice what non-owners would pay. https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf
+  - Plott & Zeiler (2005): with procedural controls the gap largely vanished; Fehr, Hakimov & Kübler (2015), Eur. Econ. Review, failed to replicate that null (gap persisted for mugs and USB sticks). https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html
+  - Tunçel & Hammitt (2014) meta-analysis — gap smaller for ordinary goods, students, market-experienced subjects and incentive-compatible methods (abstract only). https://ideas.repec.org/a/eee/jeeman/v68y2014i1p175-187.html ; Koń & Jakubczyk (2019), 102 studies — publication bias inflates the gap ~12%, ~3% in recent work (abstract only). https://ideas.repec.org/a/eee/soceco/v82y2019ics2214804319304100.html
+  - Chapman, Dean, Ortoleva, Snowberg & Camerer (2023), NBER w30836 — N≈4,000 representative US adults: mean WTA/WTP 2.07, median 1.18; 58% show it, 30% the reverse; uncorrelated with loss aversion. https://nber.org/system/files/working_papers/w30836/w30836.pdf
+  - Colucci, Franco & Valori (2024), JBEE — preregistered, N=516: WTA > WTP for mug, gift card and Spotify subscription. https://flore.unifi.it/retrieve/6e311da0-e292-4d7c-ae0c-10c73096bd1a/1-s2.0-S2214804324000545-main.pdf
+- Evidence grade: Contested — the WTA>WTP gap is robust across meta-analyses and large preregistered replications, but its size varies widely (median far below 2×) and its mechanism is unsettled. Upgrade to Moderate pending review. (reviewed 2026-10-07)
 - Enterprise/B2B note: Free trials, sandbox data and customised workspaces create felt ownership that lifts conversion; in procurement, incumbent tools benefit from it, which a challenger must overcome with migration support.
 - Ethics/watch-out: Trials that auto-convert or hold user data hostage to exploit ownership feelings are coercive.
 - Contexts: pricing, onboarding, offboarding, retention, checkout
-- Sources: https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf ; https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html ; https://atticusli.com/replication-crisis/endowment-effect/
-- Design applications: Encourage personalisation early so it feels 'mine'; Let users save/collect items before signup or paywall; Free trials grant a sense of ownership
+- Sources: https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_et_al_1990_Experimental_tests.pdf ; https://ideas.repec.org/p/zbw/wzbmbh/spii2015204.html ; https://nber.org/system/files/working_papers/w30836/w30836.pdf ; https://flore.unifi.it/retrieve/6e311da0-e292-4d7c-ae0c-10c73096bd1a/1-s2.0-S2214804324000545-main.pdf
+- Design applications: Encourage personalisation early so it feels 'mine'; Let users save/collect items before signup or paywall; Free trials grant a sense of ownership (expect a modest median gap; many users show none)
 - Product examples: Trello — nudge to personalise board; Blinkist — save books to library during onboarding
 - Typed edges: supports → Loss Aversion; supports → IKEA Effect; supports → Default Bias; supports → Sunk Cost Effect; supports → Investment Loops; tension → Reactance
 - Related: Loss Aversion, IKEA Effect, Investment Loops
@@ -25,3 +27,4 @@ _Owning it makes it worth more_ · cycle: 💾 Memory · cluster: C4 · evidence
   - [case-study] Trello User Onboarding: 7 Tactics To Inspire You — customisation creates ownership. <https://growth.design/case-studies/trello-user-onboarding> (sources/growth-design-case-studies.md)
   - [case-study] Spotify vs Apple: How Spotify is betting $230M on podcasts (Ep. 2) — user-created notes feel owned. <https://growth.design/case-studies/spotify-vs-apple-podcast-ep2> (sources/growth-design-case-studies.md)
   - [episode] Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired? — "your" signed library card becomes a personal possession, raising perceived value of membership. <https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired> (sources/uxtools-episodes.md)
+- Last reviewed: 2026-10-07

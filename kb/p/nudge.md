@@ -1,5 +1,5 @@
 ## Nudge
-_Small cues steer choices without forcing_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
+_Small cues steer choices without forcing (expect ~1–2 pp lifts)_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
 - Definition: Any change to choice architecture that predictably alters behaviour without forbidding options or significantly changing economic incentives, and that is cheap to avoid (Thaler & Sunstein's definition).
 - Mechanism (why it happens): Nudges exploit predictable System 1 shortcuts — inertia toward defaults, attention to salient options, conformity to norms, effort aversion — so small changes in how options are presented shift the path of least resistance.
 - Origin & key evidence:

@@ -4,13 +4,15 @@ _Low skill → overconfidence_ · cycle: ⏰ Time · cluster: C9 · evidence: Co
 - Mechanism (why it happens): A metacognitive gap — poor performers lack the knowledge to recognise their errors; experts assume others find tasks as easy as they do (false consensus).
 - Origin & key evidence:
   - Kruger & Dunning (1999), "Unskilled and unaware of it", JPSP (original not opened) — reviewed in https://bps.org.uk/psychologist/dunning-kruger-effect-and-its-discontents
-  - Critiques: regression to the mean and "double-dipping" (McIntosh & Della Sala), Nuhfer et al. (2017) — same source; McGill OSS summary arguing the effect is largely artifact — https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real
-  - Mazor & Fleming (2021), "The Dunning-Kruger effect revisited", Nature Human Behaviour — modelling of metacognitive accounts — https://www.nature.com/articles/s41562-021-01101-z
-- Evidence grade: Contested — the overestimation pattern appears, but how much is metacognition vs. statistical artifact and better-than-average bias remains disputed.
+  - Jansen, Rafferty & Griffiths (2021), Nature Human Behaviour — ~4,000 people per study; modelling suggests low performers are less sensitive to evidence about their own correctness (abstract only). https://ideas.repec.org/a/nat/nathum/v5y2021i6d10.1038_s41562-021-01057-0.html (commentary: Mazor & Fleming 2021, https://www.nature.com/articles/s41562-021-01101-z)
+  - Gignac & Zajenkowski (2020), Intelligence — N=929, self-rated vs measured IQ: no quadratic or heteroscedasticity signature; pattern mostly better-than-average + regression to the mean. https://www.Gwern.net/doc/iq/2020-gignac.pdf
+  - Magnus & Peresetsky (2022), Frontiers in Psychology — bounded rating scales alone can produce the pattern. https://frontiersin.org/articles/10.3389/fpsyg.2022.840180/full
+  - Adamecz, Ilieva & Shure (2025), IZA DP 17687 — N=4,429 (BCS70): quadratic model fits best; men overestimate, women underestimate. https://docs.iza.org/dp17687.pdf
+- Evidence grade: Contested — large independent studies point in opposite directions: overestimation by low performers appears, but how much is metacognition vs statistical artefact remains disputed. (reviewed 2026-10-07)
 - Enterprise/B2B note: Self-reported expertise in onboarding surveys is unreliable; calibrate with task-based checks before switching operators to "expert" modes.
 - Ethics/watch-out: Don't use it as a put-down for users or stakeholders; it applies to designers judging their own UX too.
 - Contexts: onboarding, research, settings, stakeholder-communication, errors
-- Sources: https://bps.org.uk/psychologist/dunning-kruger-effect-and-its-discontents ; https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real ; https://www.nature.com/articles/s41562-021-01101-z
+- Sources: https://bps.org.uk/psychologist/dunning-kruger-effect-and-its-discontents ; https://ideas.repec.org/a/nat/nathum/v5y2021i6d10.1038_s41562-021-01057-0.html ; https://www.Gwern.net/doc/iq/2020-gignac.pdf ; https://docs.iza.org/dp17687.pdf
 - Design applications: Back design decisions with qualitative + quantitative data; Use the precise vocabulary/psychology behind your rationale; Accept you can't control everything
 - Product examples: Product team pitfalls — boss's 'intuition' overrides research
 - Typed edges: tension → Curse of Knowledge; supports → Self-Serving Bias; supports → Planning Fallacy; supports → False Consensus Effect; measured-by → calibration (confidence vs. accuracy)
@@ -25,3 +27,4 @@ _Low skill → overconfidence_ · cycle: ⏰ Time · cluster: C9 · evidence: Co
   - [case-study] 7 Product Team Pitfalls You Should Avoid — stakeholders overrate their design judgement. <https://growth.design/case-studies/product-team-pitfalls> (sources/growth-design-case-studies.md)
   - [episode] Ben Blumenrose: He Sees How 50+ Design Teams Use AI. Most Are Doing It Wrong. — "phantom competency": AI output can make people appear (and feel) more skilled than they are; also designers overstating seniority. <https://www.uxtools.co/episodes/decent-design-is-now-the-default-so-what-actually-matters> (sources/uxtools-episodes.md)
   - [episode] Josh Puckett: Design Has Never Been More in Demand. So Why Can't Juniors Get Hired? — phantom competency and new grads expecting top-tier roles without matching effort. <https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired> (sources/uxtools-episodes.md)
+- Last reviewed: 2026-10-07

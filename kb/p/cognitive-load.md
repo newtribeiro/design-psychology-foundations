@@ -30,5 +30,4 @@ _Mental effort needed to complete a task_ · cycle: 🙈 Information · cluster:
   - [challenge] Challenge: Design System (Implement) — a constrained palette and type scale reduce visual noise. <https://www.uxtools.co/challenges/design-system> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Accessibility (Implement) — dense booking pages with timers hurt cognitively impaired users. <https://www.uxtools.co/challenges/accessibility> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Form (Implement) — fewer fields, smart defaults and chunked steps. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
-  - [other] Bundle Terms of Sale — short numbered clauses make legal text scannable. <https://www.uxtools.co/bundle/terms> (sources/uxtools-challenges-tools.md)
-  - …20 more in sources/*.md (search the principle name)
+  - …21 more in sources/*.md (search the principle name)

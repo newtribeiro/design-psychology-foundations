@@ -1,6 +1,6 @@
 {
  "version": 1,
- "last_run": "2026-10-04",
+ "last_run": "2026-11-01",
  "next_principles_per_run": 8,
  "seen_urls": [
   "https://growth.design/about",
@@ -25,6 +25,7 @@
   "https://growth.design/case-studies/design-blunders",
   "https://growth.design/case-studies/duolingo-user-retention",
   "https://growth.design/case-studies/facebook-misinformation",
+  "https://growth.design/case-studies/framing-effect",
   "https://growth.design/case-studies/godaddy-checkout-ux",
   "https://growth.design/case-studies/grammarly-onboarding-survey",
   "https://growth.design/case-studies/headspace-user-onboarding",
@@ -38,13 +39,17 @@
   "https://growth.design/case-studies/loom-psychology",
   "https://growth.design/case-studies/mario-kart-revenue-model",
   "https://growth.design/case-studies/mcdonalds-self-serve-ux",
+  "https://growth.design/case-studies/mental-models",
   "https://growth.design/case-studies/mine-trial-conversion",
   "https://growth.design/case-studies/morning-brew-newsletter-retention",
   "https://growth.design/case-studies/nps-surveys",
   "https://growth.design/case-studies/product-team-pitfalls",
+  "https://growth.design/case-studies/psych-framework",
+  "https://growth.design/case-studies/scarcity",
   "https://growth.design/case-studies/shortform-offboarding-quiz",
   "https://growth.design/case-studies/signal-revenue",
   "https://growth.design/case-studies/sniper-link",
+  "https://growth.design/case-studies/social-proof",
   "https://growth.design/case-studies/spotify-vs-apple-analysis",
   "https://growth.design/case-studies/spotify-vs-apple-podcast-ep2",
   "https://growth.design/case-studies/spotify-wrapped-psychology",
@@ -62,6 +67,8 @@
   "https://growth.design/case-studies/uber-eats-scarcity",
   "https://growth.design/case-studies/youtube-user-retention",
   "https://growth.design/case-studies/zapier-upgrade",
+  "https://growth.design/case-studies/zeigarnik-effect",
+  "https://growth.design/courses/clear-ui",
   "https://growth.design/courses/expense",
   "https://growth.design/courses/product-psychology",
   "https://growth.design/courses/product-psychology/lesson-sample",
@@ -83,6 +90,7 @@
   "https://www.uxtools.co/blog/a-room-full-of-prototypers",
   "https://www.uxtools.co/blog/agent-permeable-is-the-new-mobile-responsive",
   "https://www.uxtools.co/blog/any-input-any-output-what-config-was-really-about",
+  "https://www.uxtools.co/blog/anyone-can-animate-now",
   "https://www.uxtools.co/blog/best-ux-research-methods-in-a-pinch",
   "https://www.uxtools.co/blog/best-ux-research-methods-in-a-pinch/",
   "https://www.uxtools.co/blog/brand-as-product-s-secret-weapon",
@@ -134,6 +142,7 @@
   "https://www.uxtools.co/blog/the-portfolio-is-becoming-a-playground",
   "https://www.uxtools.co/blog/the-psychology-of-user-decisions",
   "https://www.uxtools.co/blog/the-psychology-of-user-decisions/",
+  "https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)",
   "https://www.uxtools.co/blog/the-year-of-the-connected-canvas",
   "https://www.uxtools.co/blog/this-design-tool-blew-up-our-inbox",
   "https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026",
@@ -200,6 +209,7 @@
   "https://www.uxtools.co/episodes/design-has-never-been-more-in-demand-so-why-cant-juniors-get-hired",
   "https://www.uxtools.co/episodes/design-taste-comes-from-participation-tom-krcha",
   "https://www.uxtools.co/episodes/designer-trained-her-own-ai-to-make-art",
+  "https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how",
   "https://www.uxtools.co/episodes/dive-radio-backyard-designers-behind-the-scenes",
   "https://www.uxtools.co/episodes/dive-radio-bumpy-takeoff",
   "https://www.uxtools.co/episodes/dive-radio-goodbye-blank-canvas-live-call-ins",
@@ -304,11 +314,10 @@
   "https://www.uxtools.co/tools/research-repository",
   "https://www.uxtools.co/tools/user-testing",
   "https://www.uxtools.co/tools/whiteboarding",
-  "https://www.uxtools.co/ux-chats/jess-eddy/",
-  "https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)",
-  "https://growth.design/courses/clear-ui"
+  "https://www.uxtools.co/ux-chats/jess-eddy/"
  ],
  "episodes_without_transcript": [
+  "https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how",
   "https://www.uxtools.co/episodes/dive-radio-just-in-time-interfaces",
   "https://www.uxtools.co/episodes/dive-radio-how-to-become-a-founding-designer",
   "https://www.uxtools.co/episodes/dive-radio-how-designers-are-getting-hired-in-2026",
@@ -365,7 +374,7 @@
    "cluster": "C9",
    "grade": "Contested",
    "sources": 9,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Cognitive Load": {
    "slug": "cognitive-load",
@@ -442,7 +451,7 @@
    "cluster": "C1",
    "grade": "Practitioner",
    "sources": 2,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Von Restorff Effect": {
    "slug": "von-restorff-effect",
@@ -456,7 +465,7 @@
    "cluster": "C1",
    "grade": "Practitioner",
    "sources": 5,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Selective Attention": {
    "slug": "selective-attention",
@@ -498,7 +507,7 @@
    "cluster": "C6",
    "grade": "Practitioner",
    "sources": 4,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Centre-Stage Effect": {
    "slug": "centre-stage-effect",
@@ -519,7 +528,7 @@
    "cluster": "C2",
    "grade": "Practitioner",
    "sources": 5,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Spark Effect": {
    "slug": "spark-effect",
@@ -547,7 +556,7 @@
    "cluster": "C1",
    "grade": "Contested",
    "sources": 25,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Social Proof": {
    "slug": "social-proof",
@@ -630,8 +639,8 @@
    "slug": "occams-razor",
    "cluster": "C2",
    "grade": "Practitioner",
-   "sources": 4,
-   "last_reviewed": "2026-10-04"
+   "sources": 5,
+   "last_reviewed": "2026-11-01"
   },
   "Noble Edge Effect": {
    "slug": "noble-edge-effect",
@@ -645,7 +654,7 @@
    "cluster": "C10",
    "grade": "Contested",
    "sources": 11,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Halo Effect": {
    "slug": "halo-effect",
@@ -673,7 +682,7 @@
    "cluster": "C7",
    "grade": "Contested",
    "sources": 8,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Authority Bias": {
    "slug": "authority-bias",
@@ -757,7 +766,7 @@
    "cluster": "C7",
    "grade": "Practitioner",
    "sources": 1,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Spotlight Effect": {
    "slug": "spotlight-effect",
@@ -841,7 +850,7 @@
    "cluster": "C9",
    "grade": "Contested",
    "sources": 8,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Discoverability": {
    "slug": "discoverability",
@@ -862,7 +871,7 @@
    "cluster": "C2",
    "grade": "Contested",
    "sources": 12,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Observer-Expectancy Effect": {
    "slug": "observer-expectancy-effect",
@@ -883,7 +892,7 @@
    "cluster": "C8",
    "grade": "Practitioner",
    "sources": 3,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Affect Heuristic": {
    "slug": "affect-heuristic",
@@ -994,15 +1003,15 @@
    "slug": "zeigarnik-effect",
    "cluster": "C6",
    "grade": "Contested",
-   "sources": 7,
-   "last_reviewed": "2026-10-04"
+   "sources": 8,
+   "last_reviewed": "2026-10-07"
   },
   "Endowment Effect": {
    "slug": "endowment-effect",
    "cluster": "C4",
    "grade": "Contested",
    "sources": 8,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-10-07"
   },
   "Chunking": {
    "slug": "chunking",
@@ -1015,7 +1024,7 @@
    "slug": "delighters",
    "cluster": "C7",
    "grade": "Practitioner",
-   "sources": 15,
+   "sources": 16,
    "last_reviewed": "2026-10-04"
   },
   "Internal Trigger": {
@@ -1023,7 +1032,7 @@
    "cluster": "C6",
    "grade": "Practitioner",
    "sources": 3,
-   "last_reviewed": "2026-10-04"
+   "last_reviewed": "2026-11-01"
   },
   "Picture Superiority Effect": {
    "slug": "picture-superiority-effect",
@@ -1209,22 +1218,6 @@
   }
  },
  "review_queue": [
-  "Zeigarnik Effect",
-  "Flow State",
-  "Dunning-Kruger Effect",
-  "Endowment Effect",
-  "Priming",
-  "Hawthorne Effect",
-  "Decision Fatigue",
-  "Aesthetic-Usability Effect",
-  "Streisand Effect",
-  "Visual Anchors",
-  "Parkinson's Law",
-  "Internal Trigger",
-  "External Trigger",
-  "Occam's Razor",
-  "Visual Hierarchy",
-  "Tesler's Law",
   "Pareto Principle",
   "Aha! Moment",
   "Feedforward",
@@ -1314,7 +1307,23 @@
   "Decoy Effect",
   "Cognitive Dissonance",
   "Miller's Law",
-  "Singularity Effect"
+  "Singularity Effect",
+  "Zeigarnik Effect",
+  "Flow State",
+  "Dunning-Kruger Effect",
+  "Endowment Effect",
+  "Priming",
+  "Hawthorne Effect",
+  "Decision Fatigue",
+  "Aesthetic-Usability Effect",
+  "Streisand Effect",
+  "Visual Anchors",
+  "Parkinson's Law",
+  "Internal Trigger",
+  "External Trigger",
+  "Occam's Razor",
+  "Visual Hierarchy",
+  "Tesler's Law"
  ],
  "runs": [
   {
@@ -1326,33 +1335,18 @@
    "date": "2026-10-04",
    "kind": "first update pass",
    "notes": "1 new growth.design item (C.L.E.A.R. course); 8 weakest principles re-reviewed; Cashless Effect, Group Attractiveness Effect, Nudge, Decoy Effect, Singularity Effect re-graded Contested -> Moderate; Miller's Law tagline corrected"
+  },
+  {
+   "date": "2026-10-07",
+   "kind": "monthly update",
+   "notes": "4 growth.design case studies recovered (scarcity, social-proof, framing-effect, mental-models); 8 principles re-reviewed (Zeigarnik, Flow State, Dunning-Kruger, Endowment, Priming, Hawthorne, Decision Fatigue, Aesthetic-Usability); no grade changes; consistency fixes (taglines, p-file sizes, symmetric framework/movement tension edges)"
+  },
+  {
+   "date": "2026-11-01",
+   "kind": "monthly update",
+   "notes": "3 new sources (uxtools 'Anyone can animate now' + Dive Radio S1E12; growth.design Zeigarnik case study); 8 principles re-reviewed (Streisand, Visual Anchors, Parkinson's Law, Internal/External Trigger, Occam's Razor, Visual Hierarchy, Tesler's Law); no grade changes; Goal Gradient grade line aligned; 2 p-files trimmed under 6 KB"
   }
  ],
- "pending_unretrievable": [
-  {
-   "url": "https://growth.design/case-studies/scarcity",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  },
-  {
-   "url": "https://growth.design/case-studies/social-proof",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  },
-  {
-   "url": "https://growth.design/case-studies/framing-effect",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  },
-  {
-   "url": "https://growth.design/case-studies/mental-models",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  },
-  {
-   "url": "https://growth.design/case-studies/zeigarnik-effect",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  },
-  {
-   "url": "https://growth.design/case-studies/psych-framework",
-   "note": "listed on /case-studies, not in llms.txt; body JS-rendered (scarcity redirects to course page); retry via browser render next run"
-  }
- ],
+ "pending_unretrievable": [],
  "pending_decisions": []
 }

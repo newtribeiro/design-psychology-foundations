@@ -1508,3 +1508,74 @@ Principles with no case-study illustration in this batch (27): Survivorship Bias
   - Cognitive Load: copywriting-first approach aims at clarity of the interface.
 - New concepts: C.L.E.A.R. framework (5-step UI audit); "AI-generated UI needs human judgment" framing.
 - References: none on the page.
+
+## Additions — 2026-10-07 monthly run (pending case studies recovered)
+
+### Scarcity: The 3 pillars to using it ethically
+- URL: https://growth.design/case-studies/scarcity
+- Type: case-study
+- Date: unknown (case study #067)
+- Summary: Slide-based study defining scarcity as valuing things in limited supply, which pushes faster action. It warns that careless use backfires and proposes three ethical pillars: explain why something is scarce, avoid needless pressure, and keep scarcity claims truthful. Examples span streaming, car delivery and SaaS pricing.
+- Takeaways:
+  - Give a real reason for a limit (cites the 1978 copier study: any reason lifted compliance from ~60% to ~90%).
+  - Aggressive countdowns and intrusive pop-ups provoke pushback; second-level timers only make sense for deadlines under a minute.
+  - Honest stock/deadline signals double as social proof; how much scarcity a brand can use depends on accumulated trust.
+  - Vague "limited time" and never-expiring first-order discounts erode credibility (Prime Video "leaving soon", Tesla delivery dates, ActiveCampaign price-rise notice).
+- Psychology links: Scarcity — core subject; Reactance — overused urgency triggers resistance; Social Proof — "almost sold out" signals others' demand; Loss Aversion — "leaving soon" framing; Labor Illusion — page lists "labor perception bias" as related (not explained).
+- New concepts: fake urgency (deceptive pattern); giving a reason for a request; natural deadlines (real events such as a price increase as honest deadlines).
+- References: https://www.deceptive.design/types/fake-urgency ; https://www.deadlinefunnel.com/blog/science-behind-why-deadlines-work ; https://growth.design/case-studies/uber-eats-scarcity ; https://growth.design/case-studies/brave-browser-onboarding
+
+### Social Proof: Why people's behaviors affect our actions
+- URL: https://growth.design/case-studies/social-proof
+- Type: case-study
+- Date: unknown (sources 2023+)
+- Summary: Uses identical Stanley tumblers spotted in a dentist's office to explain how people look to others to decide how to act. Covers word of mouth, borrowed expert credibility, press endorsements and the ethics of "Amazon's Choice" badges, ending with how a brand-new product (the AI Pin) could reduce buyer uncertainty.
+- Takeaways:
+  - Viral social content and friends' recommendations strongly drive purchases (Stanley's ~10× sales jump in 2023; Nielsen trust data).
+  - Credibility can be borrowed from experts (MasterClass) and respected publications (The Verge reviews in Arc marketing).
+  - Quality badges need transparent, fair criteria or they erode trust.
+  - New products can show associations with credible people/companies, adoption numbers, and the product in everyday context; concrete benefit copy beats teasers.
+- Psychology links: Social Proof — core subject; Halo Effect — reputation carries to new offerings; Authority Bias — expert and press endorsements; Familiarity Bias — people prefer new products from known brands; Curiosity Gap — teaser copy loses to concrete copy.
+- New concepts: wisdom of crowds; certification integrity; social proof for brand-new products.
+- References: https://www.cnbc.com/2023/12/23/how-a-40-ounce-cup-turned-stanley-into-a-750-million-a-year-business.html ; https://www.businesswire.com/news/home/20130121005056/en/Nielsen-Global-Consumers-More-Likely-to-Buy-New-Products-from-Familiar-Brands
+
+### Framing Effect: Why context affects decisions
+- URL: https://growth.design/case-studies/framing-effect (text via https://growth.design/case-studies/framing-effect/markdown)
+- Type: case-study
+- Date: unknown (~3-minute read; sources 1977–2023)
+- Summary: Short deck showing the same facts lead to different choices depending on presentation. Walks through reframed wording at YouTube, HelloFresh, Gmail and Google, then contrasts a flight checkout that used framing to hide fees; argues framing should reassure and inform, not trick.
+- Takeaways:
+  - Small wording changes matter: Google hotels reportedly +17% engagement swapping "Book a room" for "Check availability"; YouTube relabelled "Lower picture quality" as "Data saver".
+  - Loss framing is fine when it serves the user (Gmail warning about losing years of email).
+  - Framing turns manipulative when it hides costs or shames users (hidden extras, confirmshaming).
+- Psychology links: Framing — core subject; Priming — word associations (Neely 1977); Loss Aversion — loss-framed prompts / prospect theory; Anchoring Bias — HelloFresh checkout; Default Bias — preselected options.
+- New concepts: positive vs negative framing; confirmshaming; hidden costs (deceptive pattern).
+- References: https://www.science.org/doi/10.1126/science.7455683 ; https://www.deceptive.design/types/hidden-costs ; https://www.nngroup.com/articles/shaming-users/
+
+### Mental Models: Why expectations drive user behaviors
+- URL: https://growth.design/case-studies/mental-models (text via https://growth.design/case-studies/mental-models/markdown)
+- Type: case-study
+- Date: unknown (case study #045; sources 2010–2022)
+- Summary: Explains a mental model as what users believe about how a product works, which can differ from how it actually works. Through a fictional shopping chatbot users abandon, argues products should move toward existing beliefs rather than forcing unexpected flows; examples from Amazon, Apple and Figma.
+- Takeaways:
+  - Mental models are experience-based beliefs; narrow the gap between product and belief.
+  - Use familiar terms and patterns (Amazon's "Shopping Cart"/"Checkout"); wrap new features in familiar ones.
+  - Skeuomorphism (early iPad Notes) can ease adoption of a new medium.
+  - Expect old habits to carry over (pressing ⌘S in auto-saving Figma) and guide users to the new behaviour.
+- Psychology links: Mental Model — core subject; Familiarity Bias — preference for the familiar; Skeuomorphism — real-world mimicry lowers learning curve; Labor Illusion — related-studies label only.
+- New concepts: mental model migration; offline social norms carried into online interactions.
+- References: https://www.nngroup.com/articles/mental-models/ ; https://growth.design/psychology#mental-model
+
+### Zeigarnik Effect: Why it's hard to leave things incomplete
+- URL: https://growth.design/case-studies/zeigarnik-effect
+- Type: case-study
+- Date: unknown (footnoted sources 2006–2022); recovered 2026-11-01 after two failed retries
+- Summary: A 15-slide comic opening on a cliffhanger, tying the pull of unfinished stories to discomfort with incomplete tasks. Uses LinkedIn's profile-completion meter as the onboarding example, pairs it with endowed progress (a head start raises motivation; a fake one can backfire), argues a car-rental checkout should show remaining steps to cut abandonment, and closes by questioning mobile games that use unfinished builds to force repeat visits.
+- Takeaways:
+  - Profile/setup completion meters harness the pull of open loops.
+  - Give a real head start (endowed progress); faked progress erodes trust.
+  - Show remaining steps in multi-step flows to reduce anxiety and drop-off.
+  - Open-loop tension used to compel returns (game timers, unfinished builds) crosses into dark patterns.
+- Psychology links: Zeigarnik Effect — core subject (note: KB grades the memory claim Contested; the resumption/"pull to finish" reading is better supported); Goal Gradient Effect — endowed progress; Feedback Loop — progress indicators; Storytelling Effect — cliffhanger hook; Provide Exit Points — ethical counterweight to compulsive return loops.
+- New concepts: endowed progress effect (already covered under Goal Gradient Effect); cliffhanger hooks.
+- References: https://growth.design/psychology#zeigarnik-effect

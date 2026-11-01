@@ -32,5 +32,4 @@ _Self-made things feel more valuable_ · cycle: ⏰ Time · cluster: C7 · evide
   - [article] Your team isn't AI-installed — "hands in the clay": authorship in the last 20% sustains taste and ownership. <https://www.uxtools.co/blog/your-team-isn-t-ai-installed> (sources/uxtools-articles.md)
   - [challenge] UX Challenges (index) — learners value skills and portfolio pieces they built themselves more. <https://www.uxtools.co/challenges> (sources/uxtools-challenges-tools.md)
   - [survey] Interface Design — Trends — users invested in mastering a niche tool value it more. <https://uxtools.co/survey/interface-design/trends> (sources/uxtools-survey.md)
-  - [survey] Design Systems — Overview — designers rate their own system (4.19) higher than developers who consume it (3.42). <https://uxtools.co/survey/design-systems/overview> (sources/uxtools-survey.md)
-  - …6 more in sources/*.md (search the principle name)
+  - …7 more in sources/*.md (search the principle name)

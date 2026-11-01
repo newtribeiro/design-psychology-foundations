@@ -3,10 +3,12 @@ _Work expands to fill the time_ · cycle: ⏰ Time · cluster: C8 · evidence: P
 - Definition: Work expands to fill the time available for it — given more time than needed, people spend it on the task rather than finishing early.
 - Mechanism (why it happens): Deadlines set the reference point for effort; with slack, people raise quality thresholds, dawdle, or add scope, and goal-setting research shows looser targets yield lower output per unit time.
 - Origin & key evidence:
-  - Parkinson (1955), satirical essay in The Economist about bureaucratic growth — origin of the phrase (not an empirical study).
-  - Brannon, Hershberger & Brock (1999), "Timeless demonstrations of Parkinson's first law", Psychonomic Bulletin & Review 6, 148–156 — participants told a later task was cancelled spent more time on the current one ("cancellation-dalliance effect"), replicated across four studies. https://doi.org/10.3758/BF03210823
-  - Goal-setting literature (Locke & Latham) — specific, challenging time goals raise performance (general support; not verified for a specific paper here).
-- Evidence grade: Practitioner — widely cited aphorism; direct experimental evidence is thin (a handful of lab studies), though consistent with goal-setting research.
+  - Parkinson (1955), satirical essay in The Economist about bureaucratic growth: origin of the phrase (not an empirical study).
+  - Brannon, Hershberger & Brock (1999), "Timeless demonstrations of Parkinson's first law", Psychonomic Bulletin & Review 6, 148-156. Participants told a later task was cancelled took longer on the current one ("cancellation-dalliance effect"); it held in two exact replications and a conceptual replication, all within one lab. https://link.springer.com/article/10.3758/BF03210823
+  - Ariely & Wertenbroch (2002), Psychological Science 13(3), 219-224: people accept costly self-imposed deadlines to curb procrastination, but these help less than some externally imposed deadlines. Related deadline evidence, not a direct test of work expansion. https://stafforini.com/works/ariely-2002-procrastination-deadlines-performance/
+  - Goswami & Urminsky (2014 working paper, seven experiments, not peer reviewed): longer deadlines raised workers' time only slightly, but led managers to expect much longer durations and larger scope, so part of the "expansion" is in estimates and scope perception. Described via a secondary article. https://www.chicagobooth.edu/review/this-deadline-related-mistake-may-be-costing-you-money
+  - Bryan & Locke (1967), "Parkinson's law as a goal-setting phenomenon" and Locke & Latham goal-setting work: cited as support, details not verified here.
+- Evidence grade: Practitioner. Direct experimental support is thin: one lab's replicated demonstration (1999) and a non-peer-reviewed deadline-scope study, with related precommitment work; the effect may be partly about perceived scope. No meta-analysis or independent multi-lab replication found.
 - Design applications:
   - Short, visible time boxes for tasks (e.g. "~2 min survey") — measure completion time and drop-off.
   - Session timers or default expiries for drafts/quotes — measure time-to-submit.
@@ -16,7 +18,7 @@ _Work expands to fill the time_ · cycle: ⏰ Time · cluster: C8 · evidence: P
 - Enterprise/B2B note: Approval workflows without SLAs drift; showing due dates and ageing on review queues keeps catalogue/content pipelines moving.
 - Ethics/watch-out: Artificial countdowns that pressure decisions slide into false urgency (a dark pattern).
 - Contexts: onboarding, forms, research, stakeholder-communication, settings, pricing
-- Sources: https://doi.org/10.3758/BF03210823 ; https://link.springer.com/article/10.3758/BF03210823 ; https://calnewport.com/revisiting-parkinsons-law/
+- Sources: https://link.springer.com/article/10.3758/BF03210823 ; https://stafforini.com/works/ariely-2002-procrastination-deadlines-performance/ ; https://www.chicagobooth.edu/review/this-deadline-related-mistake-may-be-costing-you-money ; https://calnewport.com/revisiting-parkinsons-law/
 - Typed edges: tension → Labor Illusion; tension → Planning Fallacy; supports → Goal Gradient Effect; supports → Scarcity; counteracts → Decision Fatigue; special-case-of → Framing; tension → Chronoception
 - Explained by frameworks: ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises)
 - Linked sources (3):

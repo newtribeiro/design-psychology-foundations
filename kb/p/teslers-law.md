@@ -3,10 +3,13 @@ _Complexity can't vanish — only move_ · cycle: 🙈 Information · cluster: C
 - Definition: Every system has some complexity that cannot be removed. The only question is whether the system (its engineers and designers) absorbs it or the user does.
 - Mechanism (why it happens): Task complexity is a property of the domain, not of the UI. Removing UI surface moves decisions elsewhere: into defaults, automation, or the user's head. Tognazzini's corollary is that simpler tools lead users to attempt harder tasks, so overall complexity reappears.
 - Origin & key evidence:
-  - Larry Tesler, Xerox PARC, mid-1980s. Popularised through an interview in Dan Saffer's *Designing for Interaction*. https://lawsofux.com/teslers-law/
-  - Background on the "law of conservation of complexity": https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity
-  - I found no controlled empirical test. It is a design heuristic.
-- Evidence grade: Practitioner. It is a widely cited engineering maxim with no experimental literature.
+  - Larry Tesler, Xerox PARC, mid-1980s; popularised via an interview in Dan Saffer's *Designing for Interaction*. https://lawsofux.com/teslers-law/ ; background: https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity
+  - Bainbridge (1983), *Automatica* 19(6):775–779, "Ironies of Automation": automating most of a task leaves the operator the hard residue, with less practice and monitoring-dominated work, so complexity moves to the human rather than vanishing (analytic argument, details via secondary summary). https://en.wikipedia.org/wiki/Ironies_of_Automation
+  - Parasuraman & Manzey (2010), *Human Factors* 52(3):381–410: review of empirical work on complacency and automation bias; both affect experts and novices, persist despite training, and rest on attention. https://depositonce.tu-berlin.de/items/0c787d91-6021-480b-a333-009e0d1d0092/full
+  - Goddard, Roudsari & Wyatt (2012), *JAMIA* 19(1):121–127: systematic review of 74 studies; decision support often adds errors users miss, worsened by workload and task complexity, and eased by accountability and display design. https://academic.oup.com/jamia/article/19/1/121/732254
+  - Jachimowicz et al. (2019), *Behavioural Public Policy* 3(2):159–186: meta-analysis of 58 default studies, pooled d = 0.68, stronger in consumer than environmental domains. Supports defaults as a way the system takes over decisions; it does not test conservation of complexity. https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html
+  - Norman, *Living with Complexity* (2010) argues complexity is necessary and must be made manageable; normative, not empirical (checked on a book overview page only). https://jnd.org/living-with-complexity/
+- Evidence grade: Practitioner. The automation, defaults and complexity literature is strong, but no study directly tests the conservation claim itself.
 - Design applications:
   - Smart defaults and inference (auto-detect units, location, device model). Signal: share of users who keep the defaults, and fields completed per task.
   - Progressive disclosure: put advanced settings behind "More options". Signal: task success for novices against expert time-on-task.
@@ -14,9 +17,9 @@ _Complexity can't vanish — only move_ · cycle: 🙈 Information · cluster: C
   - Contextual help (tooltips) where complexity can't be removed. Signal: help-open rate and the error rate that follows.
 - Real product examples: Gmail's "Undo send" handles a recovery problem the user would otherwise own (no URL verified). Stripe Checkout validates card type and format inline (no URL verified).
 - Enterprise/B2B note: Regulatory and compliance rules (e.g. permits and authorisations) cannot be simplified away. Automate checks and show only the exceptions.
-- Ethics/watch-out: Hiding complexity can also hide control. Keep overrides and transparency for expert or high-risk decisions.
+- Ethics/watch-out: Hiding complexity can also hide control, and automation can cause complacency and bias (Parasuraman & Manzey 2010). Keep overrides and transparency for expert or high-risk decisions.
 - Contexts: forms, settings, onboarding, dashboards, checkout
-- Sources: https://lawsofux.com/teslers-law/ ; https://lawsofux.com/teslers-law/index.md ; https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity
+- Sources: https://lawsofux.com/teslers-law/ ; https://lawsofux.com/teslers-law/index.md ; https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity ; https://en.wikipedia.org/wiki/Ironies_of_Automation ; https://depositonce.tu-berlin.de/items/0c787d91-6021-480b-a333-009e0d1d0092/full ; https://academic.oup.com/jamia/article/19/1/121/732254 ; https://ideas.repec.org/a/cup/bpubpo/v3y2019i02p159-186_00.html ; https://jnd.org/living-with-complexity/
 - Typed edges: supports → Progressive Disclosure; supports → Default Bias; counteracts → Cognitive Load; tension → Law of the Instrument; tension → Cognitive Load
 - Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (organises); ⚙ Norman's design principles (supports)
 - Linked sources (5):

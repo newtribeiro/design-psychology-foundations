@@ -29,5 +29,4 @@ _People stick with the preset_ · cycle: ⏰ Time · cluster: C4 · evidence: St
   - [challenge] Challenge: User Flow (Ideate) — preselect the nearest store and the soonest slot. <https://www.uxtools.co/challenges/user-flow> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Survey (Test) — a pre-selected answer biases the response. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
   - [challenge] Challenge: Form (Implement) — pre-selected options strongly steer answers. Use them responsibly. <https://www.uxtools.co/challenges/form> (sources/uxtools-challenges-tools.md)
-  - [tool-category] Tools: Whiteboarding — the whiteboard bundled with the main design tool wins. <https://www.uxtools.co/tools/whiteboarding> (sources/uxtools-challenges-tools.md)
-  - …24 more in sources/*.md (search the principle name)
+  - …25 more in sources/*.md (search the principle name)

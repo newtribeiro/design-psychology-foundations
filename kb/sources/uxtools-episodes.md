@@ -427,9 +427,26 @@
 
 
 
-## Episode index (all 47)
+## Dive Radio: Anyone Can Animate Now (and How)
+- URL: https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how
+- Type: episode (live stream)
+- Date/author (if known): Oct 2, 2026 · Dive Radio S1E12 · YouTube https://youtube.com/watch?v=bBF1yPACap0
+- Transcript: not obtained (YouTube page fetch failed; uxtools page has no show notes) — summarised via the companion article
+- Guest(s): not listed (live call-ins)
+- Summary:
+  - Live call-in companion to the article "Anyone can animate now": designers demo AI-assisted motion, video editing and shader workflows.
+  - Thesis: generating motion is cheap; choosing what should move and showing restraint is the remaining craft.
+- Actionable takeaways for a designer:
+  - Tie every animation to a user decision; remove motion users dismiss.
+- Psychology links:
+  - Occam's Razor — restraint over gratuitous motion (via companion article).
+  - Delighters — novelty motion decays quickly (via companion article, weak link).
+- References & resources: https://www.uxtools.co/blog/anyone-can-animate-now
+
+## Episode index (all 48)
 Transcript summary above = ✅; others: show notes only (transcription skipped by user decision — fewer than 10 rule).
 
+- ◻️ Dive Radio: Anyone Can Animate Now (and How) — https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how · https://youtube.com/watch?v=bBF1yPACap0
 - ◻️ Dive Radio: Just-in-Time Interfaces — https://www.uxtools.co/episodes/dive-radio-just-in-time-interfaces · https://youtube.com/watch?v=Cjv-0MKQ4GU
 - ◻️ Dive Radio: How To Become a Founding Designer — https://www.uxtools.co/episodes/dive-radio-how-to-become-a-founding-designer · https://youtube.com/watch?v=x05zZ90lY28
 - ◻️ Dive Radio: How Designers Are Getting Hired in 2026 — https://www.uxtools.co/episodes/dive-radio-how-designers-are-getting-hired-in-2026 · https://youtube.com/watch?v=DUejFPtYll0

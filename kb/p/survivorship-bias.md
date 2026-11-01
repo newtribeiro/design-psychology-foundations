@@ -32,5 +32,4 @@ _Ignoring what didn't make it through_ · cycle: 🙈 Information · cluster: C1
   - [tool-category] Tools: UI Design — the survey reflects UX Tools' audience, not all designers. <https://www.uxtools.co/tools/design> (sources/uxtools-challenges-tools.md)
   - [survey] Introduction — Demographic Summary — only people engaged with UX Tools are counted, and disengaged or non-English designers are missing. <https://uxtools.co/survey/introduction/demographic-summary> (sources/uxtools-survey.md)
   - [survey] Introduction — Methodology — filtering out incomplete responses removes less-engaged voices. <https://uxtools.co/survey/introduction/methodology> (sources/uxtools-survey.md)
-  - [survey] Interface Design — Trends — niche tools' remaining users self-selected because they love them, which inflates satisfaction. <https://uxtools.co/survey/interface-design/trends> (sources/uxtools-survey.md)
-  - …2 more in sources/*.md (search the principle name)
+  - …3 more in sources/*.md (search the principle name)

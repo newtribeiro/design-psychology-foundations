@@ -1,5 +1,5 @@
 ## Singularity Effect
-_One person moves us more than a crowd_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
+_One person moves us more than a crowd (narrow single-victim version contested)_ · cycle: 🔮 Meaning · cluster: C5 · evidence: Moderate
 - Definition: People respond more strongly (e.g. donate or help more) to a single, identified individual than to a group or a statistic of equal or greater need.
 - Mechanism (why it happens): A single person evokes vivid, concrete affect; as numbers grow, feeling fades ("psychic numbing"/compassion fade). Meta-analytic evidence points to lower anticipated good feeling and a sense that one's help makes less of a dent, more than empathy alone; Kogut & Ritov linked giving to personal distress.
 - Origin & key evidence:

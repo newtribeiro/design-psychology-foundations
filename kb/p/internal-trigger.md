@@ -4,13 +4,15 @@ _Memory/emotion prompts action_ · cycle: 💾 Memory · cluster: C6 · evidence
 - Mechanism (why it happens): Through repetition, a context or feeling becomes associated with a behaviour that relieved it; the association is stored in procedural memory, so the cue triggers the behaviour with little deliberation.
 - Origin & key evidence:
   - Eyal (2014), Hooked — external triggers start the loop; repeated cycles attach the product to internal triggers, mostly negative emotions. https://www.nirandfar.com/how-to-manufacture-desire/
-  - Wood & Neal (2007), Psychological Review — habits form by slow, incremental context-response learning; context cues then activate behaviour automatically. https://en.wikipedia.org/wiki/Habit
-  - Lally et al. (2009/2010), European Journal of Social Psychology — automaticity plateaued after about 66 days on average (range 18–254) in real-world habit formation. (same source)
-- Evidence grade: Practitioner (for the "internal trigger" framing) built on Strong habit-learning research; product-level causal evidence is largely anecdotal.
+  - Wood & Rünger (2016), Annual Review of Psychology 67 — review: habits are activated by recurring context cues and are largely insensitive to short-term goal changes; they form through repetition in stable contexts. https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/wood.runger.2016.pdf
+  - Oulasvirta et al. (2012), Personal and Ubiquitous Computing 16 — three studies incl. a field experiment: phone checking habits form and strengthen when quickly reachable informational rewards follow brief checks. https://unpaywall.org/10.1007%2Fs00779-011-0412-2
+  - Singh et al. (2024), Healthcare 12(23) — systematic review/meta-analysis of 20 intervention studies: habit scores rose (SMD 0.69); where reported, median time to habit was 59-66 days with huge individual spread (4-335 days). Updates Lally et al. (2010: mean 66 days, range 18-254). https://digital.library.adelaide.edu.au/items/fe6ba93e-1d6b-42b8-9ee7-a231a64ff006
+  - Shahidin et al. (2022), Int. J. Environ. Res. Public Health 19 — review with small-subgroup meta-analyses: emotion dysregulation correlates moderately (r about 0.42) with problematic smartphone use; correlational, few studies. https://pmc.ncbi.nlm.nih.gov/articles/PMC9740505/
+- Evidence grade: Practitioner (for the "internal trigger" framing). The habit-learning base is strong (reviews, a meta-analysis of habit formation), but no controlled study isolates emotion-driven product cues; emotion-use links are correlational.
 - Enterprise/B2B note: In operations tools the healthiest internal trigger is a job-to-be-done ("before every shift, check site conditions") — design for that routine, not for emotional pull.
 - Ethics/watch-out: Deliberately pairing a product with anxiety, loneliness or FOMO can foster compulsive use; Eyal's own later work (Indistractable) urges restraint.
 - Contexts: retention, notifications, gamification, onboarding
-- Sources: https://www.nirandfar.com/how-to-manufacture-desire/ ; https://en.wikipedia.org/wiki/Habit ; https://fourweekmba.com/indistractable/
+- Sources: https://www.nirandfar.com/how-to-manufacture-desire/ ; https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/wood.runger.2016.pdf ; https://unpaywall.org/10.1007%2Fs00779-011-0412-2 ; https://digital.library.adelaide.edu.au/items/fe6ba93e-1d6b-42b8-9ee7-a231a64ff006 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC9740505/ ; https://en.wikipedia.org/wiki/Habit ; https://fourweekmba.com/indistractable/
 - Design applications: Identify the emotion/situation your product resolves; Time external triggers to those moments; Ethical check: is the habit you're building positive for the user?
 - Watch-out (growth.design): Habit formation without user benefit is manipulation.
 - Product examples: Instagram — opening the app without thinking; Duolingo — travel/airport moments

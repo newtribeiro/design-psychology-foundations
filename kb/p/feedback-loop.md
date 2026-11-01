@@ -32,5 +32,4 @@ _Actions need visible results_ · cycle: 🙈 Information · cluster: C3 · evid
   - [article] The How (and Why) of User Flows — a clear completion signal confirms the task is done. <https://www.uxtools.co/blog/the-how-(and-why)-of-user-flows> (sources/uxtools-articles.md)
   - [article] The next gap in design work — review loops after generation are central to compound engineering. <https://www.uxtools.co/blog/the-next-gap-in-design-work> (sources/uxtools-articles.md)
   - [article] The only AI workflow I use in production — closing the design→code→design loop speeds iteration. <https://www.uxtools.co/blog/the-only-ai-workflow-i-use-in-production> (sources/uxtools-articles.md)
-  - [article] The Year Design Communities Go Small (and Real) — tight, trusted critique loops accelerate growth ("addictive"). <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
-  - …12 more in sources/*.md (search the principle name)
+  - …13 more in sources/*.md (search the principle name)

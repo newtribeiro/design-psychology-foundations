@@ -1,5 +1,5 @@
 ## Decoy Effect
-_A worse third option makes the target look better_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
+_A worse third option makes the target look better (numeric side-by-side only)_ · cycle: 🙈 Information · cluster: C4 · evidence: Moderate
 - Definition: Adding an option that is clearly worse than one target option (but not than its competitor) on every attribute shifts choice toward the target — the asymmetric dominance or attraction effect.
 - Mechanism (why it happens): Preferences are built relative to the visible set; the dominated decoy gives the target an easy, justifiable "win", supplying a reason for choosing it and violating the regularity axiom of rational choice.
 - Origin & key evidence:

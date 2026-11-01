@@ -3,20 +3,21 @@ _Many decisions degrade decision quality_ · cycle: ⏰ Time · cluster: C2 · e
 - Definition: The claimed deterioration in decision quality after a long series of decisions, leading to defaulting, avoidance or impulsive choices.
 - Mechanism (why it happens): Originally explained by ego depletion (limited self-control resource); alternative accounts cite shifting motivation, attention and opportunity costs rather than a depleting resource.
 - Origin & key evidence:
-  - Danziger, Levav & Avnaim-Pesso (2011), PNAS: favourable parole rulings dropped across sessions and reset after breaks — https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355
-  - Weinshall-Margel & Shapard (2011) reply argued case ordering (unrepresented prisoners late) confounds the result — https://cris.iucc.ac.il/en/publications/reply-to-weinshall-margel-and-shapard-extraneous-factors-in-judic/
-  - Hagger et al. (2016) 23-lab preregistered replication found ego-depletion effect near zero — https://pmc.ncbi.nlm.nih.gov/articles/PMC4971805
-- Evidence grade: Contested — real-world intuition is strong but the core mechanism failed large replications and the flagship field study is confounded.
+  - Danziger, Levav & Avnaim-Pesso (2011), PNAS: favourable parole rulings dropped across sessions and reset after breaks — https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355 ; Weinshall-Margel & Shapard argued case ordering confounds it (authors' reply: https://cris.iucc.ac.il/en/publications/reply-to-weinshall-margel-and-shapard-extraneous-factors-in-judic/ )
+  - Glöckner (2016), JDM — simulations: rational session planning plus dropping long cases reproduces much of the "hungry judge" pattern. https://www.cambridge.org/core/product/61CE825D4DC137675BB9CAD04571AE58/core-reader
+  - Hagger et al. (2016) 23-lab and Vohs et al. (2021, Psych Science; 36 labs, N=3,531, d = 0.06 [−0.02, 0.14]) multisite tests: ego depletion small to zero. https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2021-psci-ego-depletion.pdf
+  - Maier et al. (2025), Health Psychology Review — 82 studies of clinicians: ~45% of hypothesis tests found decision-fatigue effects (diagnosis, test ordering, prescribing); inconsistent definitions (abstract only). https://www.stir.ac.uk/research/hub/publication/2127394
+- Evidence grade: Contested — the depletion mechanism is null in multi-lab tests; field drift toward low-effort options late in a sequence has mixed support (~45% of clinical studies). (reviewed 2026-10-07)
 - Design applications:
   - Smart defaults for low-stakes settings — % users keeping defaults, setup completion time.
   - Put critical decisions early in flows — error rates by step position.
-  - Batch approvals with recommended actions — throughput and override rate.
+  - Batch approvals with recommended actions — throughput and override rate. Late in a sequence expect drift to the low-effort option (default, defer, "no"): make defaults safe and audit late-session overrides.
   - Reduce option counts per screen — choice abandonment.
 - Real product examples: Netflix autoplay removing the next-choice decision; Gmail Smart Reply (no source URL verified).
 - Enterprise/B2B note: Operators reviewing many alerts/approvals benefit from triage and recommendations regardless of whether "fatigue" is a depletion effect.
 - Ethics/watch-out: Placing consent or upsell decisions late to exploit low vigilance is a dark pattern.
 - Contexts: onboarding, settings, checkout, forms, dashboards, notifications
-- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355 ; https://cris.iucc.ac.il/en/publications/reply-to-weinshall-margel-and-shapard-extraneous-factors-in-judic/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4971805 ; https://www.annieduke.com/?p=3122
+- Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC3198355 ; https://www.cambridge.org/core/product/61CE825D4DC137675BB9CAD04571AE58/core-reader ; https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2021-psci-ego-depletion.pdf ; https://www.stir.ac.uk/research/hub/publication/2127394
 - Typed edges: tension → Attentional Bias; supports → Default Bias; supports → Hick's Law; supports → Cognitive Load; supports → Nudge; tension → Reactance
 - Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports)
 - Linked sources (12):
@@ -26,9 +27,10 @@ _Many decisions degrade decision quality_ · cycle: ⏰ Time · cluster: C2 · e
   - [article] The Psychology of User Decisions — explicitly cited; many decisions degrade rational choice. <https://www.uxtools.co/blog/the-psychology-of-user-decisions> (sources/uxtools-articles.md)
   - [article] The Year Design Communities Go Small (and Real) — Foli.ooo removes trivial portfolio decisions so designers focus on content. <https://www.uxtools.co/blog/the-year-design-communities-go-small-(and-real)> (sources/uxtools-articles.md)
   - [article] The year of the connected canvas — many daily "cognitive cycles" and curation decisions drain judgment. <https://www.uxtools.co/blog/the-year-of-the-connected-canvas> (sources/uxtools-articles.md)
-  - [survey] This is the State of Prototyping in 2026 — "too many tools to evaluate" is a top blocker. <https://www.uxtools.co/blog/this-is-the-state-of-prototyping-in-2026> (sources/uxtools-articles.md)
   - [challenge] Challenge: Survey (Test) — long surveys degrade answer quality toward the end. <https://www.uxtools.co/challenges/survey> (sources/uxtools-challenges-tools.md)
   - [survey] State of Prototyping: Spring 2026 — "too many tools to evaluate" (53%) is a top blocker, and designers face choice overload themselves. <https://uxtools.co/survey/2026/state-of-prototyping> (sources/uxtools-survey.md)
   - [case-study] How Hopper Perfectly Nails Permission Requests UX — one recommended action reduces deliberation. <https://growth.design/case-studies/hopper-permission-requests-ux> (sources/growth-design-case-studies.md)
   - [case-study] Signal: How To Ethically Boost Your Revenues — fewer inputs. <https://growth.design/case-studies/signal-revenue> (sources/growth-design-case-studies.md)
   - [case-study] YouTube's Attempt To Solve The Paradox of Choice — endless browsing. <https://growth.design/case-studies/youtube-user-retention> (sources/growth-design-case-studies.md)
+  - …1 more in sources/*.md (search the principle name)
+- Last reviewed: 2026-10-07

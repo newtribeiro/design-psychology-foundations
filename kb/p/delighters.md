@@ -18,7 +18,8 @@ _Unexpected small pleasures are remembered_ · cycle: 💾 Memory · cluster: C7
 - Related: Peak-End Rule, Variable Reward, Sensory Appeal
 - Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (tension); ⚙ Self-Determination Theory (supports)
 - Lineage (art & design history): Postmodernism, Memphis & New Wave typography → lineage.md
-- Linked sources (15):
+- Linked sources (16):
+  - [article] Anyone can animate now — novelty motion is dismissed within days; delight needs purpose. <https://www.uxtools.co/blog/anyone-can-animate-now> (sources/uxtools-articles.md)
   - [article] 33 Activity Ideas for Remote UX Workshops — Kano "attractive" quadrant = delighters; must-haves are expected baseline. <https://www.uxtools.co/blog/33-activity-ideas-for-remote-ux-workshops> (sources/uxtools-articles.md)
   - [article] Monitor stands have more personality than software — playful, unexpected details produce memorable delight. <https://www.uxtools.co/blog/monitor-stands-have-more-personality-than-software> (sources/uxtools-articles.md)
   - [article] Motion design's system update — Fryc's "animate moments that make people feel something" is targeted, unexpected delight. <https://www.uxtools.co/blog/motion-design-s-system-update> (sources/uxtools-articles.md)
@@ -30,5 +31,4 @@ _Unexpected small pleasures are remembered_ · cycle: 💾 Memory · cluster: C7
   - [survey] Award — Satisfaction Leader (ProtoPie) — high satisfaction comes from exceeding expectations on sophisticated interactions. <https://uxtools.co/survey/design-tools-awards/satisfaction-leader> (sources/uxtools-survey.md)
   - [case-study] The Psychology of Advertising: Why this ad made me stop scrolling (Balance app) — novelty decays (Kano), so tactics need refreshing. <https://growth.design/case-studies/balance-psychology> (sources/growth-design-case-studies.md)
   - [case-study] How small UI delighters have a huge impact on UX (Been onboarding) — small unexpected touches lift the experience. <https://growth.design/case-studies/been-onboarding> (sources/growth-design-case-studies.md)
-  - [case-study] Spotify Wrapped: 6 psychology principles that make it go viral every year — a yearly novelty. <https://growth.design/case-studies/spotify-wrapped-psychology> (sources/growth-design-case-studies.md)
-  - …3 more in sources/*.md (search the principle name)
+  - …4 more in sources/*.md (search the principle name)

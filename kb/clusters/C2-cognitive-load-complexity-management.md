@@ -7,7 +7,7 @@ Anchor theories: CLT/working memory §8, bounded rationality §1
 - **Chunking** [Strong] Grouped info is easier to remember → p/chunking.md · supports: Law of Proximity, Progressive Disclosure, Recognition Over Recall · sources: 9
 - **Progressive Disclosure** [Moderate] Reveal complexity gradually → p/progressive-disclosure.md · tension: Discoverability, Recognition Over Recall · supports: Hick's Law, Mental Model, Chunking · sources: 14
 - **Tesler's Law** [Practitioner] Complexity can't vanish — only move → p/teslers-law.md · tension: Law of the Instrument, Cognitive Load · supports: Progressive Disclosure, Default Bias · sources: 5
-- **Occam's Razor** [Practitioner] Prefer the simplest adequate solution → p/occams-razor.md · tension: Signifiers, Aesthetic-Usability Effect, Skeuomorphism · supports: Pareto Principle, Hick's Law · sources: 4
+- **Occam's Razor** [Practitioner] Prefer the simplest adequate solution → p/occams-razor.md · tension: Signifiers, Aesthetic-Usability Effect, Skeuomorphism · supports: Pareto Principle, Hick's Law · sources: 5
 - **Pareto Principle** [Practitioner] ~80% of effects from ~20% of causes → p/pareto-principle.md · tension: Second-Order Effect, Survivorship Bias, Hick's Law · supports: Progressive Disclosure, Hick's Law · sources: 5
 - **Decision Fatigue** [Contested] Many decisions degrade decision quality → p/decision-fatigue.md · tension: Attentional Bias, Reactance · supports: Default Bias, Hick's Law, Cognitive Load · sources: 12
 - **Recognition Over Recall** [Strong] Recognising beats remembering → p/recognition-over-recall.md · tension: Progressive Disclosure · supports: Discoverability, Picture Superiority Effect, Miller's Law · sources: 12

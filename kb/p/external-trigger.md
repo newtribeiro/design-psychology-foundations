@@ -4,19 +4,21 @@ _The prompt contains the next step_ · cycle: 🙈 Information · cluster: C6 ·
 - Mechanism (why it happens): Behaviour needs a prompt at the moment motivation and ability are high enough (Fogg). An external trigger supplies the prompt and the action path together, which cuts the System 2 effort of working out what to do next.
 - Origin & key evidence:
   - Fogg (2009), "A Behavior Model for Persuasive Design", Persuasive '09: behaviour happens when motivation, ability and a trigger (later "prompt") come together. Trigger types are spark, facilitator and signal. https://behaviormodel.org
-  - Eyal (2014), *Hooked*: external triggers are paid, earned, relationship and owned. Over time they should hand off to internal triggers. https://fs.blog/2014/03/hooked/
-  - Evidence that reminders work in general: SMS reminders improve appointment attendance and adherence in many RCTs. (Specific meta-analyses are not verified here, so treat this as background.)
-- Evidence grade: Practitioner. The named framework comes from books and practitioner models. Prompting in general is well supported, but the "action embedded in the trigger" claim has not been isolated experimentally.
+  - Eyal (2014), *Hooked*: external triggers are paid, earned, relationship and owned; they should hand off to internal triggers. https://fs.blog/2014/03/hooked/
+  - Bidargaddi et al. (2018), JMIR mHealth 6(11) — micro-randomised trial, 1,255 app users: a tailored push raised in-app self-monitoring within 24h by about 4% (RR 1.039). https://mhealth.jmir.org/2018/11/e10123
+  - Bell et al. (2023), JMIR mHealth 11 — micro-randomised trial (Drink Less, n=566): a notification raised app opening in the next hour about 3.5-fold, but did not extend long-term engagement; habituation estimates were not significant. https://mhealth.jmir.org/2023/1/e38342/PDF
+  - Louw et al. (2024), Vaccines 12(10) — meta-analysis of 25 RCTs: SMS reminders modestly raised vaccination uptake (RR 1.09, 95% CI 1.06-1.13). https://doaj.org/article/1d00124ba7104ef2a1da1396dc95face
+- Evidence grade: Practitioner. The named framework comes from books and practitioner models. Prompting itself is supported by micro-randomised trials and an RCT meta-analysis (short-term, small-to-large effects), but the "action embedded in the trigger" claim has not been isolated experimentally.
 - Design applications:
   - Put actionable buttons in notifications (Reply, Approve, Snooze). Signal: action rate from the notification compared with app-open rate.
   - Use specific, single-action copy in email CTAs ("Review 3 flagged jobs"). Signal: CTR and completion.
   - Use in-product empty-state prompts that name the first action. Signal: activation rate.
-  - Cap and batch triggers. Signal: opt-out and unsubscribe rate as a counter-metric.
+  - Cap and batch triggers; vary content and timing, since short-term lifts did not become lasting engagement (Bell 2023). Signal: opt-out and unsubscribe rate as a counter-metric.
 - Real product examples: Slack and iMessage notifications with inline reply. LinkedIn "X viewed your profile" emails, which take you straight to the profile list. GitHub PR review-request emails with a deep link.
 - Enterprise/B2B note: in operations tools (e.g. asset fleet maintenance), triggers should deep-link to the exact asset or record with the decision already framed. Alert fatigue is the main risk.
 - Ethics/watch-out: notification spam and dark-pattern re-engagement emails wear down trust. Respect quiet hours and make opt-out easy.
 - Contexts: notifications, retention, onboarding, empty-states
-- Sources: https://growth.design/psychology ; https://fs.blog/2014/03/hooked/ ; https://www.shortform.com/blog/?p=16052 ; https://www.thebehavioralscientist.com/?p=3058
+- Sources: https://growth.design/psychology ; https://fs.blog/2014/03/hooked/ ; https://mhealth.jmir.org/2018/11/e10123 ; https://mhealth.jmir.org/2023/1/e38342/PDF ; https://doaj.org/article/1d00124ba7104ef2a1da1396dc95face ; https://www.shortform.com/blog/?p=16052 ; https://www.thebehavioralscientist.com/?p=3058
 - Typed edges: tension → Internal Trigger; supports → Self-Initiated Triggers; supports → Feedforward; tension → Banner Blindness; mechanism-of → Investment Loops; measured-by → notification action rate
 - Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (organises)
 - Linked sources (4):

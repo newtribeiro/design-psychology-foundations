@@ -1756,3 +1756,22 @@
   - Chronoception — 100–200 ms delays shape the perceived timing and smoothness of transitions.
 - New concepts: Disney's 12 principles of animation — classic animation rules (e.g. follow-through and overlapping action, easing) applied to UI motion; Design engineer — designer who works directly in code; Robustness — interactions that never fail under real-world stress.
 - References & resources: Devouring Details (Rauno Freiberg's interaction course) — https://devouringdetails.com/ ; Rauno Freiberg — https://x.com/raunofreiberg ; NYFA: 12 principles of animation — https://www.nyfa.edu/student-resources/12-principles-of-animation/ ; Dscout — https://www.dscout.com/
+
+## Anyone can animate now
+- URL: https://www.uxtools.co/blog/anyone-can-animate-now
+- Type: article (newsletter essay)
+- Date/author: Oct 1, 2026 · Tommy Geoco
+- Summary: Motion and video are now cheap to generate (a studio head made a launch video from three prompts), so the designer's value moves from producing motion to judging what deserves to move. Livestream call-ins showed an agent editing interviews in DaVinci Resolve, a plant shop whose product states are rendered as generated video, and a shader-based cursor interaction replacing a hover-heavy popup. Each maker found generation easy and restraint hard.
+- Actionable takeaways for a designer:
+  - Audit existing motion (onboarding animations, hover states): keep only what traces back to a real user decision.
+  - Treat restraint as a deliberate brief — one maker had to explicitly tell the model to hold back.
+  - Watch dismissal data: one designer reports ~90% of users dismissed an elaborate hover animation within days (anecdotal).
+  - Generated video inside live products drifts; art-directable shaders are a more controllable option.
+- Psychology links:
+  - Occam's Razor — when making motion is free, the job is subtracting it back to what serves the task.
+  - Delighters — novelty motion fades fast; delight decays into noise without purpose (Kano decay).
+  - Cognitive Load — gratuitous motion competes for attention with the task.
+  - Aesthetic-Usability Effect — polish raises first impressions but is dismissed when it gets in the way.
+  - Law of the Instrument — easy generation tempts teams to animate everything because they can.
+- New concepts: motion restraint as a design skill; generated-video UI states; shader-based interaction as a controllable alternative to generated video.
+- References & resources: DaVinci Resolve; Unicorn Studio; Blender; Dive Radio episode "Anyone Can Animate Now (and How)" — https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how
