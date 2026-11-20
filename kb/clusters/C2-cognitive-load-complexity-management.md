@@ -1,4 +1,4 @@
-# C2 · Cognitive load & complexity management
+# Cognitive load & complexity management
 Anchor theories: CLT/working memory §8, bounded rationality §1
 
 - **Cognitive Load** [Strong] Mental effort needed to complete a task → p/cognitive-load.md · tension: Fitts's Law, Curiosity Gap, Skeuomorphism · supports: Hick's Law, Progressive Disclosure, Chunking · sources: 32

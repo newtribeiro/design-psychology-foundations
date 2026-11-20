@@ -1,4 +1,4 @@
-# C4 · Value, reference points & choice architecture
+# Value, reference points & choice architecture
 Anchor theories: Prospect Theory §4, nudge §12
 
 - **Anchoring Bias** [Strong] The first number/info seen sets the reference → p/anchoring-bias.md · tension: Weber's Law · supports: Decoy Effect, Default Bias, Priming · sources: 11

@@ -1,4 +1,4 @@
-# C1 · Perceptual organisation & attention
+# Perceptual organisation & attention
 Anchor theories: anchor theories: Gestalt §6, attention/Block of B.I.A.S. §2
 
 - **Law of Proximity** [Strong] Near things seem related → p/law-of-proximity.md · supports: Law of Similarity, Chunking, Visual Hierarchy · sources: 2

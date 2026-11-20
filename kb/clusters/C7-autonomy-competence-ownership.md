@@ -1,4 +1,4 @@
-# C7 · Autonomy, competence & ownership
+# Autonomy, competence & ownership
 Anchor theories: SDT §11, Kano delighters §10
 
 - **Reactance** [Strong] Forcing creates resistance → p/reactance.md · tension: Nudge, Framing, Social Proof · supports: Backfire Effect, Streisand Effect · sources: 13

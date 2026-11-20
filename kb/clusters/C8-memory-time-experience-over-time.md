@@ -1,4 +1,4 @@
-# C8 · Memory, time & experience over time
+# Memory, time & experience over time
 Anchor theories: peak-end/two selves §10, memory encoding §8
 
 - **Peak-End Rule** [Strong] Experiences are judged by peaks and the ending → p/peak-end-rule.md · tension: Expectations Bias, Chronoception, Negativity Bias · supports: Delighters, Negativity Bias, Labor Illusion · sources: 20

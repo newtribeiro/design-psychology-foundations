@@ -1,4 +1,4 @@
-# C5 · Social influence & trust
+# Social influence & trust
 Anchor theories: Cialdini §5
 
 - **Social Proof** [Strong] People copy what others do → p/social-proof.md · tension: Reactance, Survey Bias, Singularity Effect · supports: Bandwagon Effect, Nudge, Authority Bias · sources: 24

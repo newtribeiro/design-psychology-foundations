@@ -6,6 +6,7 @@
 - Considered and not added: Explainability Effect (contested evidence); COM-B, trust repair, pro-innovation bias and professional identity threat (fewer than 3 sources each).
 - New tension pairs: Positive Friction ⟂ Spark Effect / Alert Fatigue; Calibrated Trust ⟂ Labor Illusion / Anthropomorphism; External Trigger ⟂ Alert Fatigue; Stress-Narrowed Cognition ⟂ Delighters. frameworks.md §1, §3, §5, §7, §8 and §12 each gained one line.
 - Evidence caveats: Hoff & Bashir 2015, Starcke & Brand 2016, Yu 2016, Anderson et al. 2016, Ray et al. 2026 and the 2023 chatbot meta-analysis were read as abstracts only; Dratsch et al. 2023 figures come from press coverage of the paper.
+- Cluster codes (C1–C12) removed from titles: SKILL.md cluster headings, the cluster index headings and the map labels now use names only; codes remain in file names and as graph identifiers.
 
 ## 2026-11-01 — monthly update
 - New sources (3): uxtools.co "Anyone can animate now" (Oct 2026) and its Dive Radio companion episode; growth.design "Zeigarnik Effect: Why it's hard to leave things incomplete" (recovered). growth.design "psych-framework" remains paywalled and was dropped from the retry list.

@@ -1,4 +1,4 @@
-# C9 · Belief, judgment & self-perception biases (user side)
+# Belief, judgment & self-perception biases (user side)
 Anchor theories: heuristics & biases §1
 
 - **Confirmation Bias** [Strong] People seek evidence for what they already believe → p/confirmation-bias.md · supports: Backfire Effect, Cognitive Dissonance, Survey Bias · sources: 17

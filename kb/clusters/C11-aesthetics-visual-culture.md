@@ -1,4 +1,4 @@
-# C11 · Aesthetics & visual culture
+# Aesthetics & visual culture
 Anchor theories: Empirical aesthetics §14, Gestalt §6 · lineage: kb/lineage.md
 
 - **Processing Fluency** [Strong] Easy to process feels good and true → p/processing-fluency.md · tension: Aesthetic Aha · supports: Aesthetic-Usability Effect, Familiarity Bias, Prototypicality · lineage: Swiss / International Typographic Style · sources: 0

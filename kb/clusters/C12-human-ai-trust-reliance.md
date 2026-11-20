@@ -1,4 +1,4 @@
-# C12 · Human–AI trust & reliance
+# Human–AI trust & reliance
 Anchor theories: Dual-process §1, Norman §7, ethics §12 · cross-link: designer-growth-foundations Module S §2.3 (Automation & trust)
 
 - **Calibrated Trust** [Strong] Trust should match what the system can really do → p/calibrated-trust.md · tension: Labor Illusion, Anthropomorphism · sources: 5

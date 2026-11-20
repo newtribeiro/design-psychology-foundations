@@ -1,4 +1,4 @@
-# C3 · Interaction clarity & mental models
+# Interaction clarity & mental models
 Anchor theories: Norman §7, Nielsen/Jakob §9
 
 - **Mental Model** [Moderate] Users bring beliefs about how things work → p/mental-model.md · tension: Curse of Knowledge, Law of the Instrument · supports: Familiarity Bias, Skeuomorphism, Expectations Bias · sources: 30

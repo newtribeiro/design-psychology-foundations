@@ -32,9 +32,9 @@ Where the KB lives: the `kb/` folder next to this file (this repository). If the
 
 **DEEP RESEARCH** → p-file → its `Explained by frameworks` → frameworks.md section → its linked sources → web for primary papers (and uxtools.co as a practitioner reference). Report: mechanism → evidence & grade (say if contested) → when it applies/doesn't → design implications → examples → citations. Offer to save the note alongside the project's design docs.
 
-**STYLE & LINEAGE** (visual direction, brand, "make it feel X") → describe the visual choice formally → match it to a movement card in `kb/lineage.md` → original intent → what it signals today → what got lost on the way to digital → the C11 principles that keep it alive or contradict it, with grades → recommendation in one line ("Use X because it signals Y, which these users need for Z"); mark interpretation as interpretation. For deep history, drills and reading, hand off to the companion **designer-growth-foundations** skill (Module H) when installed.
+**STYLE & LINEAGE** (visual direction, brand, "make it feel X") → describe the visual choice formally → match it to a movement card in `kb/lineage.md` → original intent → what it signals today → what got lost on the way to digital → the Aesthetics & visual culture principles that keep it alive or contradict it, with grades → recommendation in one line ("Use X because it signals Y, which these users need for Z"); mark interpretation as interpretation. For deep history, drills and reading, hand off to the companion **designer-growth-foundations** skill (Module H) when installed.
 
-**Reasoning over the network**: explain *why* via `mechanism-of` chains, predict side effects via `tension` and Second-Order Effect, justify to stakeholders with S/M evidence first, P as practice, C only with caveats. Name designer-side biases (C10) when critiquing research or roadmaps. Name principles exactly as in the index so they stay searchable; always say which principles you used and why.
+**Reasoning over the network**: explain *why* via `mechanism-of` chains, predict side effects via `tension` and Second-Order Effect, justify to stakeholders with S/M evidence first, P as practice, C only with caveats. Name designer-side biases (the Designer, research & systems-thinking cluster) when critiquing research or roadmaps. Name principles exactly as in the index so they stay searchable; always say which principles you used and why.
 
 ## Ethics gate (always in VALIDATE)
 ❌ fake scarcity/urgency/social proof/anchors · trapping defaults, tiny or hidden cancel, roach-motel offboarding · confirmshaming / guilt copy · variable rewards or triggers with no user benefit and no exit points · framing that hides cost · cashless obfuscation. Tests: *Would the user thank us if they understood exactly how this works?* (Regret test) and nudge vs sludge. Note regulation (FTC 2022 dark-patterns report, EU DSA Art. 25) in frameworks §12.
@@ -115,7 +115,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 
 ## Principle index — (cycle·grade) tagline ⟂ main tensions
 
-**C1 Perceptual organisation & attention** · C1-perceptual-organisation-attention.md
+**Perceptual organisation & attention** · C1-perceptual-organisation-attention.md
 - Law of Proximity (F·S) Near things seem related
 - Law of Similarity (I·S) Similar-looking = related ⟂ Von Restorff Effect
 - Law of Prägnanz (I·S) Ambiguity is read in the simplest form
@@ -134,7 +134,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Weber's Law (A·S) Small changes go unnoticed ⟂ Anchoring Bias, Von Restorff Effect
 - Alert Fatigue (F·S) Repeated alerts get tuned out ⟂ External Trigger, Positive Friction
 
-**C2 Cognitive load & complexity management** · C2-cognitive-load-complexity-management.md
+**Cognitive load & complexity management** · C2-cognitive-load-complexity-management.md
 - Cognitive Load (F·S) Mental effort needed to complete a task ⟂ Fitts's Law, Curiosity Gap
 - Hick's Law (F·S) More choices → slower, harder decisions ⟂ Discoverability, Decoy Effect
 - Miller's Law (I·C) Working memory holds ~4 chunks, not 7 ⟂ Hick's Law
@@ -148,7 +148,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Fitts's Law (F·S) Bigger, closer targets are faster to hit ⟂ Cognitive Load
 - Stress-Narrowed Cognition (F·M) Under stress, attention and working memory shrink ⟂ Delighters
 
-**C3 Interaction clarity & mental models** · C3-interaction-clarity-mental-models.md
+**Interaction clarity & mental models** · C3-interaction-clarity-mental-models.md
 - Mental Model (I·M) Users bring beliefs about how things work ⟂ Curse of Knowledge, Law of the Instrument
 - Signifiers (F·P) Cues that communicate what an element does ⟂ Occam's Razor, Aesthetic-Usability Effect
 - Feedforward (I·P) Know the result before acting
@@ -158,7 +158,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Skeuomorphism (I·M) Real-world resemblance eases adoption ⟂ Occam's Razor, Cognitive Load
 - Provide Exit Points (R·P) Let users leave at the right moment ⟂ Investment Loops, Sunk Cost Effect
 
-**C4 Value, reference points & choice architecture** · C4-value-reference-points-choice-architectu.md
+**Value, reference points & choice architecture** · C4-value-reference-points-choice-architectu.md
 - Anchoring Bias (F·S) The first number/info seen sets the reference ⟂ Weber's Law
 - Framing (F·S) Presentation changes decisions more than facts do ⟂ Reactance, Backfire Effect
 - Decoy Effect (F·M) A worse third option makes the target look better (numeric side-by-side only) ⟂ Hick's Law
@@ -174,7 +174,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Temptation Bundling (A·M) Pair a 'should' with a 'want' ⟂ Second-Order Effect
 - Scarcity (I·M) Limited supply raises perceived value ⟂ Reactance, Streisand Effect
 
-**C5 Social influence & trust** · C5-social-influence-trust.md
+**Social influence & trust** · C5-social-influence-trust.md
 - Social Proof (I·S) People copy what others do ⟂ Reactance, Survey Bias
 - Authority Bias (I·S) Experts' opinions weigh more ⟂ Reactance, Backfire Effect
 - Reciprocity (I·S) Give value first, users give back ⟂ Reactance
@@ -187,7 +187,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Spotlight Effect (I·M) We think others notice us more than they do ⟂ Hawthorne Effect
 - False Consensus Effect (A·S) We think others agree with us ⟂ Survey Bias, Empathy Gap
 
-**C6 Triggers, rewards & habit loops** · C6-triggers-rewards-habit-loops.md
+**Triggers, rewards & habit loops** · C6-triggers-rewards-habit-loops.md
 - External Trigger (F·P) The prompt contains the next step ⟂ Internal Trigger, Banner Blindness
 - Internal Trigger (R·P) Memory/emotion prompts action ⟂ External Trigger
 - Self-Initiated Triggers (I·M) Users respond to prompts they set
@@ -200,7 +200,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Fresh Start Effect (I·M) New beginnings spark action ⟂ Zeigarnik Effect
 - Curiosity Gap (I·M) Missing information creates a pull to fill it ⟂ Cognitive Load, Streisand Effect
 
-**C7 Autonomy, competence & ownership** · C7-autonomy-competence-ownership.md
+**Autonomy, competence & ownership** · C7-autonomy-competence-ownership.md
 - Reactance (A·S) Forcing creates resistance ⟂ Nudge, Framing
 - IKEA Effect (A·M) Self-made things feel more valuable ⟂ Spark Effect
 - Flow State (I·C) Full immersion in a task ⟂ Selective Attention, Variable Reward
@@ -208,7 +208,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Delighters (R·P) Unexpected small pleasures are remembered ⟂ Familiarity Bias
 - Streisand Effect (I·P) Censoring spreads the info ⟂ Curiosity Gap, Scarcity
 
-**C8 Memory, time & experience over time** · C8-memory-time-experience-over-time.md
+**Memory, time & experience over time** · C8-memory-time-experience-over-time.md
 - Peak-End Rule (R·S) Experiences are judged by peaks and the ending ⟂ Expectations Bias, Chronoception
 - Serial Position Effect (R·S) First and last are remembered ⟂ Centre-Stage Effect
 - Spacing Effect (R·S) Spaced repetition beats cramming ⟂ Cognitive Load
@@ -220,7 +220,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Chronoception (A·S) Time perception is subjective ⟂ Parkinson's Law, Peak-End Rule
 - Parkinson's Law (A·P) Work expands to fill the time ⟂ Labor Illusion, Planning Fallacy
 
-**C9 Belief, judgment & self-perception biases (user side)** · C9-belief-judgment-self-perception-biases-u.md
+**Belief, judgment & self-perception biases (user side)** · C9-belief-judgment-self-perception-biases-u.md
 - Confirmation Bias (F·S) People seek evidence for what they already believe
 - Priming (F·C) Earlier stimuli shape later responses ⟂ Observer-Expectancy Effect
 - Expectations Bias (F·M) Expectations shape perception ⟂ Peak-End Rule, Variable Reward
@@ -231,7 +231,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Self-Serving Bias (A·S) Credit for wins, blame for losses ⟂ Hindsight Bias
 - Dunning-Kruger Effect (A·C) Low skill → overconfidence ⟂ Curse of Knowledge
 
-**C10 Designer, research & systems-thinking biases (team side)** · C10-designer-research-systems-thinking-biase.md
+**Designer, research & systems-thinking biases (team side)** · C10-designer-research-systems-thinking-biase.md
 - Empathy Gap (F·M) We underestimate emotion's pull on behaviour ⟂ Hyperbolic Discounting, False Consensus Effect
 - Curse of Knowledge (I·M) Experts forget what novices don't know ⟂ Mental Model, Familiarity Bias
 - Survivorship Bias (F·S) Ignoring what didn't make it through ⟂ Survey Bias, Singularity Effect
@@ -243,7 +243,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Planning Fallacy (A·S) Tasks take longer than planned ⟂ Hindsight Bias, Parkinson's Law
 - Second-Order Effect (A·P) Consequences of consequences ⟂ Temptation Bundling, Nudge
 
-**C11 Aesthetics & visual culture** · C11-aesthetics-visual-culture.md
+**Aesthetics & visual culture** · C11-aesthetics-visual-culture.md
 - Processing Fluency (I·S) Easy to process feels good and true ⟂ Aesthetic Aha
 - Prototypicality (I·M) Typical-looking designs are liked faster ⟂ Von Restorff Effect
 - MAYA Principle (I·M) Most advanced, yet acceptable — novel but recognisable
@@ -262,7 +262,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Rule of Thirds (F·C) A useful habit, not a perceptual law ⟂ Centre-Stage Effect
 - Peak Shift Effect (I·C) Exaggerated defining features can beat the original ⟂ Prototypicality
 
-**C12 Human–AI trust & reliance** · C12-human-ai-trust-reliance.md · cross-link: designer-growth-foundations Module S §2.3
+**Human–AI trust & reliance** · C12-human-ai-trust-reliance.md · cross-link: designer-growth-foundations Module S §2.3
 - Calibrated Trust (I·S) Trust should match what the system can really do ⟂ Labor Illusion, Anthropomorphism
 - Automation Bias (A·S) People defer to the machine, even when it's wrong
 - Positive Friction (A·M) A deliberate pause prevents costly mistakes ⟂ Spark Effect, Alert Fatigue

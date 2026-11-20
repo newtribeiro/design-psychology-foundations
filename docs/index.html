@@ -165,7 +165,7 @@ td.n{text-align:right;font-family:var(--f-mono)}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>
 const D=JSON.parse(document.getElementById('data').textContent);
-const CATS=D.cats, CATN=Object.fromEntries(CATS);
+const CATS=D.cats, CATN=Object.fromEntries(CATS); const SHORT={C1:'Perception',C2:'Cognitive load',C3:'Clarity',C4:'Value & choice',C5:'Social',C6:'Habits',C7:'Autonomy',C8:'Memory & time',C9:'User biases',C10:'Team biases',C11:'Aesthetics',C12:'AI trust'};
 const N=new Map(D.nodes.map(n=>[n.id,n]));
 const REL={supports:'supports',tension:'tension','mechanism-of':'mechanism','special-case-of':'mechanism',counteracts:'tension',related:'related',organises:'framework','lineage-of':'lineage','applies-in':'context'};
 const RELNAME={supports:'Supports',tension:'Tension / counteracts',mechanism:'Mechanism / special case',related:'Related',framework:'Framework organises',lineage:'Art & design lineage',context:'Applies in context'};
@@ -186,7 +186,7 @@ document.getElementById('stats').innerHTML=st.map(([k,v])=>`<div><b>${v}</b>${k}
 // chips
 const chips=document.getElementById('chips');
 CATS.forEach(([c,name])=>{const b=document.createElement('button');b.className='chip';b.style.setProperty('--c',col(c));b.setAttribute('aria-pressed','true');
-  const cnt=D.nodes.filter(n=>n.cat===c).length;b.innerHTML=`<i></i>${c.startsWith('C')?c+' ':''}${esc(name)} <span class="mono">${cnt}</span>`;b.title=name;
+  const cnt=D.nodes.filter(n=>n.cat===c).length;b.innerHTML=`<i></i>${esc(name)} <span class="mono">${cnt}</span>`;b.title=name;
   b.onclick=()=>{stopTour();on.has(c)?on.delete(c):on.add(c);b.setAttribute('aria-pressed',on.has(c));draw();};chips.appendChild(b);});
 const relchips=document.getElementById('relchips');
 Object.entries(RELNAME).forEach(([k,name])=>{const b=document.createElement('button');b.className='chip rel';b.style.setProperty('--c',`var(--r-${k})`);b.setAttribute('aria-pressed','true');
@@ -226,7 +226,7 @@ function draw(){
       .attrTween('d',()=>{const ip=d3.interpolate(a0,a1);return t=>arc({startAngle:a0,endAngle:ip(t)});});}
     const mid=(ls[0].x+ls[ls.length-1].x)/2, r=R-22;
     arcs.append('text').attr('class','catlabel').attr('text-anchor','middle').style('fill',col(c.data.cat))
-      .attr('transform',`rotate(${mid-90}) translate(${r},0) rotate(${mid<180?90:-90})`).text(ls.length>4?(c.data.cat.startsWith('C')?c.data.cat:c.data.name):'')
+      .attr('transform',`rotate(${mid-90}) translate(${r},0) rotate(${mid<180?90:-90})`).text(ls.length>4?(SHORT[c.data.cat]||c.data.name):'')
       .append('title').text(c.data.name);});
   leafSel=g.append('g').selectAll('g').data(leaves).join('g').attr('class','leaf')
     .attr('transform',d=>`rotate(${d.x-90}) translate(${d.y+4},0)`);
@@ -327,7 +327,7 @@ function tourShow(i){
   sel=null; hl(null,ids);
   const members=D.nodes.filter(n=>n.cat===stop.c);
   const strong=members.filter(n=>n.grade==='Strong').length, cont=members.filter(n=>n.grade==='Contested').length;
-  document.getElementById('capt').textContent=(stop.c.startsWith('C')?stop.c+' · ':'')+stop.name;
+  document.getElementById('capt').textContent=stop.name;
   document.getElementById('caps').textContent=stop.c.startsWith('C')?`${members.length} principles · ${strong} strong · ${cont} contested`:`${members.length} nodes`;
   cap.hidden=false;
   const p=document.getElementById('panel');
@@ -350,7 +350,7 @@ function goto(id){show('map');select(id);}
 // evidence view
 (function(){const grades=['Strong','Moderate','Practitioner','Contested'];
  const rows=CATS.filter(([c])=>c.startsWith('C')).map(([c,name])=>{const ms=D.nodes.filter(n=>n.cat===c);const cnt=grades.map(gr=>ms.filter(n=>n.grade===gr).length);
-  return `<tr><td><span class="tag" style="--c:${col(c)}"><i></i>${c}</span> ${esc(name)}</td>${cnt.map(v=>`<td class="n">${v}</td>`).join('')}<td><div class="bars">${cnt.map((v,i)=>`<span style="flex:${v};background:var(--g-${grades[i]})" title="${grades[i]}: ${v}"></span>`).join('')}</div></td></tr>`}).join('');
+  return `<tr><td><span class="tag" style="--c:${col(c)}"><i></i></span> ${esc(name)}</td>${cnt.map(v=>`<td class="n">${v}</td>`).join('')}<td><div class="bars">${cnt.map((v,i)=>`<span style="flex:${v};background:var(--g-${grades[i]})" title="${grades[i]}: ${v}"></span>`).join('')}</div></td></tr>`}).join('');
  const tot=grades.map(gr=>principles.filter(n=>n.grade===gr).length);
  const contested=principles.filter(n=>n.grade==='Contested');
  document.getElementById('v-ev').innerHTML=`<div class="card"><h2>Evidence by cluster</h2><p class="sub">Strong: replicated lab/field research or meta-analyses. Moderate: smaller or fewer studies. Practitioner: useful heuristics without controlled tests. Contested: failed or mixed replications — never present these as settled.</p>
@@ -372,7 +372,7 @@ function goto(id){show('map');select(id);}
 
 // index view
 (function(){document.getElementById('v-idx').innerHTML=CATS.map(([c,name])=>{const ns=D.nodes.filter(n=>n.cat===c).sort((a,b)=>a.label.localeCompare(b.label));
- return `<div class="card"><h2 style="color:${col(c)}">${c.startsWith('C')?c+' · ':''}${esc(name)} <span class="mono">${ns.length}</span></h2><div class="idxcat">${ns.map(n=>`<div><a data-id="${esc(n.id)}" tabindex="0">${esc(n.label)}</a> <span class="mono">${n.grade?n.grade[0]+' · ':''}${adj.get(n.id).length}</span></div>`).join('')}</div></div>`}).join('');
+ return `<div class="card"><h2 style="color:${col(c)}">${esc(name)} <span class="mono">${ns.length}</span></h2><div class="idxcat">${ns.map(n=>`<div><a data-id="${esc(n.id)}" tabindex="0">${esc(n.label)}</a> <span class="mono">${n.grade?n.grade[0]+' · ':''}${adj.get(n.id).length}</span></div>`).join('')}</div></div>`}).join('');
  bind(document.getElementById('v-idx'));})();
 
 draw();

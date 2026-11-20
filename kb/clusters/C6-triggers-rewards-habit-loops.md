@@ -1,4 +1,4 @@
-# C6 · Triggers, rewards & habit loops
+# Triggers, rewards & habit loops
 Anchor theories: Fogg/Hook/Skinner §3
 
 - **External Trigger** [Practitioner] The prompt contains the next step → p/external-trigger.md · tension: Internal Trigger, Banner Blindness · supports: Self-Initiated Triggers, Feedforward, Investment Loops · sources: 4

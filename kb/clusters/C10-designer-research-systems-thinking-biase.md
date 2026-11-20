@@ -1,4 +1,4 @@
-# C10 · Designer, research & systems-thinking biases (team side)
+# Designer, research & systems-thinking biases (team side)
 Anchor theories: research validity, §13
 
 - **Empathy Gap** [Moderate] We underestimate emotion's pull on behaviour → p/empathy-gap.md · tension: Hyperbolic Discounting, False Consensus Effect · supports: Decision Fatigue, Affect Heuristic · sources: 15
