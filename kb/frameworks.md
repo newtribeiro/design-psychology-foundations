@@ -19,6 +19,7 @@
 - organises → Nudge (choice architecture = designing for Lane 1), Occam's Razor (simplest-sufficient explanation), Pareto Principle (satisficing on the vital few)
 - supports → Recognition Over Recall, Cognitive Load (Type 2 is the scarce resource), Decision Fatigue (claimed depletion of Type 2 — see §13)
 - tension → Cognitive Dissonance / Backfire Effect (System 2 is often used to *rationalise* System 1 conclusions rather than correct them)
+- added 2026-11-19 → mechanism-of: Automation Bias (deferring to an aid is a low-effort Type 1 default), Anthropomorphism, Stress-Narrowed Cognition (stress shifts control from Type 2 to Type 1); organises: Positive Friction (deliberate "speed bumps" that wake Type 2); supports: Calibrated Trust
 
 **How a designer uses it.**
 - Classify each screen moment as System-1 (glance, scroll, tap) or System-2 (compare plans, configure a complex workflow): design the former for recognition, salience and safe defaults; design the latter for comparison tables, undo and time.
@@ -74,6 +75,7 @@
 - mechanism-of → Variable Reward (variable-ratio schedule), Shaping (successive approximation), Goal Gradient Effect (reinforcement proximity), Zeigarnik Effect (open loops as internal prompts), Spark Effect (ability ↑ via small effort)
 - supports → Aha! Moment (first reward), Fresh Start Effect (motivation waves as prompt timing), Default Bias (ability ↑), Cognitive Load / Hick's Law (ability ↓ when high), IKEA Effect & Endowment Effect (investment)
 - tension → Reactance (over-prompting), Provide Exit Points (habit loops resist exits), Flow State / SDT autonomy (controlled vs autonomous motivation)
+- added 2026-11-19 → tension: Alert Fatigue (prompts that repeat without consequence are habituated to)
 
 **How a designer uses it.**
 - Debug a "they don't do X" problem by asking, in order: is there a prompt at the right moment? is it easy enough (time, money, effort, cognitive load, routine fit)? only then — is motivation high enough?
@@ -127,6 +129,7 @@
 - mechanism-of → Bandwagon Effect, Investment Loops (commitment), Sunk Cost Effect (consistency pressure)
 - supports → Priming (pre-suasion), Storytelling Effect, Spotlight Effect & False Consensus Effect (beliefs about what others notice/do)
 - tension → Reactance (perceived pressure), Streisand Effect (suppression attracts attention — scarcity of information), Backfire Effect, ethics (§12: fake social proof, fake scarcity, confirmshaming)
+- added 2026-11-19 → supports: Anthropomorphism (human-like cues engage Liking and social responses)
 
 **How a designer uses it.**
 - Place genuine, *specific* social proof (counts, named peers in the same industry) at points of uncertainty, not everywhere.
@@ -180,6 +183,7 @@
 - mechanism-of → Skeuomorphism (borrowing a known mental model), Familiarity Bias (existing models lower the gulf), Recognition Over Recall (knowledge in the world vs in the head)
 - supports → Fitts's Law (mapping/placement), Progressive Disclosure (constraints), Tesler's Law (who absorbs complexity), Curse of Knowledge (designer's model ≠ user's)
 - tension → Aesthetic-Usability Effect / minimalism (flat design can strip signifiers), Banner Blindness (signifiers styled like ads get ignored)
+- added 2026-11-19 → supports: Calibrated Trust (an accurate conceptual model of what the automation can and cannot do)
 
 **How a designer uses it.**
 - For each primary task, write out both gulfs: "How does the user know what to do?" and "How do they know it worked?" — any blank is a defect.
@@ -208,6 +212,7 @@
 - organises → Tesler's Law (intrinsic load is conserved), Occam's Razor (cut extraneous elements), Pareto Principle (expose the vital few)
 - supports → Banner Blindness & Selective Attention (filtering protects WM), Default Bias (defaults remove decisions), Flow State (balanced load)
 - tension → Aesthetic-Usability Effect / Sensory Appeal (decoration can add extraneous load), Curiosity Gap (deliberately creates an open loop)
+- added 2026-11-19 → mechanism-of: Stress-Narrowed Cognition (stress lowers working-memory capacity); supports: Alert Fatigue (filtering repeated alerts protects attention), Automation Bias (higher under workload)
 
 **How a designer uses it.**
 - Separate intrinsic from extraneous load in reviews: "Is this hard because the task is hard, or because we made it hard?"
@@ -327,6 +332,7 @@
 - counteracts / constrains → Scarcity (fake scarcity), Social Proof (fake social proof), Default Bias & Nudge (preselection, sneaking), Loss Aversion & Framing (confirmshaming, trick wording), Variable Reward & Investment Loops (addictive design), Sunk Cost Effect & Endowment Effect (hard to cancel), Cashless Effect (currency confusion), Banner Blindness exploitation (disguised ads), Decoy Effect & Anchoring Bias (comparison prevention, drip pricing), Hyperbolic Discounting (deferred-cost subscriptions)
 - supports → Provide Exit Points, Noble Edge Effect (ethical behaviour as brand signal), Feedback Loop (transparent status), Reactance (users punish detected manipulation), Second-Order Effect (long-term trust costs)
 - tension → short-term conversion metrics vs Peak-End Rule / retention
+- added 2026-11-19 → supports: Positive Friction (friction that serves the user; friction that serves the business is sludge). Note "agentic sludge": an agent removes friction so users accept a business-serving action without scrutiny (Yocco, Smashing Magazine 2026; details not verified).
 
 **How a designer uses it.**
 - Run every persuasive pattern through four questions: true? symmetric? disclosed-proof? regret-free? Log the answers in design review.

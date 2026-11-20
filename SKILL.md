@@ -1,11 +1,11 @@
 ---
 name: design-psychology-foundations
-description: Ground design work in product psychology — a semantic network of 123 cognitive biases, UX and aesthetic principles, 14 theory frameworks, 15 art & design movements, evidence grades and ~1,000 linked sources (growth.design case studies, uxtools.co). Use to suggest principles for a design, validate or audit a flow or screen, research the science behind a design decision, or trace what a visual style signals and where it comes from.
+description: Ground design work in product psychology — a semantic network of 129 cognitive biases, UX, aesthetic and human–AI trust principles, 14 theory frameworks, 15 art & design movements, evidence grades and ~1,000 linked sources (growth.design case studies, uxtools.co). Use to suggest principles for a design, validate or audit a flow or screen, research the science behind a design decision, or trace what a visual style signals and where it comes from.
 ---
 
 # Design Psychology Foundations
 
-A **semantic network**, not a list. Nodes: 123 principles · 11 clusters · 14 frameworks · 15 art & design movements · 21 design contexts · ~1,000 linked sources (growth.design case studies, uxtools.co articles/challenges/survey/episodes). Edges (typed): `mechanism-of`, `supports`, `tension` (⟂), `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`, `lineage-of` (movement → principle).
+A **semantic network**, not a list. Nodes: 129 principles · 12 clusters · 14 frameworks · 15 art & design movements · 21 design contexts · ~1,000 linked sources (growth.design case studies, uxtools.co articles/challenges/survey/episodes, Smashing Magazine articles). Edges (typed): `mechanism-of`, `supports`, `tension` (⟂), `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`, `lineage-of` (movement → principle).
 
 Every interaction runs the **B.I.A.S. cycle** (Benson's codex as used by growth.design): **F**ilter/Block → **I**nterpret → **A**ct → **R**emember/Store. Each principle carries its cycle step, cluster and evidence grade: **S** strong · **M** moderate · **P** practitioner heuristic · **C** contested (failed or mixed replications — never present as settled).
 
@@ -20,7 +20,7 @@ Every interaction runs the **B.I.A.S. cycle** (Benson's codex as used by growth.
 3. **Cluster index** `kb/clusters/<file>` (~4 KB) — all members with grade, tensions, supports, source counts. Use to traverse a family.
 3b. **Lineage** `kb/lineage.md` (~25 KB; read one `##` card) — 15 art & design movements: dates, figures, original intent, what the style signals today, how it reached digital, what got lost, linked principles. Principle files name their movements in a `Lineage` line.
 4. **Theory** `kb/frameworks.md` (~55 KB; read only the relevant `## n.` section) — dual-process, Codex/B.I.A.S./Psych, Fogg/Hook/Skinner, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, SDT, dark-pattern ethics & regulation, replication caveats, empirical aesthetics (§14).
-5. **Sources** (large: search, never load whole) — `kb/sources/growth-design-case-studies.md` (47+10 case studies, tactics, Product Psychology course outline, C.L.E.A.R. UI course), `uxtools-articles.md` (69 posts), `uxtools-challenges-tools.md` (18 practice challenges + tutorials, 9 tool categories), `uxtools-survey.md` (Design Tools Survey 2024, State of Prototyping 2026 data), `uxtools-episodes.md` (11 transcript summaries + index of 47 episodes).
+5. **Sources** (large: search, never load whole) — `kb/sources/growth-design-case-studies.md` (47+10 case studies, tactics, Product Psychology course outline, C.L.E.A.R. UI course), `uxtools-articles.md` (69 posts), `uxtools-challenges-tools.md` (18 practice challenges + tutorials, 9 tool categories), `uxtools-survey.md` (Design Tools Survey 2024, State of Prototyping 2026 data), `uxtools-episodes.md` (11 transcript summaries + index of 47 episodes), `smashing-magazine.md` (12 Smashing Magazine articles on AI trust, friction, stress and notifications; 13 more listed unverified).
 6. **Web research** only for freshness, gaps or primary-source verification.
 
 Where the KB lives: the `kb/` folder next to this file (this repository). If the skill is installed without the folder, read the same paths from the GitHub repository (raw files) or fall back to web research. `kb/CHANGELOG.md` lists evidence updates; `kb/UPDATE_PROTOCOL.md` explains how to extend the KB.
@@ -40,7 +40,7 @@ Where the KB lives: the `kb/` folder next to this file (this repository). If the
 ❌ fake scarcity/urgency/social proof/anchors · trapping defaults, tiny or hidden cancel, roach-motel offboarding · confirmshaming / guilt copy · variable rewards or triggers with no user benefit and no exit points · framing that hides cost · cashless obfuscation. Tests: *Would the user thank us if they understood exactly how this works?* (Regret test) and nudge vs sludge. Note regulation (FTC 2022 dark-patterns report, EU DSA Art. 25) in frameworks §12.
 
 ## Enterprise & complex products
-For enterprise, industrial and safety-critical software, weight trust, clarity and error prevention — Mental Model, Signifiers, Feedforward, Feedback Loop, Recognition Over Recall, Cognitive Load, Visual Hierarchy, Default Bias, Authority Bias — above growth tactics (Scarcity, Variable Reward). Each principle file has an Enterprise/B2B note.
+For enterprise, industrial and safety-critical software, weight trust, clarity and error prevention — Mental Model, Signifiers, Feedforward, Feedback Loop, Recognition Over Recall, Cognitive Load, Visual Hierarchy, Default Bias, Authority Bias — above growth tactics (Scarcity, Variable Reward). For automation, AI features, alerts and operator workload add Calibrated Trust, Automation Bias, Positive Friction, Alert Fatigue and Stress-Narrowed Cognition; their p-files cross-link to Module S (safety-critical & HMI) of the designer-growth-foundations skill, which holds the standards, methods and drills. Each principle file has an Enterprise/B2B note.
 
 ## Context playbooks (ranked by evidence, then source depth)
 - **onboarding**: Default Bias, Cognitive Load, Familiarity Bias, Reciprocity, Social Proof, Peak-End Rule, Hick's Law, Authority Bias, Goal Gradient Effect
@@ -48,14 +48,14 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - **content/copy**: Cognitive Load, Familiarity Bias, Reciprocity, Social Proof, Framing, Authority Bias, Confirmation Bias, Survey Bias, Reactance
 - **research**: Peak-End Rule, Authority Bias, Confirmation Bias, Survey Bias, Survivorship Bias, Availability Heuristic, Anchoring Bias, Halo Effect, Negativity Bias
 - **retention**: Reciprocity, Loss Aversion, Peak-End Rule, Survey Bias, Survivorship Bias, Goal Gradient Effect, Sunk Cost Effect, Variable Reward, Negativity Bias
-- **dashboards**: Cognitive Load, Confirmation Bias, Survivorship Bias, Availability Heuristic, Recognition Over Recall, Anchoring Bias, Law of Similarity, Von Restorff Effect, Fitts's Law
+- **dashboards**: Cognitive Load, Confirmation Bias, Survivorship Bias, Availability Heuristic, Recognition Over Recall, Anchoring Bias, Law of Similarity, Von Restorff Effect, Fitts's Law, Calibrated Trust, Automation Bias, Alert Fatigue
 - **pricing**: Default Bias, Reciprocity, Social Proof, Loss Aversion, Framing, Hick's Law, Authority Bias, Reactance, Anchoring Bias
-- **notifications**: Default Bias, Loss Aversion, Hick's Law, Reactance, Variable Reward, Von Restorff Effect, Negativity Bias, Banner Blindness, Selective Attention
+- **notifications**: Alert Fatigue, Default Bias, Loss Aversion, Hick's Law, Reactance, Variable Reward, Von Restorff Effect, Negativity Bias, Banner Blindness, Selective Attention
 - **checkout**: Default Bias, Social Proof, Loss Aversion, Peak-End Rule, Framing, Authority Bias, Goal Gradient Effect, Anchoring Bias, Fitts's Law
 - **forms**: Default Bias, Cognitive Load, Hick's Law, Goal Gradient Effect, Recognition Over Recall, Anchoring Bias, Law of Similarity, Chunking, Fitts's Law
 - **navigation**: Familiarity Bias, Hick's Law, Availability Heuristic, Recognition Over Recall, Law of Similarity, Chunking, Von Restorff Effect, Serial Position Effect, Fitts's Law
 - **stakeholder-communication**: Framing, Confirmation Bias, Survey Bias, Survivorship Bias, Availability Heuristic, Sunk Cost Effect, Halo Effect, Serial Position Effect, False Consensus Effect
-- **errors**: Cognitive Load, Loss Aversion, Peak-End Rule, Von Restorff Effect, Negativity Bias, Fitts's Law, Banner Blindness, Affect Heuristic, Self-Serving Bias
+- **errors**: Cognitive Load, Loss Aversion, Peak-End Rule, Von Restorff Effect, Negativity Bias, Fitts's Law, Banner Blindness, Affect Heuristic, Self-Serving Bias, Stress-Narrowed Cognition, Positive Friction
 - **data-viz**: Cognitive Load, Framing, Confirmation Bias, Availability Heuristic, Picture Superiority Effect, Law of Similarity, Chunking, Von Restorff Effect, Selective Attention
 - **branding**: Visual Style Connotation, Familiarity Bias, Processing Fluency, MAYA Principle, Colour–Emotion Associations, Social Proof, Authority Bias, Halo Effect, Picture Superiority Effect
 - **visual-design**: Processing Fluency, Fifty-Millisecond Impression, Visual Complexity Preference, Prototypicality, Visual Balance, Unity-in-Variety, Symmetry Preference, Curvature Preference, Aesthetic-Usability Effect
@@ -86,6 +86,10 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Symmetry, Curvature and Visual Complexity Preference ⟂ designer taste: lay users prefer simpler, symmetric, curved forms more than experts do (Curse of Knowledge, False Consensus Effect) — validate visual direction with target users, not the design team.
 - Golden Ratio / Rule of Thirds ⟂ evidence: fine as modular or compositional habits, but never claim them as perceptual laws in rationale; justify proportions by content, grid maths and tests.
 - Visual Style Connotation ⟂ Familiarity Bias / trends: a borrowed style imports its original signal (Swiss = neutral authority, Arts & Crafts = handmade, Constructivism = revolution); check the signal fits before following a trend, and credit non-European sources instead of using them as decoration.
+- Positive Friction ⟂ Spark Effect / Alert Fatigue: make routine steps effortless and put one deliberate, distinct step on irreversible or high-stakes actions; a confirmation on every step is habituated to and stops working.
+- Calibrated Trust ⟂ Labor Illusion / Anthropomorphism: staged effort, polish and human-like voice raise trust without raising capability; show real reliability for this case and measure agreement with wrong outputs, not trust ratings alone.
+- External Trigger ⟂ Alert Fatigue: every prompt spends attention; tier by severity, start with a low frequency and remove prompts that are always dismissed.
+- Stress-Narrowed Cognition ⟂ Delighters: playful or novel moments cost most when users are stressed; keep emergency and error paths plain, stable and single-action.
 
 ## Mechanism chains (why principles co-occur)
 - Limited working memory (~4 chunks) → Cognitive Load → Hick's Law, Chunking, Miller's Law (as misnomer), Recognition Over Recall, Progressive Disclosure, Decision Fatigue (contested), Serial Position Effect (recency).
@@ -107,6 +111,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 
 - Ease of perceptual processing (fluency) → positive affect misattributed to the object → Processing Fluency → Prototypicality, Symmetry Preference, Visual Balance, Fractal Fluency, Fifty-Millisecond Impression → Aesthetic-Usability Effect & Halo Effect → trust and perceived usability; balanced by novelty and insight (MAYA Principle, Aesthetic Aha, Unity-in-Variety).
 - Learned cultural association → Visual Style Connotation & Colour–Emotion Associations → brand personality and expectations → Familiarity Bias / Mental Model; movements in `kb/lineage.md` explain where each association came from.
+- Reliance on an imperfect aid → trust is the shortcut for deciding when to rely → Calibrated Trust (the target) vs Automation Bias (over-reliance, special case of Authority Bias); Anthropomorphism and polish inflate trust; Positive Friction, visible evidence and tests with seeded errors restore checking. Stress-Narrowed Cognition and Alert Fatigue shrink the attention left for that checking.
 
 ## Principle index — (cycle·grade) tagline ⟂ main tensions
 
@@ -127,6 +132,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Sensory Appeal (R·M) Multi-sensory experiences engage more ⟂ Cognitive Load
 - Picture Superiority Effect (R·S) Images beat words for recall ⟂ Banner Blindness
 - Weber's Law (A·S) Small changes go unnoticed ⟂ Anchoring Bias, Von Restorff Effect
+- Alert Fatigue (F·S) Repeated alerts get tuned out ⟂ External Trigger, Positive Friction
 
 **C2 Cognitive load & complexity management** · C2-cognitive-load-complexity-management.md
 - Cognitive Load (F·S) Mental effort needed to complete a task ⟂ Fitts's Law, Curiosity Gap
@@ -140,6 +146,7 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Decision Fatigue (A·C) Many decisions degrade decision quality ⟂ Attentional Bias, Reactance
 - Recognition Over Recall (R·S) Recognising beats remembering ⟂ Progressive Disclosure
 - Fitts's Law (F·S) Bigger, closer targets are faster to hit ⟂ Cognitive Load
+- Stress-Narrowed Cognition (F·M) Under stress, attention and working memory shrink ⟂ Delighters
 
 **C3 Interaction clarity & mental models** · C3-interaction-clarity-mental-models.md
 - Mental Model (I·M) Users bring beliefs about how things work ⟂ Curse of Knowledge, Law of the Instrument
@@ -254,6 +261,12 @@ For enterprise, industrial and safety-critical software, weight trust, clarity a
 - Golden Ratio (I·C) 1.618 is folklore more than a law
 - Rule of Thirds (F·C) A useful habit, not a perceptual law ⟂ Centre-Stage Effect
 - Peak Shift Effect (I·C) Exaggerated defining features can beat the original ⟂ Prototypicality
+
+**C12 Human–AI trust & reliance** · C12-human-ai-trust-reliance.md · cross-link: designer-growth-foundations Module S §2.3
+- Calibrated Trust (I·S) Trust should match what the system can really do ⟂ Labor Illusion, Anthropomorphism
+- Automation Bias (A·S) People defer to the machine, even when it's wrong
+- Positive Friction (A·M) A deliberate pause prevents costly mistakes ⟂ Spark Effect, Alert Fatigue
+- Anthropomorphism (I·M) Human-like cues invite human-level expectations ⟂ Calibrated Trust
 
 ## Recommended reading
 Cognitive Biases Codex (Buster Benson) · Super Thinking (Weinberg & McCann) · Hooked (Nir Eyal) · Influence & Pre-Suasion (Cialdini) · Predictably Irrational (Ariely) · Thinking, Fast and Slow (Kahneman) · The Design of Everyday Things (Norman) · Laws of UX (Yablonski) · Tiny Habits (Fogg) · Art and Visual Perception (Arnheim) · Interaction of Color (Albers) · A History of Graphic Design (Meggs) · Ways of Seeing (Berger) · Reber, Schwarz & Winkielman 2004 (processing fluency) · Smarthistory (free).

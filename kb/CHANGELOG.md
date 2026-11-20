@@ -1,5 +1,12 @@
 # Knowledge base changelog
 
+## 2026-11-19 — human–AI trust layer (Smashing Magazine gap analysis)
+- Added 6 principles (123 → 129). New cluster C12 Human–AI trust & reliance: Calibrated Trust [S] (Lee & See 2004; Hoff & Bashir 2015; Razin & Feigh 2023), Automation Bias [S] (Parasuraman & Manzey 2010; Goddard et al. 2012; Dratsch et al. 2023; Romeo & Conti 2025), Positive Friction [M] (Buçinca et al. 2021; Vasconcelos et al. 2023), Anthropomorphism [M] (Epley et al. 2007; Blut et al. 2021). In C2: Stress-Narrowed Cognition [M] (Shields et al. 2016; Starcke & Brand 2016). In C1: Alert Fatigue [S] (Vance et al. 2018; Anderson et al. 2016).
+- New source shard kb/sources/smashing-magazine.md: 12 Smashing Magazine articles summarised, 13 more listed from search excerpts only (marked "details not verified").
+- Considered and not added: Explainability Effect (contested evidence); COM-B, trust repair, pro-innovation bias and professional identity threat (fewer than 3 sources each).
+- New tension pairs: Positive Friction ⟂ Spark Effect / Alert Fatigue; Calibrated Trust ⟂ Labor Illusion / Anthropomorphism; External Trigger ⟂ Alert Fatigue; Stress-Narrowed Cognition ⟂ Delighters. frameworks.md §1, §3, §5, §7, §8 and §12 each gained one line.
+- Evidence caveats: Hoff & Bashir 2015, Starcke & Brand 2016, Yu 2016, Anderson et al. 2016, Ray et al. 2026 and the 2023 chatbot meta-analysis were read as abstracts only; Dratsch et al. 2023 figures come from press coverage of the paper.
+
 ## 2026-11-01 — monthly update
 - New sources (3): uxtools.co "Anyone can animate now" (Oct 2026) and its Dive Radio companion episode; growth.design "Zeigarnik Effect: Why it's hard to leave things incomplete" (recovered). growth.design "psych-framework" remains paywalled and was dropped from the retry list.
 - Re-reviewed 8 principles: Streisand Effect, Visual Anchors, Parkinson's Law, Internal Trigger, External Trigger, Occam's Razor, Visual Hierarchy, Tesler's Law — all stay Practitioner, with stronger primary evidence (e.g. McKay et al. 2021 gaze-cueing meta-analysis; Singh et al. 2024 habit-formation meta-analysis; Adams et al. 2021 Nature on subtraction neglect; Jachimowicz et al. 2019 defaults meta-analysis; Hobbs & Roberts 2018 censorship natural experiment; Bidargaddi 2018 and Bell 2023 micro-randomised notification trials).

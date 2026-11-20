@@ -1,0 +1,30 @@
+## Calibrated Trust
+_Trust should match what the system can really do_ · cycle: 🔮 Meaning · cluster: C12 · evidence: Strong
+- Definition: Trust in an automated or AI system is calibrated when it matches the system's real capability. Too much trust leads to misuse (relying on it where it fails); too little leads to disuse (ignoring it where it works).
+- Mechanism (why it happens): People cannot fully inspect complex automation, so they use trust as a shortcut for deciding when to rely on it. Trust is built from what the system does (performance), how it works (process) and why it was built (purpose), and it shifts with each success or failure the user notices. Surface cues such as polish or a confident tone can raise trust without any change in capability.
+- Origin & key evidence:
+  - Lee & See (2004), "Trust in automation: Designing for appropriate reliance", Human Factors 46(1), 50–80 — integrative review: defines trust, misuse and disuse, and calibration, resolution and specificity of trust; warns against interface features that raise trust without reflecting capability. https://pubmed.ncbi.nlm.nih.gov/15151155/
+  - Hoff & Bashir (2015), "Trust in automation: Integrating empirical evidence on factors that influence trust", Human Factors — systematic review of studies from 2002 to mid-2013; separates dispositional, situational and learned trust (abstract only; details not verified).
+  - Razin & Feigh (2023), meta-analysis of human–automation trust questionnaires, arXiv:2303.13799 — 62 survey instruments across 173 experimental works; capability-based trust had the strongest direct effect on intent to use. https://www.arxiv.org/pdf/2303.13799
+  - Romeo & Conti (2025), AI & Society — review of 35 studies (19,774 participants): explanations and trust-calibration feedback did not reliably help users catch AI errors. https://doi.org/10.1007/s00146-025-02422-7
+- Evidence grade: Strong for the phenomenon (trust drives reliance; over- and under-trust both cause failures, shown across aviation, process control, driving and medicine). Moderate for any single design fix: confidence displays and explanations calibrate trust in some studies and not in others.
+- Design applications:
+  - Show how reliable the system is for this case, not in general (confidence, data freshness, known weak spots) — measure agreement with correct vs incorrect outputs separately.
+  - Keep state, intent and next action visible, with a clean way to take over — measure whether users can predict the next action.
+  - Admit errors plainly and make correction easy — measure correction rate and return rate after a failure.
+  - Do not let visual polish or a human-like voice promise more than the system delivers — measure trust ratings against measured accuracy.
+  - Track trust with a validated scale (e.g. Jian, Bisantz & Drury 2000; TOAST, Wojton et al. 2020) alongside behaviour.
+- Real product examples: Victor Yocco's agentic patterns pair a Confidence Signal with a "Calibration Score" metric and an Intent Preview before the agent acts (Smashing Magazine, 2026).
+- Enterprise/B2B note: For operator tools (control-room, fleet and inspection software) calibrated trust is a safety property. Automation the operator does not know about, or cannot predict, cannot be supervised.
+- Ethics/watch-out: "Trustwashing" — styling a flawed system so it looks trustworthy — is deceptive. Aim for accurate trust, not maximum trust.
+- Contexts: dashboards, settings, errors, onboarding, content/copy, data-viz
+- Sources: https://pubmed.ncbi.nlm.nih.gov/15151155/ ; https://www.arxiv.org/pdf/2303.13799 ; https://doi.org/10.1007/s00146-025-02422-7 ; https://www.smashingmagazine.com/2025/09/psychology-trust-ai-guide-measuring-designing-user-confidence/
+- Typed edges: counteracts → Automation Bias; related → Mental Model; related → Feedback Loop; related → Expectations Bias; related → Authority Bias; tension → Labor Illusion; tension → Anthropomorphism; measured-by → trust scale + reliance on correct vs incorrect advice
+- Explained by frameworks: ⚙ Norman's design principles (supports); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (supports)
+- Cross-link: designer-growth-foundations Module S §2.3 Automation & trust (Bainbridge, Sarter & Woods, Lee & See) and drill S7 Automation transparency.
+- Linked sources (5):
+  - [article] The Psychology Of Trust In AI: A Guide To Measuring And Designing For User Confidence — places calibrated trust between active distrust and over-trust, and lists four validated trust scales. <https://www.smashingmagazine.com/2025/09/psychology-trust-ai-guide-measuring-designing-user-confidence/> (sources/smashing-magazine.md)
+  - [article] Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability — Confidence Signal and Intent Preview patterns, each with a metric. <https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/> (sources/smashing-magazine.md)
+  - [article] Should You Actually Add AI To That? A Four-Question Audit For Product Teams — asks whether users can still tell when the AI is wrong after a year of use. <https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/> (sources/smashing-magazine.md)
+  - [article] Designing With Uncertainty: How AI Supercharges Probabilistic Thinking — explanations help users calibrate trust (details not verified). <https://www.smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/> (sources/smashing-magazine.md)
+  - [article] Building User Trust In UX Design — "calibrate trust" and confidence levels for algorithmic products (details not verified). <https://www.smashingmagazine.com/2021/02/building-user-trust-in-ux-design/> (sources/smashing-magazine.md)

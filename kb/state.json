@@ -314,7 +314,21 @@
   "https://www.uxtools.co/tools/research-repository",
   "https://www.uxtools.co/tools/user-testing",
   "https://www.uxtools.co/tools/whiteboarding",
-  "https://www.uxtools.co/ux-chats/jess-eddy/"
+  "https://www.uxtools.co/ux-chats/jess-eddy/",
+  "https://www.smashingmagazine.com/2025/09/psychology-trust-ai-guide-measuring-designing-user-confidence/",
+  "https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+  "https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/",
+  "https://www.smashingmagazine.com/2026/03/persuasive-design-ten-years-later/",
+  "https://www.smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
+  "https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
+  "https://www.smashingmagazine.com/2025/11/designing-for-stress-emergency/",
+  "https://www.smashingmagazine.com/2018/01/friction-ux-design-tool/",
+  "https://www.smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/",
+  "https://www.smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
+  "https://www.smashingmagazine.com/2026/07/digital-design-ai-era/",
+  "https://www.smashingmagazine.com/the-smashing-newsletter/smashing-newsletter-issue-568/",
+  "https://www.smashingmagazine.com/",
+  "https://www.smashingmagazine.com/category/ux/"
  ],
  "episodes_without_transcript": [
   "https://www.uxtools.co/episodes/dive-radio-anyone-can-animate-now-and-how",
@@ -1215,6 +1229,48 @@
    "grade": "Moderate",
    "sources": 0,
    "last_reviewed": "2026-10-05"
+  },
+  "Calibrated Trust": {
+   "slug": "calibrated-trust",
+   "cluster": "C12",
+   "grade": "Strong",
+   "sources": 5,
+   "last_reviewed": "2026-11-19"
+  },
+  "Automation Bias": {
+   "slug": "automation-bias",
+   "cluster": "C12",
+   "grade": "Strong",
+   "sources": 3,
+   "last_reviewed": "2026-11-19"
+  },
+  "Positive Friction": {
+   "slug": "positive-friction",
+   "cluster": "C12",
+   "grade": "Moderate",
+   "sources": 5,
+   "last_reviewed": "2026-11-19"
+  },
+  "Anthropomorphism": {
+   "slug": "anthropomorphism",
+   "cluster": "C12",
+   "grade": "Moderate",
+   "sources": 3,
+   "last_reviewed": "2026-11-19"
+  },
+  "Stress-Narrowed Cognition": {
+   "slug": "stress-narrowed-cognition",
+   "cluster": "C2",
+   "grade": "Moderate",
+   "sources": 4,
+   "last_reviewed": "2026-11-19"
+  },
+  "Alert Fatigue": {
+   "slug": "alert-fatigue",
+   "cluster": "C1",
+   "grade": "Strong",
+   "sources": 4,
+   "last_reviewed": "2026-11-19"
   }
  },
  "review_queue": [
@@ -1323,7 +1379,13 @@
   "External Trigger",
   "Occam's Razor",
   "Visual Hierarchy",
-  "Tesler's Law"
+  "Tesler's Law",
+  "Calibrated Trust",
+  "Automation Bias",
+  "Positive Friction",
+  "Anthropomorphism",
+  "Stress-Narrowed Cognition",
+  "Alert Fatigue"
  ],
  "runs": [
   {
@@ -1345,6 +1407,11 @@
    "date": "2026-11-01",
    "kind": "monthly update",
    "notes": "3 new sources (uxtools 'Anyone can animate now' + Dive Radio S1E12; growth.design Zeigarnik case study); 8 principles re-reviewed (Streisand, Visual Anchors, Parkinson's Law, Internal/External Trigger, Occam's Razor, Visual Hierarchy, Tesler's Law); no grade changes; Goal Gradient grade line aligned; 2 p-files trimmed under 6 KB"
+  },
+  {
+   "date": "2026-11-19",
+   "kind": "manual gap analysis (Smashing Magazine)",
+   "notes": "6 new principles (123 → 129): new cluster C12 Human–AI trust & reliance (Calibrated Trust, Automation Bias, Positive Friction, Anthropomorphism); Stress-Narrowed Cognition → C2; Alert Fatigue → C1; new source shard smashing-magazine.md (12 articles)"
   }
  ],
  "pending_unretrievable": [],

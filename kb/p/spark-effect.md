@@ -17,7 +17,7 @@ _Small effort → more action_ · cycle: 🙈 Information · cluster: C6 · evid
 - Ethics/watch-out: frictionless purchase or sign-up can lead to commitments people regret. Keep friction on irreversible actions.
 - Contexts: onboarding, forms, checkout, pricing, empty-states, retention
 - Sources: https://growth.design/psychology ; https://www.ntu.edu.sg/business/news-events/news/story-detail/little-effort-big-payoff-why-small-tasks-boost-discount-campaign-effectiveness ; https://www.thebehavioralscientist.com/?p=3058 ; https://haebom.dev/d7916x82rvxj724kpyg3?tl=en
-- Typed edges: supports → Goal Gradient Effect; supports → Shaping; mechanism-of → Default Bias; tension → IKEA Effect; special-case-of → Fogg Behavior Model (ability); supports → Hick's Law
+- Typed edges: supports → Goal Gradient Effect; supports → Shaping; mechanism-of → Default Bias; tension → IKEA Effect; special-case-of → Fogg Behavior Model (ability); supports → Hick's Law; tension → Positive Friction
 - Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Fogg Behavior Model + Tiny Habits (mechanism-of)
 - Linked sources (7):
   - [other] UX in 60 Seconds — a small, 60-second effort lowers the barrier to engage. <https://growth.design/ux-in-60-seconds> (sources/growth-design-case-studies.md)

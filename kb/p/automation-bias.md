@@ -1,0 +1,28 @@
+## Automation Bias
+_People defer to the machine, even when it's wrong_ · cycle: ⏰ Time · cluster: C12 · evidence: Strong
+- Definition: The tendency to accept output from an automated aid or AI in place of one's own checking. It produces commission errors (following wrong advice) and omission errors (missing a problem because the system stayed silent).
+- Mechanism (why it happens): Checking costs effort, and the aid is usually right, so deferring becomes the default. Attention moves away from the raw evidence, most of all under workload and time pressure. The aid's answer also arrives first and acts as an anchor, and the system is treated as an authority.
+- Origin & key evidence:
+  - Parasuraman & Manzey (2010), "Complacency and bias in human use of automation: An attentional integration", Human Factors 52(3), 381–410 — review: the bias appears in novices and experts, is not prevented by training or instructions, and affects teams as well as individuals. https://pubmed.ncbi.nlm.nih.gov/21077562/
+  - Goddard, Roudsari & Wyatt (2012), "Automation bias: a systematic review of frequency, effect mediators, and mitigators", JAMIA 19(1), 121–127 — 74 studies from healthcare, aviation and HCI; mitigators include showing confidence levels, giving information instead of recommendations, training and accountability. https://doi.org/10.1136/amiajnl-2011-000089
+  - Dratsch et al. (2023), "Automation bias in mammography", Radiology — 27 radiologists, 50 mammograms: with a wrong AI suggestion, correct ratings fell from 79.7% to 19.8% (inexperienced) and from 82.3% to 45.5% (very experienced) (figures from RSNA and AuntMinnie coverage; paper not opened). https://doi.org/10.1148/radiol.222176
+  - Romeo & Conti (2025), AI & Society — 35 studies, 19,774 participants: workload, time pressure, advice shown first and good first impressions raise over-reliance; expertise lowers it; explanations mostly do not. https://doi.org/10.1007/s00146-025-02422-7
+- Evidence grade: Strong — reviews across aviation, healthcare and process control agree, and recent AI-assistance experiments reproduce it, including with experts.
+- Design applications:
+  - Let the user form a view first, then show the AI's answer, for high-stakes decisions — measure agreement with deliberately wrong advice in testing.
+  - Present evidence and uncertainty, not only a verdict — measure error-catch rate.
+  - Keep the underlying data one glance away, so checking is cheap — measure verification rate.
+  - Test with seeded errors; average accuracy hides the cases that matter — measure accuracy when the system is wrong.
+  - Watch reliance over months: scrutiny drops as trust builds — measure override rate over time.
+- Real product examples: Yocco's four-question audit asks "Can the user catch the errors?" and whether they still can after a year (Smashing Magazine, 2026).
+- Enterprise/B2B note: Operators supervising automated control, detection or inspection are the classic case. A sign-off step does not help if the reviewer only sees the system's conclusion.
+- Ethics/watch-out: Do not use the bias to steer users. An agent that makes a business-serving option effortless to accept is "agentic sludge" (Yocco, Smashing Magazine, 2026).
+- Contexts: dashboards, data-viz, search, forms, research, errors
+- Sources: https://pubmed.ncbi.nlm.nih.gov/21077562/ ; https://doi.org/10.1136/amiajnl-2011-000089 ; https://doi.org/10.1148/radiol.222176 ; https://www.rsna.org/news/2023/may/ai-bias-may-impair-accuracy ; https://doi.org/10.1007/s00146-025-02422-7
+- Typed edges: special-case-of → Authority Bias; related → Default Bias; related → Anchoring Bias; related → Confirmation Bias; related → Cognitive Load; related → Selective Attention; measured-by → agreement rate with incorrect advice
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Cognitive Load Theory and working memory limits (supports)
+- Cross-link: designer-growth-foundations Module S §2.3 Automation & trust (ironies of automation, out-of-the-loop) and §2.1 SA demons.
+- Linked sources (3):
+  - [article] Should You Actually Add AI To That? A Four-Question Audit For Product Teams — cites Parasuraman & Manzey and the radiologist study; trust builds fast and scrutiny fades. <https://www.smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/> (sources/smashing-magazine.md)
+  - [article] The Psychology Of Trust In AI: A Guide To Measuring And Designing For User Confidence — names over-trust and automation bias as one end of the trust spectrum. <https://www.smashingmagazine.com/2025/09/psychology-trust-ai-guide-measuring-designing-user-confidence/> (sources/smashing-magazine.md)
+  - [article] Beyond Generative: The Rise Of Agentic AI And User-Centric Design — "agentic sludge": users accept an agent's self-serving recommendation without scrutiny (details not verified). <https://www.smashingmagazine.com/2026/01/beyond-generative-rise-agentic-ai-user-centric-design/> (sources/smashing-magazine.md)

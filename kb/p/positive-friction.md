@@ -1,0 +1,30 @@
+## Positive Friction
+_A deliberate pause prevents costly mistakes_ · cycle: ⏰ Time · cluster: C12 · evidence: Moderate
+- Definition: Friction added on purpose, at the moment of a risky or irreversible decision, so the user stops and thinks. In AI-assisted work these are called cognitive forcing functions: the user must act (decide first, ask for the answer, wait) before accepting a suggestion.
+- Mechanism (why it happens): Fast, habitual responding handles routine steps well and fails on rare, high-cost ones. A required action interrupts the habit and brings deliberate reasoning in. It works only if the pause is rare and meaningful; a pause on every step becomes a habit itself.
+- Origin & key evidence:
+  - Buçinca, Malaya & Gajos (2021), "To trust or to think: Cognitive forcing functions can reduce overreliance on AI in AI-assisted decision-making", Proc. ACM HCI 5(CSCW1) — N = 199: three forcing designs (on demand, decide first then update, wait) lowered over-reliance on wrong AI suggestions compared with simple explanations (0.48 vs 0.64 on the main measure). People rated the designs that worked best as more complex and trusted them least, and gains were larger for people high in need for cognition. https://doi.org/10.1145/3449287
+  - Vasconcelos et al. (2023), "Explanations can reduce overreliance on AI systems during decision-making", Proc. ACM HCI 7(CSCW1) — 5 studies, N = 731: over-reliance follows costs and benefits; making verification cheap can work without forcing. https://doi.org/10.1145/3579605
+  - Romeo & Conti (2025), AI & Society — review: engaging the user is a more workable route against automation bias than explanations alone. https://doi.org/10.1007/s00146-025-02422-7
+  - Kollin (2018), "Designing Friction For A Better User Experience", Smashing Magazine — practitioner cases: typed confirmation before deletion, confirmation before signing out all devices, a warning before notifying a whole group. https://www.smashingmagazine.com/2018/01/friction-ux-design-tool/
+- Evidence grade: Moderate — one well-designed experiment in AI assistance plus a long forcing-function tradition in safety and medicine; the effect is partial, depends on the user, and costs satisfaction.
+- Design applications:
+  - Reserve confirmation for irreversible or rare actions, and make it a distinct act (typed name, hold to confirm) — measure accidental-action rate.
+  - Prefer undo to confirmation where the action can be reversed — measure undo use and support tickets.
+  - For AI suggestions in high-stakes work, ask for the user's answer first or reveal the suggestion on request — measure agreement with seeded wrong suggestions.
+  - Preview what will happen before an agent acts — measure plan edits and reversion rate.
+  - Keep friction off routine steps — measure task time and abandonment.
+- Real product examples: Mailchimp's typed confirmation and Slack's group-notification warning (Kollin, 2018); the Intent Preview and Action Audit & Undo patterns (Yocco, Smashing Magazine, 2026).
+- Enterprise/B2B note: For commands that cannot be recalled (start a run, delete operational data, override a failsafe) require a deliberate, distinct action. Routine confirmations get clicked through.
+- Ethics/watch-out: Friction that serves the business — hard cancellation, extra steps to opt out — is sludge and a dark pattern. The test is who benefits from the pause. Forcing designs may also help motivated users more than others.
+- Contexts: errors, checkout, settings, forms, offboarding, notifications
+- Sources: https://doi.org/10.1145/3449287 ; https://doi.org/10.1145/3579605 ; https://doi.org/10.1007/s00146-025-02422-7 ; https://www.smashingmagazine.com/2018/01/friction-ux-design-tool/
+- Typed edges: counteracts → Automation Bias; tension → Spark Effect; tension → Alert Fatigue; supports → Feedforward; supports → Provide Exit Points; related → Labor Illusion; related → Reactance; related → Nudge
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (organises); ⚙ Ethics: dark-pattern taxonomies, regulation, regret test, nu (supports)
+- Cross-link: designer-growth-foundations Module S §2.2 Human error (forcing functions; confirmation only for the irreversible).
+- Linked sources (5):
+  - [article] Designing Friction For A Better User Experience — where friction helps (error prevention, security, perceived thoroughness) and where it becomes a dark pattern. <https://www.smashingmagazine.com/2018/01/friction-ux-design-tool/> (sources/smashing-magazine.md)
+  - [article] Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability — Intent Preview before action; Action Audit & Undo after. <https://www.smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/> (sources/smashing-magazine.md)
+  - [article] Designing For Stress And Emergency — undo and safeguards against irreversible errors; an optimal level of onboarding friction. <https://www.smashingmagazine.com/2025/11/designing-for-stress-emergency/> (sources/smashing-magazine.md)
+  - [article] Using Friction As A Feature In Machine Learning Algorithms — friction before consequential actions (details not verified). <https://www.smashingmagazine.com/2023/08/friction-feature-machine-learning-algorithms/> (sources/smashing-magazine.md)
+  - [article] When Friction Is A Good Thing: Designing Sustainable E-Commerce Experiences — friction against impulse purchases (details not verified). <https://www.smashingmagazine.com/2024/07/designing-sustainable-e-commerce-experiences/> (sources/smashing-magazine.md)

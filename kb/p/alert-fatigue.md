@@ -1,0 +1,29 @@
+## Alert Fatigue
+_Repeated alerts get tuned out_ · cycle: 🙈 Information · cluster: C1 · evidence: Strong
+- Definition: The more often people see a warning, notification or confirmation, the less attention they give it, until it is dismissed without being read. The underlying process is habituation: a decreased response to a repeated stimulus.
+- Mechanism (why it happens): The brain reduces its response to stimuli that repeat without consequence (repetition suppression), which frees attention for the task. An alert that looks the same each time and rarely matters is learned as background. Attention partly recovers after a break and when the alert's appearance changes.
+- Origin & key evidence:
+  - Vance, Jenkins, Anderson, Bjornn & Kirwan (2018), "Tuning out security warnings: A longitudinal examination of habituation through fMRI, eye tracking, and field experiments", MIS Quarterly 42(2), 355–380 — lab (n = 15, five days): fixations on warnings fell about 19%. Field (n = 102, three weeks, 7,248 warnings): adherence fell from 87% to 64%; to 55% for static warnings but only to 76% for warnings whose appearance varied. https://doi.org/10.25300/MISQ/2018/14124
+  - Anderson, Vance, Kirwan, Jenkins & Eargle (2016), "From warning to wallpaper", Journal of Management Information Systems 33(3), 713–743 — fMRI (n = 25): a polymorphic warning resisted habituation in attention-related brain regions (abstract only). https://doi.org/10.1080/07421222.2016.1243947
+  - Ray, Wilson, Hughes et al. (2026), "Alert fatigue measurement in clinical decision support: a systematic review" — the term is rarely given an operational definition; override and acceptance rates are the usual proxies (abstract only). https://www.metrohealth.org/globalassets/metrohealth-documents/population-health-research-institute/ray-wilson-et-al-2026-alert-fatigue-systematic-review.pdf
+  - Friedman (2025), Smashing Magazine — reports that frequency is the top notification complaint in usability testing, and a Facebook experiment in which fewer notifications improved satisfaction and long-term use (primary study not opened). https://www.smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/
+- Evidence grade: Strong for habituation to repeated warnings (brain, eye-tracking and field behaviour agree). The clinical "alert fatigue" label is measured inconsistently, so quote adherence or override rates, not the label.
+- Design applications:
+  - Cut alert volume first: every alert should need an action — measure alerts per user per day and action rate.
+  - Tier by severity and reserve interruption for the top tier — measure response time to high-severity alerts.
+  - Start new users on a low frequency; offer modes, summaries, snooze and quiet hours — measure opt-out and mute rates.
+  - Vary the form of rare critical warnings so they do not look like routine ones — measure adherence over weeks, not on day one.
+  - Review alert logs regularly and remove alerts that are always dismissed — measure override rate per alert.
+- Real product examples: Slack lowers notification levels as channel activity grows; Basecamp asks about "Always On" vs "Work Can Wait" during onboarding (both in Friedman, 2025).
+- Enterprise/B2B note: In monitoring and operations software this is alarm management. Process-industry benchmarks treat ten or more alarms in ten minutes as a flood (see Module S §2.4).
+- Ethics/watch-out: Notifications sent to drive engagement spend the attention that safety and security warnings depend on.
+- Contexts: notifications, dashboards, errors, settings, retention
+- Sources: https://doi.org/10.25300/MISQ/2018/14124 ; https://doi.org/10.1080/07421222.2016.1243947 ; https://www.metrohealth.org/globalassets/metrohealth-documents/population-health-research-institute/ray-wilson-et-al-2026-alert-fatigue-systematic-review.pdf ; https://www.smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/
+- Typed edges: special-case-of → Selective Attention; related → Banner Blindness; related → Von Restorff Effect; related → Reactance; tension → External Trigger; tension → Positive Friction; measured-by → alert adherence / override rate
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (supports); ⚙ Fogg Behavior Model + Tiny Habits (tension)
+- Cross-link: designer-growth-foundations Module S §2.4 Alarms & alerting (EEMUA 191 / ISA-18.2 benchmarks) and drill S3 Alarm rationalisation.
+- Linked sources (4):
+  - [article] Design Guidelines For Better Notifications UX — severity levels, low default frequency, notification modes, summaries and snooze. <https://www.smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/> (sources/smashing-magazine.md)
+  - [article] Designing A Streak System: The UX And Psychology Of Streaks — heavy reliance on prompts risks mental fatigue and churn (details not verified). <https://www.smashingmagazine.com/2026/02/designing-streak-system-ux-psychology/> (sources/smashing-magazine.md)
+  - [article] Privacy UX: Better Notifications And Permission Requests — avoiding notification fatigue (details not verified). <https://www.smashingmagazine.com/2019/04/privacy-better-notifications-ux-permission-requests/> (sources/smashing-magazine.md)
+  - [article] The State Of Usability In 2023 — pop-ups and push notifications are dismissed instinctively (details not verified). <https://www.smashingmagazine.com/2023/01/usability-2023/> (sources/smashing-magazine.md)

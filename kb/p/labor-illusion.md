@@ -13,7 +13,7 @@ _Visible effort increases perceived value_ · cycle: ⏰ Time · cluster: C8 · 
 - Design applications: Show what the system is doing during waits (steps, data being checked); Avoid results so instant they seem low-quality for high-stakes tasks
 - Watch-out (growth.design): Artificial delays must be honest and short.
 - Product examples: Tinder — instant matches feel low-quality; KAYAK — 'crunching data' results; TurboTax — validation screens; Brave case study
-- Typed edges: supports → Reciprocity; counteracts → Chronoception; supports → Feedback Loop; supports → Goal Gradient Effect; tension → Parkinson's Law; tension → Chronoception; tension → Doherty-style speed
+- Typed edges: supports → Reciprocity; counteracts → Chronoception; supports → Feedback Loop; supports → Goal Gradient Effect; tension → Parkinson's Law; tension → Chronoception; tension → Doherty-style speed; tension → Calibrated Trust
 - Related: Feedback Loop, Chronoception, IKEA Effect
 - Explained by frameworks: ⚙ Cognitive Bias Codex (organises); ⚙ Kano model (organises)
 - Lineage (art & design history): Arts & Crafts → lineage.md

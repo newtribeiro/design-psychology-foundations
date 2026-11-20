@@ -1,6 +1,6 @@
 # Design Psychology Foundations
 
-A Claude skill and open knowledge base that grounds design decisions in product psychology. It turns 123 cognitive biases, UX and aesthetic principles into a **semantic network**: each principle has a definition, the mechanism behind it, cited research, an **evidence grade**, concrete design moves with metrics, real product examples, an enterprise note, ethical watch-outs, typed links to other principles, and links to practitioner sources.
+A Claude skill and open knowledge base that grounds design decisions in product psychology. It turns 129 cognitive biases, UX, aesthetic and human–AI trust principles into a **semantic network**: each principle has a definition, the mechanism behind it, cited research, an **evidence grade**, concrete design moves with metrics, real product examples, an enterprise note, ethical watch-outs, typed links to other principles, and links to practitioner sources.
 
 It is meant as a base for improving a designer's process: suggest the right principles for a design, audit a flow, and check how solid the science really is before you lean on it.
 
@@ -10,8 +10,8 @@ It is meant as a base for improving a designer's process: suggest the right prin
 
 | | |
 |---|---|
-| 123 principles | organised on the decision cycle **Filter → Interpret → Act → Remember** (Buster Benson's Cognitive Bias Codex, as used by growth.design) |
-| 11 clusters | perception & attention · cognitive load · interaction clarity · value & choice architecture · social influence · triggers & habits · autonomy & ownership · memory & time · user judgment biases · designer/research biases · **aesthetics & visual culture** |
+| 129 principles | organised on the decision cycle **Filter → Interpret → Act → Remember** (Buster Benson's Cognitive Bias Codex, as used by growth.design) |
+| 12 clusters | perception & attention · cognitive load · interaction clarity · value & choice architecture · social influence · triggers & habits · autonomy & ownership · memory & time · user judgment biases · designer/research biases · aesthetics & visual culture · **human–AI trust & reliance** |
 | 14 frameworks | dual-process theory, B.I.A.S./Psych, Fogg & Hook, Prospect Theory, Cialdini, Gestalt, Norman, Cognitive Load Theory, Nielsen/Jakob/Laws of UX, Kano/JTBD/peak-end, Self-Determination Theory, dark-pattern ethics & regulation, replication caveats, empirical aesthetics |
 | 15 art & design movements | Renaissance perspective → Arts & Crafts → Art Nouveau → De Stijl → Constructivism → Bauhaus → Isotype → Swiss style → corporate modernism → Pop Art → Postmodernism/Memphis → digital skeuomorphism/flat, plus Japanese Ma & Mingei, Islamic geometry and Brazilian Concrete art — each with original intent, what it signals today, what got lost on the way to digital, and `lineage-of` links to principles |
 | ~1,500 typed edges | `supports`, `tension`, `mechanism-of`, `counteracts`, `special-case-of`, `measured-by`, `organises`, `illustrated-by`, `lineage-of` |

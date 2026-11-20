@@ -1,0 +1,26 @@
+## Anthropomorphism
+_Human-like cues invite human-level expectations_ · cycle: 🔮 Meaning · cluster: C12 · evidence: Moderate
+- Definition: The tendency to attribute human characteristics, intentions or emotions to non-human agents. In products, a name, face, voice or conversational tone makes people treat software as a social actor.
+- Mechanism (why it happens): Epley, Waytz & Cacioppo's three-factor theory: people anthropomorphise more when knowledge about humans is easy to apply to the agent, when they want to explain and predict its behaviour, and when they lack social connection. Human-like cues supply the first factor directly.
+- Origin & key evidence:
+  - Epley, Waytz & Cacioppo (2007), "On seeing human: A three-factor theory of anthropomorphism", Psychological Review 114(4), 864–886 — theory paper setting out the three determinants. https://pubmed.ncbi.nlm.nih.gov/17907867/
+  - Blut, Wang, Wünderlich & Brock (2021), "Understanding anthropomorphism in service provision: a meta-analysis of physical robots, chatbots, and other AI", Journal of the Academy of Marketing Science 49(4), 632–658 — 108 samples, N = 11,053: anthropomorphism relates positively to intention to use (corrected r = .35), mostly through perceived animacy and intelligence; stronger for information-processing services, weaker for others. https://doi.org/10.1007/s11747-020-00762-y
+  - A 2023 meta-analysis of chatbot anthropomorphism (Marketing Intelligence & Planning; 42 articles, 82 samples) notes concern that high human-likeness can provoke negative emotions (abstract only; authors and results not verified). https://doi.org/10.1108/MIP-03-2023-0103
+  - Lee & See (2004), Human Factors 46(1) — people respond to technology socially, which is why surface cues can move trust away from capability. https://pubmed.ncbi.nlm.nih.gov/15151155/
+- Evidence grade: Moderate — a large meta-analysis supports the average positive effect on acceptance, but it rests on self-reported intention, varies by service type, and says little about accuracy of trust or long-term use.
+- Design applications:
+  - Decide what the persona is for (approachability, status signalling) before adding one — measure task success with and without it.
+  - Keep human-like cues in proportion to capability; a fluent voice on a limited system raises the cost of every failure — measure satisfaction after errors.
+  - Use expression to carry state (working, unsure, done), not decoration — measure whether users read the state correctly.
+  - State clearly that the agent is not a person where it matters — measure comprehension of the disclosure.
+- Real product examples: MacPaw's Eney assistant uses a simple circular character with a small set of expressions, each meant to convey information, and limits movement so it does not distract (Smashing Magazine, 2026; no user data reported). Speechly's "direct voice" approach drops the assistant persona and shows real-time visual feedback instead (Smashing Magazine, 2021).
+- Enterprise/B2B note: In operational software a persona adds little and can blur responsibility. Plain system language ("Route recalculated") keeps the operator's model of the automation accurate.
+- Ethics/watch-out: Human-like design can encourage misplaced trust and emotional reliance, and must not be used to hide that the user is dealing with a machine.
+- Contexts: branding, onboarding, content/copy, visual-design, errors
+- Sources: https://pubmed.ncbi.nlm.nih.gov/17907867/ ; https://doi.org/10.1007/s11747-020-00762-y ; https://doi.org/10.1108/MIP-03-2023-0103 ; https://pubmed.ncbi.nlm.nih.gov/15151155/
+- Typed edges: tension → Calibrated Trust; related → Halo Effect; related → Mental Model; related → Expectations Bias; related → Visual Style Connotation; related → Skeuomorphism
+- Explained by frameworks: ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of); ⚙ Cialdini's 7 principles of influence (supports)
+- Linked sources (3):
+  - [article] An Alternative Voice UI To Voice Assistants — human-like assistants raise expectations of human-like service; proposes voice input without a persona. <https://www.smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/> (sources/smashing-magazine.md)
+  - [article] Thinking Outside The Box: Digital Design In The AI Era — how MacPaw designed the Eney character and restrained its expressions. <https://www.smashingmagazine.com/2026/07/digital-design-ai-era/> (sources/smashing-magazine.md)
+  - [article] Connecting With Users: Incorporating Humor In Web Design — personification as a humour device, e.g. Clippy (details not verified). <https://www.smashingmagazine.com/2017/06/connecting-users-humor-web-design/> (sources/smashing-magazine.md)

@@ -1,0 +1,29 @@
+## Stress-Narrowed Cognition
+_Under stress, attention and working memory shrink_ · cycle: 🙈 Information · cluster: C2 · evidence: Moderate
+- Definition: Acute stress reduces the mental capacity available for an interface: working memory holds less, switching between tasks gets harder, and attention locks onto a few cues ("cognitive tunnelling"). People fall back on habit and fast judgement.
+- Mechanism (why it happens): Stress hormones and arousal impair the prefrontal functions behind working memory and flexible thinking, so control shifts from deliberate reasoning to intuitive, habitual responding. Attention narrows to what seems most threatening or most salient.
+- Origin & key evidence:
+  - Shields, Sazma & Yonelinas (2016), "The effects of acute stress on core executive functions: A meta-analysis and comparison with cortisol", Neuroscience & Biobehavioral Reviews 68, 651–668 — 51 studies, 2,486 participants: stress impaired working memory (g = −0.20; −0.30 at high memory load) and cognitive flexibility (g = −0.30); response inhibition slightly improved. https://doi.org/10.1016/j.neubiorev.2016.06.038
+  - Dang (2017), commentary in Frontiers in Psychology 8:1711 — disputes how inhibition tasks were classified, so the inhibition findings are unsettled. https://doi.org/10.3389/fpsyg.2017.01711
+  - Starcke & Brand (2016), "Effects of stress on decisions under uncertainty: A meta-analysis", Psychological Bulletin 142(9), 909–933 — 32 studies: decisions under stress were more risk-taking and reward-seeking (d = .17 overall; d = .26 where that is disadvantageous) (abstract only). https://doi.org/10.1037/bul0000060
+  - Yu (2016), "Stress potentiates decision biases", Neurobiology of Stress 3, 83–95 — review proposing a stress-induced shift from deliberation to intuition (abstract only). https://pmc.ncbi.nlm.nih.gov/articles/PMC5146206
+- Evidence grade: Moderate — meta-analyses confirm small-to-moderate lab effects on working memory, flexibility and risky choice. Field claims often repeated in design writing (narrowed peripheral vision, lost fine motor control) were not checked against primary studies here.
+- Design applications:
+  - Treat stress cases as core scenarios: design and test the emergency path first — measure time-to-detect and time-to-correct in off-nominal tests.
+  - One action per step, high-priority action first, plain wording — measure errors under time pressure.
+  - Carry context forward so nothing has to be remembered across steps — measure recall errors.
+  - Use safe defaults and undo, because hasty choices are likely — measure irreversible-error rate.
+  - Keep layouts stable; novelty costs most when capacity is lowest — measure task success for stressed or distressed users.
+- Real product examples: GOV.UK's task-list pattern breaks long tasks into short steps; the Red Cross Rediplan app offers a prepared emergency plan (both cited in Friedman, Smashing Magazine, 2025).
+- Enterprise/B2B note: A lost connection, low power or a safety-limit breach are when operators have the least capacity. Show the one next action, keep critical state visible, and never cover it with modals.
+- Ethics/watch-out: Do not exploit reduced capacity with urgency pressure at moments of stress (fake timers, alarming copy).
+- Contexts: errors, dashboards, notifications, forms, navigation, research
+- Sources: https://doi.org/10.1016/j.neubiorev.2016.06.038 ; https://doi.org/10.3389/fpsyg.2017.01711 ; https://doi.org/10.1037/bul0000060 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5146206 ; https://www.smashingmagazine.com/2025/11/designing-for-stress-emergency/
+- Typed edges: related → Cognitive Load; related → Selective Attention; related → Affect Heuristic; related → Empathy Gap; related → Default Bias; tension → Delighters; measured-by → task time / NASA-TLX (framework)
+- Explained by frameworks: ⚙ Cognitive Load Theory and working memory limits (mechanism-of); ⚙ Dual-process theory, heuristics & biases, bounded rationalit (mechanism-of)
+- Cross-link: designer-growth-foundations Module S §2.1 SA demons (attentional tunnelling, workload/fatigue/stress), §2.6 Workload and drill S5 Off-nominal test.
+- Linked sources (4):
+  - [article] Designing For Stress And Emergency — cognitive tunnelling, single-tasking, emergency mode, stress-testing in real conditions. <https://www.smashingmagazine.com/2025/11/designing-for-stress-emergency/> (sources/smashing-magazine.md)
+  - [article] Designing For Distressed Users: Why Mental Health Apps Shouldn't Follow Every UI Fashion — a five-point check (cognitive load, emotional alignment, navigational reliability, accessibility, engagement integrity). <https://www.smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/> (sources/smashing-magazine.md)
+  - [article] Matching AI Modality To User Intent: Designing The Right Interface — choose input and output by the user's current physical and cognitive load. <https://www.smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/> (sources/smashing-magazine.md)
+  - [article] From Data To Decisions: UX Strategies For Real-Time Dashboards — under stress users rely on intuition and only the most relevant information (details not verified). <https://www.smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/> (sources/smashing-magazine.md)

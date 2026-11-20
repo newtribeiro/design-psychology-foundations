@@ -17,3 +17,4 @@ Anchor theories: anchor theories: Gestalt §6, attention/Block of B.I.A.S. §2
 - **Sensory Appeal** [Moderate] Multi-sensory experiences engage more → p/sensory-appeal.md · tension: Cognitive Load · supports: Aesthetic-Usability Effect, Picture Superiority Effect, Peak-End Rule · sources: 9
 - **Picture Superiority Effect** [Strong] Images beat words for recall → p/picture-superiority-effect.md · tension: Banner Blindness · supports: Recognition Over Recall, Storytelling Effect, Sensory Appeal · sources: 10
 - **Weber's Law** [Strong] Small changes go unnoticed → p/webers-law.md · tension: Anchoring Bias, Von Restorff Effect · supports: Familiarity Bias, Mental Model, Contrast · sources: 1
+- **Alert Fatigue** [Strong] Repeated alerts get tuned out → p/alert-fatigue.md · tension: External Trigger, Positive Friction · sources: 4

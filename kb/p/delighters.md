@@ -14,7 +14,7 @@ _Unexpected small pleasures are remembered_ · cycle: 💾 Memory · cluster: C7
 - Design applications: Nail basics before adding delight; Add micro-moments of surprise at key points; Refresh delighters as they become expected
 - Watch-out (growth.design): Delight on a broken experience falls flat.
 - Product examples: Superhuman — small feature that improves email life
-- Typed edges: tension → Familiarity Bias; supports → Peak-End Rule; supports → Aesthetic-Usability Effect; supports → Variable Reward; measured-by → Kano survey (framework); tension → Jakob's Law
+- Typed edges: tension → Familiarity Bias; supports → Peak-End Rule; supports → Aesthetic-Usability Effect; supports → Variable Reward; measured-by → Kano survey (framework); tension → Jakob's Law; tension → Stress-Narrowed Cognition
 - Related: Peak-End Rule, Variable Reward, Sensory Appeal
 - Explained by frameworks: ⚙ Kano model (mechanism-of); ⚙ Kano model (organises); ⚙ Nielsen's 10 usability heuristics, Jakob's Law, Laws of UX (tension); ⚙ Self-Determination Theory (supports)
 - Lineage (art & design history): Postmodernism, Memphis & New Wave typography → lineage.md

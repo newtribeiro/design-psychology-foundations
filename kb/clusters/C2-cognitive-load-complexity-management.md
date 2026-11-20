@@ -12,3 +12,4 @@ Anchor theories: CLT/working memory §8, bounded rationality §1
 - **Decision Fatigue** [Contested] Many decisions degrade decision quality → p/decision-fatigue.md · tension: Attentional Bias, Reactance · supports: Default Bias, Hick's Law, Cognitive Load · sources: 12
 - **Recognition Over Recall** [Strong] Recognising beats remembering → p/recognition-over-recall.md · tension: Progressive Disclosure · supports: Discoverability, Picture Superiority Effect, Miller's Law · sources: 12
 - **Fitts's Law** [Strong] Bigger, closer targets are faster to hit → p/fittss-law.md · tension: Cognitive Load · supports: Hick's Law, Law of Proximity, Visual Hierarchy · sources: 7
+- **Stress-Narrowed Cognition** [Moderate] Under stress, attention and working memory shrink → p/stress-narrowed-cognition.md · tension: Delighters · sources: 4

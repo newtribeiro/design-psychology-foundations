@@ -19,7 +19,7 @@ _The prompt contains the next step_ · cycle: 🙈 Information · cluster: C6 ·
 - Ethics/watch-out: notification spam and dark-pattern re-engagement emails wear down trust. Respect quiet hours and make opt-out easy.
 - Contexts: notifications, retention, onboarding, empty-states
 - Sources: https://growth.design/psychology ; https://fs.blog/2014/03/hooked/ ; https://mhealth.jmir.org/2018/11/e10123 ; https://mhealth.jmir.org/2023/1/e38342/PDF ; https://doaj.org/article/1d00124ba7104ef2a1da1396dc95face ; https://www.shortform.com/blog/?p=16052 ; https://www.thebehavioralscientist.com/?p=3058
-- Typed edges: tension → Internal Trigger; supports → Self-Initiated Triggers; supports → Feedforward; tension → Banner Blindness; mechanism-of → Investment Loops; measured-by → notification action rate
+- Typed edges: tension → Internal Trigger; supports → Self-Initiated Triggers; supports → Feedforward; tension → Banner Blindness; mechanism-of → Investment Loops; measured-by → notification action rate; tension → Alert Fatigue
 - Explained by frameworks: ⚙ Fogg Behavior Model + Tiny Habits (organises)
 - Linked sources (4):
   - [challenge] Challenge: Diary Study (Test) — notifications and "new episode" alerts as observed prompts. <https://www.uxtools.co/challenges/diary-study> (sources/uxtools-challenges-tools.md)
